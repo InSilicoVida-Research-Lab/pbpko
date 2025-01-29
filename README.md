@@ -2,7 +2,7 @@
 
 The PBPK (Physiologically-Based Pharmacokinetic) ontology is designed to support the modeling and understanding of pharmacokinetics in biological systems. This documentation provides an overview of the ontology development workflow, the imported ontologies, and the specific terms used in PBPK ontology.
 
-NOTE: Detailed documentation of ontology can be found at this [link](https://crispae.github.io/pbpko/)
+NOTE: Detailed documentation of ontology can be found at this [link](https://insilicovida-research-lab.github.io/pbpko/)
 
 #### Development Workflow
 
