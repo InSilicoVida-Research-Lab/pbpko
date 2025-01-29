@@ -17,7 +17,7 @@ The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) 
 
 #### PBPK terms vocabulary
 
-PBPK terms are available in [ROBOT template](https://github.com/Crispae/pbpko/blob/main/Robot/templates/vocab.tsv)
+PBPK terms are available in [ROBOT template](https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main/Robot/templates)
 
 #### Contact and Support
 
