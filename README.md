@@ -23,6 +23,9 @@ PBPK terms are available in [ROBOT template](https://github.com/InSilicoVida-Res
 
 For questions or support regarding the PBPK ontology, please open an issue in the GitHub repository or contact the maintainers directly.
 
-**Contact Person:**  
+**Contact Person:** 
+IISPV:
 [Saurav Kumar](saurav.kumar@iispv.cat)
 [Shubh Sharma](shubh.sharma@estudiants.urv.cat)
+[Deepika Deepika](deepika@iispv.cat)
+[Vikas Kumar](vikas.kumar@urv.cat)
