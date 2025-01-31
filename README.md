@@ -11,9 +11,6 @@ The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) 
 #### Imported Ontologies
 
 1. Uberon : A multi-species anatomy ontology covering anatomical structures in animals.
-2. IAO : Provides terms for representing information entities.
-3. OBCS : Supports biobanking and clinical research.
-4. GO : Describes gene functions and processes in a species-independent manner.
 
 #### PBPK terms vocabulary
 
