@@ -1,3 +1,18 @@
 <h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<div class="introduction-content">
+    <p>
+        Physiologically Based Pharmacokinetic Models (PBPK) are extensively employed in pharmaceutical and environmental fields to evaluate xenobiotic kinetics. Despite numerous publications, a major challenge lies in the inconsistent vocabulary used, hindering automation potential. Harmonization techniques like ontology which offer a formal, explicit specification of a shared conceptualization, can help to facilitate models FAIRification solution.
+    </p>
+
+    <p>
+        Presently, while several biological domain ontologies exist on the Bioportal platform, a dedicated one for PBPK is lacking. This work aims to fill this gap by developing PBPKO, a dedicated PBPK ontology, to benefit the wider kinetic community.
+    </p>
+
+    <p>
+        PBPKO encompasses potential mechanisms, kinetic terms from various databases, and expert terminology. Its development adheres to open-source principles, with the initial version (V1.0) published following FAIR guidelines at OBO Foundry via ROBOT (<a href="https://github.com/InSilicoVida-Research-Lab/pbpko" target="_blank">https://github.com/InSilicoVida-Research-Lab/pbpko</a>). Future iterations will include multiple species and additional kinetic terms through expert collaboration.
+    </p>
+
+    <p>
+        PBPKO annotates both physiological and biochemical parameters pertinent to PBPK modeling. Currently, a few example PBPK models converted into SBML, are being linked to PBPKO for automating computational modeling and facilitating text mining of PBPK parameters and model output. To facilitate the automation of code conversion of PBPK model, we'll leverage sbmlutils, a Python library for ontology-based SBML model annotation, offering comprehensive functionality. A generic PBPK use case study using PBPKO will demonstrate the utility of ontology terms and aid in harmonizing existing PBPK models for regulatory acceptance.
+    </p>
+</div>
