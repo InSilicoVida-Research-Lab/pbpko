@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl" uri="file:/C:/Users/saurav/Downloads/iao.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1738175728071" name="duplicate:http://www.w3.org/2002/07/owl" uri="edit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1738175728071" name="duplicate:http://www.w3.org/2002/07/owl" uri="imported_modules.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1738175728071" name="https://github.com/Crispae/pbpko/blob/main/pbpko.owl" uri="pbpko.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1738702651876" name="duplicate:http://www.w3.org/2002/07/owl" uri="edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1738702651876" name="duplicate:http://www.w3.org/2002/07/owl" uri="imported_modules.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1738702651876" name="https://github.com/Crispae/pbpko/blob/main/pbpko.owl" uri="pbpko.owl"/>
     </group>
 </catalog>
