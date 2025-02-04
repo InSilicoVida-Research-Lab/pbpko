@@ -14,19 +14,109 @@
 
 <br>
 <h3> Integration of PBPKO ontology with BFO</h3>
-<img src="resources/abstract.png" alt="Abstract" style="width: 100%; height: auto;">
+<div class="mermaid" id="mermaidGraph" style="cursor: move;">
+     graph TB
+     %% Legend at top
+     subgraph Legend
+         L_class((Class))
+         L_sub1-.-L_sub2((Subclass Relation))
+         L_obj1--"Object Property"-->L_obj2((Object Property))
+     end
+ 
+     %% BFO Core hierarchy on left
+     subgraph BFO["BFO Core"]
+         direction TB
+         BFO_0000020((BFO:continuant))
+         BFO_specifically_dependent((BFO:specifically dependent continuant))
+         BFO_occurrent((BFO:occurrent))
+         BFO_process((BFO:process))
+         BFO_biological_process((BFO:biological process))
+         
+         %% BFO hierarchy
+         BFO_0000020 -.- BFO_specifically_dependent
+         BFO_occurrent -.- BFO_process
+         BFO_process -.- BFO_biological_process
+     end
+ 
+     %% PBPKO organized by type
+     subgraph PBPKO["PBPKO Components"]
+         direction TB
+         subgraph Parameters
+             direction TB
+             PBPKO_parameter((parameter))
+             PBPKO_phys_param((physiological parameter))
+             PBPKO_physchem_param((physicochemical parameter))
+             PBPKO_biochem_param((biochemical parameter))
+             PBPKO_route((route of exposure))
+             
+             %% Parameter hierarchy
+             PBPKO_parameter -.- PBPKO_phys_param
+             PBPKO_parameter -.- PBPKO_physchem_param
+             PBPKO_parameter -.- PBPKO_biochem_param
+             PBPKO_parameter -.- PBPKO_route
+         end
+ 
+         subgraph Core_Components["Core Components"]
+             direction TB
+             PBPKO_model((PBPK Model))
+             PBPKO_enzyme((enzyme))
+             PBPKO_compartment((compartment))
+             PBPKO_transporter((transporter))
+         end
+         
+         subgraph Biological_Processes["Biological Processes"]
+             direction TB
+             PBPKO_absorption((absorption))
+             PBPKO_distribution((distribution))
+             PBPKO_elimination((elimination))
+             PBPKO_metabolism((metabolism))
+             PBPKO_excretion((excretion))
+             PBPKO_biliary((biliary elimination))
+         end
+     end
+ 
+     %% BFO connections
+     BFO_specifically_dependent -.- PBPKO_parameter
+     BFO_specifically_dependent -.- PBPKO_model
+     BFO_specifically_dependent -.- PBPKO_compartment
+     BFO_0000020 -.- PBPKO_enzyme
+     BFO_0000020 -.- PBPKO_transporter
+ 
+     %% Process relationships
+     BFO_biological_process -.- PBPKO_absorption
+     BFO_biological_process -.- PBPKO_distribution
+     BFO_biological_process -.- PBPKO_elimination
+     BFO_biological_process -.- PBPKO_metabolism
+     BFO_biological_process -.- PBPKO_excretion
+     BFO_biological_process -.- PBPKO_biliary
+ 
+     %% PBPK Model relationships
+     PBPKO_model --"has_route_of_exposure"--> PBPKO_route
+     PBPKO_model --"has_enzyme"--> PBPKO_enzyme
+     PBPKO_model --"has_compartment"--> PBPKO_compartment
+     PBPKO_model --"has_transporter"--> PBPKO_transporter
+     PBPKO_model --"has_physiological_parameter"--> PBPKO_phys_param
+     PBPKO_model --"has_physicochemical_parameter"--> PBPKO_physchem_param
+     PBPKO_model --"has_biochemical_parameter"--> PBPKO_biochem_param
+     PBPKO_model --"has_biological_process"--> PBPKO_absorption
+     PBPKO_model --"has_biological_process"--> PBPKO_distribution
+     PBPKO_model --"has_biological_process"--> PBPKO_elimination
+     PBPKO_model --"has_biological_process"--> PBPKO_excretion
+     PBPKO_model --"has_biological_process"--> PBPKO_biliary
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
 <div class="content"></div>
      The PBPKO ontology is built upon the foundation of Basic Formal Ontology (BFO), which provides a robust philosophical framework for organizing biomedical entities. The integration follows these key relationships:
      <br><br>
-     1. Continuants (BFO):<br>
-     &bull; Material entities: Organs, tissues, blood components<br>
-     &bull; Quality: Physiological parameters, biochemical properties<br>
-     &bull; Function: Absorption, distribution, metabolism processes<br>
-     <br>
-     2. Occurrents (BFO):<br>
-     &bull; Processes: ADME mechanisms, enzymatic reactions<br>
-     &bull; Process boundaries: Temporal phases of drug distribution<br>
-     <br>
+     To connect it to a top-level ontology, Basic Formal Ontology (BFO) and Relation Ontology (RO) were imported to categorize entities appropriately. For example:
+     <ul>
+         <li>The physiologically based pharmacokinetic model was placed under continuant, specifically under specifically dependent continuant, as the PBPK model depends on several factors and components.</li>
+         <li>Compartment and parameter were kept at the same level as the physiologically based pharmacokinetic model, as they are interdependent.</li>
+         <li>Enzyme and transporter were classified under the continuant class of BFO.</li>
+         <li>Processes like absorption, distribution, metabolism, and excretion were placed under the biological process class of BFO (a subclass of occurrent).</li>
+         <li>Object properties were defined under the has_part property of RO, connecting them to the top-level ontology.</li>
+     </ul>
      This hierarchical structure ensures that PBPK concepts are organized in a standardized way, facilitating interoperability with other biomedical ontologies and enabling precise representation of pharmacokinetic knowledge.
 </div>
