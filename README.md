@@ -10,7 +10,9 @@ The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) 
 
 #### Imported Ontologies
 
-1. Uberon : A multi-species anatomy ontology covering anatomical structures in animals.
+1.[Basic Formal Ontology](https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl)
+2.[Relation Ontology](https://raw.githubusercontent.com/oborel/obo-relations/v2024-04-24/ro.owl)
+3.[Gene Ontology](https://github.com/geneontology)
 
 #### PBPK terms vocabulary
 
