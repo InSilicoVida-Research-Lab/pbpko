@@ -21,27 +21,27 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147484778"/>
+        <AnonymousIndividual nodeID="_:genid2147485914"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147484779"/>
+        <AnonymousIndividual nodeID="_:genid2147485915"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147484780"/>
+        <AnonymousIndividual nodeID="_:genid2147485916"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147484781"/>
+        <AnonymousIndividual nodeID="_:genid2147485917"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147484782"/>
+        <AnonymousIndividual nodeID="_:genid2147485918"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147484783"/>
+        <AnonymousIndividual nodeID="_:genid2147485919"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
@@ -1638,6 +1638,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00550"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00551"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00552"/>
@@ -31966,6 +31969,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00551"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00002"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00552"/>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00446"/>
     </SubClassOf>
@@ -46350,6 +46357,26 @@ Chapter-25,Page number-837</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00551</IRI>
+        <Literal>Period of time for which model is simulated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00551</IRI>
+        <Literal>0000-0001-8345-1349</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00551</IRI>
+        <Literal>0000-0002-9795-5967</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00551</IRI>
+        <Literal>time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00552</IRI>
         <Literal>A compartment in the model representing arterial blood of the body.</Literal>
     </AnnotationAssertion>
@@ -48271,92 +48298,92 @@ Chapter-25,Page number-837</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147484778"/>
+        <AnonymousIndividual nodeID="_:genid2147485914"/>
         <IRI>https://orcid.org/0009-0004-2207-3937</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147484778"/>
+        <AnonymousIndividual nodeID="_:genid2147485914"/>
         <IRI>mailto:shubh.sharma@estudiants.urv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147484778"/>
+        <AnonymousIndividual nodeID="_:genid2147485914"/>
         <Literal>Shubh Sharma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147484779"/>
+        <AnonymousIndividual nodeID="_:genid2147485915"/>
         <IRI>https://orcid.org/0000-0001-8345-1349</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147484779"/>
+        <AnonymousIndividual nodeID="_:genid2147485915"/>
         <IRI>mailto:deepika@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147484779"/>
+        <AnonymousIndividual nodeID="_:genid2147485915"/>
         <Literal>Deepika Deepika</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147484780"/>
+        <AnonymousIndividual nodeID="_:genid2147485916"/>
         <IRI>https://orcid.org/0000-0002-7685-9140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147484780"/>
+        <AnonymousIndividual nodeID="_:genid2147485916"/>
         <IRI>mailto:pance.panov@ijs.si</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147484780"/>
+        <AnonymousIndividual nodeID="_:genid2147485916"/>
         <Literal>Panče Panov</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147484781"/>
+        <AnonymousIndividual nodeID="_:genid2147485917"/>
         <IRI>https://orcid.org/0000-0003-0593-2598</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147484781"/>
+        <AnonymousIndividual nodeID="_:genid2147485917"/>
         <IRI>mailto:saurav.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147484781"/>
+        <AnonymousIndividual nodeID="_:genid2147485917"/>
         <Literal>Saurav Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147484782"/>
+        <AnonymousIndividual nodeID="_:genid2147485918"/>
         <IRI>https://orcid.org/0000-0002-9795-5967</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147484782"/>
+        <AnonymousIndividual nodeID="_:genid2147485918"/>
         <IRI>mailto:vikas.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147484782"/>
+        <AnonymousIndividual nodeID="_:genid2147485918"/>
         <Literal>Vikas Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147484783"/>
+        <AnonymousIndividual nodeID="_:genid2147485919"/>
         <IRI>https://orcid.org/0000-0003-1673-5725</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147484783"/>
+        <AnonymousIndividual nodeID="_:genid2147485919"/>
         <IRI>mailto:johannes.kruisselbrink@wur.nl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147484783"/>
+        <AnonymousIndividual nodeID="_:genid2147485919"/>
         <Literal>Johannes Kruisselbrink</Literal>
     </AnnotationAssertion>
 </Ontology>
