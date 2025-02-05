@@ -33011,7 +33011,7 @@ http://purl.bioontology.org/ontology/MESH/D001830</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00015</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to stomach</Literal>
+        <Literal>In PBPK models, fraction of blood flow to stomach is defined as the dimensionless fraction of cardiac output that is delivered to the stomach</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33065,7 +33065,7 @@ http://purl.bioontology.org/ontology/MESH/D001830</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00017</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to intestine</Literal>
+        <Literal>In PBPK models, fraction of blood flow to intestine is defined as the dimensionless fraction of cardiac output that is delivered to the intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33119,7 +33119,7 @@ http://purl.bioontology.org/ontology/MESH/D001830</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00019</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to small intestine</Literal>
+        <Literal>In PBPK models, fraction of blood flow to small intestine is defined as the dimensionless fraction of cardiac output that is delivered to the small intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33173,7 +33173,7 @@ http://purl.bioontology.org/ontology/MESH/D001830</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00021</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to large intestine</Literal>
+        <Literal>In PBPK models, fraction of blood flow to large intestine is defined as the dimensionless fraction of cardiac output that is delivered to the large intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33227,7 +33227,7 @@ http://purl.bioontology.org/ontology/MESH/D001830</Literal>
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00023</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to pancreas</Literal>
+        <Literal>In PBPK models, fraction of blood flow to pancreas is defined as the dimensionless fraction of cardiac output that is delivered to the pancreas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33286,7 +33286,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00025</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to liver</Literal>
+        <Literal>In PBPK models, fraction of blood flow to liver is defined as the dimensionless fraction of cardiac output that is delivered to the liver</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33340,7 +33340,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00027</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to kidney</Literal>
+        <Literal>In PBPK models, fraction of blood flow to kidney is defined as the dimensionless fraction of cardiac output that is delivered to the kidney</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33448,7 +33448,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00031</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to heart</Literal>
+        <Literal>In PBPK models, fraction of blood flow to heart is defined as the dimensionless fraction of cardiac output that is delivered to the heart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33502,7 +33502,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00033</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to fat</Literal>
+        <Literal>In PBPK models, fraction of blood flow to fat is defined as the dimensionless fraction of cardiac output that is delivered to the fat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33556,7 +33556,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00035</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to gonads</Literal>
+        <Literal>In PBPK models, fraction of blood flow to gonad is defined as the dimensionless fraction of cardiac output that is delivered to the gonad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33610,7 +33610,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00037</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to skin</Literal>
+        <Literal>In PBPK models, fraction of blood flow to skin is defined as the dimensionless fraction of cardiac output that is delivered to the skin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33664,7 +33664,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00039</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to bone</Literal>
+        <Literal>In PBPK models, fraction of blood flow to bone is defined as the dimensionless fraction of cardiac output that is delivered to the bone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33718,7 +33718,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00041</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to brain</Literal>
+        <Literal>In PBPK models, fraction of blood flow to brain is defined as the dimensionless fraction of cardiac output that is delivered to the brain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33772,7 +33772,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00043</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to spleen</Literal>
+        <Literal>In PBPK models, fraction of blood flow to spleen is defined as the dimensionless fraction of cardiac output that is delivered to the spleen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33826,7 +33826,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00045</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to lung</Literal>
+        <Literal>In PBPK models, fraction of blood flow to lung is defined as the dimensionless fraction of cardiac output that is delivered to the lung</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33880,7 +33880,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00047</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to poorly perfused tissues/organ</Literal>
+        <Literal>In PBPK models, fraction of blood flow to poorly perfused is defined as the dimensionless fraction of cardiac output that is delivered to the poorly perfused tissues/organs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33934,7 +33934,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00049</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to richly perfused tissues/organs</Literal>
+        <Literal>In PBPK models, fraction of blood flow to richly perfused is defined as the dimensionless fraction of cardiac output that is delivered to the richly perfused tissues/organs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -33988,7 +33988,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00051</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to rest of the body</Literal>
+        <Literal>In PBPK models, fraction of blood flow to restbody is defined as the dimensionless fraction of cardiac output that is delivered to the restbody</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34042,7 +34042,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00053</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to gall bladder</Literal>
+        <Literal>In PBPK models, fraction of blood flow to gall bladder is defined as the dimensionless fraction of cardiac output that is delivered to the gall bladder</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34096,7 +34096,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00055</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to portal vein</Literal>
+        <Literal>In PBPK models, fraction of blood flow to portal vein is defined as the dimensionless fraction of cardiac output that is delivered to the portal vein</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34150,7 +34150,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00057</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to lymph</Literal>
+        <Literal>In PBPK models, fraction of blood flow to lymph is defined as the dimensionless fraction of cardiac output that is delivered to the lymph</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34213,7 +34213,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00060</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to stratum corneum</Literal>
+        <Literal>In PBPK models, fraction of blood flow to stratum corneum is defined as the dimensionless fraction of cardiac output that is delivered to the stratum corneum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34242,7 +34242,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00061</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents exposed skin volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of exposed skin is a dimensionless parameter computed by dividing the exposed skin volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34271,7 +34271,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00062</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents unexposed skin volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of unexposed skin is a dimensionless parameter computed by dividing the unexposed skin volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34443,7 +34443,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00068</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents stomach volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of stomach is a dimensionless parameter computed by dividing the stomach volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34501,7 +34501,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00070</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents intestine volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of intestine is a dimensionless parameter computed by dividing the intestine volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34559,7 +34559,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00072</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents small intestine volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of small intestine is a dimensionless parameter computed by dividing the small intestine volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34617,7 +34617,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00074</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents large intestine volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of large intestine is a dimensionless parameter computed by dividing the large intestine volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34675,7 +34675,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00076</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents pancreas volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of pancreas is a dimensionless parameter computed by dividing the pancreas volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34733,7 +34733,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00078</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents liver volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of liver is a dimensionless parameter computed by dividing the liver volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34791,7 +34791,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00080</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents kidney volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of kidney is a dimensionless parameter computed by dividing the kidney volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34849,7 +34849,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00082</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents muscle volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of muscle is a dimensionless parameter computed by dividing the muscle volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34907,7 +34907,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00084</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents heart volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of heart is a dimensionless parameter computed by dividing the heart volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -34965,7 +34965,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00086</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fat volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of fat is a dimensionless parameter computed by dividing the fat volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35023,7 +35023,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00088</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents gonads volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of gonad is a dimensionless parameter computed by dividing the gonad volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35081,7 +35081,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00090</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents skin volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of skin is a dimensionless parameter computed by dividing the skin volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35139,7 +35139,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00092</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents bone volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of bone is a dimensionless parameter computed by dividing the bone volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35197,7 +35197,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00094</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents brain volume as total body weight fraction</Literal>
+        <Literal>In PBPK models, the fraction of brain is a dimensionless parameter computed by dividing the brain volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35255,7 +35255,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00096</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents spleen volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of spleen is a dimensionless parameter computed by dividing the spleen volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35313,7 +35313,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00098</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents lung volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of lung is a dimensionless parameter computed by dividing the lung volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35371,7 +35371,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00100</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents poorly perfused tissues/organs volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of poorly perfused is a dimensionless parameter computed by dividing the poorly perfused tissues/organs volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35429,7 +35429,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00102</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents richly perfused tissues/organs volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of richly perfused is a dimensionless parameter computed by dividing the  tissues/organ volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35483,7 +35483,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00104</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents plasma volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of plasma is a dimensionless parameter computed by dividing the plasma volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35537,7 +35537,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
         </Annotation>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00106</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents rest of the body volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of rest body is a dimensionless parameter computed by dividing the rest body volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35745,7 +35745,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00114</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of alveolar volume as a function of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of alveolar volume is a dimensionless parameter that represents the ratio of the alveolar volume to the total body weight. It is calculated by dividing the alveolar volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35795,7 +35795,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00116</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents gall bladder volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of gall bladder is a dimensionless parameter computed by dividing the gall bladder volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35845,7 +35845,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00118</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents portal vein volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of portal vein is a dimensionless parameter computed by dividing the portal vein volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -35895,7 +35895,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00120</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents lymph  volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of lymph is a dimensionless parameter computed by dividing the lymph volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43073,7 +43073,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00409</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to duodenum</Literal>
+        <Literal>In PBPK models, fraction of blood flow to duodenum is defined as the dimensionless fraction of cardiac output that is delivered to the duodenum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43098,7 +43098,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00410</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to jejunum</Literal>
+        <Literal>In PBPK models, fraction of blood flow to jejunum is defined as the dimensionless fraction of cardiac output that is delivered to the jejunum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43123,7 +43123,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00411</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to ileum</Literal>
+        <Literal>In PBPK models, fraction of blood flow to ileum is defined as the dimensionless fraction of cardiac output that is delivered to the ileum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43148,7 +43148,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00412</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to colon</Literal>
+        <Literal>In PBPK models, fraction of blood flow to colon is defined as the dimensionless fraction of cardiac output that is delivered to the colon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43173,7 +43173,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00413</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to cecum</Literal>
+        <Literal>In PBPK models, fraction of blood flow to cecum is defined as the dimensionless fraction of cardiac output that is delivered to the cecum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43323,7 +43323,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00419</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents duodenum volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of duodenum is a dimensionless parameter computed by dividing the duodenum volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43348,7 +43348,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00420</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents jejunum volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of jejunum is a dimensionless parameter computed by dividing the jejunum volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43373,7 +43373,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00421</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents ileum volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of ileum is a dimensionless parameter computed by dividing the ileum volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43398,7 +43398,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00422</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents colon volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of colon is a dimensionless parameter computed by dividing the colon volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -43423,7 +43423,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00423</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents cecum volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of cecum is a dimensionless parameter computed by dividing the cecum volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45313,7 +45313,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00508</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents filtrate volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of filtrate is a dimensionless parameter computed by dividing the filtrate volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45338,7 +45338,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00509</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents gut volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of gut is a dimensionless parameter computed by dividing the gut volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45363,7 +45363,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00510</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents mammary gland volume as a fraction of total body weight</Literal>
+        <Literal>In PBPK models, the fraction of mammary gland is a dimensionless parameter computed by dividing the mammary gland volume by the total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45388,7 +45388,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00511</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to filtrate</Literal>
+        <Literal>In PBPK models, fraction of blood flow to filtrate is defined as the dimensionless fraction of cardiac output that is delivered to the filtrate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45413,7 +45413,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00512</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to bone marrow</Literal>
+        <Literal>In PBPK models, fraction of blood flow to bone marrow is defined as the dimensionless fraction of cardiac output that is delivered to the bone marrow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45438,7 +45438,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00513</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to gut</Literal>
+        <Literal>In PBPK models, fraction of blood flow to gut is defined as the dimensionless fraction of cardiac output that is delivered to the gut</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45463,7 +45463,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00514</IRI>
-        <Literal>in pbpk model, it is unitless quantity which reresents fraction of cardiac output going to mammary gland</Literal>
+        <Literal>In PBPK models, fraction of blood flow to mammary gland is defined as the dimensionless fraction of cardiac output that is delivered to the mammary gland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -45483,7 +45483,7 @@ Chapter-25,Page number-837</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00514</IRI>
-        <Literal>fraction of blood flow to mam</Literal>
+        <Literal>fraction of blood flow to mammary gland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
