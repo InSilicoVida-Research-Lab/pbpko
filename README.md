@@ -10,24 +10,26 @@ The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) 
 
 #### Imported Ontologies
 
-1. Uberon : A multi-species anatomy ontology covering anatomical structures in animals.
+- [Uberon](https://obophenotype.github.io/uberon/): A multi-species anatomy ontology covering anatomical structures in animals.
 
 #### PBPK terms vocabulary
 
 PBPK terms are available in [ROBOT template](https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main/Robot/templates)
 
 #### Contributors for developing PBPKO
-IISPV: Shubh Sharma, Deepika Deepika, Saurav Kumar, Vikas Kumar  
-WUR: Johannes Kruisselbrink  
-JSI: Panče Panov
+
+- IISPV: Shubh Sharma, Deepika Deepika, Saurav Kumar, Vikas Kumar
+- WUR: Johannes Kruisselbrink  
+- JSI: Panče Panov
 
 #### Contact and Support
 
 For questions or support regarding the PBPK ontology, please open an issue in the GitHub repository or contact the maintainers directly.
 
-**Contact Person:** 
-IISPV:
-[Saurav Kumar](saurav.kumar@iispv.cat)
-[Shubh Sharma](shubh.sharma@estudiants.urv.cat)
-[Deepika Deepika](deepika@iispv.cat)
-[Vikas Kumar](vikas.kumar@urv.cat)
+**Contact Persons:** 
+
+IISPV: 
+- [Saurav Kumar](saurav.kumar@iispv.cat)
+- [Shubh Sharma](shubh.sharma@estudiants.urv.cat)
+- [Deepika Deepika](deepika@iispv.cat)
+- [Vikas Kumar](vikas.kumar@urv.cat)
