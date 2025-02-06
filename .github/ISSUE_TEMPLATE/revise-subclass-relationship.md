@@ -1,6 +1,6 @@
 ---
 name: Revise subclass relationship
-about: Revise the subclass structure for Uberon terms
+about: Revise the subclass structure for PBPKO terms
 title: ''
 labels: pbpko-classhierarchy
 assignees: ''
