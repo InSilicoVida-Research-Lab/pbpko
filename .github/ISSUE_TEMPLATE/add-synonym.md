@@ -1,6 +1,6 @@
 ---
 name: Add synonym
-about: New synonym suggestion for an existing Uberon term
+about: New synonym suggestion for an existing PBPKO term
 title: ''
 labels: synonym
 assignees: ''
