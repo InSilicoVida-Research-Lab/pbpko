@@ -16,7 +16,7 @@ assignees: ''
 **Definition (free text, please give PubMed ID)**
 
 
-**Parent term (use https://www.ebi.ac.uk/ols/ontologies/uberon)**
+**Parent term**
 
 
 **Your nano-attribution (ORCID)**
