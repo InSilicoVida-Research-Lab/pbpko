@@ -1805,6 +1805,12 @@
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00606"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00607"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00608"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
     </Declaration>
     <Declaration>
@@ -2019,6 +2025,9 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/license"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0007588"/>
@@ -32217,15 +32226,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00604"/>
-        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00446"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00470"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00605"/>
-        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00446"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00470"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00606"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00607"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00608"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00446"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
@@ -47730,6 +47747,36 @@ Chapter-25,Page number-837</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00606</IRI>
         <Literal xml:lang="en">transfer equation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00607</IRI>
+        <Literal>Thickness of the skin (both dermis and epidermis).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00607</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00607</IRI>
+        <Literal xml:lang="en">skin thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00608</IRI>
+        <Literal>A compartment in the model representing red blood cells of the body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00608</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00608</IRI>
+        <Literal xml:lang="en">red blood cells compartment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
