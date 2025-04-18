@@ -21,27 +21,27 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147485914"/>
+        <AnonymousIndividual nodeID="_:genid2147484778"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147485915"/>
+        <AnonymousIndividual nodeID="_:genid2147484779"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147485916"/>
+        <AnonymousIndividual nodeID="_:genid2147484780"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147485917"/>
+        <AnonymousIndividual nodeID="_:genid2147484781"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147485918"/>
+        <AnonymousIndividual nodeID="_:genid2147484782"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
-        <AnonymousIndividual nodeID="_:genid2147485919"/>
+        <AnonymousIndividual nodeID="_:genid2147484783"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
@@ -1766,6 +1766,51 @@
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00593"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00594"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00595"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00596"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00597"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00598"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00599"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00600"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00601"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00602"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00603"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00604"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00605"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00606"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00607"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00608"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
     </Declaration>
     <Declaration>
@@ -1980,6 +2025,9 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/license"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0007588"/>
@@ -32135,6 +32183,66 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00593"/>
         <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00594"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00595"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00596"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00597"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00598"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00600"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00601"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00602"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00603"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00604"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00470"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00605"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00470"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00606"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00607"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00608"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PBPKO_00446"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
@@ -35765,7 +35873,7 @@ https://www.ema.europa.eu/en/documents/scientific-guideline/guideline-reporting-
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_00114</IRI>
-        <Literal>fraction alveolar volume</Literal>
+        <Literal>fraction of alveolar volume</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -47397,6 +47505,281 @@ Chapter-25,Page number-837</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00594</IRI>
+        <Literal>The fraction of a compound that is unbound in blood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00594</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00594</IRI>
+        <Literal>fublood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00594</IRI>
+        <Literal xml:lang="en">fraction unbound blood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00595</IRI>
+        <Literal>It is a parameter in PBPK which represents total amount of compound in blood compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00595</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00595</IRI>
+        <Literal>ablood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00595</IRI>
+        <Literal xml:lang="en">amount in blood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00596</IRI>
+        <Literal>The fraction of a compound that is unbound in rest of the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00596</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00596</IRI>
+        <Literal>furestbody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00596</IRI>
+        <Literal xml:lang="en">fraction unbound restbody</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00597</IRI>
+        <Literal>It is a parameter in PBPK which represents total amount of compound in alveolar air compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00597</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00597</IRI>
+        <Literal>aalevolar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00597</IRI>
+        <Literal xml:lang="en">amount in alveolar air</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00598</IRI>
+        <Literal>It is a parameter in PBPK which represents total amount of compound in arterial blood compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00598</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00598</IRI>
+        <Literal>aaretrialblood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00598</IRI>
+        <Literal xml:lang="en">amount in arterial blood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00599</IRI>
+        <Literal>It is a parameter in PBPK which represents total amount of compound in venous blood compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00599</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00599</IRI>
+        <Literal>avenousblood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00599</IRI>
+        <Literal xml:lang="en">amount in venous blood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00600</IRI>
+        <Literal>It is a parameter in PBPK which represents total amount of compound in richly perfused tissue compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00600</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00600</IRI>
+        <Literal>arichlyperfused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00600</IRI>
+        <Literal xml:lang="en">amount in richly perfused tissues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00601</IRI>
+        <Literal>It is a parameter in PBPK which represents total amount of compound in poorly perfused tissue compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00601</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00601</IRI>
+        <Literal>apoorlyperfused</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00601</IRI>
+        <Literal xml:lang="en">amount in poorly perfused tissues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00602</IRI>
+        <Literal>In PBPK models, the fraction of arterial plasma volume is a dimensionless parameter that represents the ratio of the arterial plasma volume to the total body weight. It is calculated by dividing the arterial plasma volume by the total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00602</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00602</IRI>
+        <Literal>farterialplasma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00602</IRI>
+        <Literal xml:lang="en">fraction of arterial plasma volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00603</IRI>
+        <Literal>In PBPK models, the fraction of venous plasma volume is a dimensionless parameter that represents the ratio of the venous plasma volume to the total body weight. It is calculated by dividing the venous plasma volume by the total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00603</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00603</IRI>
+        <Literal>fvenousplasma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00603</IRI>
+        <Literal xml:lang="en">fraction of venous plasma volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00604</IRI>
+        <Literal>A compartment representing the parts of the skin exposed to a certain chemical via dermal contact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00604</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00604</IRI>
+        <Literal xml:lang="en">exposed skin compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00605</IRI>
+        <Literal>A compartment representing the parts of the skin that are not exposed to a certain chemical through dermal contact, such as regions covered by clothing or occluded areas like the inner arms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00605</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00605</IRI>
+        <Literal xml:lang="en">unexposed skin compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00606</IRI>
+        <Literal>Transfer equations in PBPK models are mathematical expressions describing the movement of a chemical between blood and organs based on physiological parameters like blood flow and partition coefficients.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00606</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00606</IRI>
+        <Literal xml:lang="en">transfer equation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00607</IRI>
+        <Literal>Thickness of the skin (both dermis and epidermis).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00607</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00607</IRI>
+        <Literal xml:lang="en">skin thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00608</IRI>
+        <Literal>A compartment in the model representing red blood cells of the body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00608</IRI>
+        <Literal>0000-0003-1673-5725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PBPKO_00608</IRI>
+        <Literal xml:lang="en">red blood cells compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/PBPKO_10001</IRI>
         <Literal>an object property which relates the different biological processes of the PBPK model</Literal>
     </AnnotationAssertion>
@@ -48298,97 +48681,97 @@ Chapter-25,Page number-837</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147485914"/>
+        <AnonymousIndividual nodeID="_:genid2147484778"/>
         <IRI>https://orcid.org/0009-0004-2207-3937</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147485914"/>
+        <AnonymousIndividual nodeID="_:genid2147484778"/>
         <IRI>mailto:shubh.sharma@estudiants.urv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147485914"/>
+        <AnonymousIndividual nodeID="_:genid2147484778"/>
         <Literal>Shubh Sharma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147485915"/>
+        <AnonymousIndividual nodeID="_:genid2147484779"/>
         <IRI>https://orcid.org/0000-0001-8345-1349</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147485915"/>
+        <AnonymousIndividual nodeID="_:genid2147484779"/>
         <IRI>mailto:deepika@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147485915"/>
+        <AnonymousIndividual nodeID="_:genid2147484779"/>
         <Literal>Deepika Deepika</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147485916"/>
+        <AnonymousIndividual nodeID="_:genid2147484780"/>
         <IRI>https://orcid.org/0000-0002-7685-9140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147485916"/>
+        <AnonymousIndividual nodeID="_:genid2147484780"/>
         <IRI>mailto:pance.panov@ijs.si</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147485916"/>
+        <AnonymousIndividual nodeID="_:genid2147484780"/>
         <Literal>Panče Panov</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147485917"/>
+        <AnonymousIndividual nodeID="_:genid2147484781"/>
         <IRI>https://orcid.org/0000-0003-0593-2598</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147485917"/>
+        <AnonymousIndividual nodeID="_:genid2147484781"/>
         <IRI>mailto:saurav.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147485917"/>
+        <AnonymousIndividual nodeID="_:genid2147484781"/>
         <Literal>Saurav Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147485918"/>
+        <AnonymousIndividual nodeID="_:genid2147484782"/>
         <IRI>https://orcid.org/0000-0002-9795-5967</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147485918"/>
+        <AnonymousIndividual nodeID="_:genid2147484782"/>
         <IRI>mailto:vikas.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147485918"/>
+        <AnonymousIndividual nodeID="_:genid2147484782"/>
         <Literal>Vikas Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147485919"/>
+        <AnonymousIndividual nodeID="_:genid2147484783"/>
         <IRI>https://orcid.org/0000-0003-1673-5725</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147485919"/>
+        <AnonymousIndividual nodeID="_:genid2147484783"/>
         <IRI>mailto:johannes.kruisselbrink@wur.nl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/name"/>
-        <AnonymousIndividual nodeID="_:genid2147485919"/>
+        <AnonymousIndividual nodeID="_:genid2147484783"/>
         <Literal>Johannes Kruisselbrink</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
