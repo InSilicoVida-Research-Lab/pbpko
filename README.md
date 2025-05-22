@@ -10,9 +10,15 @@ The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) 
 
 #### Imported Ontologies
 
-1.[Basic Formal Ontology](https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl)
-2.[Relation Ontology](https://raw.githubusercontent.com/oborel/obo-relations/v2024-04-24/ro.owl)
-3.[Gene Ontology](https://github.com/geneontology)
+## Ontology Imports
+
+
+1. [Basic Formal Ontology (BFO)](https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl)  
+2. [Relation Ontology (RO)](https://raw.githubusercontent.com/oborel/obo-relations/v2024-04-24/ro.owl)  
+3. [Gene Ontology (GO)](https://github.com/geneontology)  
+4. [Ontology for Biomedical Investigations (OBI)](https://obi-ontology.org/)  
+5. [Systems Biology Ontology](https://github.com/EBI-BioModels/SBO) 
+
 
 ### Integration with BFO
 ```mermaid
