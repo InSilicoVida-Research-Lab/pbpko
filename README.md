@@ -23,93 +23,155 @@ The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) 
 ### Integration with BFO
 ```mermaid
 graph TB
-    %% Legend at top
+    %% Legend
     subgraph Legend
-        L_class((Class))
-        L_sub1-.-L_sub2((Subclass Relation))
-        L_obj1--"Object Property"-->L_obj2((Object Property))
+        direction TB
+        class_legend((Class))
+        subclass_legend-.->class_legend
+        property_legend---property_legend((Object Property))
+        property_legend--"Object Property"-->class_legend
     end
 
-    %% BFO Core hierarchy on left
-    subgraph BFO["BFO Core"]
-        direction TB
-        BFO_0000020((BFO:continuant))
-        BFO_specifically_dependent((BFO:specifically dependent continuant))
-        BFO_occurrent((BFO:occurrent))
-        BFO_process((BFO:process))
-        BFO_biological_process((BFO:biological process))
+    %% Ontology Imports (BFO, OBI, GO, SBO)
+    subgraph Imported Ontologies
+        direction LR
+        subgraph BFO["BFO"]
+            direction TB
+            BFO_0000002((BFO:entity))
+            BFO_0000020((BFO:continuant))
+            BFO_0000051---BFO_0000020("has_part (BFO:has_part)")
+            BFO_specifically_dependent((BFO:specifically dependent continuant))
+            BFO_occurrent((BFO:occurrent))
+            BFO_process((BFO:process))
+        end
+
+        subgraph OBI["OBI"]
+            direction TB
+            OBI_0000658((OBI:data representation model))
+        end
+
+        subgraph GO["GO"]
+            direction TB
+            GO_0008150((GO:biological process))
+            GO_0007588((GO:excretion))
+            GO_0008150---GO_0007588
+        end
         
-        %% BFO hierarchy
-        BFO_0000020 -.- BFO_specifically_dependent
-        BFO_occurrent -.- BFO_process
-        BFO_process -.- BFO_biological_process
+        subgraph SBO["SBO"]
+            direction TB
+            SBO_0000027((SBO:Michaelis constant))
+        end
+
+        %% Links between imported ontologies
+        BFO_0000002---BFO_0000020
+        BFO_0000020---BFO_specifically_dependent
+        BFO_0000002---BFO_occurrent
+        BFO_occurrent---BFO_process
+        BFO_process---GO_0008150
+        BFO_specifically_dependent---OBI_0000658
     end
 
-    %% PBPKO organized by type
-    subgraph PBPKO["PBPKO Components"]
+    %% PBPKO Main Classes
+    subgraph PBPKO["PBPK Ontology (PBPKO)"]
         direction TB
+        subgraph Core_Components
+            direction TB
+            PBPKO_00003((PBPKO:physiologically based pharmacokinetic model))
+            PBPKO_00446((PBPKO:compartment))
+            PBPKO_00217((PBPKO:transporter))
+            %% PBPKO_enzyme - derived from definitions/context
+            PBPKO_enzyme((PBPKO:enzyme))
+        end
+
+        subgraph Biological_Processes
+            direction TB
+            PBPKO_00140((PBPKO:absorption))
+            PBPKO_00146((PBPKO:distribution))
+            %% Corrected parent based on definition
+            PBPKO_00322((PBPKO:elimination))
+            PBPKO_00188((PBPKO:metabolism))
+            PBPKO_00238((PBPKO:biliary elimination))
+        end
+
         subgraph Parameters
             direction TB
-            PBPKO_parameter((parameter))
-            PBPKO_phys_param((physiological parameter))
-            PBPKO_physchem_param((physicochemical parameter))
-            PBPKO_biochem_param((biochemical parameter))
-            PBPKO_route((route of exposure))
-            
-            %% Parameter hierarchy
-            PBPKO_parameter -.- PBPKO_phys_param
-            PBPKO_parameter -.- PBPKO_physchem_param
-            PBPKO_parameter -.- PBPKO_biochem_param
-            PBPKO_parameter -.- PBPKO_route
+            PBPKO_00002((PBPKO:parameter))
+            PBPKO_00006((PBPKO:physiological parameter))
+            PBPKO_00126((PBPKO:physicochemical parameter))
+            PBPKO_00139((PBPKO:biochemical parameter))
+            PBPKO_00239((PBPKO:route of exposure))
+            PBPKO_00252((PBPKO:output parameter))
         end
 
-        subgraph Core_Components["Core Components"]
-            direction TB
-            PBPKO_model((PBPK Model))
-            PBPKO_enzyme((enzyme))
-            PBPKO_compartment((compartment))
-            PBPKO_transporter((transporter))
-        end
+        %% PBPKO Hierarchy
+        OBI_0000658---PBPKO_00003
+        OBI_0000658---PBPKO_00446
+        BFO_0000002---PBPKO_00217
+        BFO_0000002---PBPKO_enzyme
         
-        subgraph Biological_Processes["Biological Processes"]
-            direction TB
-            PBPKO_absorption((absorption))
-            PBPKO_distribution((distribution))
-            PBPKO_elimination((elimination))
-            PBPKO_metabolism((metabolism))
-            PBPKO_excretion((excretion))
-            PBPKO_biliary((biliary elimination))
-        end
+        GO_0008150---PBPKO_00140
+        GO_0008150---PBPKO_00146
+        GO_0008150---PBPKO_00322
+        GO_0008150---PBPKO_00188
+        PBPKO_00322---GO_0007588
+        PBPKO_00322---PBPKO_00238
+
+        BFO_specifically_dependent---PBPKO_00002
+        PBPKO_00002---PBPKO_00006
+        PBPKO_00002---PBPKO_00126
+        PBPKO_00002---PBPKO_00139
+        PBPKO_00002---PBPKO_00239
+        PBPKO_00002---PBPKO_00252
+
+        PBPKO_00139---SBO_0000027
+
+        %% Example Subclasses
+        PBPKO_00006---PBPKO_vol((PBPKO:volume of compartment))
+        PBPKO_00006---PBPKO_bf((PBPKO:blood flow to compartment))
+        PBPKO_00139---PBPKO_pc((PBPKO:partition coefficient))
+        PBPKO_00139---PBPKO_uf((PBPKO:unbound fraction))
+        PBPKO_00126---PBPKO_mw((PBPKO:molecular weight))
+        PBPKO_00446---PBPKO_central((PBPKO:central compartment))
+        PBPKO_00446---PBPKO_peripheral((PBPKO:peripheral compartment))
+        PBPKO_00446---PBPKO_liver_cpt((PBPKO:liver compartment))
+        PBPKO_00446---PBPKO_kidney_cpt((PBPKO:kidney compartment))
+
+        PBPKO_00252---PBPKO_conc_cpt((PBPKO:concentration of compound in compartment))
+        PBPKO_00252---PBPKO_amount_cpt((PBPKO:amount of compound in compartment))
+
+        PBPKO_00252---PBPKO_peak_conc((PBPKO:peak concentration))
+        PBPKO_00252---PBPKO_auc((PBPKO:area under curve))
     end
 
-    %% BFO connections
-    BFO_specifically_dependent -.- PBPKO_parameter
-    BFO_specifically_dependent -.- PBPKO_model
-    BFO_specifically_dependent -.- PBPKO_compartment
-    BFO_0000020 -.- PBPKO_enzyme
-    BFO_0000020 -.- PBPKO_transporter
+    %% PBPKO Object Properties
+    PBPKO_00003--"has_biological_process (PBPKO_10001)"-->PBPKO_00140
+    PBPKO_00003--"has_biological_process (PBPKO_10001)"-->PBPKO_00146
+    PBPKO_00003--"has_biological_process (PBPKO_10001)"-->PBPKO_00322
+    PBPKO_00003--"has_biological_process (PBPKO_10001)"-->PBPKO_00188
 
-    %% Process relationships
-    BFO_biological_process -.- PBPKO_absorption
-    BFO_biological_process -.- PBPKO_distribution
-    BFO_biological_process -.- PBPKO_elimination
-    BFO_biological_process -.- PBPKO_metabolism
-    BFO_biological_process -.- PBPKO_excretion
-    BFO_biological_process -.- PBPKO_biliary
+    PBPKO_00003--"has_compartment (PBPKO_10002)"-->PBPKO_00446
 
-    %% PBPK Model relationships
-    PBPKO_model --"has_route_of_exposure"--> PBPKO_route
-    PBPKO_model --"has_enzyme"--> PBPKO_enzyme
-    PBPKO_model --"has_compartment"--> PBPKO_compartment
-    PBPKO_model --"has_transporter"--> PBPKO_transporter
-    PBPKO_model --"has_physiological_parameter"--> PBPKO_phys_param
-    PBPKO_model --"has_physicochemical_parameter"--> PBPKO_physchem_param
-    PBPKO_model --"has_biochemical_parameter"--> PBPKO_biochem_param
-    PBPKO_model --"has_biological_process"--> PBPKO_absorption
-    PBPKO_model --"has_biological_process"--> PBPKO_distribution
-    PBPKO_model --"has_biological_process"--> PBPKO_elimination
-    PBPKO_model --"has_biological_process"--> PBPKO_excretion
-    PBPKO_model --"has_biological_process"--> PBPKO_biliary
+    PBPKO_00003--"has_transporter (PBPKO_10004)"-->PBPKO_00217
+
+    %% Using the general has_parameter property
+    PBPKO_00003--"has_parameter (PBPKO_10005)"-->PBPKO_00006
+    PBPKO_00003--"has_parameter (PBPKO_10005)"-->PBPKO_00126
+    PBPKO_00003--"has_parameter (PBPKO_10005)"-->PBPKO_00139
+    PBPKO_00003--"has_parameter (PBPKO_10005)"-->PBPKO_00239
+    PBPKO_00003--"has_parameter (PBPKO_10005)"-->PBPKO_00252
+
+    %% Example of object property subclass
+    PBPKO_10005---PBPKO_10008((PBPKO:has_physiological_parameter))
+    PBPKO_10008--"has_physiological_parameter"-->PBPKO_00006
+
+    %% Link object properties to their domain
+    BFO_0000051((BFO:has_part))
+
+    %% Link PBPKO properties to their superproperty
+    BFO_0000051---PBPKO_10001
+    BFO_0000051---PBPKO_10002
+    BFO_0000051---PBPKO_10004
+    BFO_0000051---PBPKO_10005
 ```
 
 #### PBPK terms vocabulary
