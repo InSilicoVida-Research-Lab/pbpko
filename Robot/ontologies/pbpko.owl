@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#"
-     xml:base="https://github.com/Crispae/pbpko/blob/main/pbpko.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/pbpko.owl#"
+     xml:base="http://purl.obolibrary.org/obo/pbpko.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -19,16 +19,16 @@
      xmlns:x_0.1="http://xmlns.com/foaf/0.1/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
-    <owl:Ontology rdf:about="https://github.com/Crispae/pbpko/blob/main/pbpko.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/2025-05-21/pbpko.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2025-05-01/obi.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pbpko.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/1.3.0/pbpko.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2025-07-28/obi.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2025-06-24/ro.owl"/>
         <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-11</term:created>
         <term:creator>
             <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
-                <x_0.1:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
-                <x_0.1:name>Saurav Kumar</x_0.1:name>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
+                <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
+                <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
             </rdf:Description>
         </term:creator>
         <term:creator>
@@ -40,23 +40,9 @@
         </term:creator>
         <term:creator>
             <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
-                <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
-                <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
-            </rdf:Description>
-        </term:creator>
-        <term:creator>
-            <rdf:Description>
                 <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
                 <x_0.1:mbox rdf:resource="mailto:pance.panov@jsi.si"/>
                 <x_0.1:name>Panče Panov</x_0.1:name>
-            </rdf:Description>
-        </term:creator>
-        <term:creator>
-            <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
-                <x_0.1:mbox rdf:resource="mailto:deepika@iispv.cat"/>
-                <x_0.1:name>Deepika Deepika</x_0.1:name>
             </rdf:Description>
         </term:creator>
         <term:creator>
@@ -66,12 +52,26 @@
                 <x_0.1:name>Shubh Sharma</x_0.1:name>
             </rdf:Description>
         </term:creator>
+        <term:creator>
+            <rdf:Description>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
+                <x_0.1:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
+                <x_0.1:name>Saurav Kumar</x_0.1:name>
+            </rdf:Description>
+        </term:creator>
+        <term:creator>
+            <rdf:Description>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
+                <x_0.1:mbox rdf:resource="mailto:deepika@iispv.cat"/>
+                <x_0.1:name>Deepika Deepika</x_0.1:name>
+            </rdf:Description>
+        </term:creator>
         <term:description>Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.</term:description>
         <term:license rdf:resource="http://creativecommons.org/licenses/by/4.0"/>
-        <term:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-21</term:modified>
+        <term:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-12</term:modified>
         <term:title>PBPK ontology</term:title>
         <rdfs:label>PBPK Ontology</rdfs:label>
-        <owl:versionInfo>1.2.0</owl:versionInfo>
+        <owl:versionInfo>1.3.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -567,6 +567,18 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#date_retrieved -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date_retrieved"/>
@@ -953,6 +965,48 @@ We also have the outstanding issue of how to aim different definitions to differ
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A process which includes removal of a compound from the body through various routes such as urine, feces and exhalation.</owl:annotatedTarget>
         <oboI:hasDbXref>ISBN:0192801023</oboI:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <obo:IAO_0000115>A cellular process consisting of the biochemical pathways by which a living organism transforms chemical substances. This includes including anabolism (biosynthetic process) and catabolism (catabolic process). Metabolic processes includes the transformation of small molecules, as well  macromolecular processes such as DNA repair and replication, protein synthesis and degradation.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/26424</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/28932</obo:IAO_0000233>
+        <oboI:created_by>jl</oboI:created_by>
+        <oboI:creation_date>2012-10-17T15:46:40Z</oboI:creation_date>
+        <oboI:hasAlternativeId>GO:0044236</oboI:hasAlternativeId>
+        <oboI:hasAlternativeId>GO:0044710</oboI:hasAlternativeId>
+        <oboI:hasDbXref>Reactome:R-HSA-1430728</oboI:hasDbXref>
+        <oboI:hasDbXref>Wikipedia:Metabolism</oboI:hasDbXref>
+        <oboI:hasExactSynonym>metabolism</oboI:hasExactSynonym>
+        <oboI:hasOBONamespace>biological_process</oboI:hasOBONamespace>
+        <oboI:id>GO:0008152</oboI:id>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_euk_cellular_processes_ribbon"/>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
+        <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_prokaryote_ribbon"/>
+        <rdfs:comment>Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.</rdfs:comment>
+        <rdfs:label>metabolic process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cellular process consisting of the biochemical pathways by which a living organism transforms chemical substances. This includes including anabolism (biosynthetic process) and catabolism (catabolic process). Metabolic processes includes the transformation of small molecules, as well  macromolecular processes such as DNA repair and replication, protein synthesis and degradation.</owl:annotatedTarget>
+        <oboI:hasDbXref>GOC:go_curators</oboI:hasDbXref>
+        <oboI:hasDbXref>ISBN:0198547684</oboI:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-1430728</owl:annotatedTarget>
+        <rdfs:label>Metabolism</rdfs:label>
     </owl:Axiom>
     
 
@@ -5399,12 +5453,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
-        <obo:IAO_0000115>A physiological parameter representing a geographic ancestral origin category assigned to a population group.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00002"/>
+        <obo:IAO_0000115>A parameter representing a geographic ancestral origin category assigned to a population group.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>race</rdfs:label>
-        <core:closeMatch>http://purl.obolibrary.org/obo/ExO_0000109</core:closeMatch>
+        <rdfs:label>assigned race</rdfs:label>
+        <core:closeMatch>http://purl.obolibrary.org/obo/GSSO_002199</core:closeMatch>
     </owl:Class>
     
 
@@ -5412,12 +5466,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
-        <obo:IAO_0000115>A physiological parameter representing the rate of blood flow to a particular compartment.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00636"/>
+        <obo:IAO_0000115>A physiological parameter representing the rate of fluid flow in different parts of the body</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>Q</obo:IAO_0000118>
-        <rdfs:label>blood flow to compartment</rdfs:label>
+        <rdfs:label>blood flow rate to compartment</rdfs:label>
     </owl:Class>
     
 
@@ -5426,11 +5480,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the volume of blood pumped by the heart compartment per unit of time.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the volume of blood pumped by the heart compartment per unit of time.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>CO</obo:IAO_0000118>
-        <rdfs:label>cardiac output</rdfs:label>
+        <rdfs:label>cardiac output rate</rdfs:label>
     </owl:Class>
     
 
@@ -5439,11 +5493,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the stomach compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the stomach compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qstomach</obo:IAO_0000118>
-        <rdfs:label>blood flow to stomach</rdfs:label>
+        <rdfs:label>blood flow rate to stomach</rdfs:label>
     </owl:Class>
     
 
@@ -5469,7 +5523,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qintestine</obo:IAO_0000118>
-        <rdfs:label>blood flow to intestine</rdfs:label>
+        <rdfs:label>blood flow rate to intestine</rdfs:label>
     </owl:Class>
     
 
@@ -5491,11 +5545,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the small intestine compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the small intestine compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qsmall intestine</obo:IAO_0000118>
-        <rdfs:label>blood flow to small intestine</rdfs:label>
+        <rdfs:label>blood flow rate to small intestine</rdfs:label>
     </owl:Class>
     
 
@@ -5517,11 +5571,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the large intestine compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the large intestine compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qlargeintestine</obo:IAO_0000118>
-        <rdfs:label>blood flow to large intestine</rdfs:label>
+        <rdfs:label>blood flow rate to large intestine</rdfs:label>
     </owl:Class>
     
 
@@ -5543,11 +5597,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the pancreas compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the pancreas compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qpancreas</obo:IAO_0000118>
-        <rdfs:label>blood flow to pancreas</rdfs:label>
+        <rdfs:label>blood flow rate to pancreas</rdfs:label>
     </owl:Class>
     
 
@@ -5569,11 +5623,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the liver compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the liver compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qliver</obo:IAO_0000118>
-        <rdfs:label>blood flow to liver</rdfs:label>
+        <rdfs:label>blood flow rate to liver</rdfs:label>
     </owl:Class>
     
 
@@ -5595,11 +5649,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the kidney compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the kidney compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qkidney</obo:IAO_0000118>
-        <rdfs:label>blood flow to kidney</rdfs:label>
+        <rdfs:label>blood flow rate to kidney</rdfs:label>
     </owl:Class>
     
 
@@ -5621,11 +5675,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the muscle compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the muscle compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qmuscle</obo:IAO_0000118>
-        <rdfs:label>blood flow to muscle</rdfs:label>
+        <rdfs:label>blood flow rate to muscle</rdfs:label>
     </owl:Class>
     
 
@@ -5647,11 +5701,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the heart compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the heart compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qheart</obo:IAO_0000118>
-        <rdfs:label>blood flow to heart</rdfs:label>
+        <rdfs:label>blood flow rate to heart</rdfs:label>
     </owl:Class>
     
 
@@ -5673,11 +5727,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the fat (adipose tissue) compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the fat (adipose tissue) compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qfat</obo:IAO_0000118>
-        <rdfs:label>blood flow to fat</rdfs:label>
+        <rdfs:label>blood flow rate to fat</rdfs:label>
     </owl:Class>
     
 
@@ -5703,7 +5757,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qgonad</obo:IAO_0000118>
-        <rdfs:label>blood flow to gonad</rdfs:label>
+        <rdfs:label>blood flow rate to gonad</rdfs:label>
     </owl:Class>
     
 
@@ -5725,11 +5779,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the skin compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the skin compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qskin</obo:IAO_0000118>
-        <rdfs:label>blood flow to skin</rdfs:label>
+        <rdfs:label>blood flow rate to skin</rdfs:label>
     </owl:Class>
     
 
@@ -5751,11 +5805,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the bone compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the bone compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qbone</obo:IAO_0000118>
-        <rdfs:label>blood flow to bone</rdfs:label>
+        <rdfs:label>blood flow rate to bone</rdfs:label>
     </owl:Class>
     
 
@@ -5777,11 +5831,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the brain compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the brain compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qbrain</obo:IAO_0000118>
-        <rdfs:label>blood flow to brain</rdfs:label>
+        <rdfs:label>blood flow rate to brain</rdfs:label>
     </owl:Class>
     
 
@@ -5803,11 +5857,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the spleen compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the spleen compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qspleen</obo:IAO_0000118>
-        <rdfs:label>blood flow to spleen</rdfs:label>
+        <rdfs:label>blood flow rate to spleen</rdfs:label>
     </owl:Class>
     
 
@@ -5829,11 +5883,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the lung compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the lung compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qlung</obo:IAO_0000118>
-        <rdfs:label>blood flow to lung</rdfs:label>
+        <rdfs:label>blood flow rate to lung</rdfs:label>
     </owl:Class>
     
 
@@ -5855,11 +5909,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the poorly perfused organ/tissue compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the poorly perfused organ/tissue compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qpoorlyperfused</obo:IAO_0000118>
-        <rdfs:label>blood flow to poorly perfused</rdfs:label>
+        <rdfs:label>blood flow rate to poorly perfused</rdfs:label>
     </owl:Class>
     
 
@@ -5881,11 +5935,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the richly perfused organ/tissue compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the richly perfused organ/tissue compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qrichlyperfused</obo:IAO_0000118>
-        <rdfs:label>blood flow to richly perfused</rdfs:label>
+        <rdfs:label>blood flow rate to richly perfused</rdfs:label>
     </owl:Class>
     
 
@@ -5907,11 +5961,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the rest of body compartment (total minus specified organs).</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the rest of body compartment (total minus specified organs).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qrestbody</obo:IAO_0000118>
-        <rdfs:label>blood flow to restbody</rdfs:label>
+        <rdfs:label>blood flow rate to restbody</rdfs:label>
     </owl:Class>
     
 
@@ -5933,11 +5987,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the gall bladder compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the gall bladder compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qgallbladder</obo:IAO_0000118>
-        <rdfs:label>blood flow to gall bladder</rdfs:label>
+        <rdfs:label>blood flow rate to gall bladder</rdfs:label>
     </owl:Class>
     
 
@@ -5959,11 +6013,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the portal vein compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the portal vein compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qportalvein</obo:IAO_0000118>
-        <rdfs:label>blood flow to portal vein</rdfs:label>
+        <rdfs:label>blood flow rate to portal vein</rdfs:label>
     </owl:Class>
     
 
@@ -5985,11 +6039,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the lymph compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the lymph compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qlymph</obo:IAO_0000118>
-        <rdfs:label>blood flow to lymph</rdfs:label>
+        <rdfs:label>blood flow rate to lymph</rdfs:label>
     </owl:Class>
     
 
@@ -6063,10 +6117,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the rate of blood flow through the arterial compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the rate of blood flow through the arterial compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>arterial blood flow</rdfs:label>
+        <rdfs:label>arterial blood flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -6075,10 +6129,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the rate of blood flow returning through the venous compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the rate of blood flow returning through the venous compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>venous blood flow</rdfs:label>
+        <rdfs:label>venous blood flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -6086,8 +6140,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter (or physiological process measure) describing the flow rate of filtered fluid through the kidney compartment.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00636"/>
+        <obo:IAO_0000115>A bodily fluid flow rate parameter (or physiological process measure) describing the flow rate of filtered fluid through the kidney compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>gfr</obo:IAO_0000118>
@@ -7110,7 +7164,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A biological process describing the movement of a compound from systemic circulation to various organs/tissues.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>distribution</rdfs:label>
+        <rdfs:label>distribution process</rdfs:label>
     </owl:Class>
     
 
@@ -7135,7 +7189,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A distribution process (or molecular function) where substances bind to proteins or related compounds.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>protein binding</rdfs:label>
+        <rdfs:label>protein binding mediated distributiion process</rdfs:label>
         <core:closeMatch>http://purl.obolibrary.org/obo/GO_0005515</core:closeMatch>
     </owl:Class>
     
@@ -7614,8 +7668,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00146"/>
-        <obo:IAO_0000115>A distribution-related protein (most abundant in human plasma) that binds various compounds.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity representing distribution-related protein (most abundant in human plasma) that binds various compounds.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>HSA</obo:IAO_0000118>
@@ -7638,19 +7692,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PBPKO_00188 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>A biological process involving the transformation of compounds within the body.</obo:IAO_0000115>
-        <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
-        <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <obo:IAO_0000118>M</obo:IAO_0000118>
-        <rdfs:label>metabolism</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PBPKO_00189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00189">
@@ -7667,7 +7708,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
         <obo:IAO_0000115>A metabolism process involving the conversion of exogenous substances to more polar metabolites, often via oxidation, reduction, or hydrolysis (e.g., by CYPs).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
@@ -7679,7 +7720,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
         <obo:IAO_0000115>A metabolism process involving the conjugation of phase I products (or parent compounds) to hydrophilic moieties to facilitate excretion.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <rdfs:label>phase II</rdfs:label>
@@ -7690,7 +7731,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
         <obo:IAO_0000115>A metabolism/transport process involving the further processing and excretion of conjugated metabolites (often involving efflux transporters).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
@@ -7702,7 +7743,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
         <obo:IAO_0000115>A metabolism process occurring at a specific location (e.g., liver, gut wall) after administration but before reaching systemic circulation, reducing the concentration of active compound.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
@@ -7766,7 +7807,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00188"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
         <obo:IAO_0000115>A metabolism process specifically occurring within the gut.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
@@ -7791,8 +7832,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115>A protein responsible for the import or export of compounds across cell membranes.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity representing protein responsible for the import or export of compounds across cell membranes.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <rdfs:label>transporter</rdfs:label>
@@ -8668,11 +8709,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
-        <obo:IAO_0000115>A physiological parameter set representing a standard human, often defined by specific characteristics like 70 kg body weight.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <obo:IAO_0000115>A data set containing the physiological parameters representing a standard human, often defined by specific characteristics like 70 kg body weight.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>reference human</rdfs:label>
+        <rdfs:label>reference human data set</rdfs:label>
     </owl:Class>
     
 
@@ -17721,7 +17762,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing the unborn offspring from the postembryonic stage until birth.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>fetus</rdfs:label>
+        <rdfs:label>fetus lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17734,7 +17775,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>Inf</obo:IAO_0000118>
-        <rdfs:label>infant</rdfs:label>
+        <rdfs:label>infant lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17747,7 +17788,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>Tdl</obo:IAO_0000118>
-        <rdfs:label>toddler</rdfs:label>
+        <rdfs:label>toddler lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17759,7 +17800,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing individuals typically between 3 and 11 years old.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>children</rdfs:label>
+        <rdfs:label>child lifestage</rdfs:label>
         <core:closeMatch>http://purl.obolibrary.org/obo/ExO_0000119</core:closeMatch>
     </owl:Class>
     
@@ -17772,7 +17813,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing individuals typically between eleven and fifteen years old.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>teenager</rdfs:label>
+        <rdfs:label>teenager lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17784,7 +17825,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing the transitional stage between teenager and adulthood (approx. 15-18 years).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>adolescent</rdfs:label>
+        <rdfs:label>adolescent lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17796,7 +17837,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing individuals typically from eighteen to thirty years old.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>adult</rdfs:label>
+        <rdfs:label>adult lifestage</rdfs:label>
         <core:closeMatch>http://purl.obolibrary.org/obo/UBERON_0007023</core:closeMatch>
     </owl:Class>
     
@@ -17809,7 +17850,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing individuals typically from thirty to forty-five years old.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>middle age</rdfs:label>
+        <rdfs:label>middle age lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17821,7 +17862,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing individuals typically from forty-five to sixty years old (or older, definitions vary).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>old age</rdfs:label>
+        <rdfs:label>old age lifestage</rdfs:label>
         <core:closeMatch>http://purl.obolibrary.org/obo/UBERON_0007222</core:closeMatch>
     </owl:Class>
     
@@ -17834,7 +17875,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing individuals typically below fifteen years of age.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>pediatric</rdfs:label>
+        <rdfs:label>pediatric lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -17846,7 +17887,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A lifestage parameter representing older adults, often considered 60/65 years and older.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>geriatric</rdfs:label>
+        <rdfs:label>geriatric lifestage</rdfs:label>
     </owl:Class>
     
 
@@ -19724,12 +19765,12 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00352 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00352">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A flow parameter representing the flow rate of cerebrospinal fluid (CSF) compartment in the spinal region.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00636"/>
+        <obo:IAO_0000115>A bodily fluid flow rate parameter representing the flow rate of cerebrospinal fluid (CSF) compartment in the spinal region.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>spinal csf flow</obo:IAO_0000118>
-        <rdfs:label>spinal cerebrospinal fluid flow</rdfs:label>
+        <rdfs:label>spinal cerebrospinal fluid flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -19737,11 +19778,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/PBPKO_00353 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00353">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A flow parameter representing the flow rate of cerebrospinal fluid (CSF) compartment in the cranial region.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00636"/>
+        <obo:IAO_0000115>A bodily fluid flow rate parameter representing the flow rate of cerebrospinal fluid (CSF) compartment in the cranial region.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>cranial cerebrospinal fluid flow</rdfs:label>
+        <rdfs:label>cranial cerebrospinal fluid flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -19815,11 +19856,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the hippocampus compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the hippocampus compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qhippocampus</obo:IAO_0000118>
-        <rdfs:label>blood flow to hippocampus</rdfs:label>
+        <rdfs:label>blood flow rate to hippocampus</rdfs:label>
     </owl:Class>
     
 
@@ -19828,11 +19869,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00360">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the frontal cortex compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the frontal cortex compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qfrontalcortex</obo:IAO_0000118>
-        <rdfs:label>blood flow to frontal cortex</rdfs:label>
+        <rdfs:label>blood flow rate to frontal cortex</rdfs:label>
     </owl:Class>
     
 
@@ -19841,11 +19882,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00361">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the cerebrum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the cerebrum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qcerebrum</obo:IAO_0000118>
-        <rdfs:label>blood flow to cerebrum</rdfs:label>
+        <rdfs:label>blood flow rate to cerebrum</rdfs:label>
     </owl:Class>
     
 
@@ -19854,11 +19895,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the cerebellum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the cerebellum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qcerebellum</obo:IAO_0000118>
-        <rdfs:label>blood flow to cerebellum</rdfs:label>
+        <rdfs:label>blood flow rate to cerebellum</rdfs:label>
     </owl:Class>
     
 
@@ -21833,10 +21874,10 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00381">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the rate of blood flow between the fetus and the placenta compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the rate of blood flow between the fetus and the placenta compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <rdfs:label>fetoplacental blood flow</rdfs:label>
+        <rdfs:label>fetoplacental blood flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -21845,11 +21886,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the volume of blood pumped by the fetal heart compartment per unit time.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the volume of blood pumped by the fetal heart compartment per unit time.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>fco</obo:IAO_0000118>
-        <rdfs:label>fetal cardiac output</rdfs:label>
+        <rdfs:label>fetal cardiac output rate</rdfs:label>
     </owl:Class>
     
 
@@ -21858,11 +21899,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the fetal liver compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the fetal liver compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qliverfetus</obo:IAO_0000118>
-        <rdfs:label>blood flow to liverfetus</rdfs:label>
+        <rdfs:label>blood flow rate to liverfetus</rdfs:label>
     </owl:Class>
     
 
@@ -21871,11 +21912,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00384">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the fetal kidney compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the fetal kidney compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qkidneyfetus</obo:IAO_0000118>
-        <rdfs:label>blood flow to kidneyfetus</rdfs:label>
+        <rdfs:label>blood flow rate to kidneyfetus</rdfs:label>
     </owl:Class>
     
 
@@ -21884,11 +21925,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00385">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the fetal brain compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the fetal brain compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qbrainfetus</obo:IAO_0000118>
-        <rdfs:label>blood flow to brain fetus</rdfs:label>
+        <rdfs:label>blood flow rate to brain fetus</rdfs:label>
     </owl:Class>
     
 
@@ -21897,11 +21938,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00386">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the rest of body compartment within the fetus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the rest of body compartment within the fetus.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qrestbodyfetus</obo:IAO_0000118>
-        <rdfs:label>blood flow to restbody fetus</rdfs:label>
+        <rdfs:label>blood flow rate to restbody fetus</rdfs:label>
     </owl:Class>
     
 
@@ -21911,6 +21952,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
         <obo:IAO_0000115>A physiological parameter representing the age of a pregnancy, typically measured in weeks.</obo:IAO_0000115>
+        <obo:IAO_0000115>A physiological parameter representing thickness of the skin (both dermis and epidermis).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>ga</obo:IAO_0000118>
@@ -27267,11 +27309,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the duodenum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the duodenum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qduodenum</obo:IAO_0000118>
-        <rdfs:label>blood flow to duodenum</rdfs:label>
+        <rdfs:label>blood flow rate to duodenum</rdfs:label>
     </owl:Class>
     
 
@@ -27280,11 +27322,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the jejunum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the jejunum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qjejunum</obo:IAO_0000118>
-        <rdfs:label>blood flow to jejunum</rdfs:label>
+        <rdfs:label>blood flow rate to jejunum</rdfs:label>
     </owl:Class>
     
 
@@ -27293,11 +27335,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00416">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the ileum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the ileum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qileum</obo:IAO_0000118>
-        <rdfs:label>blood flow to ileum</rdfs:label>
+        <rdfs:label>blood flow rate to ileum</rdfs:label>
     </owl:Class>
     
 
@@ -27306,11 +27348,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the colon compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the colon compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qcolon</obo:IAO_0000118>
-        <rdfs:label>blood flow to colon</rdfs:label>
+        <rdfs:label>blood flow rate to colon</rdfs:label>
     </owl:Class>
     
 
@@ -27319,11 +27361,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the cecum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the cecum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qcecum</obo:IAO_0000118>
-        <rdfs:label>blood flow to cecum</rdfs:label>
+        <rdfs:label>blood flow rate to cecum</rdfs:label>
     </owl:Class>
     
 
@@ -30305,11 +30347,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00528">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the cardiac output specifically related to plasma flow.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the cardiac output specifically related to plasma flow.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qcplasma</obo:IAO_0000118>
-        <rdfs:label>cardiac output of plasma</rdfs:label>
+        <rdfs:label>cardiac output rate of plasma</rdfs:label>
     </owl:Class>
     
 
@@ -30318,11 +30360,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00529">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the filtrate compartment (representing glomerular filtration).</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the filtrate compartment (representing glomerular filtration).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qfiltrate</obo:IAO_0000118>
-        <rdfs:label>blood flow to filtrate</rdfs:label>
+        <rdfs:label>blood flow rate to filtrate</rdfs:label>
     </owl:Class>
     
 
@@ -30335,7 +30377,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qbm</obo:IAO_0000118>
-        <rdfs:label>blood flow to bone marrow</rdfs:label>
+        <rdfs:label>blood flow rate to bone marrow</rdfs:label>
     </owl:Class>
     
 
@@ -30344,11 +30386,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00531">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the gut compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the gut compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qgut</obo:IAO_0000118>
-        <rdfs:label>blood flow to gut</rdfs:label>
+        <rdfs:label>blood flow rate to gut</rdfs:label>
     </owl:Class>
     
 
@@ -30357,11 +30399,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00532">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter specifically describing the rate to the mammary gland compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter specifically describing the rate to the mammary gland compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qmam</obo:IAO_0000118>
-        <rdfs:label>blood flow to mammary gland</rdfs:label>
+        <rdfs:label>blood flow rate to mammary gland</rdfs:label>
     </owl:Class>
     
 
@@ -30370,11 +30412,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00533">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00012"/>
-        <obo:IAO_0000115>A blood flow parameter representing the check for total blood flow mass balance of all the compartments (sum of organ flows should equal cardiac output).</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate parameter representing the check for total blood flow mass balance of all the compartments (sum of organ flows should equal cardiac output).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qmassbal</obo:IAO_0000118>
-        <rdfs:label>blood flow for mass balance</rdfs:label>
+        <rdfs:label>blood flow rate for mass balance</rdfs:label>
     </owl:Class>
     
 
@@ -30733,11 +30775,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00562">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00036"/>
-        <obo:IAO_0000115>A blood flow to skin parameter specifically describing the rate to the unexposed portion of the skin compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate to skin parameter specifically describing the rate to the unexposed portion of the skin compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qskin u</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">blood flow to unexposed skin</rdfs:label>
+        <rdfs:label xml:lang="en">blood flow rate to unexposed skin</rdfs:label>
     </owl:Class>
     
 
@@ -30746,11 +30788,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00563">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00036"/>
-        <obo:IAO_0000115>A blood flow to skin parameter specifically describing the rate to the exposed portion of the skin compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate to skin parameter specifically describing the rate to the exposed portion of the skin compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qskine</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">blood flow to exposed skin</rdfs:label>
+        <rdfs:label xml:lang="en">blood flow rate to exposed skin</rdfs:label>
     </owl:Class>
     
 
@@ -30759,11 +30801,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00564">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00036"/>
-        <obo:IAO_0000115>A blood flow to skin parameter specifically describing the rate to the unexposed stratum corneum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate to skin parameter specifically describing the rate to the unexposed stratum corneum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qskinscu</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">blood flow to skin stratum corneum unexposed</rdfs:label>
+        <rdfs:label xml:lang="en">blood flow rate to skin stratum corneum unexposed</rdfs:label>
     </owl:Class>
     
 
@@ -30772,11 +30814,11 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00565">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00036"/>
-        <obo:IAO_0000115>A blood flow to skin parameter specifically describing the rate to the exposed stratum corneum compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A blood flow rate to skin parameter specifically describing the rate to the exposed stratum corneum compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>qskinsce</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">blood flow to skin stratum corneum exposed</rdfs:label>
+        <rdfs:label xml:lang="en">blood flow rate to skin stratum corneum exposed</rdfs:label>
     </owl:Class>
     
 
@@ -31280,6 +31322,181 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00149"/>
+        <obo:IAO_0000115>An unbound fraction parameter specifically for the blood compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>fublood</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fraction unbound blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <obo:IAO_0000115>The amount of compound in the blood compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>ablood</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00149"/>
+        <obo:IAO_0000115>An unbound fraction parameter specifically for the rest of the body compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>furestbody</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fraction unbound restbody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00470"/>
+        <obo:IAO_0000115>A skin compartment representing the exposed part of the skin to the chemical via dermal contact.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">exposed skin compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00470"/>
+        <obo:IAO_0000115>A skin compartment representing the unexposed part of the skin to the chemical such as regions covered by clothing or occluded areas like the inner arms.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">unexposed skin compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <obo:IAO_0000115>A dimensionless fraction of volume defined as the arterial plasma volume divided per unit of total body weight.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>farterialplasma</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fraction of arterial plasma volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <obo:IAO_0000115>A dimensionless fraction of volume defined as the venous plasma volume divided per unit of total body weight.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>fvenousplasma</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fraction of venous plasma volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <obo:IAO_0000115>The amount of compound in the richly perfused tissue compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>arichlyperfused</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in richly perfused tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <obo:IAO_0000115>The amount of compound in the poorly perfused tissue compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>apoorlyperfused</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in poorly perfused tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <obo:IAO_0000115>The amount of compound in the arterial blood compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>aarterialblood</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in arterial blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <obo:IAO_0000115>The amount of compound in the venous blood compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>avenousblood</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in venous blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <obo:IAO_0000115>The amount of compound in the alveolar air compartment.</obo:IAO_0000115>
+        <obo:IAO_0000118>0000-0003-1673-5725</obo:IAO_0000118>
+        <obo:IAO_0000118>aalveolar</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in alveolar air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00446"/>
+        <obo:IAO_0000115>A compartment representing the red blood cells of the body.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">red blood cell compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">skin thickness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
+        <obo:IAO_0000115>A bodily fluid flow rate parameter representing the rate of blood flow to a particular compartment.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
+        <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">bodily fluid flow rate parameter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd -->
 
     <owl:Class rdf:about="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd">
@@ -31305,31 +31522,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <core:closeMatch>http://purl.obolibrary.org/obo/UBERON_0000074</core:closeMatch>
     </owl:Class>
     <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:deepika@iispv.cat"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:pance.panov@ijs.si"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
+        <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
@@ -31338,13 +31531,37 @@ We also have the outstanding issue of how to aim different definitions to differ
         <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Panče Panov</x_0.1:name>
+        <x_0.1:mbox rdf:resource="mailto:pance.panov@ijs.si"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Deepika Deepika</x_0.1:name>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:deepika@iispv.cat"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:name>Vikas Kumar</x_0.1:name>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:name>Shubh Sharma</x_0.1:name>
@@ -31353,14 +31570,14 @@ We also have the outstanding issue of how to aim different definitions to differ
         <x_0.1:name>Saurav Kumar</x_0.1:name>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Vikas Kumar</x_0.1:name>
+        <x_0.1:name>Panče Panov</x_0.1:name>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
+        <x_0.1:name>Deepika Deepika</x_0.1:name>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
