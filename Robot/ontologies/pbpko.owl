@@ -26,13 +26,6 @@
         <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-11</term:created>
         <term:creator>
             <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
-                <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
-                <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
-            </rdf:Description>
-        </term:creator>
-        <term:creator>
-            <rdf:Description>
                 <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
                 <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
                 <x_0.1:name>Vikas Kumar</x_0.1:name>
@@ -47,9 +40,9 @@
         </term:creator>
         <term:creator>
             <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
-                <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
-                <x_0.1:name>Shubh Sharma</x_0.1:name>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
+                <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
+                <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
             </rdf:Description>
         </term:creator>
         <term:creator>
@@ -66,8 +59,15 @@
                 <x_0.1:name>Deepika Deepika</x_0.1:name>
             </rdf:Description>
         </term:creator>
+        <term:creator>
+            <rdf:Description>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
+                <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
+                <x_0.1:name>Shubh Sharma</x_0.1:name>
+            </rdf:Description>
+        </term:creator>
         <term:description>Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.</term:description>
-        <term:license rdf:resource="http://creativecommons.org/licenses/by/4.0"/>
+        <term:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <term:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-12</term:modified>
         <term:title>PBPK ontology</term:title>
         <rdfs:label>PBPK Ontology</rdfs:label>
@@ -21952,7 +21952,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
         <obo:IAO_0000115>A physiological parameter representing the age of a pregnancy, typically measured in weeks.</obo:IAO_0000115>
-        <obo:IAO_0000115>A physiological parameter representing thickness of the skin (both dermis and epidermis).</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>ga</obo:IAO_0000118>
@@ -31522,19 +31521,13 @@ We also have the outstanding issue of how to aim different definitions to differ
         <core:closeMatch>http://purl.obolibrary.org/obo/UBERON_0000074</core:closeMatch>
     </owl:Class>
     <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
-    </rdf:Description>
-    <rdf:Description>
         <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:pance.panov@ijs.si"/>
+        <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
@@ -31549,13 +31542,25 @@ We also have the outstanding issue of how to aim different definitions to differ
         <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
     </rdf:Description>
     <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:pance.panov@ijs.si"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
+    </rdf:Description>
+    <rdf:Description>
         <x_0.1:mbox rdf:resource="mailto:deepika@iispv.cat"/>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
+        <x_0.1:name>Panče Panov</x_0.1:name>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:name>Deepika Deepika</x_0.1:name>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:name>Vikas Kumar</x_0.1:name>
@@ -31569,15 +31574,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <rdf:Description>
         <x_0.1:name>Saurav Kumar</x_0.1:name>
     </rdf:Description>
-    <rdf:Description>
-        <x_0.1:name>Panče Panov</x_0.1:name>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:name>Deepika Deepika</x_0.1:name>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
