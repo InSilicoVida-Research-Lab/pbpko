@@ -1,36 +1,20 @@
-# Basic ODK workflow
-name: Docs
+name: docs
 
-# Controls when the action will run. 
 on:
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [ docs ]
+  workflow_dispatch:
+
 permissions:
   contents: write
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   deploy:
-    name: Deploy Static Website
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          ref: main
-
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v3
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: gh-pages  # Directory where the gh-pages branch was checked out
+          python-version: '3.x'
+      - run: pip install mkdocs mkdocs-material pymdown-extensions
+      - run: mkdocs gh-deploy --force
