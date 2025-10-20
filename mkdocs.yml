@@ -1,0 +1,97 @@
+site_name: PBPK Ontology (PBPKO)
+theme:
+  name: material
+  icon:
+    edit: material/pencil 
+  features:
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - content.code.annotation
+    - content.code.copy
+    - content.code.select
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - tables
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+
+repo_url: https://github.com/InSilicoVida-Research-Lab/pbpko/
+site_url: https://insilicovida-research-lab.github.io/pbpko/
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - About:
+      - About PBPKO: about.md
+      - The PBPKO team: team.md
+      - PBPKO on GitHub: https://github.com/InSilicoVida-Research-Lab/pbpko
+      - Issue Tracker: https://github.com/InSilicoVida-Research-Lab/pbpko/issues
+      - History: history.md
+      - Acknowledgements: acknowledgements.md
+      - Cite: cite.md
+  - Browse:
+      - OLS: https://www.ebi.ac.uk/ols4/ontologies/pbpko
+      - Ontobee: http://www.ontobee.org/ontology/PBPKO
+      - BioPortal: https://bioportal.bioontology.org/ontologies/PBPKO
+  - Download:
+      - Current release: current_release.md
+      - Releases: releases.md
+  - How-to guides:
+      - How to contribute to PBPKO: contributing.md
+      - ROBOT Templates: robot_templates.md
+      - Build Process: build_process.md
+      - Managing the documentation: manage_documentation.md
+      - Continuous Integration: continuous_integration.md
+      - Manage automated checks: manage_automated_tests.md
+  - PBPKO Internal Docs:
+      - PBPKO Release: pbpko_release.md
+      - Standard Operating Procedure for PBPKO Curators: pbpko_editor_sop.md
+      - Onboarding a new curator: onboarding.md
+      - Managing term IDs: id_management.md
+  - References:
+      - Publications: publications.md
+      - Related Resources: related_resources.md
+      - User Documentation: user_documentation.md
+      - Editors Documentation: editors_documentation.md
+      - Design Patterns: design_patterns.md
+      - PBPKO Build Pipeline: pbpko_build_pipeline.md
