@@ -15,7 +15,7 @@
 - [OBO](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/download/v1.0.3/pbpko.obo)
 - [JSON-LD](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/download/v1.0.3/pbpko.json)
 
-### v1.0.2 (February 4, 2025)
+### v1.0.2 (February 4, 2025) {#v102}
 
 **Changes:**
 - Initial parameter additions
@@ -26,7 +26,7 @@
 - [OWL](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/download/v1.0.2/pbpko.owl)
 - [OBO](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/download/v1.0.2/pbpko.obo)
 
-### v1.0.1 (January 2025)
+### v1.0.1 (January 2025) {#v101}
 
 **Changes:**
 - First stable release
@@ -37,7 +37,7 @@
 - [OWL](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/download/v1.0.1/pbpko.owl)
 - [OBO](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/download/v1.0.1/pbpko.obo)
 
-### v1.0.0 (December 2024)
+### v1.0.0 (December 2024) {#v100}
 
 **Changes:**
 - Initial release

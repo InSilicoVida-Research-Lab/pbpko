@@ -181,6 +181,6 @@ PBPK terms are available in [ROBOT template](https://github.com/InSilicoVida-Res
 ## Quick Navigation
 
 - **[About PBPKO](about.md)** - Learn more about the ontology
-- **[Browse Ontology](core_classes.md)** - Explore the ontology structure
+- **[Browse Ontology](https://www.ebi.ac.uk/ols4/ontologies/pbpko)** - Explore the ontology structure
 - **[Download](current_release.md)** - Get the latest release
 - **[Contribute](contributing.md)** - Help improve the ontology
