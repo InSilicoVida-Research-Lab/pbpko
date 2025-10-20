@@ -2,35 +2,9 @@
 
 ## Core Development Team
 
-### IISPV (Institut d'Investigació Sanitària Pere Virgili)
-
-**Saurav Kumar** - Project Lead and Lead Developer  
-*Role:* Overall project coordination, ontology development, and maintenance  
-*Contributions:* Project initiation, technical leadership, community engagement
-
-**Shubh Sharma** - Developer  
-*Role:* Term development, ontology modeling, and technical implementation  
-*Contributions:* ROBOT template development, parameter definitions, build process
-
-**Deepika Deepika** - Developer  
-*Role:* Content curation, validation, and quality assurance  
-*Contributions:* Term validation, definition refinement, documentation
-
-**Vikas Kumar** - Developer  
-*Role:* Ontology design, technical architecture, and implementation  
-*Contributions:* Ontology structure design, property definitions, validation framework
-
-### WUR (Wageningen University & Research)
-
-**Johannes Kruisselbrink** - Domain Expert and Collaborator  
-*Role:* PBPK modeling expertise, validation, and domain knowledge  
-*Contributions:* Domain expertise, validation of technical content, user perspective
-
-### JSI (Jožef Stefan Institute)
-
-**Panče Panov** - Collaborator and Validator  
-*Role:* Ontology validation, testing, and quality assurance  
-*Contributions:* Technical validation, testing procedures, quality assurance
+- IISPV (Institut d'Investigació Sanitària Pere Virgili)
+- WUR (Wageningen University & Research)
+- JSI (Jožef Stefan Institute)
 
 ## Community Contributors
 
@@ -91,14 +65,6 @@
 
 ## Technical Acknowledgments
 
-### Software and Tools
-
-**ROBOT** - OBO ontology development tool
-- Developed by the ROBOT team
-- Essential for template-based development
-- Continuous updates and improvements
-- Excellent documentation and support
-
 **Protégé** - Ontology editor
 - Used for manual ontology editing
 - Validation and reasoning capabilities
@@ -145,25 +111,9 @@
 
 ## Funding Acknowledgments
 
-### Direct Funding
-
-**Institutional Support:**
-- IISPV internal funding
-- WUR collaboration support
-- JSI research support
-
-**Grant Support:**
-- Research grants supporting individual team members
-- Conference travel support
-- Workshop organization funding
-
-### Indirect Support
-
-**Infrastructure:**
-- GitHub free hosting for open source projects
-- OBO Foundry community resources
-- Open source tool development
-- Community documentation
+| Organization | Type | Description | Link |
+| --- | --- | --- | --- |
+| Partnership for the Assessment of Risks from Chemicals (PARC) | European partnership (Horizon Europe) | Supports next-generation chemical risk assessment aligned with the EU Chemicals Strategy for Sustainability and the European Green Deal’s “Zero pollution” ambition; collaboration across ~200 institutions coordinated by ANSES. | https://www.eu-parc.eu/ |
 
 ## Community Acknowledgments
 

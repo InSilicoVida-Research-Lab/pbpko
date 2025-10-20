@@ -4,31 +4,24 @@
 
 ### IISPV (Institut d'Investigació Sanitària Pere Virgili)
 
-**Saurav Kumar** - Lead Developer  
-*Email:* [saurav.kumar@iispv.cat](mailto:saurav.kumar@iispv.cat)  
-*Role:* Ontology development, coordination, and maintenance
-
-**Shubh Sharma** - Developer  
-*Email:* [shubh.sharma@estudiants.urv.cat](mailto:shubh.sharma@estudiants.urv.cat)  
-*Role:* Term development and ontology modeling
-
-**Deepika Deepika** - Developer  
-*Email:* [deepika@iispv.cat](mailto:deepika@iispv.cat)  
-*Role:* Content curation and validation
-
-**Vikas Kumar** - Developer  
-*Email:* [vikas.kumar@urv.cat](mailto:vikas.kumar@urv.cat)  
-*Role:* Ontology design and implementation
+| Name | Title | Email | Role |
+| --- | --- | --- | --- |
+| Saurav Kumar | Developer | [saurav.kumar@iispv.cat](mailto:saurav.kumar@iispv.cat) | Ontology development, coordination, and maintenance |
+| Shubh Sharma | Developer | [shubh.sharma@estudiants.urv.cat](mailto:shubh.sharma@estudiants.urv.cat) | Term development and ontology modeling |
+| Deepika Deepika | PBPK Expert | [deepika@iispv.cat](mailto:deepika@iispv.cat) | Content curation and validation |
+| Vikas Kumar | PBPK Expert | [vikas.kumar@urv.cat](mailto:vikas.kumar@urv.cat) | Ontology design and implementation |
 
 ### WUR (Wageningen University & Research)
 
-**Johannes Kruisselbrink** - Collaborator  
-*Role:* Domain expertise and validation
+| Name | Title | Email | Role |
+| --- | --- | --- | --- |
+| Johannes Kruisselbrink | Developer/PBPK expert |  | Domain expertise and validation |
 
 ### JSI (Jožef Stefan Institute)
 
-**Panče Panov** - Collaborator  
-*Role:* Ontology design and validation
+| Name | Title | Email | Role |
+| --- | --- | --- | --- |
+| Panče Panov | Semantic Expert |  | Ontology design and validation |
 
 ## Contributing
 
@@ -51,4 +44,4 @@ For general inquiries about PBPKO, please contact:
 
 ## Acknowledgments
 
-We acknowledge the contributions of the broader PBPK modeling community and the developers of the foundational ontologies that PBPKO imports (BFO, RO, GO, OBI, SBO).
+We acknowledge the contributions of the broader PBPK modeling community, the OBO Foundry community, and the developers of the foundational ontologies that PBPKO imports (BFO, RO, GO, OBI, and SBO).
