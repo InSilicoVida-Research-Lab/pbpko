@@ -1,0 +1,1528 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="https://insilicovida-research-lab.github.io/pbpko/pbpko_build_pipeline/" rel="canonical"/>
+<link href="../design_patterns/" rel="prev"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.6.22" name="generator"/>
+<title>PBPKO Build Pipeline - PBPK Ontology (PBPKO)</title>
+<link href="../assets/stylesheets/main.84d31ad4.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#pbpko-build-pipeline">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="PBPK Ontology (PBPKO)" class="md-header__button md-logo" data-md-component="logo" href=".." title="PBPK Ontology (PBPKO)">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            PBPK Ontology (PBPKO)
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              PBPKO Build Pipeline
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/InSilicoVida-Research-Lab/pbpko/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="PBPK Ontology (PBPKO)" class="md-nav__button md-logo" data-md-component="logo" href=".." title="PBPK Ontology (PBPKO)">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    PBPK Ontology (PBPKO)
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/InSilicoVida-Research-Lab/pbpko/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+</div>
+<div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="..">
+<span class="md-ellipsis">
+    Home
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    About
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../about/">
+<span class="md-ellipsis">
+    About PBPKO
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../team/">
+<span class="md-ellipsis">
+    The PBPKO team
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/InSilicoVida-Research-Lab/pbpko">
+<span class="md-ellipsis">
+    PBPKO on GitHub
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://github.com/InSilicoVida-Research-Lab/pbpko/issues">
+<span class="md-ellipsis">
+    Issue Tracker
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../history/">
+<span class="md-ellipsis">
+    History
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../acknowledgements/">
+<span class="md-ellipsis">
+    Acknowledgements
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../cite/">
+<span class="md-ellipsis">
+    Cite
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-ellipsis">
+    Browse
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Browse
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://www.ebi.ac.uk/ols4/ontologies/pbpko">
+<span class="md-ellipsis">
+    OLS
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="http://www.ontobee.org/ontology/PBPKO">
+<span class="md-ellipsis">
+    Ontobee
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="https://bioportal.bioontology.org/ontologies/PBPKO">
+<span class="md-ellipsis">
+    BioPortal
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    Download
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Download
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../current_release/">
+<span class="md-ellipsis">
+    Current release
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../releases/">
+<span class="md-ellipsis">
+    Releases
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    How-to guides
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            How-to guides
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../contributing/">
+<span class="md-ellipsis">
+    How to contribute to PBPKO
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../robot_templates/">
+<span class="md-ellipsis">
+    ROBOT Templates
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../build_process/">
+<span class="md-ellipsis">
+    Build Process
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../manage_documentation/">
+<span class="md-ellipsis">
+    Managing the documentation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../continuous_integration/">
+<span class="md-ellipsis">
+    Continuous Integration
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../manage_automated_tests/">
+<span class="md-ellipsis">
+    Manage automated checks
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-ellipsis">
+    PBPKO Internal Docs
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            PBPKO Internal Docs
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pbpko_release/">
+<span class="md-ellipsis">
+    PBPKO Release
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pbpko_editor_sop/">
+<span class="md-ellipsis">
+    Standard Operating Procedure for PBPKO Curators
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../onboarding/">
+<span class="md-ellipsis">
+    Onboarding a new curator
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../id_management/">
+<span class="md-ellipsis">
+    Managing term IDs
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-ellipsis">
+    References
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            References
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../publications/">
+<span class="md-ellipsis">
+    Publications
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../related_resources/">
+<span class="md-ellipsis">
+    Related Resources
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../user_documentation/">
+<span class="md-ellipsis">
+    User Documentation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../editors_documentation/">
+<span class="md-ellipsis">
+    Editors Documentation
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../design_patterns/">
+<span class="md-ellipsis">
+    Design Patterns
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    PBPKO Build Pipeline
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    PBPKO Build Pipeline
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-overview">
+<span class="md-ellipsis">
+      Pipeline Overview
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-1-template-processing">
+<span class="md-ellipsis">
+      Stage 1: Template Processing
+    </span>
+</a>
+<nav aria-label="Stage 1: Template Processing" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-sources">
+<span class="md-ellipsis">
+      Input Sources
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#processing-steps">
+<span class="md-ellipsis">
+      Processing Steps
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-2-import-management">
+<span class="md-ellipsis">
+      Stage 2: Import Management
+    </span>
+</a>
+<nav aria-label="Stage 2: Import Management" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#import-sources">
+<span class="md-ellipsis">
+      Import Sources
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#import-processing">
+<span class="md-ellipsis">
+      Import Processing
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-3-ontology-merging">
+<span class="md-ellipsis">
+      Stage 3: Ontology Merging
+    </span>
+</a>
+<nav aria-label="Stage 3: Ontology Merging" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#merge-process">
+<span class="md-ellipsis">
+      Merge Process
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#merge-validation">
+<span class="md-ellipsis">
+      Merge Validation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-4-validation">
+<span class="md-ellipsis">
+      Stage 4: Validation
+    </span>
+</a>
+<nav aria-label="Stage 4: Validation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validation-levels">
+<span class="md-ellipsis">
+      Validation Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validation-reports">
+<span class="md-ellipsis">
+      Validation Reports
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-5-testing">
+<span class="md-ellipsis">
+      Stage 5: Testing
+    </span>
+</a>
+<nav aria-label="Stage 5: Testing" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-categories">
+<span class="md-ellipsis">
+      Test Categories
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-execution">
+<span class="md-ellipsis">
+      Test Execution
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-6-release-generation">
+<span class="md-ellipsis">
+      Stage 6: Release Generation
+    </span>
+</a>
+<nav aria-label="Stage 6: Release Generation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-preparation">
+<span class="md-ellipsis">
+      Release Preparation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-validation">
+<span class="md-ellipsis">
+      Release Validation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-7-deployment">
+<span class="md-ellipsis">
+      Stage 7: Deployment
+    </span>
+</a>
+<nav aria-label="Stage 7: Deployment" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation-deployment">
+<span class="md-ellipsis">
+      Documentation Deployment
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-deployment">
+<span class="md-ellipsis">
+      Release Deployment
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-automation">
+<span class="md-ellipsis">
+      Pipeline Automation
+    </span>
+</a>
+<nav aria-label="Pipeline Automation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#github-actions">
+<span class="md-ellipsis">
+      GitHub Actions
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#local-execution">
+<span class="md-ellipsis">
+      Local Execution
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-monitoring">
+<span class="md-ellipsis">
+      Pipeline Monitoring
+    </span>
+</a>
+<nav aria-label="Pipeline Monitoring" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#metrics-tracking">
+<span class="md-ellipsis">
+      Metrics Tracking
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alerting">
+<span class="md-ellipsis">
+      Alerting
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-maintenance">
+<span class="md-ellipsis">
+      Pipeline Maintenance
+    </span>
+</a>
+<nav aria-label="Pipeline Maintenance" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#regular-updates">
+<span class="md-ellipsis">
+      Regular Updates
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation">
+<span class="md-ellipsis">
+      Documentation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#troubleshooting">
+<span class="md-ellipsis">
+      Troubleshooting
+    </span>
+</a>
+<nav aria-label="Troubleshooting" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#common-issues">
+<span class="md-ellipsis">
+      Common Issues
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#debug-procedures">
+<span class="md-ellipsis">
+      Debug Procedures
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices
+    </span>
+</a>
+<nav aria-label="Best Practices" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-design">
+<span class="md-ellipsis">
+      Pipeline Design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quality-assurance">
+<span class="md-ellipsis">
+      Quality Assurance
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources
+    </span>
+</a>
+<nav aria-label="Resources" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation_1">
+<span class="md-ellipsis">
+      Documentation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tools">
+<span class="md-ellipsis">
+      Tools
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+<span class="md-ellipsis">
+      Examples
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-overview">
+<span class="md-ellipsis">
+      Pipeline Overview
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-1-template-processing">
+<span class="md-ellipsis">
+      Stage 1: Template Processing
+    </span>
+</a>
+<nav aria-label="Stage 1: Template Processing" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#input-sources">
+<span class="md-ellipsis">
+      Input Sources
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#processing-steps">
+<span class="md-ellipsis">
+      Processing Steps
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-2-import-management">
+<span class="md-ellipsis">
+      Stage 2: Import Management
+    </span>
+</a>
+<nav aria-label="Stage 2: Import Management" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#import-sources">
+<span class="md-ellipsis">
+      Import Sources
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#import-processing">
+<span class="md-ellipsis">
+      Import Processing
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-3-ontology-merging">
+<span class="md-ellipsis">
+      Stage 3: Ontology Merging
+    </span>
+</a>
+<nav aria-label="Stage 3: Ontology Merging" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#merge-process">
+<span class="md-ellipsis">
+      Merge Process
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#merge-validation">
+<span class="md-ellipsis">
+      Merge Validation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-4-validation">
+<span class="md-ellipsis">
+      Stage 4: Validation
+    </span>
+</a>
+<nav aria-label="Stage 4: Validation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validation-levels">
+<span class="md-ellipsis">
+      Validation Levels
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#validation-reports">
+<span class="md-ellipsis">
+      Validation Reports
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-5-testing">
+<span class="md-ellipsis">
+      Stage 5: Testing
+    </span>
+</a>
+<nav aria-label="Stage 5: Testing" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-categories">
+<span class="md-ellipsis">
+      Test Categories
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#test-execution">
+<span class="md-ellipsis">
+      Test Execution
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-6-release-generation">
+<span class="md-ellipsis">
+      Stage 6: Release Generation
+    </span>
+</a>
+<nav aria-label="Stage 6: Release Generation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-preparation">
+<span class="md-ellipsis">
+      Release Preparation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-validation">
+<span class="md-ellipsis">
+      Release Validation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stage-7-deployment">
+<span class="md-ellipsis">
+      Stage 7: Deployment
+    </span>
+</a>
+<nav aria-label="Stage 7: Deployment" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation-deployment">
+<span class="md-ellipsis">
+      Documentation Deployment
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#release-deployment">
+<span class="md-ellipsis">
+      Release Deployment
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-automation">
+<span class="md-ellipsis">
+      Pipeline Automation
+    </span>
+</a>
+<nav aria-label="Pipeline Automation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#github-actions">
+<span class="md-ellipsis">
+      GitHub Actions
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#local-execution">
+<span class="md-ellipsis">
+      Local Execution
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-monitoring">
+<span class="md-ellipsis">
+      Pipeline Monitoring
+    </span>
+</a>
+<nav aria-label="Pipeline Monitoring" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#metrics-tracking">
+<span class="md-ellipsis">
+      Metrics Tracking
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#alerting">
+<span class="md-ellipsis">
+      Alerting
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-maintenance">
+<span class="md-ellipsis">
+      Pipeline Maintenance
+    </span>
+</a>
+<nav aria-label="Pipeline Maintenance" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#regular-updates">
+<span class="md-ellipsis">
+      Regular Updates
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation">
+<span class="md-ellipsis">
+      Documentation
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#troubleshooting">
+<span class="md-ellipsis">
+      Troubleshooting
+    </span>
+</a>
+<nav aria-label="Troubleshooting" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#common-issues">
+<span class="md-ellipsis">
+      Common Issues
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#debug-procedures">
+<span class="md-ellipsis">
+      Debug Procedures
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#best-practices">
+<span class="md-ellipsis">
+      Best Practices
+    </span>
+</a>
+<nav aria-label="Best Practices" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pipeline-design">
+<span class="md-ellipsis">
+      Pipeline Design
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#quality-assurance">
+<span class="md-ellipsis">
+      Quality Assurance
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#resources">
+<span class="md-ellipsis">
+      Resources
+    </span>
+</a>
+<nav aria-label="Resources" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#documentation_1">
+<span class="md-ellipsis">
+      Documentation
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tools">
+<span class="md-ellipsis">
+      Tools
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+<span class="md-ellipsis">
+      Examples
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.com/InSilicoVida-Research-Lab/pbpko/edit/main/docs/pbpko_build_pipeline.md" rel="edit" title="Edit this page">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"></path></svg>
+</a>
+<h1 id="pbpko-build-pipeline">PBPKO Build Pipeline<a class="headerlink" href="#pbpko-build-pipeline" title="Permanent link">¶</a></h1>
+<p>This page describes the complete build pipeline for PBPKO, including all steps from template processing to release generation.</p>
+<h2 id="pipeline-overview">Pipeline Overview<a class="headerlink" href="#pipeline-overview" title="Permanent link">¶</a></h2>
+<p>The PBPKO build pipeline consists of several interconnected stages:</p>
+<div class="mermaid">graph LR
+    A[Templates] --&gt; B[ROBOT Processing]
+    B --&gt; C[Import Management]
+    C --&gt; D[Ontology Merging]
+    D --&gt; E[Validation]
+    E --&gt; F[Testing]
+    F --&gt; G[Release Generation]
+    G --&gt; H[Deployment]</div>
+<h2 id="stage-1-template-processing">Stage 1: Template Processing<a class="headerlink" href="#stage-1-template-processing" title="Permanent link">¶</a></h2>
+<h3 id="input-sources">Input Sources<a class="headerlink" href="#input-sources" title="Permanent link">¶</a></h3>
+<p><strong>Template Files:</strong>
+- <code>Robot/templates/vocab.tsv</code> - Main vocabulary
+- <code>Robot/templates/properties.tsv</code> - Object properties
+- <code>Robot/templates/input.tsv</code> - Additional input</p>
+<p><strong>Configuration:</strong>
+- Template validation rules
+- Column mapping definitions
+- Processing parameters</p>
+<h3 id="processing-steps">Processing Steps<a class="headerlink" href="#processing-steps" title="Permanent link">¶</a></h3>
+<p><strong>1. Template Validation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>robot<span class="w"> </span>template<span class="w"> </span>--template<span class="w"> </span>Robot/templates/vocab.tsv<span class="w"> </span>--check
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>robot<span class="w"> </span>template<span class="w"> </span>--template<span class="w"> </span>Robot/templates/properties.tsv<span class="w"> </span>--check
+</code></pre></div></p>
+<p><strong>2. Ontology Generation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>robot<span class="w"> </span>template<span class="w"> </span>--template<span class="w"> </span>Robot/templates/vocab.tsv<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="w">               </span>--template<span class="w"> </span>Robot/templates/properties.tsv<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">               </span>--output<span class="w"> </span>Robot/ontologies/edit.owl
+</code></pre></div></p>
+<p><strong>3. Quality Checks:</strong>
+- Column completeness validation
+- ID uniqueness checking
+- Reference validation
+- Format compliance</p>
+<h2 id="stage-2-import-management">Stage 2: Import Management<a class="headerlink" href="#stage-2-import-management" title="Permanent link">¶</a></h2>
+<h3 id="import-sources">Import Sources<a class="headerlink" href="#import-sources" title="Permanent link">¶</a></h3>
+<p><strong>Foundational Ontologies:</strong>
+- BFO (Basic Formal Ontology)
+- RO (Relation Ontology)
+- GO (Gene Ontology)
+- OBI (Ontology for Biomedical Investigations)
+- SBO (Systems Biology Ontology)</p>
+<h3 id="import-processing">Import Processing<a class="headerlink" href="#import-processing" title="Permanent link">¶</a></h3>
+<p><strong>1. Extract Required Terms:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a>robot<span class="w"> </span>extract<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/imported_modules.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="w">              </span>--term-file<span class="w"> </span>Robot/extracted_terms/imported_modules/go_terms.txt<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w">              </span>--output<span class="w"> </span>Robot/ontologies/go_module.owl
+</code></pre></div></p>
+<p><strong>2. Update Import Modules:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a>robot<span class="w"> </span>merge<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/go_module.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">           </span>--input<span class="w"> </span>Robot/ontologies/iao_module.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">           </span>--input<span class="w"> </span>Robot/ontologies/obcs_module.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-3-4" id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">           </span>--input<span class="w"> </span>Robot/ontologies/uberon_module.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-3-5" id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">           </span>--output<span class="w"> </span>Robot/ontologies/imported_modules.owl
+</code></pre></div></p>
+<p><strong>3. Import Validation:</strong>
+- Check import completeness
+- Validate import relationships
+- Ensure consistency
+- Update catalog files</p>
+<h2 id="stage-3-ontology-merging">Stage 3: Ontology Merging<a class="headerlink" href="#stage-3-ontology-merging" title="Permanent link">¶</a></h2>
+<h3 id="merge-process">Merge Process<a class="headerlink" href="#merge-process" title="Permanent link">¶</a></h3>
+<p><strong>1. Merge Edit with Imports:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>robot<span class="w"> </span>merge<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/edit.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="w">           </span>--input<span class="w"> </span>Robot/ontologies/imported_modules.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="w">           </span>--output<span class="w"> </span>Robot/ontologies/pbpko.owl
+</code></pre></div></p>
+<p><strong>2. Post-Merge Processing:</strong>
+- Add annotations
+- Update metadata
+- Generate reports
+- Validate consistency</p>
+<h3 id="merge-validation">Merge Validation<a class="headerlink" href="#merge-validation" title="Permanent link">¶</a></h3>
+<p><strong>Consistency Checks:</strong>
+- Logical consistency
+- Relationship validation
+- Class hierarchy verification
+- Property restrictions</p>
+<h2 id="stage-4-validation">Stage 4: Validation<a class="headerlink" href="#stage-4-validation" title="Permanent link">¶</a></h2>
+<h3 id="validation-levels">Validation Levels<a class="headerlink" href="#validation-levels" title="Permanent link">¶</a></h3>
+<p><strong>1. Syntax Validation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-5-1" id="__codelineno-5-1" name="__codelineno-5-1"></a>robot<span class="w"> </span>validate<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl
+</code></pre></div></p>
+<p><strong>2. Logical Consistency:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-6-1" id="__codelineno-6-1" name="__codelineno-6-1"></a>robot<span class="w"> </span>reason<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span>--reasoner<span class="w"> </span>hermit
+</code></pre></div></p>
+<p><strong>3. Profile Validation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-7-1" id="__codelineno-7-1" name="__codelineno-7-1"></a>robot<span class="w"> </span>validate<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span>--profile<span class="w"> </span>profile.txt
+</code></pre></div></p>
+<h3 id="validation-reports">Validation Reports<a class="headerlink" href="#validation-reports" title="Permanent link">¶</a></h3>
+<p><strong>Report Generation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-8-1" id="__codelineno-8-1" name="__codelineno-8-1"></a>robot<span class="w"> </span>report<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-8-2" id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="w">             </span>--output<span class="w"> </span>reports/pbpko-report.html
+</code></pre></div></p>
+<p><strong>Report Contents:</strong>
+- Validation results
+- Error summaries
+- Warning details
+- Recommendations</p>
+<h2 id="stage-5-testing">Stage 5: Testing<a class="headerlink" href="#stage-5-testing" title="Permanent link">¶</a></h2>
+<h3 id="test-categories">Test Categories<a class="headerlink" href="#test-categories" title="Permanent link">¶</a></h3>
+<p><strong>1. Unit Tests:</strong>
+- Individual component testing
+- Template validation
+- Import testing
+- Property testing</p>
+<p><strong>2. Integration Tests:</strong>
+- End-to-end build testing
+- Cross-component validation
+- Performance testing
+- Regression testing</p>
+<p><strong>3. Quality Tests:</strong>
+- Ontology quality metrics
+- Coverage analysis
+- Consistency checking
+- Usability testing</p>
+<h3 id="test-execution">Test Execution<a class="headerlink" href="#test-execution" title="Permanent link">¶</a></h3>
+<p><strong>Automated Testing:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-9-1" id="__codelineno-9-1" name="__codelineno-9-1"></a>./scripts/run-tests.sh
+</code></pre></div></p>
+<p><strong>Test Reporting:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-10-1" id="__codelineno-10-1" name="__codelineno-10-1"></a>robot<span class="w"> </span><span class="nb">test</span><span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-10-2" id="__codelineno-10-2" name="__codelineno-10-2"></a><span class="w">           </span>--output<span class="w"> </span>reports/test-report.html
+</code></pre></div></p>
+<h2 id="stage-6-release-generation">Stage 6: Release Generation<a class="headerlink" href="#stage-6-release-generation" title="Permanent link">¶</a></h2>
+<h3 id="release-preparation">Release Preparation<a class="headerlink" href="#release-preparation" title="Permanent link">¶</a></h3>
+<p><strong>1. Version Management:</strong>
+- Update version numbers
+- Generate release notes
+- Update documentation
+- Tag repository</p>
+<p><strong>2. Release File Generation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-11-1" id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="c1"># OWL format</span>
+<a href="#__codelineno-11-2" id="__codelineno-11-2" name="__codelineno-11-2"></a>robot<span class="w"> </span>convert<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-11-3" id="__codelineno-11-3" name="__codelineno-11-3"></a><span class="w">              </span>--format<span class="w"> </span>owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-11-4" id="__codelineno-11-4" name="__codelineno-11-4"></a><span class="w">              </span>--output<span class="w"> </span>releases/pbpko.owl
+<a href="#__codelineno-11-5" id="__codelineno-11-5" name="__codelineno-11-5"></a>
+<a href="#__codelineno-11-6" id="__codelineno-11-6" name="__codelineno-11-6"></a><span class="c1"># OBO format</span>
+<a href="#__codelineno-11-7" id="__codelineno-11-7" name="__codelineno-11-7"></a>robot<span class="w"> </span>convert<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-11-8" id="__codelineno-11-8" name="__codelineno-11-8"></a><span class="w">              </span>--format<span class="w"> </span>obo<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-11-9" id="__codelineno-11-9" name="__codelineno-11-9"></a><span class="w">              </span>--output<span class="w"> </span>releases/pbpko.obo
+<a href="#__codelineno-11-10" id="__codelineno-11-10" name="__codelineno-11-10"></a>
+<a href="#__codelineno-11-11" id="__codelineno-11-11" name="__codelineno-11-11"></a><span class="c1"># JSON-LD format</span>
+<a href="#__codelineno-11-12" id="__codelineno-11-12" name="__codelineno-11-12"></a>robot<span class="w"> </span>convert<span class="w"> </span>--input<span class="w"> </span>Robot/ontologies/pbpko.owl<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-11-13" id="__codelineno-11-13" name="__codelineno-11-13"></a><span class="w">              </span>--format<span class="w"> </span>json<span class="w"> </span><span class="se">\</span>
+<a href="#__codelineno-11-14" id="__codelineno-11-14" name="__codelineno-11-14"></a><span class="w">              </span>--output<span class="w"> </span>releases/pbpko.json
+</code></pre></div></p>
+<h3 id="release-validation">Release Validation<a class="headerlink" href="#release-validation" title="Permanent link">¶</a></h3>
+<p><strong>Release Checks:</strong>
+- File integrity validation
+- Format compliance
+- Size optimization
+- Metadata verification</p>
+<h2 id="stage-7-deployment">Stage 7: Deployment<a class="headerlink" href="#stage-7-deployment" title="Permanent link">¶</a></h2>
+<h3 id="documentation-deployment">Documentation Deployment<a class="headerlink" href="#documentation-deployment" title="Permanent link">¶</a></h3>
+<p><strong>MkDocs Build:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-12-1" id="__codelineno-12-1" name="__codelineno-12-1"></a>mkdocs<span class="w"> </span>build
+</code></pre></div></p>
+<p><strong>GitHub Pages Deployment:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-13-1" id="__codelineno-13-1" name="__codelineno-13-1"></a>mkdocs<span class="w"> </span>gh-deploy
+</code></pre></div></p>
+<h3 id="release-deployment">Release Deployment<a class="headerlink" href="#release-deployment" title="Permanent link">¶</a></h3>
+<p><strong>GitHub Release:</strong>
+- Upload release files
+- Generate release notes
+- Tag repository
+- Notify community</p>
+<h2 id="pipeline-automation">Pipeline Automation<a class="headerlink" href="#pipeline-automation" title="Permanent link">¶</a></h2>
+<h3 id="github-actions">GitHub Actions<a class="headerlink" href="#github-actions" title="Permanent link">¶</a></h3>
+<p><strong>Build Workflow:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-14-1" id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Build Pipeline</span>
+<a href="#__codelineno-14-2" id="__codelineno-14-2" name="__codelineno-14-2"></a><span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">push</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">pull_request</span><span class="p p-Indicator">]</span>
+<a href="#__codelineno-14-3" id="__codelineno-14-3" name="__codelineno-14-3"></a><span class="nt">jobs</span><span class="p">:</span>
+<a href="#__codelineno-14-4" id="__codelineno-14-4" name="__codelineno-14-4"></a><span class="w">  </span><span class="nt">build</span><span class="p">:</span>
+<a href="#__codelineno-14-5" id="__codelineno-14-5" name="__codelineno-14-5"></a><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span>
+<a href="#__codelineno-14-6" id="__codelineno-14-6" name="__codelineno-14-6"></a><span class="w">    </span><span class="nt">steps</span><span class="p">:</span>
+<a href="#__codelineno-14-7" id="__codelineno-14-7" name="__codelineno-14-7"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v2</span>
+<a href="#__codelineno-14-8" id="__codelineno-14-8" name="__codelineno-14-8"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Setup Java</span>
+<a href="#__codelineno-14-9" id="__codelineno-14-9" name="__codelineno-14-9"></a><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-java@v2</span>
+<a href="#__codelineno-14-10" id="__codelineno-14-10" name="__codelineno-14-10"></a><span class="w">        </span><span class="nt">with</span><span class="p">:</span>
+<a href="#__codelineno-14-11" id="__codelineno-14-11" name="__codelineno-14-11"></a><span class="w">          </span><span class="nt">java-version</span><span class="p">:</span><span class="w"> </span><span class="s">'11'</span>
+<a href="#__codelineno-14-12" id="__codelineno-14-12" name="__codelineno-14-12"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Download ROBOT</span>
+<a href="#__codelineno-14-13" id="__codelineno-14-13" name="__codelineno-14-13"></a><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wget https://github.com/ontodev/robot/releases/download/v1.8.1/robot.jar</span>
+<a href="#__codelineno-14-14" id="__codelineno-14-14" name="__codelineno-14-14"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Run Pipeline</span>
+<a href="#__codelineno-14-15" id="__codelineno-14-15" name="__codelineno-14-15"></a><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./scripts/pipeline.sh</span>
+</code></pre></div></p>
+<h3 id="local-execution">Local Execution<a class="headerlink" href="#local-execution" title="Permanent link">¶</a></h3>
+<p><strong>Complete Pipeline:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-15-1" id="__codelineno-15-1" name="__codelineno-15-1"></a>./scripts/pipeline.sh
+</code></pre></div></p>
+<p><strong>Individual Stages:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-16-1" id="__codelineno-16-1" name="__codelineno-16-1"></a>./scripts/stage1-templates.sh
+<a href="#__codelineno-16-2" id="__codelineno-16-2" name="__codelineno-16-2"></a>./scripts/stage2-imports.sh
+<a href="#__codelineno-16-3" id="__codelineno-16-3" name="__codelineno-16-3"></a>./scripts/stage3-merge.sh
+<a href="#__codelineno-16-4" id="__codelineno-16-4" name="__codelineno-16-4"></a>./scripts/stage4-validate.sh
+<a href="#__codelineno-16-5" id="__codelineno-16-5" name="__codelineno-16-5"></a>./scripts/stage5-test.sh
+<a href="#__codelineno-16-6" id="__codelineno-16-6" name="__codelineno-16-6"></a>./scripts/stage6-release.sh
+<a href="#__codelineno-16-7" id="__codelineno-16-7" name="__codelineno-16-7"></a>./scripts/stage7-deploy.sh
+</code></pre></div></p>
+<h2 id="pipeline-monitoring">Pipeline Monitoring<a class="headerlink" href="#pipeline-monitoring" title="Permanent link">¶</a></h2>
+<h3 id="metrics-tracking">Metrics Tracking<a class="headerlink" href="#metrics-tracking" title="Permanent link">¶</a></h3>
+<p><strong>Build Metrics:</strong>
+- Execution time per stage
+- Success/failure rates
+- Resource usage
+- Performance trends</p>
+<p><strong>Quality Metrics:</strong>
+- Validation results
+- Test coverage
+- Error rates
+- User feedback</p>
+<h3 id="alerting">Alerting<a class="headerlink" href="#alerting" title="Permanent link">¶</a></h3>
+<p><strong>Failure Alerts:</strong>
+- Email notifications
+- Slack integration
+- GitHub issue creation
+- Status page updates</p>
+<h2 id="pipeline-maintenance">Pipeline Maintenance<a class="headerlink" href="#pipeline-maintenance" title="Permanent link">¶</a></h2>
+<h3 id="regular-updates">Regular Updates<a class="headerlink" href="#regular-updates" title="Permanent link">¶</a></h3>
+<p><strong>Dependency Updates:</strong>
+- ROBOT version updates
+- Import ontology updates
+- Tool version updates
+- Security patches</p>
+<p><strong>Process Improvements:</strong>
+- Pipeline optimization
+- Error handling improvements
+- Performance enhancements
+- Feature additions</p>
+<h3 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">¶</a></h3>
+<p><strong>Pipeline Documentation:</strong>
+- Process descriptions
+- Configuration guides
+- Troubleshooting information
+- Best practices</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">¶</a></h2>
+<h3 id="common-issues">Common Issues<a class="headerlink" href="#common-issues" title="Permanent link">¶</a></h3>
+<p><strong>Build Failures:</strong>
+- Template format errors
+- Import resolution issues
+- Validation failures
+- Resource constraints</p>
+<p><strong>Performance Issues:</strong>
+- Long execution times
+- Memory usage problems
+- Network timeouts
+- Storage limitations</p>
+<h3 id="debug-procedures">Debug Procedures<a class="headerlink" href="#debug-procedures" title="Permanent link">¶</a></h3>
+<p><strong>Debug Mode:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-17-1" id="__codelineno-17-1" name="__codelineno-17-1"></a>./scripts/pipeline.sh<span class="w"> </span>--debug
+</code></pre></div></p>
+<p><strong>Verbose Output:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-18-1" id="__codelineno-18-1" name="__codelineno-18-1"></a>robot<span class="w"> </span>--verbose<span class="w"> </span>template<span class="w"> </span>--template<span class="w"> </span>Robot/templates/vocab.tsv
+</code></pre></div></p>
+<p><strong>Stage Isolation:</strong>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-19-1" id="__codelineno-19-1" name="__codelineno-19-1"></a>./scripts/stage1-templates.sh<span class="w"> </span>--isolate
+</code></pre></div></p>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">¶</a></h2>
+<h3 id="pipeline-design">Pipeline Design<a class="headerlink" href="#pipeline-design" title="Permanent link">¶</a></h3>
+<p><strong>Design Principles:</strong>
+- Modular architecture
+- Clear stage separation
+- Comprehensive validation
+- Robust error handling</p>
+<p><strong>Implementation Guidelines:</strong>
+- Use version control
+- Maintain documentation
+- Regular testing
+- Community feedback</p>
+<h3 id="quality-assurance">Quality Assurance<a class="headerlink" href="#quality-assurance" title="Permanent link">¶</a></h3>
+<p><strong>Quality Measures:</strong>
+- Automated validation
+- Comprehensive testing
+- Regular reviews
+- Continuous improvement</p>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">¶</a></h2>
+<h3 id="documentation_1">Documentation<a class="headerlink" href="#documentation_1" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="../build_process/">Build Process</a> - Detailed build procedures</li>
+<li><a href="../robot_templates/">ROBOT Templates</a> - Template usage</li>
+<li><a href="../continuous_integration/">Continuous Integration</a> - CI/CD setup</li>
+<li><a href="../manage_automated_tests/">Quality Assurance</a> - Testing procedures</li>
+</ul>
+<h3 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="http://robot.obolibrary.org/">ROBOT</a> - Ontology development</li>
+<li><a href="https://github.com/features/actions">GitHub Actions</a> - CI/CD platform</li>
+<li><a href="https://www.mkdocs.org/">MkDocs</a> - Documentation generation</li>
+<li><a href="https://www.w3.org/OWL/">OWL</a> - Web Ontology Language</li>
+</ul>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main/scripts">PBPKO Pipeline</a></li>
+<li><a href="https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main/scripts">Build Scripts</a></li>
+<li><a href="https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main">Configuration Files</a></li>
+<li><a href="https://github.com/InSilicoVida-Research-Lab/pbpko/releases">Release Files</a></li>
+</ul>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "..", "features": ["content.action.edit", "search.suggest", "search.highlight", "content.code.annotation", "content.code.copy", "content.code.select"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+<script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+mermaid.initialize({
+    theme: "default",
+    themeVariables: {
+        primaryColor: "#1976d2",
+        primaryTextColor: "#ffffff",
+        primaryBorderColor: "#1976d2",
+        lineColor: "#1976d2",
+        secondaryColor: "#f5f5f5",
+        tertiaryColor: "#ffffff"
+    }
+});</script></body>
+</html>
