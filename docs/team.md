@@ -15,13 +15,13 @@
 
 | Name | Title | Email | Role |
 | --- | --- | --- | --- |
-| Johannes Kruisselbrink | Developer/PBPK expert |  | Domain expertise and validation |
+| Johannes Kruisselbrink | Developer/PBPK expert |johannes.kruisselbrink@wur.nl  | Domain expertise and validation |
 
 ### JSI (Jožef Stefan Institute)
 
 | Name | Title | Email | Role |
 | --- | --- | --- | --- |
-| Panče Panov | Semantic Expert |  | Ontology design and validation |
+| Panče Panov | Semantic Expert | pance.panov@ijs.si | Ontology design and validation |
 
 ## Contributing
 
