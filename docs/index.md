@@ -28,18 +28,18 @@ graph TB
         direction TB
         class_legend((Class))
         subclass_legend-.->class_legend
-        property_legend---property_legend((Object Property))
+        property_legend((Object Property))
         property_legend--"Object Property"-->class_legend
     end
 
     %% Ontology Imports (BFO, OBI, GO, SBO)
-    subgraph Imported Ontologies
+    subgraph Imported_Ontologies["Imported Ontologies"]
         direction LR
         subgraph BFO["BFO"]
             direction TB
             BFO_0000002((BFO:entity))
             BFO_0000020((BFO:continuant))
-            BFO_0000051---BFO_0000020("has_part (BFO:has_part)")
+            BFO_0000051---BFO_0000020("has_part")
             BFO_specifically_dependent((BFO:specifically dependent continuant))
             BFO_occurrent((BFO:occurrent))
             BFO_process((BFO:process))

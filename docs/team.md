@@ -1,5 +1,33 @@
 # The PBPKO Team
 
+## Team Structure
+
+The PBPKO team is organized across multiple institutions with clear roles and responsibilities:
+
+```mermaid
+graph TB
+    subgraph IISPV["IISPV"]
+        SK[Saurav Kumar<br/>Lead Developer]
+        SS[Shubh Sharma<br/>Developer]
+        DD[Deepika Deepika<br/>PBPK Expert]
+        VK[Vikas Kumar<br/>PBPK Expert]
+    end
+    
+    subgraph WUR["WUR"]
+        JK[Johannes Kruisselbrink<br/>Developer/PBPK Expert]
+    end
+    
+    subgraph JSI["JSI"]
+        PP[Panče Panov<br/>Semantic Expert]
+    end
+    
+    SK --> SS
+    SK --> DD
+    SK --> VK
+    SK -.-> JK
+    SK -.-> PP
+```
+
 ## Core Development Team
 
 ### IISPV (Institut d'Investigació Sanitària Pere Virgili)

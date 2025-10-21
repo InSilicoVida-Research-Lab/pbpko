@@ -53,7 +53,10 @@ markdown_extensions:
   - tables
 
 extra_javascript:
-  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
+
+extra_css:
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.css
 
 repo_url: https://github.com/InSilicoVida-Research-Lab/pbpko/
 site_url: https://insilicovida-research-lab.github.io/pbpko/
