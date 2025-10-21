@@ -4,40 +4,18 @@
 
 The PBPKO team is organized across multiple institutions with clear roles and responsibilities:
 
-```mermaid
-graph TB
-    subgraph IISPV["IISPV"]
-        SK[Saurav Kumar<br/>Lead Developer]
-        SS[Shubh Sharma<br/>Developer]
-        DD[Deepika Deepika<br/>PBPK Expert]
-        VK[Vikas Kumar<br/>PBPK Expert]
-    end
-    
-    subgraph WUR["WUR"]
-        JK[Johannes Kruisselbrink<br/>Developer/PBPK Expert]
-    end
-    
-    subgraph JSI["JSI"]
-        PP[Panče Panov<br/>Semantic Expert]
-    end
-    
-    SK --> SS
-    SK --> DD
-    SK --> VK
-    SK -.-> JK
-    SK -.-> PP
-```
-
 ## Core Development Team
 
 ### IISPV (Institut d'Investigació Sanitària Pere Virgili)
 
 | Name | Title | Email | Role |
 | --- | --- | --- | --- |
+| Vikas Kumar | PBPK Expert | [vikas.kumar@urv.cat](mailto:vikas.kumar@urv.cat) | Ontology design and implementation |
+| Deepika Deepika | PBPK Expert | [deepika@iispv.cat](mailto:deepika@iispv.cat) | Content curation and validation |
 | Saurav Kumar | Developer | [saurav.kumar@iispv.cat](mailto:saurav.kumar@iispv.cat) | Ontology development, coordination, and maintenance |
 | Shubh Sharma | Developer | [shubh.sharma@estudiants.urv.cat](mailto:shubh.sharma@estudiants.urv.cat) | Term development and ontology modeling |
-| Deepika Deepika | PBPK Expert | [deepika@iispv.cat](mailto:deepika@iispv.cat) | Content curation and validation |
-| Vikas Kumar | PBPK Expert | [vikas.kumar@urv.cat](mailto:vikas.kumar@urv.cat) | Ontology design and implementation |
+
+
 
 ### WUR (Wageningen University & Research)
 
