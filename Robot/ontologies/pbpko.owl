@@ -26,23 +26,9 @@
         <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-11</term:created>
         <term:creator>
             <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
-                <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
-                <x_0.1:name>Vikas Kumar</x_0.1:name>
-            </rdf:Description>
-        </term:creator>
-        <term:creator>
-            <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
-                <x_0.1:mbox rdf:resource="mailto:pance.panov@jsi.si"/>
-                <x_0.1:name>Panče Panov</x_0.1:name>
-            </rdf:Description>
-        </term:creator>
-        <term:creator>
-            <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
-                <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
-                <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
+                <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
+                <x_0.1:name>Shubh Sharma</x_0.1:name>
             </rdf:Description>
         </term:creator>
         <term:creator>
@@ -61,9 +47,23 @@
         </term:creator>
         <term:creator>
             <rdf:Description>
-                <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
-                <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
-                <x_0.1:name>Shubh Sharma</x_0.1:name>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
+                <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
+                <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
+            </rdf:Description>
+        </term:creator>
+        <term:creator>
+            <rdf:Description>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
+                <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
+                <x_0.1:name>Vikas Kumar</x_0.1:name>
+            </rdf:Description>
+        </term:creator>
+        <term:creator>
+            <rdf:Description>
+                <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
+                <x_0.1:mbox rdf:resource="mailto:pance.panov@jsi.si"/>
+                <x_0.1:name>Panče Panov</x_0.1:name>
             </rdf:Description>
         </term:creator>
         <term:description>Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.</term:description>
@@ -5467,7 +5467,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00636"/>
-        <obo:IAO_0000115>A physiological parameter representing the rate of fluid flow in different parts of the body</obo:IAO_0000115>
+        <obo:IAO_0000115>A bodily fluid flow rate parameter representing the rate of blood flow in different parts of the body</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <obo:IAO_0000118>Q</obo:IAO_0000118>
@@ -30777,7 +30777,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>A blood flow rate to skin parameter specifically describing the rate to the unexposed portion of the skin compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
-        <obo:IAO_0000118>qskin u</obo:IAO_0000118>
+        <obo:IAO_0000118>qskinu</obo:IAO_0000118>
         <rdfs:label xml:lang="en">blood flow rate to unexposed skin</rdfs:label>
     </owl:Class>
     
@@ -31478,6 +31478,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00635">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
+        <obo:IAO_0000115>A physiological parameter representing the thickness of the skin compartment</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
         <rdfs:label xml:lang="en">skin thickness</rdfs:label>
     </owl:Class>
@@ -31488,10 +31489,188 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00636">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00006"/>
-        <obo:IAO_0000115>A bodily fluid flow rate parameter representing the rate of blood flow to a particular compartment.</obo:IAO_0000115>
+        <obo:IAO_0000115>A physiological parameter representing the rate of fluid flow to a particular compartment.</obo:IAO_0000115>
         <obo:IAO_0000117>0000-0001-8345-1349</obo:IAO_0000117>
         <obo:IAO_0000117>0000-0002-9795-5967</obo:IAO_0000117>
         <rdfs:label xml:lang="en">bodily fluid flow rate parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00506"/>
+        <obo:IAO_0000115>The amount of chemical in viable epidermis of unexposed skin</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>askin_u</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in viable epidermis of unexposed skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00506"/>
+        <obo:IAO_0000115>The amount of chemical in viable epidermis of exposed skin</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>askin_e</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in viable epidermis of exposed skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00506"/>
+        <obo:IAO_0000115>The amount of chemical in skin stratum corneum of unexposed skin</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>askin_sc_u</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in skin stratum corneum of unexposed skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00506"/>
+        <obo:IAO_0000115>The amount of chemical in skin stratum corneum of exposed skin</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>askin_sc_e</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">amount in skin stratum corneum of exposed skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00641">
+        <rdfs:subClassOf rdf:resource="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <obo:IAO_0000115>An absorption rate constant parameter representing dermal absorption rate flux through unexposed skin</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>fs_u</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">dermal absorption rate unexposed skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00642">
+        <rdfs:subClassOf rdf:resource="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <obo:IAO_0000115>An absorption rate constant parameter representing dermal absorption rate flux through exposed skin </obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>fs_e</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">dermal absorption rate exposed skin </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00635"/>
+        <obo:IAO_0000115>A skin thickness parameter representing the thickness of stratum corneum.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>height_sc</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">thickness stratum corneum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00635"/>
+        <obo:IAO_0000115>A skin thickness parameter representing the thickness of viable epidermis.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>height_vs</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">thickness viable epidermis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00165"/>
+        <obo:IAO_0000115>A partition coefficient representing the ratio of compound concentration in fat to blood.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>fat blood pc
+PCFat</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fat blood partition coefficient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00646">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00139"/>
+        <obo:IAO_0000115>A biochemical parameter representing the diffusion rate of the chemical</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">diffusion rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00646"/>
+        <obo:IAO_0000115>A diffusion rate parameter representing diffusion rate of the chemical across the skin</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">diffusion rate skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00648">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00647"/>
+        <obo:IAO_0000115>A diffusion rate skin parameter representing diffusion rate from stratum corneum to viable epidermis</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>kp_sc_vs</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">diffusion rate stratum corneum viable epidermis </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00002"/>
+        <obo:IAO_0000115>A parameter being used in the model but does not belong to specific parameter subclass</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">miscellaneous parameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00649"/>
+        <obo:IAO_0000115>A flag indicating for Michaelis-Menten or linear metabolism equation being used in the model</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">Michaelis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_00651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_00651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <obo:IAO_0000115>A dimensionless fraction of volume defined as the arterial blood volume divided per unit of total body weight.</obo:IAO_0000115>
+        <obo:IAO_0000117>0000-0003-1673-5725</obo:IAO_0000117>
+        <obo:IAO_0000118>farterialblood
+scvart</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">fraction of arterial blood volume</rdfs:label>
     </owl:Class>
     
 
@@ -31521,58 +31700,58 @@ We also have the outstanding issue of how to aim different definitions to differ
         <core:closeMatch>http://purl.obolibrary.org/obo/UBERON_0000074</core:closeMatch>
     </owl:Class>
     <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:mbox rdf:resource="mailto:pance.panov@ijs.si"/>
-    </rdf:Description>
-    <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:mbox rdf:resource="mailto:deepika@iispv.cat"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Panče Panov</x_0.1:name>
+        <x_0.1:mbox rdf:resource="mailto:pance.panov@ijs.si"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Deepika Deepika</x_0.1:name>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Vikas Kumar</x_0.1:name>
+        <x_0.1:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0002-7685-9140"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:name>Johannes Kruisselbrink</x_0.1:name>
     </rdf:Description>
     <rdf:Description>
-        <x_0.1:name>Shubh Sharma</x_0.1:name>
+        <x_0.1:name>Vikas Kumar</x_0.1:name>
     </rdf:Description>
     <rdf:Description>
         <x_0.1:name>Saurav Kumar</x_0.1:name>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:name>Shubh Sharma</x_0.1:name>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:name>Deepika Deepika</x_0.1:name>
+    </rdf:Description>
+    <rdf:Description>
+        <x_0.1:name>Panče Panov</x_0.1:name>
     </rdf:Description>
 </rdf:RDF>
 
