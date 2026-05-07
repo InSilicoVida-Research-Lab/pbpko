@@ -34,27 +34,27 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147509327"/>
+        <AnonymousIndividual nodeID="_:genid2147564646"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147509328"/>
+        <AnonymousIndividual nodeID="_:genid2147564647"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147509329"/>
+        <AnonymousIndividual nodeID="_:genid2147564648"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147509330"/>
+        <AnonymousIndividual nodeID="_:genid2147564649"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147509331"/>
+        <AnonymousIndividual nodeID="_:genid2147564650"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147509332"/>
+        <AnonymousIndividual nodeID="_:genid2147564651"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:description"/>
@@ -1962,6 +1962,141 @@
         <Class abbreviatedIRI="obo:PBPKO_03030"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03031"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03032"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03033"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03034"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03035"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03036"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03037"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03038"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03039"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03040"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03041"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03042"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03043"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03044"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03045"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03046"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03047"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03048"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03049"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03050"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03051"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03052"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03053"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03054"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03055"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03056"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03057"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03058"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03059"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03060"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03061"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03062"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03063"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03064"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03065"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03066"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03067"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03068"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03069"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03070"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03071"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03072"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03073"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03074"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_04001"/>
     </Declaration>
     <Declaration>
@@ -2136,6 +2271,126 @@
         <Class abbreviatedIRI="obo:PBPKO_04059"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04060"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04061"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04062"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04063"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04064"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04065"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04066"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04067"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04068"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04069"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04070"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04071"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04072"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04073"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04074"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04075"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04076"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04077"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04078"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04079"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04080"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04081"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04082"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04083"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04084"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04085"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04086"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04087"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04088"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04089"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04090"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04091"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04092"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04093"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04094"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04095"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04096"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04097"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04098"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04099"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_05001"/>
     </Declaration>
     <Declaration>
@@ -2259,7 +2514,40 @@
         <Class abbreviatedIRI="obo:PBPKO_06050"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06051"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_06052"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06053"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06054"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06055"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06056"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06057"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06058"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06059"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06060"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06061"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_07001"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_4044"/>
@@ -32166,6 +32454,186 @@
         <Class abbreviatedIRI="obo:PBPKO_00139"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03031"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03032"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03033"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03034"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03035"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03036"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03037"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03038"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03039"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03040"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03041"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03042"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03043"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03044"/>
+        <Class abbreviatedIRI="obo:PBPKO_00165"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03045"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03046"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03047"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03048"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03049"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03050"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03051"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03052"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03053"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03054"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03055"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03056"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03057"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03058"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03059"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03060"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03061"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03062"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03063"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03064"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03065"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03066"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03067"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03068"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03069"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03070"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03071"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03072"/>
+        <Class abbreviatedIRI="obo:PBPKO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03073"/>
+        <Class abbreviatedIRI="obo:PBPKO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03074"/>
+        <Class abbreviatedIRI="obo:PBPKO_00149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
+        <Class abbreviatedIRI="obo:PBPKO_00139"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04001"/>
         <Class abbreviatedIRI="obo:PBPKO_00636"/>
     </SubClassOf>
@@ -32375,15 +32843,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04054"/>
-        <Class abbreviatedIRI="obo:PBPKO_00006"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04055"/>
-        <Class abbreviatedIRI="obo:PBPKO_00006"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04056"/>
-        <Class abbreviatedIRI="obo:PBPKO_00006"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04057"/>
@@ -32396,6 +32864,166 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04059"/>
         <Class abbreviatedIRI="obo:PBPKO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04060"/>
+        <Class abbreviatedIRI="obo:PBPKO_00635"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04061"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04062"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04063"/>
+        <Class abbreviatedIRI="obo:PBPKO_00006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04064"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04065"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04066"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04067"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04068"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04069"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04070"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04071"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04072"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04073"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04074"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04075"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04076"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04077"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04078"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04079"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04080"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04081"/>
+        <Class abbreviatedIRI="obo:PBPKO_00066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04082"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04083"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04084"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04085"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04086"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04087"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04088"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04089"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04090"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04091"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04092"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04093"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04094"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04095"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04096"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04097"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04098"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04099"/>
+        <Class abbreviatedIRI="obo:PBPKO_00610"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_05001"/>
@@ -32562,8 +33190,52 @@
         <Class abbreviatedIRI="obo:PBPKO_00616"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06051"/>
+        <Class abbreviatedIRI="obo:PBPKO_00615"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_06052"/>
         <Class abbreviatedIRI="obo:PBPKO_00252"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06053"/>
+        <Class abbreviatedIRI="obo:PBPKO_00615"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06054"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06055"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06056"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06057"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06058"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06059"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06060"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06061"/>
+        <Class abbreviatedIRI="obo:PBPKO_00616"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_07001"/>
+        <Class abbreviatedIRI="obo:PBPKO_00003"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_4044"/>
@@ -46874,7 +47546,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <AbbreviatedIRI>obo:PBPKO_00643</AbbreviatedIRI>
-        <Literal>height_sc</Literal>
+        <Literal>height_sc
+Thickness_SC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -46894,7 +47567,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <AbbreviatedIRI>obo:PBPKO_00644</AbbreviatedIRI>
-        <Literal>height_vs</Literal>
+        <Literal>height_vs
+thickness_ve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -47381,7 +48055,7 @@ scvart</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03011</AbbreviatedIRI>
-        <Literal>kinetic absorption rate from jileum lumen to intestinal tissue</Literal>
+        <Literal>kinetic absorption rate from ileum lumen to intestinal tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -47562,6 +48236,226 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03030</AbbreviatedIRI>
         <Literal>red blood cells partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03031</AbbreviatedIRI>
+        <Literal>follicle permeability coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03032</AbbreviatedIRI>
+        <Literal>partition coeffcient of stratum corneum to viable epidermis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03033</AbbreviatedIRI>
+        <Literal>partition coeffcient of viable epidermis to blood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03034</AbbreviatedIRI>
+        <Literal>partition coeffcient of stratum corneum to skin surface depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03035</AbbreviatedIRI>
+        <Literal>partition coeffcient of follicle to skin surface depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03036</AbbreviatedIRI>
+        <Literal>octanol water partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03037</AbbreviatedIRI>
+        <Literal>medium polymer partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03038</AbbreviatedIRI>
+        <Literal>medium air partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03039</AbbreviatedIRI>
+        <Literal>medium mitochondria partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03040</AbbreviatedIRI>
+        <Literal>medium lysosomes partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03041</AbbreviatedIRI>
+        <Literal>medium intracellular water partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03042</AbbreviatedIRI>
+        <Literal>medium microsomes partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03043</AbbreviatedIRI>
+        <Literal>medium other organelles partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03044</AbbreviatedIRI>
+        <Literal>medium albumin partition coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03045</AbbreviatedIRI>
+        <Literal>abiotic degradation rate in medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03046</AbbreviatedIRI>
+        <Literal>acidic phospholipid association constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03047</AbbreviatedIRI>
+        <Literal>abiotic degradation rate in air</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03048</AbbreviatedIRI>
+        <Literal>maximum metabolic rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03049</AbbreviatedIRI>
+        <Literal>linear metabolic rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03050</AbbreviatedIRI>
+        <Literal>cell radius</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03051</AbbreviatedIRI>
+        <Literal>cell replication time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03052</AbbreviatedIRI>
+        <Literal>cell fraction of proteins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03053</AbbreviatedIRI>
+        <Literal>cell fraction of lipids</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03054</AbbreviatedIRI>
+        <Literal>cell fraction of intracellular water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03055</AbbreviatedIRI>
+        <Literal>cell fraction of mitochondria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03056</AbbreviatedIRI>
+        <Literal>cell fraction of lysosomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03057</AbbreviatedIRI>
+        <Literal>cell fraction of microsomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03058</AbbreviatedIRI>
+        <Literal>fraction of neutral lipids in the FBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03059</AbbreviatedIRI>
+        <Literal>fraction of albumin in the FBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03060</AbbreviatedIRI>
+        <Literal>culture area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03061</AbbreviatedIRI>
+        <Literal>top well diameter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03062</AbbreviatedIRI>
+        <Literal>well depth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03063</AbbreviatedIRI>
+        <Literal>plate wall thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03064</AbbreviatedIRI>
+        <Literal>culture medium pH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03065</AbbreviatedIRI>
+        <Literal>fraction of serum in total media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03066</AbbreviatedIRI>
+        <Literal>FBS pH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03067</AbbreviatedIRI>
+        <Literal>initial number of cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03068</AbbreviatedIRI>
+        <Literal>nominal concentration of medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03069</AbbreviatedIRI>
+        <Literal>volume of medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03070</AbbreviatedIRI>
+        <Literal>fraction of FBS iin the medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03071</AbbreviatedIRI>
+        <Literal>ionized fraction in the medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03072</AbbreviatedIRI>
+        <Literal>fraction unbound in the medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03073</AbbreviatedIRI>
+        <Literal>fraction unbound in the FBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03074</AbbreviatedIRI>
+        <Literal>fraction unbound in the cell</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -48312,6 +49206,211 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04058</AbbreviatedIRI>
         <Literal>volume fraction of red blood cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04059</AbbreviatedIRI>
+        <Literal>skin area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04060</AbbreviatedIRI>
+        <Literal>thickness epidermis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04061</AbbreviatedIRI>
+        <Literal>volume of exposed viable epidermis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04062</AbbreviatedIRI>
+        <Literal>volume of follicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04063</AbbreviatedIRI>
+        <Literal>area of exposed skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04064</AbbreviatedIRI>
+        <Literal>volume of serum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04065</AbbreviatedIRI>
+        <Literal>volume of adrenals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04066</AbbreviatedIRI>
+        <Literal>volume of breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04067</AbbreviatedIRI>
+        <Literal>volume of thyroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04068</AbbreviatedIRI>
+        <Literal>volume of intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04069</AbbreviatedIRI>
+        <Literal>volume of small intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04070</AbbreviatedIRI>
+        <Literal>volume of large intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04071</AbbreviatedIRI>
+        <Literal>volume of stomach lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04072</AbbreviatedIRI>
+        <Literal>volume of gut intestinal tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04073</AbbreviatedIRI>
+        <Literal>volume of testis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04074</AbbreviatedIRI>
+        <Literal>volume of uterus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04075</AbbreviatedIRI>
+        <Literal>volume of skeleton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04076</AbbreviatedIRI>
+        <Literal>volume of hair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04077</AbbreviatedIRI>
+        <Literal>volume of urinary tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04078</AbbreviatedIRI>
+        <Literal>volume of skin surface depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04079</AbbreviatedIRI>
+        <Literal>volume of cortical bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04080</AbbreviatedIRI>
+        <Literal>volume of trabecular bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04081</AbbreviatedIRI>
+        <Literal>volume of alveolar compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04082</AbbreviatedIRI>
+        <Literal>fraction of serum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04083</AbbreviatedIRI>
+        <Literal>fraction of adrenals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04084</AbbreviatedIRI>
+        <Literal>fraction of breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04085</AbbreviatedIRI>
+        <Literal>fraction of thyroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04086</AbbreviatedIRI>
+        <Literal>fraction of intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04087</AbbreviatedIRI>
+        <Literal>fraction of small intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04088</AbbreviatedIRI>
+        <Literal>fraction of large intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04089</AbbreviatedIRI>
+        <Literal>fraction of stomach lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04090</AbbreviatedIRI>
+        <Literal>fraction of gut intestinal tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04091</AbbreviatedIRI>
+        <Literal>fraction of testis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04092</AbbreviatedIRI>
+        <Literal>fraction of uterus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04093</AbbreviatedIRI>
+        <Literal>fraction of skeleton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04094</AbbreviatedIRI>
+        <Literal>fraction of hair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04095</AbbreviatedIRI>
+        <Literal>fraction of amniotic fluid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04096</AbbreviatedIRI>
+        <Literal>fraction of urinary tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04097</AbbreviatedIRI>
+        <Literal>fraction of cortical bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04098</AbbreviatedIRI>
+        <Literal>fraction of trabecular bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04099</AbbreviatedIRI>
+        <Literal>fraction of the skin surface depot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -49114,6 +50213,11 @@ scvart</Literal>
         <Literal>concentration in feces</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06051</AbbreviatedIRI>
+        <Literal>amount in skin surface depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:PBPKO_06052</AbbreviatedIRI>
         <Literal>The maximum amount of chemical in a compartment</Literal>
@@ -49132,6 +50236,56 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_06052</AbbreviatedIRI>
         <Literal>maximum amount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06053</AbbreviatedIRI>
+        <Literal>amount in follicles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06054</AbbreviatedIRI>
+        <Literal>concentration in medium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06055</AbbreviatedIRI>
+        <Literal>concentration in cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06056</AbbreviatedIRI>
+        <Literal>concentration in mitochondria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06057</AbbreviatedIRI>
+        <Literal>concentration in lysosomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06058</AbbreviatedIRI>
+        <Literal>concentration in microsomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06059</AbbreviatedIRI>
+        <Literal>concentration in intracellular water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06060</AbbreviatedIRI>
+        <Literal>concentration in polymer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06061</AbbreviatedIRI>
+        <Literal>concentration in air</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_07001</AbbreviatedIRI>
+        <Literal>invitro pbpk</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -50271,182 +51425,182 @@ scvart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509327"/>
+        <AnonymousIndividual nodeID="_:genid2147564646"/>
         <IRI>https://orcid.org/0000-0002-7685-9140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509327"/>
+        <AnonymousIndividual nodeID="_:genid2147564646"/>
         <IRI>mailto:pance.panov@jsi.si</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509327"/>
+        <AnonymousIndividual nodeID="_:genid2147564646"/>
         <Literal>Panče Panov</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509328"/>
+        <AnonymousIndividual nodeID="_:genid2147564647"/>
         <IRI>https://orcid.org/0000-0003-1673-5725</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509328"/>
+        <AnonymousIndividual nodeID="_:genid2147564647"/>
         <IRI>mailto:johannes.kruisselbrink@wur.nl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509328"/>
+        <AnonymousIndividual nodeID="_:genid2147564647"/>
         <Literal>Johannes Kruisselbrink</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509329"/>
+        <AnonymousIndividual nodeID="_:genid2147564648"/>
         <IRI>https://orcid.org/0000-0002-9795-5967</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509329"/>
+        <AnonymousIndividual nodeID="_:genid2147564648"/>
         <IRI>mailto:vikas.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509329"/>
+        <AnonymousIndividual nodeID="_:genid2147564648"/>
         <Literal>Vikas Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509330"/>
+        <AnonymousIndividual nodeID="_:genid2147564649"/>
         <IRI>https://orcid.org/0000-0001-8345-1349</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509330"/>
+        <AnonymousIndividual nodeID="_:genid2147564649"/>
         <IRI>mailto:deepika@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509330"/>
+        <AnonymousIndividual nodeID="_:genid2147564649"/>
         <Literal>Deepika Deepika</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509331"/>
+        <AnonymousIndividual nodeID="_:genid2147564650"/>
         <IRI>https://orcid.org/0009-0004-2207-3937</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509331"/>
+        <AnonymousIndividual nodeID="_:genid2147564650"/>
         <IRI>mailto:shubh.sharma@estudiants.urv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509331"/>
+        <AnonymousIndividual nodeID="_:genid2147564650"/>
         <Literal>Shubh Sharma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509332"/>
+        <AnonymousIndividual nodeID="_:genid2147564651"/>
         <IRI>https://orcid.org/0000-0003-0593-2598</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509332"/>
+        <AnonymousIndividual nodeID="_:genid2147564651"/>
         <IRI>mailto:saurav.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509332"/>
+        <AnonymousIndividual nodeID="_:genid2147564651"/>
         <Literal>Saurav Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509333"/>
+        <AnonymousIndividual nodeID="_:genid2147564652"/>
         <IRI>https://orcid.org/0000-0003-1673-5725</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509334"/>
+        <AnonymousIndividual nodeID="_:genid2147564653"/>
         <IRI>mailto:shubh.sharma@estudiants.urv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509335"/>
+        <AnonymousIndividual nodeID="_:genid2147564654"/>
         <IRI>mailto:vikas.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509336"/>
+        <AnonymousIndividual nodeID="_:genid2147564655"/>
         <IRI>mailto:johannes.kruisselbrink@wur.nl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509337"/>
+        <AnonymousIndividual nodeID="_:genid2147564656"/>
         <IRI>https://orcid.org/0000-0002-7685-9140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509338"/>
+        <AnonymousIndividual nodeID="_:genid2147564657"/>
         <IRI>https://orcid.org/0000-0003-0593-2598</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509339"/>
+        <AnonymousIndividual nodeID="_:genid2147564658"/>
         <IRI>mailto:pance.panov@ijs.si</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509340"/>
+        <AnonymousIndividual nodeID="_:genid2147564659"/>
         <IRI>https://orcid.org/0009-0004-2207-3937</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509341"/>
+        <AnonymousIndividual nodeID="_:genid2147564660"/>
         <IRI>mailto:saurav.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509342"/>
+        <AnonymousIndividual nodeID="_:genid2147564661"/>
         <IRI>https://orcid.org/0000-0002-9795-5967</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147509343"/>
+        <AnonymousIndividual nodeID="_:genid2147564662"/>
         <IRI>https://orcid.org/0000-0001-8345-1349</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147509344"/>
+        <AnonymousIndividual nodeID="_:genid2147564663"/>
         <IRI>mailto:deepika@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509345"/>
+        <AnonymousIndividual nodeID="_:genid2147564664"/>
         <Literal>Shubh Sharma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509346"/>
+        <AnonymousIndividual nodeID="_:genid2147564665"/>
         <Literal>Saurav Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509347"/>
+        <AnonymousIndividual nodeID="_:genid2147564666"/>
         <Literal>Panče Panov</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509348"/>
+        <AnonymousIndividual nodeID="_:genid2147564667"/>
         <Literal>Deepika Deepika</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509349"/>
+        <AnonymousIndividual nodeID="_:genid2147564668"/>
         <Literal>Vikas Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147509350"/>
+        <AnonymousIndividual nodeID="_:genid2147564669"/>
         <Literal>Johannes Kruisselbrink</Literal>
     </AnnotationAssertion>
 </Ontology>
