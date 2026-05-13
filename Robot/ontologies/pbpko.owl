@@ -34,27 +34,27 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147564646"/>
+        <AnonymousIndividual nodeID="_:genid2147509327"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147564647"/>
+        <AnonymousIndividual nodeID="_:genid2147509328"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147564648"/>
+        <AnonymousIndividual nodeID="_:genid2147509329"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147564649"/>
+        <AnonymousIndividual nodeID="_:genid2147509330"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147564650"/>
+        <AnonymousIndividual nodeID="_:genid2147509331"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:creator"/>
-        <AnonymousIndividual nodeID="_:genid2147564651"/>
+        <AnonymousIndividual nodeID="_:genid2147509332"/>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="term:description"/>
@@ -1875,6 +1875,9 @@
         <Class abbreviatedIRI="obo:PBPKO_02005"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_02006"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_03001"/>
     </Declaration>
     <Declaration>
@@ -1954,9 +1957,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_03028"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_03029"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_03030"/>
@@ -2226,6 +2226,9 @@
         <Class abbreviatedIRI="obo:PBPKO_04043"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04044"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_04045"/>
     </Declaration>
     <Declaration>
@@ -2448,6 +2451,39 @@
         <Class abbreviatedIRI="obo:PBPKO_06017"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06018"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06019"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06020"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06021"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06022"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06023"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06024"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06025"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06026"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06027"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_06028"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_06029"/>
     </Declaration>
     <Declaration>
@@ -2548,51 +2584,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_07001"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_4044"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_4045"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6018"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6019"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6020"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6021"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6022"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6023"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6024"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6025"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6026"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6027"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:PBPKO_6028"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:PBPKO_10001"/>
@@ -3804,7 +3795,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00004"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6328,7 +6319,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00005"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8404,11 +8395,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_00141"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_00142"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_00143"/>
@@ -9912,7 +9903,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00303"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -12476,7 +12467,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00316"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -14930,7 +14921,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00317"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -17454,7 +17445,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00318"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -19054,7 +19045,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00319"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -20113,7 +20104,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00347"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -22309,7 +22300,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00371"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -24389,7 +24380,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00395"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -26304,7 +26295,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00403"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -28214,7 +28205,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00408"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -30436,7 +30427,7 @@
         <Class abbreviatedIRI="obo:PBPKO_00435"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:PBPKO_10006"/>
-            <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+            <Class abbreviatedIRI="obo:PBPKO_03075"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -32239,11 +32230,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_00641"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_00642"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_00643"/>
@@ -32338,20 +32329,24 @@
         <Class abbreviatedIRI="obo:PBPKO_00446"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_02006"/>
+        <Class abbreviatedIRI="obo:PBPKO_00557"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_03001"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_03002"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_03003"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_03004"/>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
+        <Class abbreviatedIRI="obo:PBPKO_03075"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_03005"/>
@@ -32443,10 +32438,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_03028"/>
-        <Class abbreviatedIRI="obo:PBPKO_00139"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_03029"/>
         <Class abbreviatedIRI="obo:PBPKO_00139"/>
     </SubClassOf>
     <SubClassOf>
@@ -32806,6 +32797,10 @@
         <Class abbreviatedIRI="obo:PBPKO_00066"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04044"/>
+        <Class abbreviatedIRI="obo:PBPKO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_04045"/>
         <Class abbreviatedIRI="obo:PBPKO_00012"/>
     </SubClassOf>
@@ -33102,6 +33097,50 @@
         <Class abbreviatedIRI="obo:PBPKO_06003"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06018"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06019"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06020"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06021"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06022"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06023"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06024"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06025"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06026"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06027"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_06028"/>
+        <Class abbreviatedIRI="obo:PBPKO_06002"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_06029"/>
         <Class abbreviatedIRI="obo:PBPKO_00616"/>
     </SubClassOf>
@@ -33236,66 +33275,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_07001"/>
         <Class abbreviatedIRI="obo:PBPKO_00003"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_4044"/>
-        <Class abbreviatedIRI="obo:PBPKO_00012"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_4045"/>
-        <Class abbreviatedIRI="obo:PBPKO_00012"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6018"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6019"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6020"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6021"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6022"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6023"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6024"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6025"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6026"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6027"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:PBPKO_6028"/>
-        <Class abbreviatedIRI="obo:PBPKO_06002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd"/>
-        <Class abbreviatedIRI="obo:PBPKO_00139"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193"/>
-        <Class abbreviatedIRI="obo:PBPKO_00557"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="obo:PBPKO_10001"/>
@@ -47349,7 +47328,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal>The amount of compound in the alveolar air compartment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_00633</AbbreviatedIRI>
         <Literal>0000-0003-1673-5725</Literal>
     </AnnotationAssertion>
@@ -47909,6 +47888,36 @@ scvart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_02006</AbbreviatedIRI>
+        <Literal>A part of kidney compartment in the model representing glomerulus in the body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_02006</AbbreviatedIRI>
+        <Literal>0000-0001-8345-1349</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_02006</AbbreviatedIRI>
+        <Literal>0000-0002-9795-5967</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_02006</AbbreviatedIRI>
+        <Literal>gfr compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_02006</AbbreviatedIRI>
+        <Literal xml:lang="en">glomerulus compartment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="core:closeMatch"/>
+        <AbbreviatedIRI>obo:PBPKO_02006</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/UBERON_0000074</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:PBPKO_03001</AbbreviatedIRI>
         <Literal>The absorption rate constant parameter representing the intrinsic rate of the chemical release from stomach to lumen or the jejunum segment</Literal>
     </AnnotationAssertion>
@@ -48219,16 +48228,6 @@ scvart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_03029</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_03029</AbbreviatedIRI>
-        <Literal>transfer rate between plasma and tissue</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03030</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
     </AnnotationAssertion>
@@ -48456,6 +48455,41 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03074</AbbreviatedIRI>
         <Literal>fraction unbound in the cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant at which a compound is absorbed into systemic circulation or a target compartment from the site of administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal>0000-0001-8345-1349</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal>0000-0002-9795-5967</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal>ka</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal xml:lang="en">absorption rate constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_03075</AbbreviatedIRI>
+        <Literal>transfer rate between plasma and tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -49134,6 +49168,16 @@ scvart</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_04044</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04044</AbbreviatedIRI>
+        <Literal>hepatic vein blood flow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_04045</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
     </AnnotationAssertion>
@@ -49141,6 +49185,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04045</AbbreviatedIRI>
         <Literal>blood flow rate to bile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04045</AbbreviatedIRI>
+        <Literal>hepatic arterial blood flow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49783,6 +49832,226 @@ scvart</Literal>
         <Literal>unbound concentration in plasma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06018</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the liver compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06018</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06018</AbbreviatedIRI>
+        <Literal>cvliver_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06018</AbbreviatedIRI>
+        <Literal>unbound venous liver concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06019</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the gut compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06019</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06019</AbbreviatedIRI>
+        <Literal>cvgut_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06019</AbbreviatedIRI>
+        <Literal>unbound venous gut concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06020</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the brain compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06020</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06020</AbbreviatedIRI>
+        <Literal>cvbrain_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06020</AbbreviatedIRI>
+        <Literal>unbound venous brain concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06021</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the kidney compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06021</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06021</AbbreviatedIRI>
+        <Literal>cvkidney_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06021</AbbreviatedIRI>
+        <Literal>unbound venous kidney concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06022</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the filtrate compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06022</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06022</AbbreviatedIRI>
+        <Literal>cvfiltrate_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06022</AbbreviatedIRI>
+        <Literal>unbound venous filtrate concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06023</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the lung compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06023</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06023</AbbreviatedIRI>
+        <Literal>cvlung_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06023</AbbreviatedIRI>
+        <Literal>unbound venous lung concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06024</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the fat compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06024</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06024</AbbreviatedIRI>
+        <Literal>cvfat_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06024</AbbreviatedIRI>
+        <Literal>unbound venous fat concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06025</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the bone marrow compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06025</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06025</AbbreviatedIRI>
+        <Literal>cvbm_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06025</AbbreviatedIRI>
+        <Literal>unbound venous bone marrow concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06026</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the skin compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06026</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06026</AbbreviatedIRI>
+        <Literal>cvksin_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06026</AbbreviatedIRI>
+        <Literal>unbound venous skin concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06027</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the mammary gland compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06027</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06027</AbbreviatedIRI>
+        <Literal>cvmam_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06027</AbbreviatedIRI>
+        <Literal>unbound venous mammary gland concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06028</AbbreviatedIRI>
+        <Literal>The unbound venous concentration of compound in the rest body compartment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_06028</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:PBPKO_06028</AbbreviatedIRI>
+        <Literal>cvrestbody_unbound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_06028</AbbreviatedIRI>
+        <Literal>unbound venous rest body concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_06029</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -50366,246 +50635,6 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_10009</AbbreviatedIRI>
         <Literal>has_route_of_exposure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_4044</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_4044</AbbreviatedIRI>
-        <Literal>hepatic vein blood flow</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_4045</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_4045</AbbreviatedIRI>
-        <Literal>hepatic arterial blood flow</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6018</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the liver compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6018</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6018</AbbreviatedIRI>
-        <Literal>cvliver_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6018</AbbreviatedIRI>
-        <Literal>unbound venous liver concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6019</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the gut compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6019</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6019</AbbreviatedIRI>
-        <Literal>cvgut_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6019</AbbreviatedIRI>
-        <Literal>unbound venous gut concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6020</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the brain compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6020</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6020</AbbreviatedIRI>
-        <Literal>cvbrain_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6020</AbbreviatedIRI>
-        <Literal>unbound venous brain concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6021</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the kidney compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6021</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6021</AbbreviatedIRI>
-        <Literal>cvkidney_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6021</AbbreviatedIRI>
-        <Literal>unbound venous kidney concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6022</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the filtrate compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6022</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6022</AbbreviatedIRI>
-        <Literal>cvfiltrate_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6022</AbbreviatedIRI>
-        <Literal>unbound venous filtrate concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6023</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the lung compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6023</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6023</AbbreviatedIRI>
-        <Literal>cvlung_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6023</AbbreviatedIRI>
-        <Literal>unbound venous lung concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6024</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the fat compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6024</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6024</AbbreviatedIRI>
-        <Literal>cvfat_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6024</AbbreviatedIRI>
-        <Literal>unbound venous fat concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6025</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the bone marrow compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6025</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6025</AbbreviatedIRI>
-        <Literal>cvbm_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6025</AbbreviatedIRI>
-        <Literal>unbound venous bone marrow concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6026</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the skin compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6026</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6026</AbbreviatedIRI>
-        <Literal>cvksin_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6026</AbbreviatedIRI>
-        <Literal>unbound venous skin concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6027</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the mammary gland compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6027</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6027</AbbreviatedIRI>
-        <Literal>cvmam_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6027</AbbreviatedIRI>
-        <Literal>unbound venous mammary gland concentration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:PBPKO_6028</AbbreviatedIRI>
-        <Literal>The unbound venous concentration of compound in the rest body compartment.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:PBPKO_6028</AbbreviatedIRI>
-        <Literal>0000-0002-6705-835X</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:PBPKO_6028</AbbreviatedIRI>
-        <Literal>cvrestbody_unbound</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_6028</AbbreviatedIRI>
-        <Literal>unbound venous rest body concentration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
@@ -51369,238 +51398,183 @@ scvart</Literal>
         <Literal>depiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd</IRI>
-        <Literal>A biochemical parameter representing the rate constant at which a compound is absorbed into systemic circulation or a target compartment from the site of administration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd</IRI>
-        <Literal>0000-0001-8345-1349</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd</IRI>
-        <Literal>0000-0002-9795-5967</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd</IRI>
-        <Literal>ka</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_6a86eddf_f1dc_4deb_90e9_3d52926078cd</IRI>
-        <Literal xml:lang="en">absorption rate constant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193</IRI>
-        <Literal>A part of kidney compartment in the model representing glomerulus in the body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193</IRI>
-        <Literal>0000-0001-8345-1349</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193</IRI>
-        <Literal>0000-0002-9795-5967</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193</IRI>
-        <Literal>gfr compartment</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193</IRI>
-        <Literal xml:lang="en">glomerulus compartment</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="core:closeMatch"/>
-        <IRI>https://github.com/Crispae/pbpko/blob/main/pbpko.owl#OWLClass_91922c71_3d34_4be7_afba_308793928193</IRI>
-        <Literal>http://purl.obolibrary.org/obo/UBERON_0000074</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564646"/>
+        <AnonymousIndividual nodeID="_:genid2147509327"/>
         <IRI>https://orcid.org/0000-0002-7685-9140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564646"/>
+        <AnonymousIndividual nodeID="_:genid2147509327"/>
         <IRI>mailto:pance.panov@jsi.si</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564646"/>
+        <AnonymousIndividual nodeID="_:genid2147509327"/>
         <Literal>Panče Panov</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564647"/>
+        <AnonymousIndividual nodeID="_:genid2147509328"/>
         <IRI>https://orcid.org/0000-0003-1673-5725</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564647"/>
+        <AnonymousIndividual nodeID="_:genid2147509328"/>
         <IRI>mailto:johannes.kruisselbrink@wur.nl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564647"/>
+        <AnonymousIndividual nodeID="_:genid2147509328"/>
         <Literal>Johannes Kruisselbrink</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564648"/>
+        <AnonymousIndividual nodeID="_:genid2147509329"/>
         <IRI>https://orcid.org/0000-0002-9795-5967</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564648"/>
+        <AnonymousIndividual nodeID="_:genid2147509329"/>
         <IRI>mailto:vikas.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564648"/>
+        <AnonymousIndividual nodeID="_:genid2147509329"/>
         <Literal>Vikas Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564649"/>
+        <AnonymousIndividual nodeID="_:genid2147509330"/>
         <IRI>https://orcid.org/0000-0001-8345-1349</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564649"/>
+        <AnonymousIndividual nodeID="_:genid2147509330"/>
         <IRI>mailto:deepika@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564649"/>
+        <AnonymousIndividual nodeID="_:genid2147509330"/>
         <Literal>Deepika Deepika</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564650"/>
+        <AnonymousIndividual nodeID="_:genid2147509331"/>
         <IRI>https://orcid.org/0009-0004-2207-3937</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564650"/>
+        <AnonymousIndividual nodeID="_:genid2147509331"/>
         <IRI>mailto:shubh.sharma@estudiants.urv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564650"/>
+        <AnonymousIndividual nodeID="_:genid2147509331"/>
         <Literal>Shubh Sharma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564651"/>
+        <AnonymousIndividual nodeID="_:genid2147509332"/>
         <IRI>https://orcid.org/0000-0003-0593-2598</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564651"/>
+        <AnonymousIndividual nodeID="_:genid2147509332"/>
         <IRI>mailto:saurav.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564651"/>
+        <AnonymousIndividual nodeID="_:genid2147509332"/>
         <Literal>Saurav Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564652"/>
+        <AnonymousIndividual nodeID="_:genid2147509333"/>
         <IRI>https://orcid.org/0000-0003-1673-5725</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564653"/>
+        <AnonymousIndividual nodeID="_:genid2147509334"/>
         <IRI>mailto:shubh.sharma@estudiants.urv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564654"/>
+        <AnonymousIndividual nodeID="_:genid2147509335"/>
         <IRI>mailto:vikas.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564655"/>
+        <AnonymousIndividual nodeID="_:genid2147509336"/>
         <IRI>mailto:johannes.kruisselbrink@wur.nl</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564656"/>
+        <AnonymousIndividual nodeID="_:genid2147509337"/>
         <IRI>https://orcid.org/0000-0002-7685-9140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564657"/>
+        <AnonymousIndividual nodeID="_:genid2147509338"/>
         <IRI>https://orcid.org/0000-0003-0593-2598</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564658"/>
+        <AnonymousIndividual nodeID="_:genid2147509339"/>
         <IRI>mailto:pance.panov@ijs.si</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564659"/>
+        <AnonymousIndividual nodeID="_:genid2147509340"/>
         <IRI>https://orcid.org/0009-0004-2207-3937</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564660"/>
+        <AnonymousIndividual nodeID="_:genid2147509341"/>
         <IRI>mailto:saurav.kumar@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564661"/>
+        <AnonymousIndividual nodeID="_:genid2147509342"/>
         <IRI>https://orcid.org/0000-0002-9795-5967</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:homepage"/>
-        <AnonymousIndividual nodeID="_:genid2147564662"/>
+        <AnonymousIndividual nodeID="_:genid2147509343"/>
         <IRI>https://orcid.org/0000-0001-8345-1349</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:mbox"/>
-        <AnonymousIndividual nodeID="_:genid2147564663"/>
+        <AnonymousIndividual nodeID="_:genid2147509344"/>
         <IRI>mailto:deepika@iispv.cat</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564664"/>
+        <AnonymousIndividual nodeID="_:genid2147509345"/>
         <Literal>Shubh Sharma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564665"/>
+        <AnonymousIndividual nodeID="_:genid2147509346"/>
         <Literal>Saurav Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564666"/>
+        <AnonymousIndividual nodeID="_:genid2147509347"/>
         <Literal>Panče Panov</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564667"/>
+        <AnonymousIndividual nodeID="_:genid2147509348"/>
         <Literal>Deepika Deepika</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564668"/>
+        <AnonymousIndividual nodeID="_:genid2147509349"/>
         <Literal>Vikas Kumar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="x_0.1:name"/>
-        <AnonymousIndividual nodeID="_:genid2147564669"/>
+        <AnonymousIndividual nodeID="_:genid2147509350"/>
         <Literal>Johannes Kruisselbrink</Literal>
     </AnnotationAssertion>
 </Ontology>
