@@ -2394,6 +2394,9 @@
         <Class abbreviatedIRI="obo:PBPKO_04099"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:PBPKO_04100"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:PBPKO_05001"/>
     </Declaration>
     <Declaration>
@@ -33021,6 +33024,10 @@
         <Class abbreviatedIRI="obo:PBPKO_00610"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:PBPKO_04100"/>
+        <Class abbreviatedIRI="obo:PBPKO_00012"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PBPKO_05001"/>
         <Class abbreviatedIRI="obo:PBPKO_00126"/>
     </SubClassOf>
@@ -47997,6 +48004,11 @@ scvart</Literal>
         <Literal>stomach uptake rate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03005</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the fecal elimination rate constant at which a chemical is eliminated via feces without flow limitations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03005</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48005,6 +48017,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03005</AbbreviatedIRI>
         <Literal>intrinsic fecal excretion rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03006</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the allometrically scaled  fecal elimination rate constant at which a chemical is eliminated from the body via feces (dependent on species).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48017,6 +48034,11 @@ scvart</Literal>
         <Literal>fecal excretion rate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03007</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the allometrically scaled  biliary excretion rate constant of the liver to clear a chemical into the bile (dependent on species).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03007</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48025,6 +48047,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03007</AbbreviatedIRI>
         <Literal>intrinsic biliary clearance rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03008</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant of passage of contents from the jejunum segment to the ileum segment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48037,6 +48064,11 @@ scvart</Literal>
         <Literal>kinetic emptying rate from jejunum lumen to ileum lumen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03009</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant of passage of contents from the ileum to the colon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03009</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48045,6 +48077,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03009</AbbreviatedIRI>
         <Literal>kinetic emptying  rate from ileum lumen to large intestine lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03010</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant at which a chemical moves from the jejunal lumen into the intestinal tissue.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48057,6 +48094,11 @@ scvart</Literal>
         <Literal>kinetic absorption rate from jejunum lumen to intestinal tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03011</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing therate constant at which a chemical moves from the ileal lumen into the intestinal tissue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03011</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48065,6 +48107,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03011</AbbreviatedIRI>
         <Literal>kinetic absorption rate from ileum lumen to intestinal tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03012</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant at which a chemical moves from the colon lumen into the intestinal tissue.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48077,6 +48124,11 @@ scvart</Literal>
         <Literal>kinetic absorption rate from large intestinal lumen to intestinal tissue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03013</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the corrected rate constant of compound movement across a Caco-2 cell monolayer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03013</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48085,6 +48137,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03013</AbbreviatedIRI>
         <Literal>effective Caco-2 permeability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03014</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the observed rate constant of compound transport across a Caco-2 cell monolayer.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48097,6 +48154,11 @@ scvart</Literal>
         <Literal>apparent Caco-2 permeability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03015</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the generalized transit rate constant between adjacent sections of the gastrointestinal tract.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03015</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48105,6 +48167,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03015</AbbreviatedIRI>
         <Literal>kinetic emptying  rate between intestinal segments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03016</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the ligand concentration at which half of the binding sites are occupied.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48117,6 +48184,11 @@ scvart</Literal>
         <Literal>Hill dissociation constant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03017</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the degree of cooperativity in a multi-site binding interaction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03017</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48125,6 +48197,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03017</AbbreviatedIRI>
         <Literal>Hill coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03018</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant of absorption  of a metabolic product.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48137,6 +48214,11 @@ scvart</Literal>
         <Literal>intrinsic absorption rate of metabilite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03019</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the allometrically scaled rate constant of absorption  at which a metabolite is absorbed into systemic circulation  (dependent on species).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03019</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48145,6 +48227,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03019</AbbreviatedIRI>
         <Literal>absorption rate of metabolite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03020</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant for the cycling of a chemical from the bile back to the liver via the intestine.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48157,6 +48244,11 @@ scvart</Literal>
         <Literal>intrinsic enterohepatic recirculation rate constant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03021</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the allometrically scaled rate constant for the recycling process between liver, bile, and intestine  (dependent on species).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03021</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48165,6 +48257,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03021</AbbreviatedIRI>
         <Literal>enterohepatic recirculation rate constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03023</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate constant at which a substance is reabsorbed from a secretory compartment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48177,6 +48274,11 @@ scvart</Literal>
         <Literal>intrinsic reabsorption rate constant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03024</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the  allometrically scaled rate constant or the re-uptake of a chemical back into the blood (dependent on species).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03024</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48185,6 +48287,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03024</AbbreviatedIRI>
         <Literal>reabsorption rate constant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03025</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the total concentration of binding sites available within red blood cells.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48197,6 +48304,11 @@ scvart</Literal>
         <Literal>maximum capacity of binding sites in red cells</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03026</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the concentration at which half of the red blood cell binding sites are saturated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03026</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48205,6 +48317,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03026</AbbreviatedIRI>
         <Literal>half-saturation concentration of chemical for binding by sites in red cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03027</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate of chemical biotransformation occurring specifically in the liver compartment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48217,6 +48334,11 @@ scvart</Literal>
         <Literal>metabolism rate constant in liver</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03028</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the rate of chemical biotransformation occurring specifically in the intestinal wall.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_03028</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -48225,6 +48347,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03028</AbbreviatedIRI>
         <Literal>metabolism rate constant in intestinal tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03030</AbbreviatedIRI>
+        <Literal>A biochemical parameter representing the ratio of chemical concentration in red blood cells to that in plasma at equilibrium.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -48237,9 +48364,19 @@ scvart</Literal>
         <Literal>red blood cells partition coefficient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03031</AbbreviatedIRI>
+        <Literal>A partition coefficient representing the ability of a substance to pass through the hair follicle structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03031</AbbreviatedIRI>
         <Literal>follicle permeability coefficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03032</AbbreviatedIRI>
+        <Literal>A partition coefficient representing the ratio of chemical concentration in the stratum corneum to the viable epidermis at equilibrium.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -48247,14 +48384,29 @@ scvart</Literal>
         <Literal>partition coeffcient of stratum corneum to viable epidermis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03033</AbbreviatedIRI>
+        <Literal>A partition coefficient representing the ratio of chemical concentration in the living skin layers to the blood at equilibrium.;;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03033</AbbreviatedIRI>
         <Literal>partition coeffcient of viable epidermis to blood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03034</AbbreviatedIRI>
+        <Literal>A partition coefficient representing the ratio of chemical concentration in the outer skin to the surface application site at equilibrium.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_03034</AbbreviatedIRI>
         <Literal>partition coeffcient of stratum corneum to skin surface depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_03035</AbbreviatedIRI>
+        <Literal>A partition coefficient representing the ratio of chemical concentration in the follicles to the surface application site at equilibrium.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49104,7 +49256,7 @@ scvart</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:PBPKO_04038</AbbreviatedIRI>
-        <Literal></Literal>
+        <Literal>A fraction of blood flow to a compartment representing the proportion of total blood flow directed to the erythrocyte volume.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -49115,6 +49267,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04038</AbbreviatedIRI>
         <Literal>fraction of blood flow to red blood cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04039</AbbreviatedIRI>
+        <Literal>A blood flow rate to compartment representing the volume of blood per unit time moving through the red blood cell mass.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -49167,6 +49324,11 @@ scvart</Literal>
         <Literal>enterocyte volume</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04044</AbbreviatedIRI>
+        <Literal>A blood flow rate to compartment representing the flow rate of blood exiting the liver.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
         <AbbreviatedIRI>obo:PBPKO_04044</AbbreviatedIRI>
         <Literal>0000-0002-6705-835X</Literal>
@@ -49185,11 +49347,6 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04045</AbbreviatedIRI>
         <Literal>blood flow rate to bile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:PBPKO_04045</AbbreviatedIRI>
-        <Literal>hepatic arterial blood flow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49232,14 +49389,29 @@ scvart</Literal>
         <Literal>uptake fraction to blood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04054</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the volume of bile in the small intestine divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04054</AbbreviatedIRI>
         <Literal>fraction of bile in small intestine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04055</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the volume of bile in the liver divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04055</AbbreviatedIRI>
         <Literal>fraction of bile in liver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04056</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the volume of feces divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49257,9 +49429,19 @@ scvart</Literal>
         <Literal>volume fraction of red blood cells</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04059</AbbreviatedIRI>
+        <Literal>A physiological parameter representing the total surface area of the skin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04059</AbbreviatedIRI>
         <Literal>skin area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04060</AbbreviatedIRI>
+        <Literal>A skin thickness parameter representing the vertical depth of the epidermis.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49267,14 +49449,29 @@ scvart</Literal>
         <Literal>thickness epidermis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04061</AbbreviatedIRI>
+        <Literal>A volume of compartment representing the living skin layer under the application site.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04061</AbbreviatedIRI>
         <Literal>volume of exposed viable epidermis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04062</AbbreviatedIRI>
+        <Literal>A volume of compartment representing the total volume of hair follicles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04062</AbbreviatedIRI>
         <Literal>volume of follicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04063</AbbreviatedIRI>
+        <Literal>A physiological parameter representing the specific skin area where exposure occurs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49372,9 +49569,19 @@ scvart</Literal>
         <Literal>volume of alveolar compartment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04082</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the serum volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04082</AbbreviatedIRI>
         <Literal>fraction of serum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04083</AbbreviatedIRI>
+        <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49382,9 +49589,19 @@ scvart</Literal>
         <Literal>fraction of adrenals</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04084</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the breast volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04084</AbbreviatedIRI>
         <Literal>fraction of breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04085</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the thyroid volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49392,9 +49609,19 @@ scvart</Literal>
         <Literal>fraction of thyroid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04086</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the intestinal lumen volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04086</AbbreviatedIRI>
         <Literal>fraction of intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04087</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the small intestinal lumen volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49402,9 +49629,19 @@ scvart</Literal>
         <Literal>fraction of small intestinal lumen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04088</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the large intestinal lumen volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04088</AbbreviatedIRI>
         <Literal>fraction of large intestinal lumen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04089</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the stomach lumen volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49412,9 +49649,19 @@ scvart</Literal>
         <Literal>fraction of stomach lumen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04090</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the gut intestinal tract volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04090</AbbreviatedIRI>
         <Literal>fraction of gut intestinal tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04091</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the testis volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49422,9 +49669,19 @@ scvart</Literal>
         <Literal>fraction of testis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04092</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the uterus volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04092</AbbreviatedIRI>
         <Literal>fraction of uterus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04093</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the skeleton volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49432,9 +49689,24 @@ scvart</Literal>
         <Literal>fraction of skeleton</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04094</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the hair volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04094</AbbreviatedIRI>
         <Literal>fraction of hair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04095</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the adrenals volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04095</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the amniotic fluid volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49442,9 +49714,19 @@ scvart</Literal>
         <Literal>fraction of amniotic fluid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04096</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the urinary tract volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04096</AbbreviatedIRI>
         <Literal>fraction of urinary tract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04097</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the cortical bone volume divided per unit of total body weight.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -49452,14 +49734,39 @@ scvart</Literal>
         <Literal>fraction of cortical bone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04098</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the trabecular bone volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04098</AbbreviatedIRI>
         <Literal>fraction of trabecular bone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04099</AbbreviatedIRI>
+        <Literal>A fraction of volume of compartment defined as the skin surface depot volume divided per unit of total body weight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_04099</AbbreviatedIRI>
         <Literal>fraction of the skin surface depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_04100</AbbreviatedIRI>
+        <Literal>A blood flow rate to compartment representing the flow rate of blood entering the liver via the artery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:PBPKO_04100</AbbreviatedIRI>
+        <Literal>0000-0002-6705-835X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PBPKO_04100</AbbreviatedIRI>
+        <Literal>hepatic arterial blood flow</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -50482,6 +50789,11 @@ scvart</Literal>
         <Literal>concentration in feces</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06051</AbbreviatedIRI>
+        <Literal>An amount of compound in compartment representing the mass of chemical on the skin surface.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_06051</AbbreviatedIRI>
         <Literal>amount in skin surface depot</Literal>
@@ -50505,6 +50817,11 @@ scvart</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:PBPKO_06052</AbbreviatedIRI>
         <Literal>maximum amount</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PBPKO_06053</AbbreviatedIRI>
+        <Literal>An amount of compound in compartment representing the mass of chemical within the hair follicles.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
