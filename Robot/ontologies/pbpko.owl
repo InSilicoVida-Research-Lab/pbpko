@@ -20,7 +20,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pbpko.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/1.3.0/pbpko.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/2026-02-16/pbpko.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2025-07-28/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2025-06-24/ro.owl"/>
         <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-11</term:created>
@@ -68,10 +68,10 @@
         </term:creator>
         <term:description>Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.</term:description>
         <term:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <term:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-09-12</term:modified>
+        <term:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</term:modified>
         <term:title>PBPK ontology</term:title>
         <rdfs:label>PBPK Ontology</rdfs:label>
-        <owl:versionInfo>1.3.0</owl:versionInfo>
+        <owl:versionInfo>2026-02-16</owl:versionInfo>
     </owl:Ontology>
     
 
