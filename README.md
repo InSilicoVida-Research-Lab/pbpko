@@ -1,21 +1,18 @@
 ## PBPK Ontology
 
-
 [![DOI](https://zenodo.org/badge/723254897.svg)](https://doi.org/10.5281/zenodo.18660038)
-
-
 
 The PBPK (Physiologically-Based Pharmacokinetic) ontology is designed to support the modeling and understanding of pharmacokinetics in biological systems. This documentation provides an overview of the ontology development workflow, the imported ontologies, and the specific terms used in PBPK ontology.
 
-NOTE: Detailed documentation of ontology can be found at this [link](https://insilicovida-research-lab.github.io/pbpko/)
+Detailed documentation is available at [insilicovida-research-lab.github.io/pbpko](https://insilicovida-research-lab.github.io/pbpko/).
 
-#### Development Workflow
+### Development Workflow
 
-The development of the PBPK ontology leverages the ROBOT (ROBOT is an OBO Tool) framework, which provides powerful tools for ontology development, including ontology merging, reasoning, and template-based term generation.
+The development of the PBPK ontology leverages the [ROBOT](https://github.com/ontodev/robot) (ROBOT is an OBO Tool) framework, which provides powerful tools for ontology development, including ontology merging, reasoning, and template-based term generation.
 
-#### Imported Ontologies
+PBPK terms are maintained in [ROBOT templates](https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main/Robot/templates). See `Robot/command.txt` for the build commands used in this repository.
 
-## Ontology Imports
+### Ontology Imports
 
 
 1. [Basic Formal Ontology (BFO)](https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl)  
@@ -179,22 +176,74 @@ graph TB
     BFO_0000051---PBPKO_10005
 ```
 
-#### PBPK terms vocabulary
+### License
 
-PBPK terms are available in [ROBOT template](https://github.com/InSilicoVida-Research-Lab/pbpko/tree/main/Robot/templates)
+This project is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
 
-#### Contributors for developing PBPKO
+### Contributing
+
+#### Commit message format
+
+This repository enforces [Conventional Commits](https://www.conventionalcommits.org/) via Husky and commitlint.
+
+Format: `<type>(<optional scope>): <description>`
+
+Allowed types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`
+
+Examples:
+
+- `feat: add clearance parameter terms`
+- `fix: correct PBPKO_00387 definition`
+- `docs: update README release instructions`
+- `chore: update ROBOT templates`
+
+For breaking changes, use `feat!:` or `fix!:` and include `BREAKING CHANGE:` in the commit body.
+
+#### Local setup
+
+```bash
+npm install
+```
+
+Husky hooks are installed automatically via the `prepare` script and validate commit messages locally.
+
+To propose ontology changes, open an issue using the templates in `.github/ISSUE_TEMPLATE/`.
+
+### Releases
+
+Releases are automated with [semantic-release](https://semantic-release.gitbook.io/) when changes are pushed to `main`.
+
+| Commit type | Version bump |
+|-------------|--------------|
+| `fix:` | Patch (e.g. 1.3.2 → 1.3.3) |
+| `feat:` | Minor (e.g. 1.3.2 → 1.4.0) |
+| `feat!:` / `fix!:` with `BREAKING CHANGE:` | Major (e.g. 1.3.2 → 2.0.0) |
+| `chore:`, `docs:`, `ci:`, etc. | No release |
+
+GitHub releases are created automatically. Each release is archived on Zenodo when the [GitHub–Zenodo integration](https://help.zenodo.org/docs/github/) is enabled. Zenodo metadata is configured in [.zenodo.json](.zenodo.json).
+
+### Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history.
+
+Add user-facing ontology changes under `[Unreleased]` in `CHANGELOG.md` as you work. GitHub release notes are generated automatically from commit messages.
+
+### Citation
+
+When citing this ontology, use the Zenodo DOI: [10.5281/zenodo.18660038](https://doi.org/10.5281/zenodo.18660038).
+
+### Contributors
 IISPV: Shubh Sharma, Deepika Deepika, Saurav Kumar, Vikas Kumar  
 WUR: Johannes Kruisselbrink  
 JSI: Panče Panov
 
-#### Contact and Support
+### Contact and Support
 
 For questions or support regarding the PBPK ontology, please open an issue in the GitHub repository or contact the maintainers directly.
 
-**Contact Person:** 
-IISPV:
-[Saurav Kumar](saurav.kumar@iispv.cat)
-[Shubh Sharma](shubh.sharma@estudiants.urv.cat)
-[Deepika Deepika](deepika@iispv.cat)
-[Vikas Kumar](vikas.kumar@urv.cat)
+**IISPV**
+
+- [Saurav Kumar](mailto:saurav.kumar@iispv.cat)
+- [Shubh Sharma](mailto:shubh.sharma@estudiants.urv.cat)
+- [Deepika Deepika](mailto:deepika@iispv.cat)
+- [Vikas Kumar](mailto:vikas.kumar@urv.cat)
