@@ -1,0 +1,45 @@
+name: QC
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'Robot/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  ontology_qc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run ontology QC checks
+        working-directory: Robot
+        env:
+          ROBOT_JAVA_ARGS: -Xmx6G
+        run: |
+          docker run \
+            -v "${GITHUB_WORKSPACE}/Robot:/work" \
+            -w /work \
+            -e "ROBOT_JAVA_ARGS=${ROBOT_JAVA_ARGS}" \
+            --rm obolibrary/odkfull:v1.6 \
+            bash -lc 'mkdir -p reports && chmod +x qc/run-qc.sh && ./qc/run-qc.sh'
+
+      - name: Show QC log tail on failure
+        if: failure()
+        working-directory: Robot
+        run: |
+          if [ -f reports/qc.log ]; then
+            echo "--- Last 40 lines of QC log ---"
+            tail -40 reports/qc.log
+          fi
+
+      - name: Upload QC reports
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qc-reports
+          path: Robot/reports/
+          retention-days: 14

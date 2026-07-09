@@ -44,6 +44,10 @@ src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
 pbpko/
+Robot/reports/
+Robot/qc/*.log
+pbpko-release.owl
+.release-version-date
 node_modules/
 npm-debug.log*
 __pycache__/

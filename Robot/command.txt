@@ -1,6 +1,12 @@
 ## Check Robot version
 docker run -v ${PWD}:/work -w /work -e 'ROBOT_JAVA_ARGS=' -e 'JAVA_OPTS=' --rm -ti obolibrary/robot robot --version
 
+## Run ontology QC (OBO standard checks)
+# From Robot/: ./qc/run-qc.sh
+# Or:          make test
+# Reports are written to Robot/reports/
+chmod +x qc/run-qc.sh && ./qc/run-qc.sh
+
 ## Adding properties
 docker run -v ${PWD}:/work -w /work -e 'ROBOT_JAVA_ARGS=' -e 'JAVA_OPTS=' --rm -ti obolibrary/robot robot template  --template /work/templates/properties.tsv --merge-before --input /work/ontologies/pbpko.owl --add-prefixes /work/config/context.json  --output /work/ontologies/pbpko-rel.owl 
 
@@ -11,4 +17,9 @@ docker run -v ${PWD}:/work -w /work -e 'ROBOT_JAVA_ARGS=' -e 'JAVA_OPTS=' --rm -
 docker run -v ${PWD}:/work -w /work -e 'ROBOT_JAVA_ARGS=' -e 'JAVA_OPTS=' --rm -ti obolibrary/robot robot template --template /work/templates/annotations.tsv --prefix "iao:http://purl.obolibrary.org/obo/" --output /work/ontologies/imported.owl -vvv
 
 ## Annotations
-docker run -v ${PWD}:/work -w /work -e 'ROBOT_JAVA_ARGS=' -e 'JAVA_OPTS=' --rm -ti obolibrary/robot robot annotate --input /work/ontologies/pbpko.owl --ontology-iri "https://github.com/Crispae/pbpko/blob/main/pbpko.owl" --version-iri "http://purl.obolibrary.org/obo/pbpko/releases/2024-10-09/pbpko.owl" --annotation-file /work/annotations/annotation.ttl --output /work/ontologies/pbpko.owl
+# Metadata sync runs automatically on push to main (see .github/workflows/release.yml).
+# Local equivalents:
+bash ../scripts/sync-ontology-metadata.sh
+bash ../scripts/apply-annotations.sh
+bash ../scripts/update-modified-date.sh
+bash ../scripts/set-version-iri.sh

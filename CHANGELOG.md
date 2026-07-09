@@ -97,7 +97,7 @@ When preparing a release, add entries under `[Unreleased]`, then move them into 
 
 - Initial public release of the PBPK Ontology (PBPKO).
 
-[Unreleased]: https://github.com/InSilicoVida-Research-Lab/pbpko/compare/v1.3.2...HEAD
+[Unreleased]: https://github.com/InSilicoVida-Research-Lab/pbpko/compare/v1.4.0...HEAD
 [2026-02-16]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2026-02-16/pbpko.owl
 [2025-10-19]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2025-10-19/pbpko.owl
 [2025-09-12]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2025-09-12/pbpko.owl

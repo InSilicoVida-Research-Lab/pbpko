@@ -4,18 +4,56 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'Robot/**'
+      - 'scripts/**'
+      - 'release.config.cjs'
+      - 'package.json'
+      - 'package-lock.json'
 
 permissions:
   contents: write
 
 jobs:
-  semantic_release:
+  ontology_pipeline:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync ontology metadata
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: bash scripts/sync-ontology-metadata.sh
+
+      - name: Commit metadata sync
+        run: |
+          if [ -n "$(git status --porcelain -- Robot/ontologies/pbpko.owl Robot/annotations/annotation.ttl)" ]; then
+            git add Robot/ontologies/pbpko.owl Robot/annotations/annotation.ttl
+            git commit -m "chore: sync ontology metadata from annotation.ttl [skip ci]"
+          fi
+
+      - name: Run ontology QC
+        working-directory: Robot
+        env:
+          ROBOT_JAVA_ARGS: -Xmx6G
+        run: |
+          docker run \
+            -v "${GITHUB_WORKSPACE}/Robot:/work" \
+            -w /work \
+            -e "ROBOT_JAVA_ARGS=${ROBOT_JAVA_ARGS}" \
+            --rm obolibrary/odkfull:v1.6 \
+            bash -lc 'mkdir -p reports && chmod +x qc/run-qc.sh && ./qc/run-qc.sh'
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -30,3 +68,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
 
+      - name: Push commits
+        run: |
+          if [ "$(git rev-list --count origin/main..HEAD)" -gt 0 ]; then
+            git push origin HEAD:main
+          fi

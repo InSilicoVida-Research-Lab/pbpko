@@ -220,7 +220,21 @@ PBPKO follows [OBO Foundry versioning](https://obofoundry.org/principles/fp-004-
 | Development copy | `Robot/ontologies/pbpko.owl` on `main` |
 | Immutable snapshot | `releases/YYYY-MM-DD/pbpko.owl` |
 
-Releases are automated with [semantic-release](https://semantic-release.gitbook.io/) when releasable commits are pushed to `main`. The release workflow sets the dated `owl:versionIRI`, updates `owl:versionInfo`, and publishes an immutable snapshot under `releases/YYYY-MM-DD/`.
+Releases are automated on every push to `main`. The [Release workflow](.github/workflows/release.yml):
+
+1. Syncs `annotation.ttl` into `pbpko.owl` (and bumps `dcterms:modified` when ontology content changed)
+2. Runs QC
+3. Runs [semantic-release](https://semantic-release.gitbook.io/) for `feat:` / `fix:` commits (sets dated `owl:versionIRI`, `owl:versionInfo`, publishes `releases/YYYY-MM-DD/`)
+
+| Field | Source | Updated when |
+|-------|--------|--------------|
+| `owl:versionIRI`, `owl:versionInfo` | Release script (`scripts/set-version-iri.sh`) | Every `feat:` / `fix:` release (on push) |
+| `dcterms:modified` | `annotation.ttl` | Automatically on push when ontology content changes |
+| Title, description, license, creators | `annotation.ttl` | Edited manually in that file |
+
+See [docs/release-annotations-plan.md](docs/release-annotations-plan.md) for the full workflow.
+
+Contributors only need to edit `Robot/ontologies/pbpko.owl` (or templates) and push; metadata sync is automatic on `main`. To edit descriptive metadata, update [`Robot/annotations/annotation.ttl`](Robot/annotations/annotation.ttl) directly.
 
 | Commit type | Triggers release? |
 |-------------|-------------------|
