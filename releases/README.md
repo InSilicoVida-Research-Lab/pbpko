@@ -18,9 +18,7 @@ releases/YYYY-MM-DD/pbpko.owl
 
 - Never modify files under `releases/` after publication.
 - The development ontology lives at `Robot/ontologies/pbpko.owl` on `main`.
-- New releases are created by the release workflow, which:
-  1. sets the dated `owl:versionIRI` and `owl:versionInfo`
-  2. copies the annotated ontology into `releases/YYYY-MM-DD/pbpko.owl`
+- New releases are created by the release workflow, which runs ROBOT to set the dated `owl:versionIRI` and related metadata, then copies the ontology into `releases/YYYY-MM-DD/pbpko.owl`.
 
 ## Backfill
 

@@ -46,5 +46,7 @@ src/patterns/all_pattern_terms.txt
 pbpko/
 node_modules/
 npm-debug.log*
+__pycache__/
+*.pyc
 .vscode/
 .vscode/
