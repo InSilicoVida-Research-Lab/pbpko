@@ -211,22 +211,33 @@ To propose ontology changes, open an issue using the templates in `.github/ISSUE
 
 ### Releases
 
-Releases are automated with [semantic-release](https://semantic-release.gitbook.io/) when changes are pushed to `main`.
+PBPKO follows [OBO Foundry versioning](https://obofoundry.org/principles/fp-004-versioning.html). Official releases are identified by **ISO dates** (`YYYY-MM-DD`), not semver.
 
-| Commit type | Version bump |
-|-------------|--------------|
-| `fix:` | Patch (e.g. 1.3.2 → 1.3.3) |
-| `feat:` | Minor (e.g. 1.3.2 → 1.4.0) |
-| `feat!:` / `fix!:` with `BREAKING CHANGE:` | Major (e.g. 1.3.2 → 2.0.0) |
-| `chore:`, `docs:`, `ci:`, etc. | No release |
+| Resource | IRI / path |
+|----------|------------|
+| Latest ontology | `http://purl.obolibrary.org/obo/pbpko.owl` |
+| Dated release | `http://purl.obolibrary.org/obo/pbpko/releases/YYYY-MM-DD/pbpko.owl` |
+| Development copy | `Robot/ontologies/pbpko.owl` on `main` |
+| Immutable snapshot | `releases/YYYY-MM-DD/pbpko.owl` |
+
+Releases are automated with [semantic-release](https://semantic-release.gitbook.io/) when releasable commits are pushed to `main`. The release workflow sets the dated `owl:versionIRI`, updates `owl:versionInfo`, and publishes an immutable snapshot under `releases/YYYY-MM-DD/`.
+
+| Commit type | Triggers release? |
+|-------------|-------------------|
+| `fix:` | Yes (patch bump) |
+| `feat:` | Yes (minor bump) |
+| `feat!:` / `fix!:` with `BREAKING CHANGE:` | Yes (major bump) |
+| `chore:`, `docs:`, `ci:`, etc. | No |
 
 GitHub releases are created automatically. Each release is archived on Zenodo when the [GitHub–Zenodo integration](https://help.zenodo.org/docs/github/) is enabled. Zenodo metadata is configured in [.zenodo.json](.zenodo.json).
 
+PURL configuration for OBO is maintained in the [OBO Foundry PURL repository](https://github.com/OBOFoundry/purl.obolibrary.org). A draft for PBPKO is provided in [config/pbpko-purl.yml](config/pbpko-purl.yml).
+
 ### Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+See [CHANGELOG.md](CHANGELOG.md) for version history (dated OBO releases).
 
-Add user-facing ontology changes under `[Unreleased]` in `CHANGELOG.md` as you work. GitHub release notes are generated automatically from commit messages.
+Add user-facing ontology changes under `[Unreleased]` in `CHANGELOG.md` as you work. When releasing, move them into a new `## [YYYY-MM-DD]` section matching the OBO release date.
 
 ### Citation
 
