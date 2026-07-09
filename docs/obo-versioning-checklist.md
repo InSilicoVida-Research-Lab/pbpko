@@ -41,9 +41,12 @@ Confirm principle 4 (Versioning) passes:
 ## 4. On each future release
 
 1. Merge releasable commits (`fix:` / `feat:`) to `main`.
-2. Let the Release workflow run (sets dated version IRI and creates `releases/YYYY-MM-DD/pbpko.owl`).
-3. Add a new `exact` PURL entry for the release date in `OBOFoundry/purl.obolibrary.org`.
-4. Add a dated section to `CHANGELOG.md` if not already done before release.
+2. Let the Release workflow run (sets dated version IRI, `versionInfo`, merges `annotation.ttl`).
+3. When ontology **content** changes, run `bash scripts/update-modified-date.sh` before release so `dcterms:modified` in `annotation.ttl` is current.
+4. Add a new `exact` PURL entry for the release date in `OBOFoundry/purl.obolibrary.org`.
+5. Add a dated section to `CHANGELOG.md` if not already done before release.
+
+See [release-annotations-plan.md](release-annotations-plan.md) for metadata workflow details.
 
 ## 5. Optional cleanup
 

@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Set OBO-compliant dated version IRI with ROBOT and publish an immutable release snapshot.
+# Prepare an OBO dated release: version IRI + versionInfo + annotation.ttl merge.
+# dcterms:modified comes from annotation.ttl (content change date), not release date.
 # VERSION_DATE can be overridden for testing (defaults to UTC today).
 
 VERSION_DATE="${VERSION_DATE:-$(date -u +%Y-%m-%d)}"
@@ -11,26 +12,29 @@ VERSION_IRI="http://purl.obolibrary.org/obo/pbpko/releases/${VERSION_DATE}/pbpko
 OWL_FILE="${REPO_ROOT}/Robot/ontologies/pbpko.owl"
 RELEASE_DIR="${REPO_ROOT}/releases/${VERSION_DATE}"
 RELEASE_FILE="${RELEASE_DIR}/pbpko.owl"
+GITHUB_ASSET="${REPO_ROOT}/pbpko-release.owl"
+INPUT="/work/ontologies/pbpko.owl"
+ANNOTATION_FILE="/work/annotations/annotation.ttl"
+OUTPUT="/work/ontologies/pbpko.owl"
 
 echo "Setting ontology version IRI to ${VERSION_IRI}"
+echo "Merging annotations from annotation.ttl (dcterms:modified unchanged by release date)"
 
-docker run \
-  -v "${REPO_ROOT}/Robot:/work" \
-  -w /work \
-  -e 'ROBOT_JAVA_ARGS=' \
-  -e 'JAVA_OPTS=' \
-  --rm obolibrary/robot \
-  robot annotate \
-  --input /work/ontologies/pbpko.owl \
+bash "${REPO_ROOT}/scripts/robot-annotate.sh" \
+  --input "${INPUT}" \
+  --remove-annotations \
   --ontology-iri "${ONTOLOGY_IRI}" \
   --version-iri "${VERSION_IRI}" \
-  --output /work/ontologies/pbpko.owl
+  --annotation owl:versionInfo "${VERSION_DATE}" \
+  --annotation-file "${ANNOTATION_FILE}" \
+  --output "${OUTPUT}"
 
-# Keep ontology header metadata aligned with the dated version IRI.
-sed -i "s|<owl:versionInfo>[^<]*</owl:versionInfo>|<owl:versionInfo>${VERSION_DATE}</owl:versionInfo>|" "${OWL_FILE}"
-sed -i "s|<term:modified rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">[^<]*</term:modified>|<term:modified rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">${VERSION_DATE}</term:modified>|" "${OWL_FILE}"
+bash "${REPO_ROOT}/scripts/clean-owl-orphans.sh" "${OWL_FILE}"
 
 mkdir -p "${RELEASE_DIR}"
 cp "${OWL_FILE}" "${RELEASE_FILE}"
+cp "${OWL_FILE}" "${GITHUB_ASSET}"
+echo "${VERSION_DATE}" > "${REPO_ROOT}/.release-version-date"
 
 echo "Published immutable release snapshot at releases/${VERSION_DATE}/pbpko.owl"
+echo "GitHub release asset prepared at pbpko-release.owl"

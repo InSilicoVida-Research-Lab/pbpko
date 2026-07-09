@@ -15,6 +15,7 @@ module.exports = {
       {
         assets: [
           'Robot/ontologies/pbpko.owl',
+          'Robot/annotations/annotation.ttl',
           'releases/**',
         ],
         message:
@@ -24,7 +25,7 @@ module.exports = {
     [
       '@semantic-release/github',
       {
-        assets: [{ path: 'Robot/ontologies/pbpko.owl', label: 'pbpko.owl' }],
+        assets: [{ path: 'pbpko-release.owl', label: 'pbpko.owl' }],
       },
     ],
   ],
