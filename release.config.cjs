@@ -15,9 +15,10 @@ module.exports = {
       {
         assets: [
           'Robot/ontologies/pbpko.owl',
+          'releases/**',
         ],
         message:
-          'chore(release): set ontology version IRI for ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+          'chore(release): publish OBO dated release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
     [
