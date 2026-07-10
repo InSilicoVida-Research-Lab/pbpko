@@ -24,6 +24,8 @@ bin/
 /pbpko-simple.*
 /pbpko-simple-non-classified.*
 /mappings/
+/imports/*.owl
+
 /patterns/
 /reports/
 /subsets/
@@ -40,7 +42,6 @@ src/ontology/pbpko-base.*
 src/ontology/pbpko-basic.*
 src/ontology/pbpko-full.*
 src/ontology/pbpko-simple.*
-src/ontology/pbpko-simple-non-classified.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
@@ -67,4 +68,5 @@ src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
 # End of ODK-managed rules
-ontology/original-pbpko.owl
+# Legacy reference monolith (read-only; not part of the ODK release)
+orginal pbpk owl/

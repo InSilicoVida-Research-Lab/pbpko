@@ -24,8 +24,6 @@ Declaration(Class(pbpko:GO_0008150))
 Declaration(Class(pbpko:GO_0008152))
 Declaration(Class(pbpko:GO_0009987))
 Declaration(Class(pbpko:GO_0032501))
-Declaration(ObjectProperty(pbpko:BFO_0000050))
-Declaration(ObjectProperty(pbpko:BFO_0000051))
 Declaration(AnnotationProperty(pbpko:IAO_0000115))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
@@ -42,22 +40,6 @@ AnnotationAssertion(rdfs:label pbpko:IAO_0000115 "definition")
 # Annotation Property: oboInOwl:hasSynonymType (has_synonym_type)
 
 AnnotationAssertion(rdfs:label oboInOwl:hasSynonymType "has_synonym_type")
-
-
-############################
-#   Object Properties
-############################
-
-# Object Property: pbpko:BFO_0000050 (part of)
-
-AnnotationAssertion(rdfs:label pbpko:BFO_0000050 "part of")
-InverseObjectProperties(pbpko:BFO_0000050 pbpko:BFO_0000051)
-TransitiveObjectProperty(pbpko:BFO_0000050)
-
-# Object Property: pbpko:BFO_0000051 (has part)
-
-AnnotationAssertion(rdfs:label pbpko:BFO_0000051 "has part")
-TransitiveObjectProperty(pbpko:BFO_0000051)
 
 
 
