@@ -12,7 +12,8 @@ if ! [[ "${MODIFIED_DATE}" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
   exit 1
 fi
 
-sed -i "s|dcterms:modified \"[^\"]*\"|dcterms:modified \"${MODIFIED_DATE}\"^^xsd:date|" \
+# Replace the full typed literal (avoid duplicating ^^xsd:date on repeated runs).
+sed -i "s|dcterms:modified \"[^\"]*\"\\^\\^xsd:date|dcterms:modified \"${MODIFIED_DATE}\"^^xsd:date|" \
   "${ANNOTATION_FILE}"
 
 echo "Set dcterms:modified to ${MODIFIED_DATE} in Robot/annotations/annotation.ttl"

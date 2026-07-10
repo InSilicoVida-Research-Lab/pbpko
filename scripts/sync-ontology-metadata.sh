@@ -79,7 +79,7 @@ bash "${REPO_ROOT}/scripts/apply-annotations.sh"
 if [[ "${CHECK_ONLY}" == true ]]; then
   if [[ -n "$(git status --porcelain -- Robot/ontologies/pbpko.owl Robot/annotations/annotation.ttl)" ]]; then
     echo "ERROR: ontology metadata is out of sync with annotation.ttl" >&2
-    git diff -- Robot/ontologies/pbpko.owl Robot/annotations/annotation.ttl >&2 || true
+    git --no-pager diff -- Robot/ontologies/pbpko.owl Robot/annotations/annotation.ttl >&2 || true
     exit 1
   fi
   echo "Ontology metadata is in sync."
