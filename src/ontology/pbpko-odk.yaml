@@ -38,7 +38,6 @@ components:
       templates:
         - pbpko-properties.tsv
         - pbpko-vocab.tsv
-        - pbpko-axioms.tsv
 sssom_mappingset_group:
   products:
     - id: pbpko-sssom

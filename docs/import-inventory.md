@@ -45,12 +45,15 @@ Foreign IRI usage audit for modular import refactor. Generated during the 2026 i
 
 ## ODK template seed (2026-07-10)
 
-Native terms are authored in three ROBOT templates under `src/templates/`:
+Native terms are authored in ROBOT templates under `src/templates/`:
 
-| Template | Content |
-|---|---|
-| `pbpko-vocab.tsv` | 831 PBPKO classes with annotations and subclass parents |
-| `pbpko-properties.tsv` | 8 PBPKO object properties (`PBPKO_10001`–`10009`) |
-| `pbpko-axioms.tsv` | 3,877 existential restrictions (`has_X some Y`) |
+| Template | Content | Build role |
+|---|---|---|
+| `pbpko-vocab.tsv` | 831 PBPKO classes with annotations and subclass parents | Compiled into component |
+| `pbpko-properties.tsv` | 8 PBPKO object properties (`PBPKO_10001`–`10009`) | Compiled into component |
+| `pbpko-axioms.tsv` | 3,877 existential restrictions (seed record) | **Not in build** — axioms in edit file |
 
-Regenerate from legacy Protege reference: `python3 src/scripts/extract_pbpko_from_original.py`
+Logical axioms are edited in Protege on [`pbpko-edit.owl`](../src/ontology/pbpko-edit.owl) (standard ODK workflow).
+
+Regenerate TSV from legacy: `python3 src/scripts/extract_pbpko_from_original.py`  
+One-time axiom seed into edit file: `python3 src/scripts/extract_pbpko_from_original.py --seed-edit-axioms`

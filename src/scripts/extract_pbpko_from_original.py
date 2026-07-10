@@ -5,16 +5,19 @@ Extract PBPKO native terms from the legacy Protege monolith into ODK ROBOT templ
 Reads:  orginal pbpk owl/pbpko.owl  (OWL Functional Syntax XML, read-only reference)
 Writes: src/templates/pbpko-vocab.tsv
         src/templates/pbpko-properties.tsv
-        src/templates/pbpko-axioms.tsv
+        src/templates/pbpko-axioms.tsv  (seed record only; axioms live in pbpko-edit.owl)
         src/ontology/template-seed.owl
         src/ontology/reports/extraction-inventory.tsv
 
 Usage (from target/pbpko/):
   python3 src/scripts/extract_pbpko_from_original.py
+  python3 src/scripts/extract_pbpko_from_original.py --seed-edit-axioms
+  python3 src/scripts/extract_pbpko_from_original.py --seed-edit-axioms --force
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
 import re
 import sys
@@ -34,6 +37,10 @@ OUT_PROPERTIES = ROOT / "src" / "templates" / "pbpko-properties.tsv"
 OUT_AXIOMS = ROOT / "src" / "templates" / "pbpko-axioms.tsv"
 OUT_SEED = ROOT / "src" / "ontology" / "template-seed.owl"
 OUT_INVENTORY = ROOT / "src" / "ontology" / "reports" / "extraction-inventory.tsv"
+EDIT_FILE = ROOT / "src" / "ontology" / "pbpko-edit.owl"
+
+AXIOMS_SECTION_BEGIN = "# --- seeded logical axioms (edit below in Protege) ---"
+AXIOMS_SECTION_END = "# --- end seeded logical axioms ---"
 
 PROPERTY_IDS = {
     f"{OBO}PBPKO_{n}"
@@ -323,6 +330,89 @@ def write_tsv(path: Path, header: list[str], template: list[str], rows: list[lis
         writer.writerows(rows)
 
 
+def collect_some_axioms(
+    classes: set[str],
+    axioms: dict[str, dict[str, set]],
+) -> list[tuple[str, str, str]]:
+    """Return sorted (subject, property, filler) existential restriction triples."""
+    triples: list[tuple[str, str, str]] = []
+    for iri in sorted(classes, key=pbpko_id):
+        for prop, filler in sorted(axioms.get(iri, {}).get("some", set())):
+            triples.append((iri, prop, filler))
+    return triples
+
+
+def format_some_axiom_ofn(subj: str, prop: str, filler: str) -> str:
+    """OWL Functional Syntax SubClassOf with ObjectSomeValuesFrom (full IRIs)."""
+    return f"SubClassOf(<{subj}> ObjectSomeValuesFrom(<{prop}> <{filler}>))"
+
+
+def build_axioms_section(triples: list[tuple[str, str, str]]) -> str:
+    lines = [
+        "############################",
+        "#   Logical axioms",
+        "#   Edit in Protege on pbpko-edit.owl (standard ODK workflow).",
+        AXIOMS_SECTION_BEGIN,
+        "",
+    ]
+    current_subj = ""
+    for subj, prop, filler in triples:
+        if subj != current_subj:
+            if current_subj:
+                lines.append("")
+            lines.append(f"# {pbpko_id(subj)}")
+            current_subj = subj
+        lines.append(format_some_axiom_ofn(subj, prop, filler))
+    lines.extend(["", AXIOMS_SECTION_END, ""])
+    return "\n".join(lines)
+
+
+def seed_edit_axioms(force: bool = False) -> int:
+    """One-time (or --force) injection of existential axioms into pbpko-edit.owl."""
+    if not ORIGINAL.exists():
+        print(f"ERROR: original ontology not found: {ORIGINAL}", file=sys.stderr)
+        return 1
+    if not EDIT_FILE.exists():
+        print(f"ERROR: edit file not found: {EDIT_FILE}", file=sys.stderr)
+        return 1
+
+    edit_text = EDIT_FILE.read_text(encoding="utf-8")
+    if AXIOMS_SECTION_BEGIN in edit_text and not force:
+        print(
+            f"SKIP: {EDIT_FILE.name} already contains seeded axioms. "
+            "Use --force to overwrite the axioms section."
+        )
+        return 0
+
+    classes, _, _, axioms = parse_original()
+    triples = collect_some_axioms(classes, axioms)
+    section = build_axioms_section(triples)
+
+    if AXIOMS_SECTION_BEGIN in edit_text:
+        start = edit_text.index(AXIOMS_SECTION_BEGIN)
+        end = edit_text.index(AXIOMS_SECTION_END) + len(AXIOMS_SECTION_END)
+        # Include header block back to ############################ if present
+        header_start = edit_text.rfind("############################", 0, start)
+        if header_start >= 0 and header_start > len(edit_text) - 500000:
+            start = header_start
+        before = edit_text[:start].rstrip()
+        after = edit_text[end:].lstrip()
+        new_text = before + "\n\n" + section + after
+    else:
+        # Insert before closing parenthesis of Ontology(...)
+        close_idx = edit_text.rfind("\n)")
+        if close_idx < 0:
+            print("ERROR: could not find closing ')' in edit file", file=sys.stderr)
+            return 1
+        before = edit_text[:close_idx].rstrip()
+        after = edit_text[close_idx:]
+        new_text = before + "\n\n" + section + after
+
+    EDIT_FILE.write_text(new_text, encoding="utf-8")
+    print(f"Seeded {len(triples)} existential axioms into {EDIT_FILE}")
+    return 0
+
+
 def write_minimal_seed(path: Path) -> None:
     content = """<?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
@@ -343,6 +433,32 @@ def write_minimal_seed(path: Path) -> None:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Extract PBPKO templates from legacy OWL")
+    parser.add_argument(
+        "--seed-edit-axioms",
+        action="store_true",
+        help="Inject existential axioms into pbpko-edit.owl (one-time seed for Protege editing)",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="With --seed-edit-axioms, overwrite existing axioms section",
+    )
+    parser.add_argument(
+        "--templates-only",
+        action="store_true",
+        help="Only regenerate TSV templates (skip edit-file seeding unless --seed-edit-axioms)",
+    )
+    args = parser.parse_args()
+
+    if args.seed_edit_axioms and args.templates_only:
+        return seed_edit_axioms(force=args.force)
+
+    if args.seed_edit_axioms:
+        rc = seed_edit_axioms(force=args.force)
+        if rc != 0:
+            return rc
+
     if not ORIGINAL.exists():
         print(f"ERROR: original ontology not found: {ORIGINAL}", file=sys.stderr)
         return 1

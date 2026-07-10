@@ -43,25 +43,31 @@ git checkout -b issue23removeprocess
 #### 4. _Perform edit_
 Using your editor of choice, perform the intended edit. For example:
 
-_Protégé_
+_Protégé (standard ODK — axioms and refinements)_
 
 1. Open `src/ontology/pbpko-edit.owl` in Protégé
-2. Make the change
-3. Save the file
+2. Edit logical axioms, metadata, or import declarations
+3. Save as **OWL Functional Syntax**
+4. The vocab component (`components/pbpko-vocab.owl`) loads as an import for class/property labels
+
+_ROBOT templates (seed new classes/properties)_
+
+1. Edit `src/templates/pbpko-vocab.tsv` and/or `src/templates/pbpko-properties.tsv`
+2. Run `sh run.sh make recreate-vocab-from-template`
 
 _TextEdit_
 
-1. Open `src/ontology/pbpko-edit.owl` in TextEdit (or Sublime, Atom, Vim, Nano)
+1. Open `src/ontology/pbpko-edit.owl` or template TSV files
 2. Make the change
 3. Save the file
 
 Consider the following when making the edit.
 
 1. According to our development philosophy, the only places that should be manually edited are:
-    - `src/ontology/pbpko-edit.owl`
-    - Any ROBOT templates you chose to use (the TSV files only)
+    - `src/ontology/pbpko-edit.owl` (metadata, imports, **logical axioms**)
+    - ROBOT template TSV files (`pbpko-vocab.tsv`, `pbpko-properties.tsv`) for seeding classes and properties
     - Any DOSDP data tables you chose to use (the TSV files, and potentially the associated patterns)
-    - components (anything in `src/ontology/components`), see [here](RepositoryFileStructure.md).
+    - components (anything in `src/ontology/components`), see [here](RepositoryFileStructure.md) — usually regenerated from templates
 2. Imports should not be edited (any edits will be flushed out with the next update). However, refreshing imports is a potentially breaking change - and is discussed [elsewhere](UpdateImports.md).
 3. Changes should usually be small. Adding or changing 1 term is great. Adding or changing 10 related terms is ok. Adding or changing 100 or more terms at once should be considered very carefully.
 
