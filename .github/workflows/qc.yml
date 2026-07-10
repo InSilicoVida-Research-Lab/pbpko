@@ -2,7 +2,6 @@
 
 name: CI
 
-# Controls when the action will run.
 on:
   push:
     branches:
@@ -12,9 +11,10 @@ on:
     branches:
       - main
       - odk-migration
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   ontology_qc:
@@ -23,25 +23,28 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Run QC and build release artefacts
         env:
           DEFAULT_BRANCH: main
         run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release_fast -B
 
-      - name: Upload release artefacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: pbpko-release
-          path: |
-            pbpko.owl
-            pbpko.obo
-            pbpko.json
-            pbpko-base.owl
-            pbpko-base.obo
-            pbpko-base.json
-            pbpko-full.owl
-            pbpko-full.obo
-            pbpko-full.json
-            imports/
-            mappings/
+      - name: Commit release artefacts to repository
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            pbpko.owl pbpko.obo \
+            pbpko-base.owl pbpko-base.obo \
+            pbpko-full.owl pbpko-full.obo \
+            imports/*.owl \
+            mappings/pbpko-sssom.sssom.tsv
+          if git diff --staged --quiet; then
+            echo "Release artefacts unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh release artefacts [skip ci]"
+          git push

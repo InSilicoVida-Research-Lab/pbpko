@@ -14,18 +14,6 @@ bin/
 
 .github/token.txt
 
-/pbpko.owl
-/pbpko.obo
-/pbpko.json
-/pbpko.db
-/pbpko-base.*
-/pbpko-basic.*
-/pbpko-full.*
-/pbpko-simple.*
-/pbpko-simple-non-classified.*
-/mappings/
-/imports/*.owl
-
 /patterns/
 /reports/
 /subsets/

@@ -1,0 +1,116 @@
+#curie_map:
+#  PBPKO: http://purl.obolibrary.org/obo/PBPKO_
+#  GO: http://purl.obolibrary.org/obo/GO_
+#  UBERON: http://purl.obolibrary.org/obo/UBERON_
+#  SBO: http://biomodels.net/SBO/
+#  FMA: http://purl.obolibrary.org/obo/fma/FMA_
+#  BTO: http://purl.obolibrary.org/obo/BTO_
+subject_id	subject_label	predicate_id	object_id	mapping_justification	mapping_tool	creator_id	comment
+PBPKO:00002	parameter	skos:closeMatch	SBO:0000005	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00446	compartment	skos:closeMatch	SBO:0000290	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00189	catalytic rate constant	skos:exactMatch	SBO:0000025	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00212	Km intestine	skos:exactMatch	SBO:0000027	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00214	Km liver	skos:exactMatch	SBO:0000027	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00305	Km kidney	skos:exactMatch	SBO:0000027	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00307	Km muscle	skos:exactMatch	SBO:0000027	semapv:ManualMappingCuration		0000-0003-0593-2598	PBPKO import refactor
+PBPKO:00012	Blood flow	skos:exactMatch	GO:0008015	semapv:ManualMappingCuration		0000-0003-0593-2598	annotation-only GO xref
+PBPKO:PBPKO:00006	physiological parameter	skos:closeMatch	http://snomed.info/id/398060001	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00007	body mass index	skos:closeMatch	http://www.ebi.ac.uk/efo/EFO:0004340	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00008	bodyweight	skos:closeMatch	CMO:0000012	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00009	height	skos:closeMatch	PATO:0000119	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00010	surface area	skos:closeMatch	http://semanticscience.org/resource/SIO:001407	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00011	assigned race	skos:closeMatch	GSSO:002199	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00066	volume of compartment	skos:closeMatch	http://www.ontology-of-units-of-measure.org/resource/om-2/Volume	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00067	volume of stomach	skos:closeMatch	OBA:VT0010199	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00075	volume of pancreas	skos:closeMatch	OBA:2050006	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00077	volume of liver	skos:closeMatch	OBA:2050033	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00079	volume of kidney	skos:closeMatch	OBA:2050015	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00093	volume of brain	skos:closeMatch	OBA:2050009	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00095	volume of spleen	skos:closeMatch	OBA:2050204	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00097	volume of lung	skos:closeMatch	OBA:VT0001942	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00108	volume of blood	skos:closeMatch	OBA:0003648	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00121	arterial volume	skos:closeMatch	http://purl.bioontology.org/ontology/LNC/LP430862-5	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00131	logarithmic solubility	skos:closeMatch	http://purl.bioontology.org/ontology/MESH/D012995	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00136	hydrogen acceptor count	skos:closeMatch	CHEBI:13193	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00137	hydrogen donor count	skos:closeMatch	CHEBI:17499	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00140	absorption	skos:closeMatch	ExO:0000058	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00143	gastric emptying rate	skos:closeMatch	http://snomed.info/id/40117008	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00144	enterohepatic recirculation	skos:closeMatch	http://purl.bioontology.org/ontology/MESH/D004764	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00145	specific intestinal permeability	skos:closeMatch	http://www.ebi.ac.uk/efo/EFO:0011031	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00148	protein binding mediated distributiion process	skos:closeMatch	GO:0005515	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00217	transporter	skos:closeMatch	TXPO:0003638	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00218	oatp	skos:closeMatch	TXPO:0000272	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00219	abcc3	skos:closeMatch	OGG:3000008714	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00220	abcc2	skos:closeMatch	OGG:3000001244	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00226	exhalation	skos:closeMatch	http://purl.bioontology.org/ontology/MESH/D045853	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00332	lifestage	skos:closeMatch	ExO:0000037	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00336	child lifestage	skos:closeMatch	ExO:0000119	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00339	adult lifestage	skos:closeMatch	UBERON:0007023	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00341	old age lifestage	skos:closeMatch	UBERON:0007222	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00350	brain mass	skos:closeMatch	OBA:VT0002176	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00375	volume of amniotic fluid	skos:closeMatch	VT:0004020	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00398	proximal tubule compartment	skos:closeMatch	UBERON:0004134	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00399	loop of Henle compartment	skos:closeMatch	UBERON:0001288	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00400	distal tubule compartment	skos:closeMatch	UBERON:0004135	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00402	bladder compartment	skos:closeMatch	UBERON:0001232	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00462	appendix compartment	skos:closeMatch	UBERON:0001154	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00463	ascending colon compartment	skos:closeMatch	UBERON:0001156	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00464	blood compartment	skos:closeMatch	UBERON:0000178	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00465	bone marrow compartment	skos:closeMatch	UBERON:0002371	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00466	brain compartment	skos:closeMatch	UBERON:0000955	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00467	cecum compartment	skos:closeMatch	UBERON:0001153	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00468	descending colon compartment	skos:closeMatch	UBERON:0001158	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00469	dermis compartment	skos:closeMatch	UBERON:0002067	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00470	skin compartment	skos:closeMatch	UBERON:0002097	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00471	duodenum compartment	skos:closeMatch	UBERON:0002114	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00472	small intestine compartment	skos:closeMatch	UBERON:0002108	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00473	endocrine gland compartment	skos:closeMatch	UBERON:0002368	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00474	large intestine compartment	skos:closeMatch	UBERON:0000059	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00475	epidermis compartment	skos:closeMatch	UBERON:0001003	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00476	gall bladder compartment	skos:closeMatch	UBERON:0002110	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00479	hair compartment	skos:closeMatch	UBERON:8420000	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00480	heart compartment	skos:closeMatch	UBERON:0000948	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00481	ileum compartment	skos:closeMatch	UBERON:0002116	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00482	jejunum compartment	skos:closeMatch	UBERON:0002115	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00483	mammary gland compartment	skos:closeMatch	UBERON:0001911	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00484	muscle compartment	skos:closeMatch	UBERON:0005090	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00485	nail compartment	skos:closeMatch	UBERON:0001705	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00486	pancreas compartment	skos:closeMatch	UBERON:0001264	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00489	rectum compartment	skos:closeMatch	UBERON:0001052	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00491	sigmoid colon compartment	skos:closeMatch	UBERON:0001159	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00492	spleen compartment	skos:closeMatch	UBERON:0002106	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00493	stratum corneum compartment	skos:closeMatch	UBERON:0002027	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00494	transverse colon compartment	skos:closeMatch	UBERON:0001157	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00552	arterial blood compartment	skos:closeMatch	UBERON:0013755	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00553	digestive system compartment	skos:closeMatch	UBERON:0001007	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00554	excreta compartment	skos:closeMatch	UBERON:0000174	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00555	feces compartment	skos:closeMatch	UBERON:0001988	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00556	urine compartment	skos:closeMatch	UBERON:0001088	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00557	kidney compartment	skos:closeMatch	UBERON:0002113	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00558	liver compartment	skos:closeMatch	UBERON:0002107	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00559	lung compartment	skos:closeMatch	UBERON:0002048	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00561	venous blood compartment	skos:closeMatch	UBERON:0013756	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00566	stomach compartment	skos:closeMatch	UBERON:0000945	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00619	cerebellum compartment	skos:closeMatch	UBERON:0002037	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00620	frontal cortex compartment	skos:closeMatch	UBERON:0001870	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00621	cerebrospinal fluid compartment	skos:closeMatch	UBERON:0001359	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00653	glomerulus compartment	skos:closeMatch	UBERON:0000074	semapv:ManualMappingCuration		0000-0003-0593-2598	migrated from inline annotation
+PBPKO:PBPKO:00554	excreta	skos:closeMatch	BTO:0000491	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00554	excreta	skos:closeMatch	FMA:9674	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00566	stomach	skos:closeMatch	BTO:0001307	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00566	stomach	skos:closeMatch	FMA:7148	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00553	digestive system	skos:closeMatch	BTO:0000058	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00553	digestive system	skos:closeMatch	FMA:7152	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00556	urine	skos:closeMatch	BTO:0001419	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00556	urine	skos:closeMatch	FMA:12274	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00555	feces	skos:closeMatch	BTO:0000440	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00555	feces	skos:closeMatch	FMA:64183	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00559	lung	skos:closeMatch	BTO:0000763	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00559	lung	skos:closeMatch	FMA:7195	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00558	liver	skos:closeMatch	BTO:0000759	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00558	liver	skos:closeMatch	FMA:7197	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00557	kidney	skos:closeMatch	BTO:0000671	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00552	arterial blood	skos:closeMatch	BTO:0006188	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00552	arterial blood	skos:closeMatch	FMA:83066	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00561	venous blood	skos:closeMatch	BTO:0006187	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
+PBPKO:PBPKO:00561	venous blood	skos:closeMatch	FMA:83067	semapv:ManualMappingCuration		0000-0003-0593-2598	recovered from historical UBERON xref
