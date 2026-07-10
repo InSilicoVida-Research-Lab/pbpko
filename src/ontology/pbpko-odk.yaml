@@ -1,0 +1,68 @@
+id: pbpko
+title: "PBPK Ontology"
+description: "Physiologically Based Pharmacokinetic Models ontology for describing PBPK models, parameters, and processes."
+license: https://creativecommons.org/licenses/by/4.0/
+contact: saurav.kumar@iispv.cat
+github_org: InSilicoVida-Research-Lab
+git_main_branch: main
+repo: pbpko
+edit_format: owl
+reasoner: ELK
+robot_java_args: '-Xmx6G'
+use_templates: true
+use_context: true
+use_mappings: true
+use_dosdps: false
+export_formats:
+  - owl
+  - obo
+release_artefacts:
+  - base
+  - full
+primary_release: full
+namespaces:
+  - http://purl.obolibrary.org/obo/PBPKO_
+import_group:
+  release_imports: true
+  products:
+    - id: obi
+    - id: go
+    - id: bfo
+    - id: ro
+    - id: iao
+components:
+  products:
+    - filename: pbpko-vocab.owl
+      use_template: true
+      template_options: --add-prefixes config/context.json
+      templates:
+        - pbpko-properties.tsv
+        - pbpko-vocab.tsv
+        - pbpko-axioms.tsv
+sssom_mappingset_group:
+  products:
+    - id: pbpko-sssom
+      maintenance: manual
+      release_mappings: true
+documentation:
+  documentation_system: mkdocs
+workflows:
+  - qc
+  - docs
+robot_report:
+  use_base_iris: true
+  release_reports: false
+  fail_on: ERROR
+  use_labels: false
+  custom_profile: true
+  report_on:
+    - edit
+  sparql_test_on:
+    - edit
+    - pbpko-base.owl
+  custom_sparql_checks:
+    - owldef-self-reference
+    - iri-range
+    - label-with-iri
+    - multiple-replaced_by
+    - pbpko-id-format

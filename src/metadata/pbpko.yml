@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/pbpko
+
+idspace: PBPKO
+base_url: /obo/pbpko
+
+products:
+- pbpko.owl: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko.owl
+- pbpko.obo: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko.obo
+
+term_browser: ontobee
+example_terms:
+- PBPKO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/v
+
+- prefix: /tracker/
+  replacement: https://github.com/InSilicoVida-Research-Lab/pbpko/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PBPKO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/

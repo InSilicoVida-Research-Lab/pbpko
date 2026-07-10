@@ -1,0 +1,801 @@
+Prefix(:=<http://purl.obolibrary.org/obo/pbpko/imports/iao_import.owl#>)
+Prefix(go:=<http://purl.obolibrary.org/obo/>)
+Prefix(IAO:=<http://purl.obolibrary.org/obo/IAO_>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(obcs:=<http://purl.obolibrary.org/obo/>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(pbpko:=<http://purl.obolibrary.org/obo/>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/pbpko/imports/iao_import.owl>
+<http://purl.obolibrary.org/obo/pbpko/releases/2026-07-10/imports/iao_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/iao/2026-03-30/iao.owl>)
+Annotation(owl:versionInfo "2026-07-10")
+
+Declaration(Class(pbpko:BFO_0000001))
+Declaration(Class(pbpko:BFO_0000002))
+Declaration(Class(pbpko:BFO_0000004))
+Declaration(Class(pbpko:BFO_0000016))
+Declaration(Class(pbpko:BFO_0000017))
+Declaration(Class(pbpko:BFO_0000019))
+Declaration(Class(pbpko:BFO_0000020))
+Declaration(Class(pbpko:BFO_0000023))
+Declaration(Class(pbpko:BFO_0000031))
+Declaration(Class(pbpko:BFO_0000034))
+Declaration(Class(pbpko:BFO_0000040))
+Declaration(Class(pbpko:IAO_0000027))
+Declaration(Class(pbpko:IAO_0000030))
+Declaration(Class(pbpko:IAO_0000078))
+Declaration(Class(pbpko:IAO_0000100))
+Declaration(Class(pbpko:IAO_0000102))
+Declaration(Class(pbpko:IAO_0000225))
+Declaration(Class(pbpko:IAO_0000409))
+Declaration(Class(pbpko:IAO_0001000))
+Declaration(ObjectProperty(pbpko:BFO_0000050))
+Declaration(ObjectProperty(pbpko:BFO_0000051))
+Declaration(ObjectProperty(pbpko:IAO_0000136))
+Declaration(ObjectProperty(pbpko:RO_0000052))
+Declaration(ObjectProperty(pbpko:RO_0000053))
+Declaration(ObjectProperty(pbpko:RO_0000079))
+Declaration(ObjectProperty(pbpko:RO_0000080))
+Declaration(ObjectProperty(pbpko:RO_0000081))
+Declaration(ObjectProperty(pbpko:RO_0000085))
+Declaration(ObjectProperty(pbpko:RO_0000086))
+Declaration(ObjectProperty(pbpko:RO_0000087))
+Declaration(ObjectProperty(pbpko:RO_0000091))
+Declaration(ObjectProperty(pbpko:RO_0000092))
+Declaration(NamedIndividual(pbpko:IAO_0000002))
+Declaration(NamedIndividual(pbpko:IAO_0000103))
+Declaration(NamedIndividual(pbpko:IAO_0000120))
+Declaration(NamedIndividual(pbpko:IAO_0000121))
+Declaration(NamedIndividual(pbpko:IAO_0000122))
+Declaration(NamedIndividual(pbpko:IAO_0000123))
+Declaration(NamedIndividual(pbpko:IAO_0000124))
+Declaration(NamedIndividual(pbpko:IAO_0000125))
+Declaration(NamedIndividual(pbpko:IAO_0000226))
+Declaration(NamedIndividual(pbpko:IAO_0000227))
+Declaration(NamedIndividual(pbpko:IAO_0000228))
+Declaration(NamedIndividual(pbpko:IAO_0000229))
+Declaration(NamedIndividual(pbpko:IAO_0000410))
+Declaration(NamedIndividual(pbpko:IAO_0000420))
+Declaration(NamedIndividual(pbpko:IAO_0000421))
+Declaration(NamedIndividual(pbpko:IAO_0000423))
+Declaration(NamedIndividual(pbpko:IAO_0000428))
+Declaration(NamedIndividual(pbpko:OMO_0001000))
+Declaration(NamedIndividual(pbpko:OMO_0001002))
+Declaration(AnnotationProperty(pbpko:IAO_0000111))
+Declaration(AnnotationProperty(pbpko:IAO_0000112))
+Declaration(AnnotationProperty(pbpko:IAO_0000114))
+Declaration(AnnotationProperty(pbpko:IAO_0000115))
+Declaration(AnnotationProperty(pbpko:IAO_0000116))
+Declaration(AnnotationProperty(pbpko:IAO_0000117))
+Declaration(AnnotationProperty(pbpko:IAO_0000118))
+Declaration(AnnotationProperty(pbpko:IAO_0000119))
+Declaration(AnnotationProperty(pbpko:IAO_0000232))
+Declaration(AnnotationProperty(pbpko:IAO_0000233))
+Declaration(AnnotationProperty(pbpko:IAO_0000412))
+Declaration(AnnotationProperty(pbpko:IAO_0000425))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
+Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/mbox>))
+Declaration(Datatype(xsd:date))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: pbpko:IAO_0000111 (editor preferred term)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000111 "editor preferred term"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000111 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000111 "The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000111 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000111 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000111 "editor preferred term"@en)
+
+# Annotation Property: pbpko:IAO_0000112 (example of usage)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000112 "example of usage"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000112 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000112 "A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000112 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000112 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000112 "example of usage"@en)
+
+# Annotation Property: pbpko:IAO_0000114 (has curation status)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000114 "has curation status"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000114 "PERSON:Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000114 "PERSON:Bill Bug"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000114 "PERSON:Melanie Courtot"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000114 "has curation status"@en)
+
+# Annotation Property: pbpko:IAO_0000115 (definition)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000115 "definition"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000115 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000115 "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000115 "2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000115 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000115 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000115 "definition"@en)
+
+# Annotation Property: pbpko:IAO_0000116 (editor note)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000116 "editor note"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000116 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000116 "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000116 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000116 "GROUP:OBI:<http://purl.obofoundry.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000116 "editor note"@en)
+
+# Annotation Property: pbpko:IAO_0000117 (term editor)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000117 "term editor"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000117 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000117 "Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000117 "20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000117 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000117 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000117 "term editor"@en)
+
+# Annotation Property: pbpko:IAO_0000118 (alternative label)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000118 "alternative label"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000118 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000118 "A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000118 "OBO Operations committee")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000118 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000118 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000118 "alternative label"@en)
+
+# Annotation Property: pbpko:IAO_0000119 (definition source)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000119 "definition source"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000119 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000119 "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000119 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000119 "definition source"@en)
+
+# Annotation Property: pbpko:IAO_0000232 (curator note)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000232 "curator note"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000232 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000232 "An administrative note of use for a curator but of no use for a user"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000232 "PERSON:Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000232 "curator note"@en)
+
+# Annotation Property: pbpko:IAO_0000233 (term tracker item)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000233 "term tracker item"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000233 "the URL for an ontology term tracker issue, such as https://github.com/monarch-initiative/mondo/issues/7588"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000233 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000233 "A URL for a request or discussion of an ontology term."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000233 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000233 "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000233 "term tracker item"@en)
+
+# Annotation Property: pbpko:IAO_0000412 (imported from)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000412 "imported from"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000412 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000412 "For external terms/classes, the ontology from which the term was imported"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000412 "PERSON:Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000412 "PERSON:Melanie Courtot"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000412 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000412 "imported from"@en)
+
+# Annotation Property: pbpko:IAO_0000425 (expand assertion to)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000425 "expand assertion to"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000425 "ObjectProperty: RO???
+Label: spatially disjoint from
+Annotations: expand_assertion_to \"DisjointClasses: (http://purl.obolibrary.org/obo/BFO_0000051 some ?X)  (http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"
+"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000425 "A macro expansion tag applied to an annotation property which can be expanded into a more detailed axiom."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000425 "Chris Mungall"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000425 "expand assertion to"@en)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: pbpko:BFO_0000050 (part of)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:BFO_0000050 "is part of"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000050 "my brain is part of my body (continuant parthood, two material entities)"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000050 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000050 "this day is part of this year (occurrent parthood)"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000050 "a core relation that holds between a part and its whole"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000050 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000050 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000050 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:BFO_0000050 "part_of"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000050 "part of"@en)
+InverseObjectProperties(pbpko:BFO_0000050 pbpko:BFO_0000051)
+TransitiveObjectProperty(pbpko:BFO_0000050)
+
+# Object Property: pbpko:BFO_0000051 (has part)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:BFO_0000051 "has part"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000051 "my body has part my brain (continuant parthood, two material entities)"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000051 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000051 "this year has part this day (occurrent parthood)"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000051 "a core relation that holds between a whole and its part"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000051 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000051 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000051 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:BFO_0000051 "has_part"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000051 "has part"@en)
+TransitiveObjectProperty(pbpko:BFO_0000051)
+
+# Object Property: pbpko:IAO_0000136 (is about)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000136 "This document is about information artifacts and their representations"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000136 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000136 "A (currently) primitive relation that relates an information artifact to an entity."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000136 "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. 
+
+We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+
+Some currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000136 "person:Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000136 "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000136 "is about"@en)
+ObjectPropertyDomain(pbpko:IAO_0000136 pbpko:IAO_0000030)
+
+# Object Property: pbpko:RO_0000052 (characteristic of)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:RO_0000052 "inheres in"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000052 "this fragility is a characteristic of this vase"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000052 "this red color is a characteristic of this apple"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000052 "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000052 "inheres_in"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000052 "characteristic of"@en)
+InverseObjectProperties(pbpko:RO_0000052 pbpko:RO_0000053)
+FunctionalObjectProperty(pbpko:RO_0000052)
+
+# Object Property: pbpko:RO_0000053 (has characteristic)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:RO_0000053 "bearer of"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000053 "this apple is bearer of this red color"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000053 "this vase is bearer of this fragility"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000053 "Inverse of characteristic_of"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000053 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000053 "bearer_of"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000053 "is bearer of"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000053 "has characteristic"@en)
+InverseFunctionalObjectProperty(pbpko:RO_0000053)
+ObjectPropertyRange(pbpko:RO_0000053 pbpko:BFO_0000020)
+
+# Object Property: pbpko:RO_0000079 (function of)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000079 "this catalysis function is a function of this enzyme"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000079 "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000079 "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000079 "function_of"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000079 "is function of"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000079 "function of"@en)
+SubObjectPropertyOf(pbpko:RO_0000079 pbpko:RO_0000052)
+InverseObjectProperties(pbpko:RO_0000079 pbpko:RO_0000085)
+ObjectPropertyDomain(pbpko:RO_0000079 pbpko:BFO_0000034)
+
+# Object Property: pbpko:RO_0000080 (quality of)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000080 "this red color is a quality of this apple"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000080 "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000080 "A quality inheres in its bearer at all times for which the quality exists."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000080 "is quality of"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000080 "quality_of"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000080 "quality of"@en)
+SubObjectPropertyOf(pbpko:RO_0000080 pbpko:RO_0000052)
+InverseObjectProperties(pbpko:RO_0000080 pbpko:RO_0000086)
+
+# Object Property: pbpko:RO_0000081 (role of)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000081 "this investigator role is a role of this person"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000081 "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000081 "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000081 "is role of"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000081 "role_of"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000081 "role of"@en)
+SubObjectPropertyOf(pbpko:RO_0000081 pbpko:RO_0000052)
+InverseObjectProperties(pbpko:RO_0000081 pbpko:RO_0000087)
+
+# Object Property: pbpko:RO_0000085 (has function)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000085 "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000085 "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000085 "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000085 "has_function"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000085 "has function"@en)
+SubObjectPropertyOf(pbpko:RO_0000085 pbpko:RO_0000053)
+ObjectPropertyDomain(pbpko:RO_0000085 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0000085 pbpko:BFO_0000034)
+
+# Object Property: pbpko:RO_0000086 (has quality)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000086 "this apple has quality this red color"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000086 "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000086 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000086 "has_quality"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000086 "has quality"@en)
+SubObjectPropertyOf(pbpko:RO_0000086 pbpko:RO_0000053)
+ObjectPropertyRange(pbpko:RO_0000086 pbpko:BFO_0000019)
+
+# Object Property: pbpko:RO_0000087 (has role)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:RO_0000087 "this person has role this investigator role (more colloquially: this person has this role of investigator)"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000087 "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:RO_0000087 "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:RO_0000087 "has_role"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000087 "has role"@en)
+SubObjectPropertyOf(pbpko:RO_0000087 pbpko:RO_0000053)
+ObjectPropertyDomain(pbpko:RO_0000087 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0000087 pbpko:BFO_0000023)
+
+# Object Property: pbpko:RO_0000091 (has disposition)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000091 "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000091 "has disposition"@en)
+SubObjectPropertyOf(pbpko:RO_0000091 pbpko:RO_0000053)
+InverseObjectProperties(pbpko:RO_0000091 pbpko:RO_0000092)
+ObjectPropertyDomain(pbpko:RO_0000091 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0000091 pbpko:BFO_0000016)
+
+# Object Property: pbpko:RO_0000092 (disposition of)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0000092 "disposition of"@en)
+SubObjectPropertyOf(pbpko:RO_0000092 pbpko:RO_0000052)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: pbpko:BFO_0000001 (entity)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000001 "Julius Caesar"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000001 "Verdi’s Requiem"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000001 "the Second World War"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000001 "your body mass index"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000001 "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000001 "entity"@en)
+
+# Class: pbpko:BFO_0000002 (continuant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000002 "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000002 "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000002 "continuant"@en)
+SubClassOf(pbpko:BFO_0000002 pbpko:BFO_0000001)
+
+# Class: pbpko:BFO_0000004 (independent continuant)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "a chair"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "a heart"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "a leg"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "a molecule"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "a spatial region"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "an atom"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "an orchestra."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "an organism"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "the bottom right portion of a human torso"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000004 "the interior of your mouth"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000004 "independent continuant"@en)
+SubClassOf(pbpko:BFO_0000004 pbpko:BFO_0000002)
+DisjointClasses(pbpko:BFO_0000004 pbpko:BFO_0000020)
+DisjointClasses(pbpko:BFO_0000004 pbpko:BFO_0000031)
+
+# Class: pbpko:BFO_0000016 (disposition)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000016 "an atom of element X has the disposition to decay to an atom of element Y"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000016 "certain people have a predisposition to colon cancer"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000016 "children are innately disposed to categorize objects in certain ways."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000016 "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000016 "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000016 "disposition"@en)
+SubClassOf(pbpko:BFO_0000016 pbpko:BFO_0000017)
+DisjointClasses(pbpko:BFO_0000016 pbpko:BFO_0000023)
+
+# Class: pbpko:BFO_0000017 (realizable entity)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000017 "the disposition of this piece of metal to conduct electricity."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000017 "the disposition of your blood to coagulate"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000017 "the function of your reproductive organs"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000017 "the role of being a doctor"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000017 "the role of this boundary to delineate where Utah and Colorado meet"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000017 "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000017 "realizable entity"@en)
+SubClassOf(pbpko:BFO_0000017 pbpko:BFO_0000020)
+DisjointClasses(pbpko:BFO_0000017 pbpko:BFO_0000019)
+
+# Class: pbpko:BFO_0000019 (quality)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000019 "the ambient temperature of this portion of air"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000019 "the color of a tomato"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000019 "the length of the circumference of your waist"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000019 "the mass of this piece of gold."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000019 "the shape of your nose"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000019 "the shape of your nostril"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000019 "quality"@en)
+SubClassOf(pbpko:BFO_0000019 pbpko:BFO_0000020)
+
+# Class: pbpko:BFO_0000020 (specifically dependent continuant)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "of one-sided specifically dependent continuants: the mass of this tomato"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the disposition of this fish to decay"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the function of this heart: to pump blood"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the mutual dependence of proton donors and acceptors in chemical reactions [79"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the pink color of a medium rare piece of grilled filet mignon at its center"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the role of being a doctor"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the shape of this hole."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000020 "the smell of this portion of mozzarella"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000020 "specifically dependent continuant"@en)
+SubClassOf(pbpko:BFO_0000020 pbpko:BFO_0000002)
+DisjointClasses(pbpko:BFO_0000020 pbpko:BFO_0000031)
+
+# Class: pbpko:BFO_0000023 (role)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "the priest role"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "the role of a boundary to demarcate two neighboring administrative territories"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "the role of a building in serving as a military target"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "the role of a stone in marking a property boundary"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "the role of subject in a clinical trial"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000023 "the student role"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000023 "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000023 "BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role & c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000023 "role"@en)
+SubClassOf(pbpko:BFO_0000023 pbpko:BFO_0000017)
+
+# Class: pbpko:BFO_0000031 (generically dependent continuant)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000031 "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000031 "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000031 "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000031 "generically dependent continuant"@en)
+SubClassOf(pbpko:BFO_0000031 pbpko:BFO_0000002)
+
+# Class: pbpko:BFO_0000034 (function)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000034 "the function of a hammer to drive in nails"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000034 "the function of a heart pacemaker to regulate the beating of a heart through electricity"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000034 "the function of amylase in saliva to break down starch into sugar"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000034 "BFO 2 Reference: In the past, we have distinguished two varieties of function, artifactual function and biological function. These are not asserted subtypes of BFO:function however, since the same function – for example: to pump, to transport – can exist both in artifacts and in biological entities. The asserted subtypes of function that would be needed in order to yield a separate monoheirarchy are not artifactual function, biological function, etc., but rather transporting function, pumping function, etc."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000034 "function"@en)
+SubClassOf(pbpko:BFO_0000034 pbpko:BFO_0000016)
+
+# Class: pbpko:BFO_0000040 (material entity)
+
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a flame"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a forest fire"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a human being"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a hurricane"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a photon"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a puff of smoke"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a sea wave"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "a tornado"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "an aggregate of human beings."@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "an energy wave"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "an epidemic"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:BFO_0000040 "the undetached arm of a human being"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000040 "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000040 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000040 "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:BFO_0000040 "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000040 "material entity"@en)
+SubClassOf(pbpko:BFO_0000040 pbpko:BFO_0000004)
+
+# Class: pbpko:IAO_0000027 (data entity)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000027 "data entity"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000027 "Data items include counts of things, analyte concentrations, and statistical summaries."@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000027 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000027 "An information content entity that is intended to be one or more truthful statement(s) about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000027 "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000027 "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000027 "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000027 "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000027 "JAR: datum     -- well, this will be very tricky to define, but maybe some 
+information-like stuff that might be put into a computer and that is 
+meant, by someone, to denote and/or to be interpreted by some 
+process... I would include lists, tables, sentences... I think I might 
+defer to Barry, or to Brian Cantwell Smith
+
+JAR: A data item is an approximately justified approximately true approximate belief"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000027 "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000027 "PERSON: Chris Stoeckert"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000027 "PERSON: Jonathan Rees"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:IAO_0000027 "data"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:IAO_0000027 "data item"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000027 "data entity"@en)
+SubClassOf(pbpko:IAO_0000027 pbpko:IAO_0000030)
+
+# Class: pbpko:IAO_0000030 (information content entity)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000030 "information content entity"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000030 "Examples of information content entites include journal articles, data, graphical layouts, and graphs."@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000030 pbpko:IAO_0000122)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000030 "A generically dependent continuant that is about some thing."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000030 "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000030 "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
+
+Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000030 "PERSON: Chris Stoeckert"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000030 "OBI_0000142"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000030 "information content entity"@en)
+SubClassOf(pbpko:IAO_0000030 pbpko:BFO_0000031)
+SubClassOf(pbpko:IAO_0000030 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:BFO_0000001))
+
+# Class: pbpko:IAO_0000078 (curation status specification)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000078 "curation status specification"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000078 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000078 "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000078 "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000078 "PERSON:Bill Bug"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000078 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000078 "OBI_0000266"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000078 "curation status specification"@en)
+EquivalentClasses(pbpko:IAO_0000078 ObjectOneOf(pbpko:IAO_0000002 pbpko:IAO_0000120 pbpko:IAO_0000121 pbpko:IAO_0000122 pbpko:IAO_0000123 pbpko:IAO_0000124 pbpko:IAO_0000125 pbpko:IAO_0000423 pbpko:IAO_0000428))
+SubClassOf(pbpko:IAO_0000078 pbpko:IAO_0000102)
+
+# Class: pbpko:IAO_0000100 (homogenous data collection)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000100 "homogenous data collection"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000100 "Intensity values in a CEL file or from multiple CEL files comprise a data set (as opposed to the CEL files themselves)."@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000100 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000100 "A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data sets."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000100 "2009/10/23 Alan Ruttenberg. The intention is that this term represent collections of like data. So this isn't for, e.g. the whole contents of a cel file, which includes parameters, metadata etc. This is more like java arrays of a certain rather specific type"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000100 "2014-05-05: Data sets are aggregates and thus must include two or more data items. We have chosen not to add logical axioms to make this restriction.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000100 "person:Allyson Lister"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000100 "person:Chris Stoeckert"@en)
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:IAO_0000100 "data set"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000100 "group:OBI"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000100 "homogenous data collection"@en)
+SubClassOf(pbpko:IAO_0000100 pbpko:IAO_0001000)
+
+# Class: pbpko:IAO_0000102 (data about an ontology part)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000102 "data about an ontology part"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000102 "Data about an ontology part is a data item about a part of an ontology, for example a term"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000102 "Person:Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000102 "data about an ontology part"@en)
+SubClassOf(pbpko:IAO_0000102 pbpko:IAO_0000027)
+
+# Class: pbpko:IAO_0000225 (obsolescence reason specification)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000225 "obsolescence reason specification"@en)
+AnnotationAssertion(pbpko:IAO_0000114 pbpko:IAO_0000225 pbpko:IAO_0000125)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000225 "The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000225 "The creation of this class has been inspired in part by Werner Ceusters' paper, Applying evolutionary terminology auditing to the Gene Ontology."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000225 "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000225 "PERSON: Melanie Courtot"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000225 "obsolescence reason specification"@en)
+EquivalentClasses(pbpko:IAO_0000225 ObjectOneOf(pbpko:IAO_0000103 pbpko:IAO_0000226 pbpko:IAO_0000227 pbpko:IAO_0000228 pbpko:IAO_0000229 pbpko:OMO_0001000))
+SubClassOf(pbpko:IAO_0000225 pbpko:IAO_0000102)
+
+# Class: pbpko:IAO_0000409 (denotator type)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000409 "denotator type"@en)
+AnnotationAssertion(pbpko:IAO_0000112 pbpko:IAO_0000409 "The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are \"natural kinds\" and the latter arbitrary collections of entities."@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000409 "A denotator type indicates how a term should be interpreted from an ontological perspective."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000409 "Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000409 "Barry Smith, Werner Ceusters"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000409 "denotator type"@en)
+EquivalentClasses(pbpko:IAO_0000409 ObjectOneOf(pbpko:IAO_0000410 pbpko:IAO_0000420 pbpko:IAO_0000421))
+SubClassOf(pbpko:IAO_0000409 pbpko:IAO_0000102)
+
+# Class: pbpko:IAO_0001000 (data collection)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0001000 "data collection"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0001000 "A data entity that consists of multiple data entities."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0001000 "Sebastian Duesing")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:IAO_0001000 "data set"@en)
+AnnotationAssertion(pbpko:IAO_0000233 pbpko:IAO_0001000 "https://github.com/information-artifact-ontology/IAO/issues/283")
+AnnotationAssertion(pbpko:IAO_0000233 pbpko:IAO_0001000 "https://github.com/obi-ontology/obi/issues/1877")
+AnnotationAssertion(rdfs:label pbpko:IAO_0001000 "data collection"@en)
+SubClassOf(pbpko:IAO_0001000 pbpko:IAO_0000027)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: pbpko:IAO_0000002 (example to be eventually removed)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000002 "example to be eventually removed"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000002 "example to be eventually removed"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000002)
+
+# Individual: pbpko:IAO_0000103 (failed exploratory term)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000103 "failed exploratory term"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000103 "The term was initially used in an attempt to structure part of the ontology, but in retrospect failed to do a good job."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000103 "Terms created as placeholders with the expectation of being permanent should instead be deprecated using the \"placeholder removed\" (obo:IAO_0000226) justification."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000103 "Person:Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000103 "failed exploratory term"@en)
+ClassAssertion(pbpko:IAO_0000225 pbpko:IAO_0000103)
+
+# Individual: pbpko:IAO_0000120 (metadata complete)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000120 "metadata complete"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000120 "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000120 "metadata complete"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000120)
+
+# Individual: pbpko:IAO_0000121 (organizational term)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000121 "organizational term"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000121 "The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000121 "organizational term"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000121)
+
+# Individual: pbpko:IAO_0000122 (ready for release)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000122 "ready for release"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000122 "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\""@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000122 "ready for release"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000122)
+
+# Individual: pbpko:IAO_0000123 (metadata incomplete)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000123 "metadata incomplete"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000123 "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000123 "metadata incomplete"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000123)
+
+# Individual: pbpko:IAO_0000124 (uncurated)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000124 "uncurated"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000124 "Nothing done yet beyond assigning a unique class ID and proposing a preferred term."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000124 "uncurated"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000124)
+
+# Individual: pbpko:IAO_0000125 (pending final vetting)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000125 "pending final vetting"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000125 "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000125 "pending final vetting"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000125)
+
+# Individual: pbpko:IAO_0000226 (placeholder removed)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000226 "placeholder removed"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000226 "The term was created to temporarily stand in for a semantic purpose, but is no longer needed, typically due to another permanent term being defined."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000226 "This reason is appropriate for a temporary term even if no permanent term is defined; for example if the need for the term no longer exists. If a permanent (replacement) term is defined, the deprecated term should reference the replacement with IAO:0100001. If no replacement is defined, it may be appropriate to reference alternative terms with oboInOwl:consider."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000226 "placeholder removed"@en)
+ClassAssertion(pbpko:IAO_0000225 pbpko:IAO_0000226)
+
+# Individual: pbpko:IAO_0000227 (terms merged)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000227 "terms merged"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000227 "The term has been combined with one or more other terms to create a more encompassing (merged) term."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000227 "The deprecated term should reference the merged term with obo:IAO_0100001. The replacement term should reference the original terms as sources using obo:RO_0001000 (derives_from). An editor note should explain what were the merged terms and the reason for the merge."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000227 "terms merged"@en)
+ClassAssertion(pbpko:IAO_0000225 pbpko:IAO_0000227)
+
+# Individual: pbpko:IAO_0000228 (term imported)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000228 "term imported"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000228 "The term has been replaced by a term imported from another ontology."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000228 "This is to be used when the original term has been replaced by a term imported from an other ontology. The deprecated term should reference the imported term with obo:IAO_0100001."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000228 "term imported"@en)
+ClassAssertion(pbpko:IAO_0000225 pbpko:IAO_0000228)
+
+# Individual: pbpko:IAO_0000229 (term split)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000229 "term split"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000229 "The term has been split into two or more new terms."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000229 "This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split. The deprecated term should reference the replacement terms with obo:IAO_0100001."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000229 "term split"@en)
+ClassAssertion(pbpko:IAO_0000225 pbpko:IAO_0000229)
+
+# Individual: pbpko:IAO_0000410 (universal)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000410 "universal"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000410 "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000410 "Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000410 "A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000410 "universal"@en)
+ClassAssertion(pbpko:IAO_0000409 pbpko:IAO_0000410)
+
+# Individual: pbpko:IAO_0000420 (defined class)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000420 "defined class"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000420 "A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal"@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000420 "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000420 "Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000420 "defined class"@en)
+ClassAssertion(pbpko:IAO_0000409 pbpko:IAO_0000420)
+
+# Individual: pbpko:IAO_0000421 (named class expression)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000421 "named class expression"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000421 "A named class expression is a logical expression that is given a name. The name can be used in place of the expression."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:IAO_0000421 "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000421 "Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000421 "named class expression"@en)
+ClassAssertion(pbpko:IAO_0000409 pbpko:IAO_0000421)
+
+# Individual: pbpko:IAO_0000423 (to be replaced with external ontology term)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000423 "to be replaced with external ontology term"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000423 "Terms with this status should eventually replaced with a term from another ontology."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000423 "Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000423 "group:OBI"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000423 "to be replaced with external ontology term"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000423)
+
+# Individual: pbpko:IAO_0000428 (requires discussion)
+
+AnnotationAssertion(pbpko:IAO_0000111 pbpko:IAO_0000428 "requires discussion"@en)
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000428 "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000428 "Alan Ruttenberg"@en)
+AnnotationAssertion(pbpko:IAO_0000119 pbpko:IAO_0000428 "group:OBI"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000428 "requires discussion"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000428)
+
+# Individual: pbpko:OMO_0001000 (out of scope)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:OMO_0001000 "The term was added to the ontology on the assumption it was in scope, but it turned out later that it was not."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:OMO_0001000 "This obsolesence reason should be used conservatively. Typical valid examples in disease ontologies are: unnecessary class grouping; mistaked creation of a disease associated to a phenotype."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:OMO_0001000 <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(pbpko:IAO_0000233 pbpko:OMO_0001000 "https://github.com/information-artifact-ontology/ontology-metadata/issues/77")
+AnnotationAssertion(rdfs:label pbpko:OMO_0001000 "out of scope")
+ClassAssertion(pbpko:IAO_0000225 pbpko:OMO_0001000)
+
+# Individual: pbpko:OMO_0001002 (domain entity does not exist)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:OMO_0001002 "The term was added to the ontology on the assumption it was a valid domain entity, but it turns out the entity does not exist in reality."@en)
+AnnotationAssertion(pbpko:IAO_0000116 pbpko:OMO_0001002 "This obsolesence reason should be used conservatively. For example: Obsoleting class that describes a breed of cow based on a record in an existing database, that was later retracted as faulty (breed does not exist). Do not use this term to obsolete a historic concept (that was once valid, but not anymore). "@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:OMO_0001002 <http://orcid.org/0000-0002-4142-7153>)
+AnnotationAssertion(pbpko:IAO_0000233 pbpko:OMO_0001002 "https://github.com/information-artifact-ontology/ontology-metadata/issues/136")
+AnnotationAssertion(rdfs:label pbpko:OMO_0001002 "domain entity does not exist")
+ClassAssertion(pbpko:IAO_0000225 pbpko:OMO_0001002)
+
+
+DifferentIndividuals(pbpko:IAO_0000120 pbpko:IAO_0000121 pbpko:IAO_0000122 pbpko:IAO_0000123 pbpko:IAO_0000124 pbpko:IAO_0000125 pbpko:IAO_0000423 pbpko:IAO_0000428)
+DifferentIndividuals(pbpko:IAO_0000226 pbpko:IAO_0000227 pbpko:IAO_0000228 pbpko:IAO_0000229)
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000016 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000091 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000019 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000086 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000023 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000087 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000034 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000085 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+)

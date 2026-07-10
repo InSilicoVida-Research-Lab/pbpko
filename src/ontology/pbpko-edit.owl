@@ -1,0 +1,73 @@
+Prefix(:=<http://purl.obolibrary.org/obo/pbpko.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(dcterms:=<http://purl.org/dc/terms/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/pbpko.owl>
+Import(<http://purl.obolibrary.org/obo/pbpko/components/pbpko-vocab.owl>)
+Import(<http://purl.obolibrary.org/obo/pbpko/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pbpko/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pbpko/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pbpko/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/pbpko/imports/ro_import.owl>)
+Annotation(dcterms:created "2024-08-11"^^xsd:date)
+Annotation(dcterms:creator _:genid2147487537)
+Annotation(dcterms:creator _:genid2147487538)
+Annotation(dcterms:creator _:genid2147487539)
+Annotation(dcterms:creator _:genid2147487540)
+Annotation(dcterms:creator _:genid2147487541)
+Annotation(dcterms:creator _:genid2147487542)
+Annotation(dcterms:description "Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.")
+Annotation(dcterms:description "Physiologically Based Pharmacokinetic Models ontology for describing PBPK models, parameters, and processes.")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(dcterms:modified "2026-02-16"^^xsd:date)
+Annotation(dcterms:title "PBPK Ontology")
+Annotation(dcterms:title "PBPK ontology")
+Annotation(rdfs:label "PBPK Ontology")
+
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/name>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: dcterms:description (description)
+
+AnnotationAssertion(rdfs:label dcterms:description "description")
+
+# Annotation Property: dcterms:license (license)
+
+AnnotationAssertion(rdfs:label dcterms:license "license")
+
+# Annotation Property: dcterms:title (title)
+
+AnnotationAssertion(rdfs:label dcterms:title "title")
+
+
+
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/homepage> _:genid2147487537 <https://orcid.org/0009-0004-2207-3937>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/mbox> _:genid2147487537 <mailto:shubh.sharma@estudiants.urv.cat>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/name> _:genid2147487537 "Shubh Sharma")
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/homepage> _:genid2147487538 <https://orcid.org/0000-0003-0593-2598>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/mbox> _:genid2147487538 <mailto:saurav.kumar@iispv.cat>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/name> _:genid2147487538 "Saurav Kumar")
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/homepage> _:genid2147487539 <https://orcid.org/0000-0002-9795-5967>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/mbox> _:genid2147487539 <mailto:vikas.kumar@iispv.cat>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/name> _:genid2147487539 "Vikas Kumar")
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/homepage> _:genid2147487540 <https://orcid.org/0000-0001-8345-1349>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/mbox> _:genid2147487540 <mailto:deepika@iispv.cat>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/name> _:genid2147487540 "Deepika Deepika")
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/homepage> _:genid2147487541 <https://orcid.org/0000-0002-7685-9140>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/mbox> _:genid2147487541 <mailto:pance.panov@jsi.si>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/name> _:genid2147487541 "Panče Panov")
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/homepage> _:genid2147487542 <https://orcid.org/0000-0003-1673-5725>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/mbox> _:genid2147487542 <mailto:johannes.kruisselbrink@wur.nl>)
+AnnotationAssertion(<http://xmlns.com/foaf/0.1/name> _:genid2147487542 "Johannes Kruisselbrink")
+)

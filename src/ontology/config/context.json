@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "pbpko": "http://purl.obolibrary.org/obo/",
+    "obo": "http://purl.obolibrary.org/obo/",
+    "IAO": "http://purl.obolibrary.org/obo/IAO_",
+    "oboInOwl": "http://www.geneontology.org/formats/oboInOwl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "go": "http://purl.obolibrary.org/obo/",
+    "obcs": "http://purl.obolibrary.org/obo/"
+  }
+}

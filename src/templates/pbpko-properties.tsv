@@ -1,0 +1,10 @@
+ID	Label	Definition	Type	Parent
+ID	A rdfs:label	A IAO:0000115	TYPE	SP %
+pbpko:PBPKO_10001	has_biological_process	An object property which relates the different biological processes of the PBPK model	Object Property	http://purl.obolibrary.org/obo/BFO_0000051
+pbpko:PBPKO_10002	has_compartment	An object property which relates the different compartments of the PBPK model	Object Property	http://purl.obolibrary.org/obo/BFO_0000051
+pbpko:PBPKO_10004	has_transporter	An object property which relates the different transporters of the PBPK model	Object Property	http://purl.obolibrary.org/obo/BFO_0000051
+pbpko:PBPKO_10005	has_parameter	An object property which relates the different parameters of the PBPK model	Object Property	http://purl.obolibrary.org/obo/BFO_0000051
+pbpko:PBPKO_10006	has_biochemical_parameter	An object property which links the different biochemical parameters of the PBPK model	Object Property	has_parameter
+pbpko:PBPKO_10007	has_physicochemical_parameter	An object property which links the different physicochemical parameters of the PBPK model	Object Property	has_parameter
+pbpko:PBPKO_10008	has_physiological_parameter	An object property which links the different physiological parameters of the PBPK model	Object Property	has_parameter
+pbpko:PBPKO_10009	has_route_of_exposure	An object property which relates the different exposure routes of the PBPK model	Object Property	has_parameter
