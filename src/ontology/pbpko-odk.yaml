@@ -20,6 +20,7 @@ release_artefacts:
   - base
   - full
 primary_release: full
+release_diff: true
 namespaces:
   - http://purl.obolibrary.org/obo/PBPKO_
 import_group:

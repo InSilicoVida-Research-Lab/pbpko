@@ -1,0 +1,14 @@
+{
+  "name": "pbpko",
+  "private": true,
+  "description": "PBPK Ontology — commit hooks and release tooling",
+  "scripts": {
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "husky": "^9.1.7"
+  }
+}

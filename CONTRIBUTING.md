@@ -14,8 +14,10 @@ changes to this document in a pull request.
     * [Adding new terms by yourself](#adding-terms)
     * [Editing in Protege (standard ODK workflow)](#protege-editing)
 - [Best practices](#best-practices)
+    * [Commit message conventions](#commit-messages)
     * [How to write a great issue?](#great-issues)
     * [How to create a great pull/merge request?](#great-pulls)
+- [Cutting a release](#cutting-a-release)
 
 <a id="contributions"></a>
 
@@ -124,6 +126,47 @@ python3 src/scripts/extract_pbpko_from_original.py
 
 ## Best Practices
 
+<a id="commit-messages"></a>
+
+### Commit message conventions
+
+PBPKO uses [Conventional Commits](https://www.conventionalcommits.org/) enforced locally via
+[Husky](https://typicode.github.io/husky/) and in CI on pull requests.
+
+After cloning, install commit hooks once:
+
+```bash
+npm install
+```
+
+Format:
+
+```
+<type>(<optional-scope>): <description>
+```
+
+| Type | Use for |
+|------|---------|
+| `term` | New or updated PBPKO class or property |
+| `feat` | New feature (imports, components, tooling) |
+| `fix` | Bug fix (definitions, axioms, QC) |
+| `docs` | Documentation only |
+| `chore` | Maintenance (not ontology content) |
+| `ci` | CI/CD workflow changes |
+
+Examples:
+
+```
+term: add PBPKO_01501 gastric emptying subclass
+fix(term): correct definition for PBPKO_00554
+feat(imports): refresh OBI slim import
+docs: update import policy
+chore(release): 2026-07-10
+```
+
+The last example triggers an [automated GitHub Release](docs/odk-workflows/ReleaseWorkflow.md)
+with OBO/OWL assets. Only release managers should use `chore(release): YYYY-MM-DD`.
+
 <a id="great-issues"></a>
 
 ### How to write great issues?
@@ -135,3 +178,22 @@ Please refer to the [OBO Academy term request guide](https://oboacademy.github.i
 ### How to create a great pull/merge request?
 
 Please refer to the [OBO Academy best practices](https://oboacademy.github.io/obook/howto/github-create-pull-request/)
+
+<a id="cutting-a-release"></a>
+
+## Cutting a release
+
+Release managers follow the [Release Workflow](docs/odk-workflows/ReleaseWorkflow.md). In brief:
+
+1. Merge all ontology changes and wait for CI to refresh root release artefacts.
+2. Trigger a date-based release (OBO Foundry convention):
+
+   ```bash
+   git commit --allow-empty -m "chore(release): 2026-07-10"
+   git push origin main
+   ```
+
+3. GitHub Actions builds `pbpko.owl` / `pbpko.obo`, updates [`CHANGELOG.md`](CHANGELOG.md),
+   tags `v2026-07-10`, and publishes a GitHub Release with OBO assets.
+
+Legacy semver tags (`v1.0.0`–`v1.4.0`) remain on GitHub; new releases use `vYYYY-MM-DD`.

@@ -17,7 +17,17 @@ permissions:
   contents: write
 
 jobs:
+  commitlint:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v6
+
   ontology_qc:
+    if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(release):')
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.6
 
@@ -46,5 +56,5 @@ jobs:
             echo "Release artefacts unchanged; nothing to commit."
             exit 0
           fi
-          git commit -m "chore: refresh release artefacts [skip ci]"
+          git commit -m "chore(release-artifacts): refresh build outputs [skip ci]"
           git push

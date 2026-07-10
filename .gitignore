@@ -56,5 +56,7 @@ src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
 # End of ODK-managed rules
+node_modules/
+
 # Legacy reference monolith (read-only; not part of the ODK release)
 orginal pbpk owl/

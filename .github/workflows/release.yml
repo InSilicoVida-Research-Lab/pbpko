@@ -1,0 +1,156 @@
+# Automated OBO release workflow
+# Triggered by: chore(release): YYYY-MM-DD
+
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - odk-migration
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: startsWith(github.event.head_commit.message, 'chore(release):')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Parse release version
+        id: version
+        run: |
+          MSG="${{ github.event.head_commit.message }}"
+          VERSION=$(echo "$MSG" | sed -n 's/^chore(release):[[:space:]]*\(20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]\)[[:space:]]*$/\1/p')
+          if [ -z "$VERSION" ]; then
+            echo "Could not parse release date from commit message: $MSG"
+            exit 1
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Release version: $VERSION"
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Resolve previous release tag
+        id: prev
+        run: |
+          PREV_TAG=$(git tag -l 'v20*' --sort=-version:refname | head -1)
+          if [ -z "$PREV_TAG" ]; then
+            PREV_TAG=$(git tag -l 'v*' --sort=-version:refname | head -1)
+          fi
+          echo "tag=${PREV_TAG}" >> "$GITHUB_OUTPUT"
+          echo "Previous tag: ${PREV_TAG:-none}"
+
+      - name: Prepare baseline for release diff
+        run: |
+          mkdir -p src/ontology/tmp
+          PREV_TAG="${{ steps.prev.outputs.tag }}"
+          if [ -n "$PREV_TAG" ] && git cat-file -e "${PREV_TAG}:pbpko.owl" 2>/dev/null; then
+            git show "${PREV_TAG}:pbpko.owl" > src/ontology/tmp/current-release.owl
+            echo "Baseline owl from ${PREV_TAG}"
+          else
+            echo "No previous pbpko.owl found; release diff will compare against empty baseline."
+            echo '<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>' > src/ontology/tmp/current-release.owl
+          fi
+
+      - name: Build release artefacts
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work/src/ontology \
+            -e ROBOT_JAVA_ARGS=-Xmx6G \
+            obolibrary/odkfull:v1.6 \
+            make "VERSION=${{ steps.version.outputs.version }}" prepare_release_fast -B
+
+      - name: Generate release diff
+        run: |
+          cp pbpko.owl src/ontology/pbpko.owl
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work/src/ontology \
+            -e ROBOT_JAVA_ARGS=-Xmx6G \
+            obolibrary/odkfull:v1.6 \
+            make release_diff
+          rm -f src/ontology/pbpko.owl
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update CHANGELOG
+        run: node scripts/generate-changelog.js "${{ steps.version.outputs.version }}" "${{ steps.prev.outputs.tag }}"
+
+      - name: Commit release artefacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            CHANGELOG.md \
+            pbpko.owl pbpko.obo \
+            pbpko-base.owl pbpko-base.obo \
+            pbpko-full.owl pbpko-full.obo \
+            imports/*.owl \
+            mappings/pbpko-sssom.sssom.tsv \
+            src/ontology/reports/release-diff.md
+          if git diff --staged --quiet; then
+            echo "No release changes to commit."
+          else
+            git commit -m "chore: release v${{ steps.version.outputs.version }} artefacts [skip ci]"
+            git push
+          fi
+
+      - name: Create and push tag
+        run: |
+          TAG="${{ steps.version.outputs.tag }}"
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists; skipping tag creation."
+          else
+            git tag -a "$TAG" -m "Release ${{ steps.version.outputs.version }}"
+            git push origin "$TAG"
+          fi
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="${{ steps.version.outputs.tag }}"
+          NOTES_FILE=$(mktemp)
+          {
+            echo "## ${VERSION} Release"
+            echo ""
+            awk '/^## \['"${VERSION}"'\]/{flag=1;next}/^## \[/{flag=0}flag' CHANGELOG.md
+            echo ""
+            if [ -f src/ontology/reports/release-diff.md ]; then
+              echo "### Ontology diff (summary)"
+              echo ""
+              head -100 src/ontology/reports/release-diff.md
+              echo ""
+              echo "_Full diff: \`src/ontology/reports/release-diff.md\` in the repository._"
+            fi
+          } > "$NOTES_FILE"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" \
+              pbpko.owl pbpko.obo \
+              pbpko-base.owl pbpko-base.obo \
+              pbpko-full.owl pbpko-full.obo \
+              imports/bfo_import.owl imports/go_import.owl imports/iao_import.owl \
+              imports/obi_import.owl imports/ro_import.owl \
+              mappings/pbpko-sssom.sssom.tsv \
+              --clobber
+          else
+            gh release create "$TAG" \
+              --title "${VERSION} Release" \
+              --notes-file "$NOTES_FILE" \
+              pbpko.owl pbpko.obo \
+              pbpko-base.owl pbpko-base.obo \
+              pbpko-full.owl pbpko-full.obo \
+              imports/bfo_import.owl imports/go_import.owl imports/iao_import.owl \
+              imports/obi_import.owl imports/ro_import.owl \
+              mappings/pbpko-sssom.sssom.tsv
+          fi
