@@ -29,3 +29,14 @@ export-properties-view: $(SRC)
 	@rm -f $(PROPERTIES_VIEW).tmp
 
 export-term-views: export-vocab-view export-properties-view
+
+# ODK default downloads the live PURL for release-diff; PBPKO PURL may still
+# point at the deleted legacy Robot/ path until OBO Foundry config is updated.
+# CI pre-seeds tmp/current-release.owl; otherwise wget with empty fallback.
+$(TMPDIR)/current-release.owl:
+	@if [ -s $@ ]; then \
+	  echo "Using existing $@ for release diff baseline"; \
+	else \
+	  wget -q $(CURRENT_RELEASE) -O $@ || \
+	  echo '<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>' > $@; \
+	fi

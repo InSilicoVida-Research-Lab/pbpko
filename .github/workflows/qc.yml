@@ -39,7 +39,12 @@ jobs:
       - name: Run QC and build release artefacts
         env:
           DEFAULT_BRANCH: main
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release_fast -B
+        run: |
+          mkdir -p src/ontology/tmp
+          if [ -f pbpko.owl ]; then
+            cp pbpko.owl src/ontology/tmp/current-release.owl
+          fi
+          cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release_fast
 
       - name: Commit release artefacts to repository
         if: github.event_name == 'push'

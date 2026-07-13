@@ -68,7 +68,7 @@ jobs:
             -w /work/src/ontology \
             -e ROBOT_JAVA_ARGS=-Xmx6G \
             obolibrary/odkfull:v1.6 \
-            make "VERSION=${{ steps.version.outputs.version }}" prepare_release_fast -B
+            make "VERSION=${{ steps.version.outputs.version }}" prepare_release_fast
 
       - name: Generate release diff
         run: |
