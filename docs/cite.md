@@ -8,20 +8,40 @@ http://purl.obolibrary.org/obo/pbpko.owl
 
 ## Recommended citation (software / ontology release)
 
-Use the Zenodo record for the version you used. After enabling GitHub–Zenodo integration,
-each GitHub Release receives a versioned DOI. Check:
-<https://zenodo.org/doi/10.5281/zenodo.XXXXXXX> (search “PBPK Ontology (PBPKO)”).
+Cite the **version-specific Zenodo DOI** for the release you used. All versions share
+the concept DOI [10.5281/zenodo.18660038](https://doi.org/10.5281/zenodo.18660038).
 
-Example (adapt version and DOI):
+| Release | Zenodo DOI | Date |
+|---------|------------|------|
+| v1.4.0 (latest semver) | [10.5281/zenodo.21274522](https://doi.org/10.5281/zenodo.21274522) | 2026-07-09 |
+| Concept (all versions) | [10.5281/zenodo.18660038](https://doi.org/10.5281/zenodo.18660038) | — |
+
+After ODK dated releases (`vYYYY-MM-DD`), add new rows from the
+[Zenodo record](https://doi.org/10.5281/zenodo.18660038) page.
+
+### Example BibTeX (v1.4.0)
 
 ```bibtex
-@misc{pbpko2026,
+@software{kumar2026pbpko,
   author       = {Kumar, Saurav and Sharma, Shubh and Deepika, Deepika and Kumar, Vikas},
   title        = {PBPK Ontology (PBPKO)},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://github.com/InSilicoVida-Research-Lab/pbpko}
+  version      = {v1.4.0},
+  doi          = {10.5281/zenodo.21274522},
+  url          = {https://doi.org/10.5281/zenodo.21274522}
+}
+```
+
+### Example BibTeX (concept DOI — any version)
+
+```bibtex
+@software{pbpko_zenodo,
+  author       = {Kumar, Saurav and Sharma, Shubh and Deepika, Deepika and Kumar, Vikas},
+  title        = {PBPK Ontology (PBPKO)},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18660038},
+  url          = {https://doi.org/10.5281/zenodo.18660038}
 }
 ```
 

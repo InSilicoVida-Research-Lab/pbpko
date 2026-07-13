@@ -1,5 +1,6 @@
 
 ![Build Status](https://github.com/InSilicoVida-Research-Lab/pbpko/actions/workflows/qc.yml/badge.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18660038.svg)](https://doi.org/10.5281/zenodo.18660038)
 # PBPK Ontology
 
 Description: Physiologically Based Pharmacokinetic Models ontology for describing PBPK models, parameters, and processes.
