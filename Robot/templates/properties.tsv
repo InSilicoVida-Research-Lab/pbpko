@@ -1,8 +1,0 @@
-ID	Label	Editor	Type	Super Property	Characteristic		domain	range
-ID	A rdfs:label	A term editor	TYPE	SP %	CHARACTERISTIC  		DOMAIN 	RANGE
-pbpko:PBPKO_05000	hasParameters		owl:ObjectProperty					
-pbpko:PBPKO_05001	hasEvaluationMetrics		owl:ObjectProperty					
-pbpko:PBPKO_05002	hasCompartments		owl:ObjectProperty				"""Brain PBPK"""	some ('Peripheral Compartment' and Brain and 'Barrier Compartment')
-pbpko:PBPKO_05003	includesTransporters		owl:ObjectProperty					
-pbpko:PBPKO_05004	includesBiologicalEvent		owl:ObjectProperty					
-pbpko:PBPKO_05005	includesEnzymes		owl:ObjectProperty					

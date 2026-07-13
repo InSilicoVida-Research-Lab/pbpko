@@ -1,9 +1,0 @@
-{
-	"@context": {
-		
-		"pbpko":"http://purl.obolibrary.org/obo/",
-        "obcs":"http://purl.obolibrary.org/obo/",
-        "go":"http://purl.obolibrary.org/obo/"
-
-	}
-}
