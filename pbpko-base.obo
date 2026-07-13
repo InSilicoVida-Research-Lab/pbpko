@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: pbpko/releases/2026-07-10/pbpko-base.owl
+data-version: pbpko/releases/2026-07-13/pbpko-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -11,7 +11,7 @@ property_value: dcterms:description "Physiologically Based Pharmacokinetic Model
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "PBPK Ontology" xsd:string
 property_value: dcterms:title "PBPK ontology" xsd:string
-property_value: owl:versionInfo "2026-07-10" xsd:string
+property_value: owl:versionInfo "2026-07-13" xsd:string
 name: PBPK Ontology
 
 [Term]

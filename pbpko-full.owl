@@ -16,7 +16,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pbpko/pbpko-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/2026-07-10/pbpko-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/2026-07-13/pbpko-full.owl"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-11</dcterms:created>
         <dcterms:creator>
             <rdf:Description>
@@ -67,7 +67,7 @@
         <dcterms:title>PBPK Ontology</dcterms:title>
         <dcterms:title>PBPK ontology</dcterms:title>
         <rdfs:label>PBPK Ontology</rdfs:label>
-        <owl:versionInfo>2026-07-10</owl:versionInfo>
+        <owl:versionInfo>2026-07-13</owl:versionInfo>
     </owl:Ontology>
     
 
