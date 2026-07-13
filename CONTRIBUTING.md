@@ -64,64 +64,70 @@ For how to write a good term request, please read the [best practices carefully]
 
 If you have never edited this ontology before, first follow a [general tutorial](https://oboacademy.github.io/obook/lesson/contributing-to-obo-ontologies)
 
-PBPKO follows the **standard ODK model**: seed classes and properties from TSV templates, then edit logical axioms and refinements in Protege on the edit file.
+PBPKO uses **edit-file-only** authoring in Protégé: all native classes, properties, labels, definitions, parents, and logical axioms live in a single edit file.
 
 | What you change | Where to edit |
 |-----------------|---------------|
-| New PBPKO **class** (label, definition, parent) | [`src/templates/pbpko-vocab.tsv`](src/templates/pbpko-vocab.tsv) |
-| New PBPKO **object property** | [`src/templates/pbpko-properties.tsv`](src/templates/pbpko-properties.tsv) |
+| New PBPKO **class** (label, definition, parent) | [`src/ontology/pbpko-edit.owl`](src/ontology/pbpko-edit.owl) in **Protégé** |
+| New PBPKO **object property** | [`src/ontology/pbpko-edit.owl`](src/ontology/pbpko-edit.owl) in **Protégé** |
 | **Logical axioms** (`has_X some Y`), ad hoc refinements | [`src/ontology/pbpko-edit.owl`](src/ontology/pbpko-edit.owl) in **Protégé** |
 | Ontology **metadata** (title, license, creators) | [`src/ontology/pbpko-edit.owl`](src/ontology/pbpko-edit.owl) |
 | External **structural** parent | [`src/ontology/imports/*_terms.txt`](src/ontology/imports/) + `make refresh-imports` |
 | Cross-ontology **xrefs** (annotation only) | [`src/mappings/pbpko-sssom.sssom.tsv`](src/mappings/pbpko-sssom.sssom.tsv) |
+| **Spreadsheet view** (read-only export) | `make export-term-views` → `src/templates/pbpko-vocab-view.tsv` |
 
 **Process**:
 
 1. Clone the repository (if you are not an official team member, create a fork first)
 2. Create a new branch in git, for example `git checkout -b issue123`
-3. Make your edit (TSV and/or Protege — see table above)
-4. Rebuild and test from `src/ontology/`:
+3. Edit [`src/ontology/pbpko-edit.owl`](src/ontology/pbpko-edit.owl) in Protégé (see below)
+4. Run QC from `src/ontology/`:
    ```bash
    cd src/ontology
-   sh run.sh make recreate-vocab-from-template   # after TSV edits only
    sh run.sh make test IMP=false PAT=false MIR=false
    ```
-5. Commit changes to branch (TSV edits + generated `components/pbpko-vocab.owl` if templates changed; `pbpko-edit.owl` if Protege edits)
+5. Commit `pbpko-edit.owl` (and import/mapping files if changed)
 6. Push changes upstream
 7. Create pull request
 
-**Do not edit** release artefacts (`pbpko.owl`, `pbpko-base.owl`), import modules (`imports/*_import.owl`), or the legacy reference file (`orginal pbpk owl/pbpko.owl`).
+Optional — refresh spreadsheet views for reviewers:
+
+```bash
+cd src/ontology
+sh run.sh make export-term-views
+```
+
+**Do not edit** release artefacts (`pbpko.owl`, `pbpko-base.owl`), import modules at repo root (`imports/*_import.owl`), archived TSV seeds (`src/templates/archive/`), or the legacy reference file (`orginal pbpk owl/pbpko.owl`).
 
 <a id="protege-editing"></a>
 
-### Editing in Protege (standard ODK workflow)
+### Editing in Protege (edit-file-only ODK workflow)
 
-For **logical axioms** and other OWL-level refinements, open the ODK edit file in Protege:
+Open the ODK edit file in Protégé — it contains **all** native PBPKO terms and axioms:
 
 1. Open [`src/ontology/pbpko-edit.owl`](src/ontology/pbpko-edit.owl) in [Protégé 5.5+](https://protege.stanford.edu/)
-2. The vocab component loads automatically as an import — class and property labels are visible
-3. Add or edit **existential restrictions** (e.g. `has_compartment some liver compartment`) on PBPKO classes in the **Class hierarchy** or **Class assertions** view
-4. Logical axioms live in the section marked `# --- seeded logical axioms (edit below in Protege) ---`
+2. Slim import modules (BFO, GO, OBI, RO, IAO) load automatically — foreign parents are visible
+3. Add or edit **classes**, **properties**, **labels**, **definitions**, and **parents** in the Class/Object Property hierarchy
+4. Add or edit **existential restrictions** (e.g. `has_compartment some liver compartment`) on PBPKO classes
 5. **Save as OWL Functional Syntax** (File → Save as → OWL Functional Syntax) to keep git diffs readable
 6. Run QC:
    ```bash
    cd src/ontology
    sh run.sh make test IMP=false PAT=false MIR=false
    ```
-7. Commit `pbpko-edit.owl` — no template rebuild needed for axiom-only edits
+7. Commit `pbpko-edit.owl`
 
-**Bulk new classes or properties** should still be added via TSV templates, then rebuilt with `make recreate-vocab-from-template`.
+To export a read-only TSV for spreadsheet review:
 
-**One-time axiom seed** from the legacy monolith (does not overwrite existing axioms unless `--force`):
+```bash
+cd src/ontology
+sh run.sh make export-term-views
+```
+
+Legacy monolith extraction (audit / one-time seed from old files):
 
 ```bash
 python3 src/scripts/extract_pbpko_from_original.py --seed-edit-axioms
-```
-
-Regenerate TSV templates from legacy file (audit only; does not touch edit-file axioms):
-
-```bash
-python3 src/scripts/extract_pbpko_from_original.py
 ```
 
 ## Best Practices

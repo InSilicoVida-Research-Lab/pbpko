@@ -1,9 +1,12 @@
 format-version: 1.2
-data-version: pbpko/releases/2026-07-10/pbpko-base.owl
+data-version: pbpko/releases/2026-07-13/pbpko-base.owl
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
+idspace: foaf http://xmlns.com/foaf/0.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: swrl http://www.w3.org/2003/11/swrl# 
+idspace: swrlb http://www.w3.org/2003/11/swrlb# 
 ontology: pbpko/pbpko-base
 property_value: dce:type IAO:8000001
 property_value: dcterms:description "Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output." xsd:string
@@ -11,7 +14,7 @@ property_value: dcterms:description "Physiologically Based Pharmacokinetic Model
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "PBPK Ontology" xsd:string
 property_value: dcterms:title "PBPK ontology" xsd:string
-property_value: owl:versionInfo "2026-07-10" xsd:string
+property_value: owl:versionInfo "2026-07-13" xsd:string
 name: PBPK Ontology
 
 [Term]
@@ -9052,6 +9055,55 @@ property_value: skos:closeMatch "http://purl.obolibrary.org/obo/UBERON_0000074" 
 has_synonym_type: gfr compartment
 
 [Term]
+id: PBPKO:02007
+name: menstrual plasma compartment
+def: "A compartment representing menstrual plasma" []
+is_a: PBPKO:00446 ! compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:02008
+name: kidney rest lumen compartment
+def: "A compartment representing rest of the lumen of kidney." []
+is_a: PBPKO:00557 ! kidney compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:02009
+name: kidney proximal tubule tissue compartment
+def: "A compartment representing rest of the tissue of kidney." []
+is_a: PBPKO:00557 ! kidney compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:02010
+name: liver extracellular compartment
+def: "A compartment representing vascular and interstitial space of the liver." []
+is_a: PBPKO:00558 ! liver compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:02011
+name: liver intracellular space compartment
+def: "A compartment representing intracellular space of the liver." []
+is_a: PBPKO:00558 ! liver compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:02012
+name: gastro intestinal tract compartment
+def: "A digestive system compartment representing the gastro-intestinal tract" []
+is_a: PBPKO:00553 ! digestive system compartment
+property_value: IAO:0000117 "0000-0002-7534-0937" xsd:string
+
+[Term]
+id: PBPKO:02013
+name: gonad compartment
+def: "A compartment representing gonads." []
+is_a: PBPKO:00446 ! compartment
+property_value: IAO:0000117 "0000-0002-7534-0937" xsd:string
+
+[Term]
 id: PBPKO:03001
 name: intrinsic gastric emptying rate
 def: "The absorption rate constant parameter representing the intrinsic rate of the chemical release from stomach to lumen or the jejunum segment" []
@@ -9456,6 +9508,13 @@ property_value: IAO:0000117 "0000-0001-8345-1349" xsd:string
 property_value: IAO:0000117 "0000-0002-6705-835X" xsd:string
 property_value: IAO:0000117 "0000-0002-9795-5967" xsd:string
 has_synonym_type: ka
+
+[Term]
+id: PBPKO:03076
+name: fraction unbound kidney proximal tubule
+def: "An unbound fraction parameter specifically for the kidney proximal tubule." []
+is_a: PBPKO:00149 ! unbound fraction
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
 
 [Term]
 id: PBPKO:04001
@@ -10046,6 +10105,92 @@ name: fraction of the skin surface depot
 is_a: PBPKO:00610 ! fraction of volume of compartment
 
 [Term]
+id: PBPKO:04100
+name: fraction of blood
+def: "A dimensionless fraction of volume defined as the blood volume divided per unit of total body weight." []
+is_a: PBPKO:00610 ! fraction of volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04101
+name: fraction of bone marrow
+def: "A dimensionless fraction of volume defined as the bone marrow volume divided per unit of total body weight." []
+is_a: PBPKO:00610 ! fraction of volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04102
+name: fraction of bone non perfused
+def: "A dimensionless fraction of volume defined as the bone non perfuse volume divided per unit of total body weight." []
+is_a: PBPKO:00610 ! fraction of volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04103
+name: fraction of adipose mass
+def: "A dimensionless fraction of volume defined as the adipose mass volume divided per unit of total body weight." []
+is_a: PBPKO:00610 ! fraction of volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+property_value: IAO:0000118 "fraction of fat mass" xsd:string
+
+[Term]
+id: PBPKO:04104
+name: fraction of intestinal tissue
+def: "A dimensionless fraction of volume defined as the intestinal tissue volume divided per unit of total body weight." []
+is_a: PBPKO:00610 ! fraction of volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04105
+name: volume of kidney rest tissue
+def: "A volume parameter representing the total volume of the kidney rest tissue compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04106
+name: volume of kidney rest lumen
+def: "A volume parameter representing the total volume of the kidney rest lumen compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04107
+name: volume of kidney proximal tubule lumen
+def: "A volume parameter representing the total volume of the lumen of kidney proximal tubule compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04108
+name: volume of kidney proximal tubule tissue
+def: "A volume parameter representing the total volume of the tissue of kidney proximal tubule compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04109
+name: volume of liver extracellular
+def: "A volume parameter representing the total volume of the vascular and interstitial spaces of liver compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:04110
+name: volume of liver intracellular space
+def: "A volume parameter representing the total volume of the hepatocytes in liver compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+property_value: IAO:0000118 "volume of hepatocytes" xsd:string
+
+[Term]
+id: PBPKO:04111
+name: volume of intestine tissue
+def: "A volume parameter representing the total volume of the tissue of intestine compartment." []
+is_a: PBPKO:00066 ! volume of compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
 id: PBPKO:05001
 name: molar volume
 def: "A physicochemical parameter representing the volume of one mole of a molecule." []
@@ -10514,6 +10659,56 @@ is_a: PBPKO:00616 ! concentration of compound in compartment
 id: PBPKO:06061
 name: concentration in air
 is_a: PBPKO:00616 ! concentration of compound in compartment
+
+[Term]
+id: PBPKO:06062
+name: amount in menstrual
+def: "The amount of compound in the menstrual compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:06063
+name: amount in kidney rest tissue
+def: "The amount of compound in the kidney rest tissue compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:06064
+name: amount in kidney rest lumen
+def: "The amount of compound in the rest of kidney lumen compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+property_value: IAO:0000118 "amount in rest of kidney lumen" xsd:string
+
+[Term]
+id: PBPKO:06065
+name: amount in kidney proximal tubule tissue
+def: "The amount of compound in the proximal tubule tissue of kidney compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:06066
+name: amount in kidney proximal tubule lumen
+def: "The amount of compound in the proximal tubule lumen of kidney compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:06067
+name: amount in liver intracellular
+def: "The amount of compound in the intracellular spaceof liver compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
+
+[Term]
+id: PBPKO:06068
+name: amount in liver extracellular
+def: "The amount of compound in the extracellular space of liver compartment." []
+is_a: PBPKO:00615 ! amount of compound in compartment
+property_value: IAO:0000117 "0009-0001-7071-8646" xsd:string
 
 [Term]
 id: PBPKO:07001

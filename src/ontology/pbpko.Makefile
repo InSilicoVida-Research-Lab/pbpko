@@ -1,28 +1,31 @@
 ## Customize Makefile settings for pbpko
 ##
-## Native PBPKO classes and object properties are seeded from src/templates/*.tsv
-## into components/pbpko-vocab.owl via ROBOT template.
-## Logical axioms (existential restrictions) are authored in pbpko-edit.owl (Protege).
+## PBPKO uses edit-file-only authoring: all native classes, properties, labels,
+## definitions, parents, and logical axioms live in pbpko-edit.owl (Protégé).
 ##
-## Rebuild vocab component after TSV edits:
-##   sh run.sh make recreate-vocab-from-template
+## TSV files under src/templates/ are view-only exports (make export-vocab-view).
+## Do not edit TSV to change the ontology.
 ##
-## One-time seed of axioms from legacy monolith into edit file:
-##   python3 src/scripts/extract_pbpko_from_original.py --seed-edit-axioms
-##
-## Regenerate TSV templates from legacy monolith (audit only; does not overwrite edit axioms):
-##   python3 src/scripts/extract_pbpko_from_original.py
+## Legacy template seed files are archived under src/templates/archive/.
 
-.PHONY: recreate-vocab-from-template
+# Disable ROBOT template component merge — edit file is the sole native source.
+OTHER_SRC =
 
-TEMPLATE_SEED = template-seed.owl
-VOCAB_TEMPLATES = $(TEMPLATEDIR)/pbpko-properties.tsv \
-	$(TEMPLATEDIR)/pbpko-vocab.tsv
+VOCAB_VIEW = $(TEMPLATEDIR)/pbpko-vocab-view.tsv
+PROPERTIES_VIEW = $(TEMPLATEDIR)/pbpko-properties-view.tsv
 
-recreate-vocab-from-template: $(TEMPLATE_SEED) $(VOCAB_TEMPLATES)
-	$(ROBOT) template --input $(TEMPLATE_SEED) --add-prefixes config/context.json \
-	 --template $(TEMPLATEDIR)/pbpko-properties.tsv \
-	 --template $(TEMPLATEDIR)/pbpko-vocab.tsv \
-	 annotate --ontology-iri http://purl.obolibrary.org/obo/pbpko/components/pbpko-vocab.owl \
-	 --output $(COMPONENTSDIR)/pbpko-vocab.owl.tmp.owl && \
-	 mv $(COMPONENTSDIR)/pbpko-vocab.owl.tmp.owl $(COMPONENTSDIR)/pbpko-vocab.owl
+.PHONY: export-vocab-view export-properties-view export-term-views
+
+export-vocab-view: $(SRC)
+	$(ROBOT) export -i $< -n classes \
+	 -c "ID|LABEL|IAO:0000115|SubClassOf" -f tsv -e $(VOCAB_VIEW).tmp
+	@{ head -1 $(VOCAB_VIEW).tmp; grep '^pbpko:PBPKO_' $(VOCAB_VIEW).tmp; } > $(VOCAB_VIEW)
+	@rm -f $(VOCAB_VIEW).tmp
+
+export-properties-view: $(SRC)
+	$(ROBOT) export -i $< -n properties \
+	 -c "ID|LABEL|IAO:0000115" -f tsv -e $(PROPERTIES_VIEW).tmp
+	@{ head -1 $(PROPERTIES_VIEW).tmp; grep '^pbpko:PBPKO_' $(PROPERTIES_VIEW).tmp; } > $(PROPERTIES_VIEW)
+	@rm -f $(PROPERTIES_VIEW).tmp
+
+export-term-views: export-vocab-view export-properties-view

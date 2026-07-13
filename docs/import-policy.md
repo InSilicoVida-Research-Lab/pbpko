@@ -2,11 +2,8 @@
 
 ## Principles
 
-1. **Edit file** — [`src/ontology/pbpko-edit.owl`](../src/ontology/pbpko-edit.owl) holds ontology metadata, import declarations, and **logical axioms** (existential restrictions edited in Protege)
-2. **TSV templates seed native terms** — compiled into `src/ontology/components/pbpko-vocab.owl`:
-   - [`src/templates/pbpko-vocab.tsv`](../src/templates/pbpko-vocab.tsv) — classes and annotations
-   - [`src/templates/pbpko-properties.tsv`](../src/templates/pbpko-properties.tsv) — object properties
-   - [`src/templates/pbpko-axioms.tsv`](../src/templates/pbpko-axioms.tsv) — **seed record only** (not part of build; axioms live in edit file)
+1. **Edit file** — [`src/ontology/pbpko-edit.owl`](../src/ontology/pbpko-edit.owl) is the **sole authoring source** for all native PBPKO classes, object properties, labels, definitions, parents, metadata, and logical axioms (edited in Protégé)
+2. **TSV views are export-only** — run `make export-term-views` to generate `pbpko-vocab-view.tsv` / `pbpko-properties-view.tsv` for spreadsheet review; legacy seeds live in [`src/templates/archive/`](../src/templates/archive/)
 3. **Foreign terms live in slim import modules** — one module per source ontology, generated from seed lists via ODK SLME/BOT
 4. **Cross-references use SSSOM mappings** — not imports — for annotation-only links (UBERON, FMA, BTO, SBO, GO xrefs)
 5. **Reviewers should browse the base artifact** — [`pbpko-base.owl`](../pbpko-base.owl) (~580 PBPKO classes)
@@ -39,10 +36,10 @@ From `src/ontology/` (under `target/pbpko/`):
 
 ```bash
 cd target/pbpko/src/ontology
-sh run.sh make refresh-imports          # regenerate import modules (requires network)
-sh run.sh make recreate-vocab-from-template  # rebuild vocab component from TSV (classes + properties)
-sh run.sh make prepare_release          # full release pipeline
-sh run.sh make test                     # QC on edit and base artifacts
+sh run.sh make refresh-imports     # regenerate import modules (requires network)
+sh run.sh make export-term-views   # export read-only TSV views from edit file
+sh run.sh make prepare_release     # full release pipeline
+sh run.sh make test                # QC on edit and base artifacts
 ```
 
 ## Adding a new external term

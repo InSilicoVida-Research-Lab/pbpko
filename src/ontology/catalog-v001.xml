@@ -6,6 +6,5 @@
     <uri name="http://purl.obolibrary.org/obo/pbpko/imports/bfo_import.owl" uri="imports/bfo_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/pbpko/imports/ro_import.owl" uri="imports/ro_import.owl" />
     <uri name="http://purl.obolibrary.org/obo/pbpko/imports/iao_import.owl" uri="imports/iao_import.owl" />
-    <uri name="http://purl.obolibrary.org/obo/pbpko/components/pbpko-vocab.owl" uri="components/pbpko-vocab.owl" />
   </group>
 </catalog>

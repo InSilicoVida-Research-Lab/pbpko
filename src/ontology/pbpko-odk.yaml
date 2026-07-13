@@ -9,7 +9,7 @@ repo: pbpko
 edit_format: owl
 reasoner: ELK
 robot_java_args: '-Xmx6G'
-use_templates: true
+use_templates: false
 use_context: true
 use_mappings: true
 use_dosdps: false
@@ -31,14 +31,6 @@ import_group:
     - id: bfo
     - id: ro
     - id: iao
-components:
-  products:
-    - filename: pbpko-vocab.owl
-      use_template: true
-      template_options: --add-prefixes config/context.json
-      templates:
-        - pbpko-properties.tsv
-        - pbpko-vocab.tsv
 sssom_mappingset_group:
   products:
     - id: pbpko-sssom

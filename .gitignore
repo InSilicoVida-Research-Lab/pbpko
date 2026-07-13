@@ -14,6 +14,16 @@ bin/
 
 .github/token.txt
 
+/pbpko.owl
+/pbpko.obo
+/pbpko.json
+/pbpko.db
+/pbpko-base.*
+/pbpko-basic.*
+/pbpko-full.*
+/pbpko-simple.*
+/pbpko-simple-non-classified.*
+/mappings/
 /patterns/
 /reports/
 /subsets/
@@ -30,6 +40,7 @@ src/ontology/pbpko-base.*
 src/ontology/pbpko-basic.*
 src/ontology/pbpko-full.*
 src/ontology/pbpko-simple.*
+src/ontology/pbpko-simple-non-classified.*
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
@@ -58,5 +69,12 @@ src/patterns/all_pattern_terms.txt
 # End of ODK-managed rules
 node_modules/
 
+# View-only TSV exports from pbpko-edit.owl (make export-term-views)
+src/templates/pbpko-vocab-view.tsv
+src/templates/pbpko-properties-view.tsv
+
 # Legacy reference monolith (read-only; not part of the ODK release)
 orginal pbpk owl/
+
+# Local backup from vocab merge (edit-file-only migration)
+src/ontology/pbpko-edit.owl.bak

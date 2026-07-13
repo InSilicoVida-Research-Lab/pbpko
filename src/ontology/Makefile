@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                19984ac675d9f4347b3203f8e4679b970b5a676609fb345c4b6c170d24f6142b
+CONFIG_HASH=                7ad47eaac3db0b9e05aeb3010cfbef7dd98368cece3266182b23a89d63fe10e9
 
 
 # ----------------------------------------
@@ -59,7 +59,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/pbpko-vocab.owl 
+OTHER_SRC =                 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -112,7 +112,7 @@ PAT = true
 all: all_odk
 
 .PHONY: all_odk
-all_odk: odkversion config_check test custom_reports all_assets
+all_odk: odkversion config_check test custom_reports all_assets release_diff
 
 .PHONY: test
 test: odkversion validate_idranges reason_test sparql_test robot_reports $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt
@@ -453,50 +453,6 @@ no-mirror-refresh-%:
 	$(MAKE) --assume-new=$(SRC) --assume-new=$(IMPORTDIR)/$*_terms.txt \
 		IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl
 
-# ----------------------------------------
-# Components
-# ----------------------------------------
-# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
-
-ifeq ($(COMP),true)
-.PHONY: all_components
-all_components: $(OTHER_SRC)
-
-.PHONY: recreate-components
-recreate-components:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-pbpko-vocab.owl \
-		COMP=true IMP=false MIR=true PAT=true all_components
-
-.PHONY: no-mirror-recreate-components
-no-mirror-recreate-components:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-pbpko-vocab.owl \
-		COMP=true IMP=false MIR=false PAT=true all_components
-
-.PHONY: recreate-%
-recreate-%:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-$*.owl \
-		COMP=true IMP=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl
-
-.PHONY: no-mirror-recreate-%
-no-mirror-recreate-%:
-	$(MAKE) --assume-new=$(TMPDIR)/stamp-component-$*.owl \
-		COMP=true IMP=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl
-
-$(COMPONENTSDIR)/%.owl: $(TMPDIR)/stamp-component-%.owl | $(COMPONENTSDIR)
-	test -f $@ || touch $@
-.PRECIOUS: $(COMPONENTSDIR)/%.owl
-
-$(TMPDIR)/stamp-component-%.owl: | $(TMPDIR)
-	touch $@
-.PRECIOUS: $(TMPDIR)/stamp-component-%.owl
-
-$(COMPONENTSDIR)/pbpko-vocab.owl: $(TEMPLATEDIR)/pbpko-vocab.tsv $(TMPDIR)/stamp-component-pbpko-vocab.owl
-	$(ROBOT) template --add-prefixes config/context.json \
-		 --template $(TEMPLATEDIR)/pbpko-vocab.tsv \
-		 $(ANNOTATE_CONVERT_FILE)
-.PRECIOUS: $(COMPONENTSDIR)/pbpko-vocab.owl
-
-endif # COMP=true
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------

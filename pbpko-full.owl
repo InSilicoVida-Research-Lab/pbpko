@@ -16,34 +16,13 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/pbpko/pbpko-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/2026-07-10/pbpko-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/pbpko/releases/2026-07-13/pbpko-full.owl"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-11</dcterms:created>
         <dcterms:creator>
             <rdf:Description>
-                <foaf:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
-                <foaf:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
-                <foaf:name>Shubh Sharma</foaf:name>
-            </rdf:Description>
-        </dcterms:creator>
-        <dcterms:creator>
-            <rdf:Description>
-                <foaf:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
-                <foaf:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
-                <foaf:name>Saurav Kumar</foaf:name>
-            </rdf:Description>
-        </dcterms:creator>
-        <dcterms:creator>
-            <rdf:Description>
-                <foaf:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
-                <foaf:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
-                <foaf:name>Vikas Kumar</foaf:name>
-            </rdf:Description>
-        </dcterms:creator>
-        <dcterms:creator>
-            <rdf:Description>
-                <foaf:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
-                <foaf:mbox rdf:resource="mailto:deepika@iispv.cat"/>
-                <foaf:name>Deepika Deepika</foaf:name>
+                <foaf:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
+                <foaf:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
+                <foaf:name>Johannes Kruisselbrink</foaf:name>
             </rdf:Description>
         </dcterms:creator>
         <dcterms:creator>
@@ -55,9 +34,30 @@
         </dcterms:creator>
         <dcterms:creator>
             <rdf:Description>
-                <foaf:homepage rdf:resource="https://orcid.org/0000-0003-1673-5725"/>
-                <foaf:mbox rdf:resource="mailto:johannes.kruisselbrink@wur.nl"/>
-                <foaf:name>Johannes Kruisselbrink</foaf:name>
+                <foaf:homepage rdf:resource="https://orcid.org/0000-0001-8345-1349"/>
+                <foaf:mbox rdf:resource="mailto:deepika@iispv.cat"/>
+                <foaf:name>Deepika Deepika</foaf:name>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <foaf:homepage rdf:resource="https://orcid.org/0000-0002-9795-5967"/>
+                <foaf:mbox rdf:resource="mailto:vikas.kumar@iispv.cat"/>
+                <foaf:name>Vikas Kumar</foaf:name>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <foaf:homepage rdf:resource="https://orcid.org/0000-0003-0593-2598"/>
+                <foaf:mbox rdf:resource="mailto:saurav.kumar@iispv.cat"/>
+                <foaf:name>Saurav Kumar</foaf:name>
+            </rdf:Description>
+        </dcterms:creator>
+        <dcterms:creator>
+            <rdf:Description>
+                <foaf:homepage rdf:resource="https://orcid.org/0009-0004-2207-3937"/>
+                <foaf:mbox rdf:resource="mailto:shubh.sharma@estudiants.urv.cat"/>
+                <foaf:name>Shubh Sharma</foaf:name>
             </rdf:Description>
         </dcterms:creator>
         <dcterms:description>Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.</dcterms:description>
@@ -67,7 +67,7 @@
         <dcterms:title>PBPK Ontology</dcterms:title>
         <dcterms:title>PBPK ontology</dcterms:title>
         <rdfs:label>PBPK Ontology</rdfs:label>
-        <owl:versionInfo>2026-07-10</owl:versionInfo>
+        <owl:versionInfo>2026-07-13</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -35157,6 +35157,83 @@ scvart</oboInOwl:hasSynonymType>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00446"/>
+        <pbpko:IAO_0000115>A compartment representing menstrual plasma</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>menstrual plasma compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00557"/>
+        <pbpko:IAO_0000115>A compartment representing rest of the lumen of kidney.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>kidney rest lumen compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00557"/>
+        <pbpko:IAO_0000115>A compartment representing rest of the tissue of kidney.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>kidney proximal tubule tissue compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00558"/>
+        <pbpko:IAO_0000115>A compartment representing vascular and interstitial space of the liver.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>liver extracellular compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00558"/>
+        <pbpko:IAO_0000115>A compartment representing intracellular space of the liver.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>liver intracellular space compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00553"/>
+        <pbpko:IAO_0000115>A digestive system compartment representing the gastro-intestinal tract</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0000-0002-7534-0937</pbpko:IAO_0000117>
+        <rdfs:label>gastro intestinal tract compartment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_02013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_02013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00446"/>
+        <pbpko:IAO_0000115>A compartment representing gonads.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0000-0002-7534-0937</pbpko:IAO_0000117>
+        <rdfs:label>gonad compartment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PBPKO_03001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_03001">
@@ -35851,6 +35928,17 @@ scvart</oboInOwl:hasSynonymType>
         <pbpko:IAO_0000117>0000-0002-9795-5967</pbpko:IAO_0000117>
         <oboInOwl:hasSynonymType>ka</oboInOwl:hasSynonymType>
         <rdfs:label>absorption rate constant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_03076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_03076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00149"/>
+        <pbpko:IAO_0000115>An unbound fraction parameter specifically for the kidney proximal tubule.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>fraction unbound kidney proximal tubule</rdfs:label>
     </owl:Class>
     
 
@@ -36839,6 +36927,140 @@ scvart</oboInOwl:hasSynonymType>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <pbpko:IAO_0000115>A dimensionless fraction of volume defined as the blood volume divided per unit of total body weight.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>fraction of blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <pbpko:IAO_0000115>A dimensionless fraction of volume defined as the bone marrow volume divided per unit of total body weight.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>fraction of bone marrow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <pbpko:IAO_0000115>A dimensionless fraction of volume defined as the bone non perfuse volume divided per unit of total body weight.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>fraction of bone non perfused</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <pbpko:IAO_0000115>A dimensionless fraction of volume defined as the adipose mass volume divided per unit of total body weight.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <pbpko:IAO_0000118>fraction of fat mass</pbpko:IAO_0000118>
+        <rdfs:label>fraction of adipose mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00610"/>
+        <pbpko:IAO_0000115>A dimensionless fraction of volume defined as the intestinal tissue volume divided per unit of total body weight.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>fraction of intestinal tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the kidney rest tissue compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>volume of kidney rest tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the kidney rest lumen compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>volume of kidney rest lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the lumen of kidney proximal tubule compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>volume of kidney proximal tubule lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the tissue of kidney proximal tubule compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>volume of kidney proximal tubule tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the vascular and interstitial spaces of liver compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>volume of liver extracellular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the hepatocytes in liver compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <pbpko:IAO_0000118>volume of hepatocytes</pbpko:IAO_0000118>
+        <rdfs:label>volume of liver intracellular space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_04111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_04111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00066"/>
+        <pbpko:IAO_0000115>A volume parameter representing the total volume of the tissue of intestine compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>volume of intestine tissue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PBPKO_05001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_05001">
@@ -37557,6 +37779,84 @@ scvart</oboInOwl:hasSynonymType>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00616"/>
         <rdfs:label>concentration in air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the menstrual compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>amount in menstrual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the kidney rest tissue compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>amount in kidney rest tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the rest of kidney lumen compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <pbpko:IAO_0000118>amount in rest of kidney lumen</pbpko:IAO_0000118>
+        <rdfs:label>amount in kidney rest lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the proximal tubule tissue of kidney compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>amount in kidney proximal tubule tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the proximal tubule lumen of kidney compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>amount in kidney proximal tubule lumen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the intracellular spaceof liver compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>amount in liver intracellular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PBPKO_06068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PBPKO_06068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PBPKO_00615"/>
+        <pbpko:IAO_0000115>The amount of compound in the extracellular space of liver compartment.</pbpko:IAO_0000115>
+        <pbpko:IAO_0000117>0009-0001-7071-8646</pbpko:IAO_0000117>
+        <rdfs:label>amount in liver extracellular</rdfs:label>
     </owl:Class>
     
 
