@@ -1,6 +1,6 @@
 # OBO versioning maintainer checklist
 
-After merging the `obo-versioning` branch, complete these steps outside this repository.
+After merging ODK migration work, complete these steps outside this repository.
 
 ## 1. Update OBO Foundry PURL configuration
 
@@ -8,27 +8,22 @@ Open a pull request to [OBOFoundry/purl.obolibrary.org](https://github.com/OBOFo
 
 Use [`src/metadata/pbpko.yml`](https://github.com/InSilicoVida-Research-Lab/pbpko/blob/main/src/metadata/pbpko.yml) as the source for `config/pbpko.yml` in that repository.
 
-**Remove** any old semver-based entries such as:
+**Remove** any old entries that point at:
 
-```yaml
-- exact: /releases/v1.3.1/pbpko.owl
-```
+- `Robot/ontologies/pbpko.owl`
+- `releases/YYYY-MM-DD/pbpko.owl` on the `releases/` branch path
 
-**Keep/add** the dated `/releases/YYYY-MM-DD/pbpko.owl` entries and the generic:
+**Use** the ODK layout instead:
 
-```yaml
-- prefix: /releases/
-  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/releases/
-```
-
-After each new ontology release, add one more `exact` entry for the new date (unless the prefix rule alone is sufficient and tested).
+- Latest: `main/pbpko.owl`
+- Dated: git tag `vYYYY-MM-DD` → root `pbpko.owl` (see `prefix: /releases/` in `src/metadata/pbpko.yml`)
 
 ## 2. Verify PURL resolution
 
 After the PURL PR is merged and deployed, verify these URLs return HTTP 200:
 
 - http://purl.obolibrary.org/obo/pbpko.owl
-- http://purl.obolibrary.org/obo/pbpko/releases/2026-02-16/pbpko.owl
+- http://purl.obolibrary.org/obo/pbpko/releases/2026-07-13/pbpko.owl (after first ODK dated tag exists)
 
 ## 3. Re-run the OBO Foundry dashboard check
 
@@ -40,13 +35,11 @@ Confirm principle 4 (Versioning) passes:
 
 ## 4. On each future release
 
-1. Merge releasable commits (`fix:` / `feat:`) to `main`.
-2. Let the Release workflow run (sets dated version IRI, `versionInfo`, merges `annotation.ttl`).
-3. When ontology **content** changes, run `bash scripts/update-modified-date.sh` before release so `dcterms:modified` in `annotation.ttl` is current.
-4. Add a new `exact` PURL entry for the release date in `OBOFoundry/purl.obolibrary.org`.
-5. Add a dated section to `CHANGELOG.md` if not already done before release.
-
-See [release-annotations-plan.md](release-annotations-plan.md) for metadata workflow details.
+1. Merge releasable commits (`fix:` / `feat:` / `term:`) to `main`.
+2. Trigger release: `git commit --allow-empty -m "chore(release): YYYY-MM-DD"` and push to `main`.
+3. The Release workflow builds artefacts with ODK, updates `CHANGELOG.md`, creates tag `vYYYY-MM-DD`, and publishes a GitHub Release.
+4. Confirm the new dated PURL resolves (tag-based rule in `src/metadata/pbpko.yml`).
+5. Zenodo archives the GitHub Release if integration is enabled.
 
 ## 5. Optional cleanup
 

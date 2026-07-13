@@ -50,4 +50,3 @@ nav:
 # Maintainer drafts kept in docs/ but not published in the nav
 not_in_nav: |
   obo-versioning-checklist.md
-  release-annotations-plan.md
