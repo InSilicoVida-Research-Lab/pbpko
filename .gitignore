@@ -1,3 +1,6 @@
+# ODK-managed rules, do not modify
+# If you need to add your own ignore rules, you may do so below
+# the "End ODK-managed rules" marker at the end of this file.
 .DS_Store
 semantic.cache
 bin/
@@ -6,15 +9,33 @@ bin/
 *.tmp.obo
 *.tmp.owl
 *.tmp.json
+*-relation-graph.tsv.gz
+.template.db
 
 .github/token.txt
+
+/pbpko.owl
+/pbpko.obo
+/pbpko.json
+/pbpko.db
+/pbpko-base.*
+/pbpko-basic.*
+/pbpko-full.*
+/pbpko-simple.*
+/pbpko-simple-non-classified.*
+/mappings/
+/patterns/
+/reports/
+/subsets/
 
 src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
+!src/ontology/reports/release-diff.md
 src/ontology/pbpko.owl
 src/ontology/pbpko.obo
 src/ontology/pbpko.json
+src/ontology/pbpko.db
 src/ontology/pbpko-base.*
 src/ontology/pbpko-basic.*
 src/ontology/pbpko-full.*
@@ -28,9 +49,11 @@ src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
 src/ontology/merged-pbpko-edit.owl
+src/ontology/pbpko-edit.properties
 
 src/ontology/target/
 src/ontology/tmp/*
+!src/ontology/tmp/.gitkeep
 !src/ontology/tmp/README.md
 
 src/ontology/run.sh.conf
@@ -43,14 +66,19 @@ src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
 
-pbpko/
-Robot/reports/
-Robot/qc/*.log
-pbpko-release.owl
-.release-version-date
+# End of ODK-managed rules
 node_modules/
-npm-debug.log*
-__pycache__/
-*.pyc
-.vscode/
-.vscode/
+
+# Release artefacts committed by CI (root mappings copy; overrides /mappings/ above)
+!/mappings/
+!/mappings/pbpko-sssom.sssom.tsv
+
+# View-only TSV exports from pbpko-edit.owl (make export-term-views)
+src/templates/pbpko-vocab-view.tsv
+src/templates/pbpko-properties-view.tsv
+
+# Legacy reference monolith (read-only; not part of the ODK release)
+orginal pbpk owl/
+
+# Local backup from vocab merge (edit-file-only migration)
+src/ontology/pbpko-edit.owl.bak

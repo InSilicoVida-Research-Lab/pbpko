@@ -1,0 +1,51 @@
+# PURL configuration for http://purl.obolibrary.org/obo/pbpko
+#
+# Submit this file (or its contents) as a PR to:
+# https://github.com/OBOFoundry/purl.obolibrary.org
+# Target path in that repo: config/pbpko.yml
+#
+# NOTE: `products` and the generic fall-through resolve from the `main` branch,
+# so the ODK release artefacts must be merged to `main` for these to work.
+# Dated releases resolve from git tags named `vYYYY-MM-DD` (created by
+# .github/workflows/release.yml).
+
+idspace: PBPKO
+base_url: /obo/pbpko
+
+products:
+- pbpko.owl: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko.owl
+- pbpko.obo: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko.obo
+
+term_browser: ontobee
+example_terms:
+- PBPKO_00002
+
+entries:
+
+# Base and full artefacts
+- exact: /pbpko-base.owl
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko-base.owl
+- exact: /pbpko-base.obo
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko-base.obo
+- exact: /pbpko-full.owl
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko-full.owl
+- exact: /pbpko-full.obo
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/pbpko-full.obo
+
+# Dated releases resolve from git tags (vYYYY-MM-DD)
+# e.g. /releases/2026-07-10/pbpko.owl -> .../pbpko/v2026-07-10/pbpko.owl
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/v
+  tests:
+  - from: /releases/2026-07-10/pbpko.owl
+    to: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/v2026-07-10/pbpko.owl
+
+- prefix: /tracker/
+  replacement: https://github.com/InSilicoVida-Research-Lab/pbpko/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/PBPKO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/main/

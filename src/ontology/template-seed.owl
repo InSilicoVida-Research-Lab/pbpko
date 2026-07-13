@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/pbpko/template-seed.owl"
+     ontologyIRI="http://purl.obolibrary.org/obo/pbpko/template-seed.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/pbpko/template-seed.owl#"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Minimal ROBOT template seed for PBPKO. Native terms are generated from src/templates/*.tsv. Do not copy build output into this file.</Literal>
+    </Annotation>
+</Ontology>

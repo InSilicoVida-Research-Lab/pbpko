@@ -54,6 +54,12 @@
       "relation": "isDocumentedBy",
       "resource_type": "other",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/InSilicoVida-Research-Lab/pbpko",
+      "relation": "isSourceOf",
+      "resource_type": "software",
+      "scheme": "url"
     }
   ]
 }

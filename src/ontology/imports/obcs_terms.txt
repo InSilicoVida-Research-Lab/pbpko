@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/OBCS_0000261 # global sensitivity analysis
+http://purl.obolibrary.org/obo/OBCS_0000260 # local sensitivity analysis
+http://purl.obolibrary.org/obo/OBCS_0000259 # sensitivity analysis
+http://purl.obolibrary.org/obo/OBCS_0000030 # goodness of fit

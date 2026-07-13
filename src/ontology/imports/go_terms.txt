@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/GO_0008150 # biological process
+http://purl.obolibrary.org/obo/GO_0008152 # metabolic process
+http://purl.obolibrary.org/obo/GO_0007588 # excretion
+http://purl.obolibrary.org/obo/GO_0009987 # cellular process

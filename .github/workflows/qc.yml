@@ -1,45 +1,60 @@
-name: QC
+# Basic ODK workflow
+
+name: CI
 
 on:
+  push:
+    branches:
+      - main
+      - odk-migration
   pull_request:
-    branches: [main]
-    paths:
-      - 'Robot/**'
-      - 'scripts/**'
+    branches:
+      - main
+      - odk-migration
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  ontology_qc:
+  commitlint:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Run ontology QC checks
-        working-directory: Robot
-        env:
-          ROBOT_JAVA_ARGS: -Xmx6G
-        run: |
-          docker run \
-            -v "${GITHUB_WORKSPACE}/Robot:/work" \
-            -w /work \
-            -e "ROBOT_JAVA_ARGS=${ROBOT_JAVA_ARGS}" \
-            --rm obolibrary/odkfull:v1.6 \
-            bash -lc 'mkdir -p reports && chmod +x qc/run-qc.sh && ./qc/run-qc.sh'
-
-      - name: Show QC log tail on failure
-        if: failure()
-        working-directory: Robot
-        run: |
-          if [ -f reports/qc.log ]; then
-            echo "--- Last 40 lines of QC log ---"
-            tail -40 reports/qc.log
-          fi
-
-      - name: Upload QC reports
-        if: failure()
-        uses: actions/upload-artifact@v4
+      - uses: actions/checkout@v4
         with:
-          name: qc-reports
-          path: Robot/reports/
-          retention-days: 14
+          fetch-depth: 0
+      - uses: wagoid/commitlint-github-action@v6
+
+  ontology_qc:
+    if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore(release):')
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.6
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run QC and build release artefacts
+        env:
+          DEFAULT_BRANCH: main
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release_fast -B
+
+      - name: Commit release artefacts to repository
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            pbpko.owl pbpko.obo \
+            pbpko-base.owl pbpko-base.obo \
+            pbpko-full.owl pbpko-full.obo \
+            imports/*.owl
+          git add -f mappings/pbpko-sssom.sssom.tsv
+          if git diff --staged --quiet; then
+            echo "Release artefacts unchanged; nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(release-artifacts): refresh build outputs [skip ci]"
+          git push

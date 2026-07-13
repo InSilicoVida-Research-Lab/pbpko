@@ -1,107 +1,25 @@
 # Changelog
 
-All notable changes to the PBPK Ontology (PBPKO) are documented in this file.
+All notable changes to the PBPK Ontology are documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
-Official ontology releases follow [OBO Foundry versioning](https://obofoundry.org/principles/fp-004-versioning.html) and are identified by ISO dates (`YYYY-MM-DD`).
-
-When preparing a release, add entries under `[Unreleased]`, then move them into a new dated section before release.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Conventional Commits](https://www.conventionalcommits.org/).
 
 ## [Unreleased]
 
-## [2026-02-16]
-
 ### Added
 
-- New PBPK ontology terms.
-
-## [2025-10-19]
-
-### Fixed
-
-- Updated definitions for `PBPKO_00387`.
-- Updated license metadata in ontology annotations.
-
-## [2025-09-12]
-
-### Added
-
-- Imported `GO:metabolic process` to replace the custom metabolism term.
+- ODK modular editing workflow with slim imports and SSSOM mappings.
 
 ### Changed
 
-- Renamed and reorganized blood flow parameter under the suggested hierarchy.
-- Renamed lifestage subclasses by appending the word *lifestage* for clarity.
-- Renamed *race* to *assigned race* and placed it under *parameter*.
-- Renamed *reference human* to *reference human dataset* and moved it under *data set*.
-- Renamed *distribution* to *distribution process*.
-- Renamed *protein binding* to *protein binding mediated distribution process*.
+- Migrated from legacy monolithic release to ODK-based build pipeline.
 
-### Moved
+## [1.4.0] - legacy semver release
 
-- Relocated *human serum albumin* under *material entity*.
-- Relocated *transporter* under *material entity*.
-
-### Fixed
-
-- Standardized definitions to proper format.
-- Converted plural labels to singular form for consistency.
-
-## [2025-05-22]
-
-### Changed
-
-- Imported the OBI ontology and linked PBPKO classes to BFO and OBI.
-- Extracted and merged selected terms from the SBO ontology due to import issues via URL.
-- Moved `parameter` under `generically dependent continuant` as a subclass of `data item`.
-- Moved `compartment` and `physiologically based pharmacokinetic model` under `generically dependent continuant` as subclasses of `data representation model`.
-- Restructured all class definitions using genus-differentia format.
-- Created new parent classes to group related terms (for example, *fraction of volume of compartment* for volume-fraction parameters).
-- Clarified ambiguous labels (for example, *apparent permeability cerebellum to rest of brain*).
-- Replaced outdated references and changed `skos:exactMatch` to `skos:closeMatch` where appropriate.
-
-### Removed
-
-- Removed unclear terms and properties pending re-integration: `enzyme`, `transporter`, `alpha acid glycoprotein`, `apical transporter`, `basolateral transporter`, `has_enzyme`, and `has_transporter`.
-
-## [2025-02-04]
-
-### Added
-
-- Integration with Basic Formal Ontology (BFO) and the Relation Ontology (RO) following OBO guidelines.
-- Object properties to formally represent relationships in the ontology.
-- Definitions for all terms following OBO naming conventions.
-- SKOS mappings and imports from existing OBO Foundry ontologies where relevant.
-- Comprehensive documentation at https://insilicovida-research-lab.github.io/pbpko/.
-
-### Changed
-
-- Redefined and reclassified classes under the BFO hierarchy with appropriate restrictions.
-- Redefined labels with clear abbreviations following OBO naming conventions.
-- Reviewed Uberon compartment mappings; redefined labels and added SKOS annotations where PBPKO compartments differ from Uberon.
-
-### Fixed
-
-- Corrected URI pattern from `http://purl.obolibrary.org/obo/pbpko/PKPBO_00328` to `http://purl.obolibrary.org/obo/PKPBO_00328`.
-
-## [2024-10-09]
-
-### Changed
-
-- Updated ontology annotations and vocabulary templates.
-- Updated clearance terms and naming conventions.
-
-## [2024-07-15]
-
-### Added
-
-- Initial public release of the PBPK Ontology (PBPKO).
+See [GitHub releases](https://github.com/InSilicoVida-Research-Lab/pbpko/releases) for
+historical semver releases (v1.0.0 through v1.4.0). Date-based releases (`vYYYY-MM-DD`)
+begin with the first ODK automated release.
 
 [Unreleased]: https://github.com/InSilicoVida-Research-Lab/pbpko/compare/v1.4.0...HEAD
-[2026-02-16]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2026-02-16/pbpko.owl
-[2025-10-19]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2025-10-19/pbpko.owl
-[2025-09-12]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2025-09-12/pbpko.owl
-[2025-05-22]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2025-05-22/pbpko.owl
-[2025-02-04]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2025-02-04/pbpko.owl
-[2024-10-09]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2024-10-09/pbpko.owl
-[2024-07-15]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/2024-07-15/pbpko.owl
+[1.4.0]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/tag/v1.4.0

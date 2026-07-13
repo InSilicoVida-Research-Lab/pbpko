@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/RO_0002161 # derives from
+http://purl.obolibrary.org/obo/RO_0002171 # has species
+http://purl.obolibrary.org/obo/RO_0002175 # has taxon rank

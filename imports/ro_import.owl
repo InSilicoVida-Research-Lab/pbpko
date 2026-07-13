@@ -1,0 +1,1506 @@
+Prefix(:=<http://purl.obolibrary.org/obo/pbpko/imports/ro_import.owl#>)
+Prefix(go:=<http://purl.obolibrary.org/obo/>)
+Prefix(IAO:=<http://purl.obolibrary.org/obo/IAO_>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(obcs:=<http://purl.obolibrary.org/obo/>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(skos:=<http://www.w3.org/2004/02/skos/core#>)
+Prefix(pbpko:=<http://purl.obolibrary.org/obo/>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/pbpko/imports/ro_import.owl>
+<http://purl.obolibrary.org/obo/pbpko/releases/2026-07-10/imports/ro_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ro/releases/2025-12-17/ro.owl>)
+Annotation(owl:versionInfo "2026-07-10")
+
+Declaration(Class(pbpko:BFO_0000002))
+Declaration(Class(pbpko:BFO_0000003))
+Declaration(Class(pbpko:BFO_0000004))
+Declaration(Class(pbpko:BFO_0000015))
+Declaration(Class(pbpko:BFO_0000016))
+Declaration(Class(pbpko:BFO_0000017))
+Declaration(Class(pbpko:BFO_0000019))
+Declaration(Class(pbpko:BFO_0000020))
+Declaration(Class(pbpko:BFO_0000023))
+Declaration(Class(pbpko:BFO_0000034))
+Declaration(Class(pbpko:BFO_0000040))
+Declaration(Class(pbpko:GO_0003674))
+Declaration(Class(pbpko:GO_0008150))
+Declaration(Class(pbpko:GO_0016301))
+Declaration(Class(pbpko:IAO_0000078))
+Declaration(Class(pbpko:PATO_0000001))
+Declaration(ObjectProperty(pbpko:BFO_0000050))
+Declaration(ObjectProperty(pbpko:BFO_0000051))
+Declaration(ObjectProperty(pbpko:BFO_0000062))
+Declaration(ObjectProperty(pbpko:BFO_0000063))
+Declaration(ObjectProperty(pbpko:RO_0000052))
+Declaration(ObjectProperty(pbpko:RO_0000053))
+Declaration(ObjectProperty(pbpko:RO_0000056))
+Declaration(ObjectProperty(pbpko:RO_0000057))
+Declaration(ObjectProperty(pbpko:RO_0000079))
+Declaration(ObjectProperty(pbpko:RO_0000080))
+Declaration(ObjectProperty(pbpko:RO_0000081))
+Declaration(ObjectProperty(pbpko:RO_0000085))
+Declaration(ObjectProperty(pbpko:RO_0000086))
+Declaration(ObjectProperty(pbpko:RO_0000087))
+Declaration(ObjectProperty(pbpko:RO_0000091))
+Declaration(ObjectProperty(pbpko:RO_0000092))
+Declaration(ObjectProperty(pbpko:RO_0002013))
+Declaration(ObjectProperty(pbpko:RO_0002014))
+Declaration(ObjectProperty(pbpko:RO_0002015))
+Declaration(ObjectProperty(pbpko:RO_0002017))
+Declaration(ObjectProperty(pbpko:RO_0002018))
+Declaration(ObjectProperty(pbpko:RO_0002022))
+Declaration(ObjectProperty(pbpko:RO_0002023))
+Declaration(ObjectProperty(pbpko:RO_0002024))
+Declaration(ObjectProperty(pbpko:RO_0002025))
+Declaration(ObjectProperty(pbpko:RO_0002086))
+Declaration(ObjectProperty(pbpko:RO_0002087))
+Declaration(ObjectProperty(pbpko:RO_0002090))
+Declaration(ObjectProperty(pbpko:RO_0002131))
+Declaration(ObjectProperty(pbpko:RO_0002180))
+Declaration(ObjectProperty(pbpko:RO_0002211))
+Declaration(ObjectProperty(pbpko:RO_0002212))
+Declaration(ObjectProperty(pbpko:RO_0002213))
+Declaration(ObjectProperty(pbpko:RO_0002215))
+Declaration(ObjectProperty(pbpko:RO_0002216))
+Declaration(ObjectProperty(pbpko:RO_0002222))
+Declaration(ObjectProperty(pbpko:RO_0002233))
+Declaration(ObjectProperty(pbpko:RO_0002263))
+Declaration(ObjectProperty(pbpko:RO_0002264))
+Declaration(ObjectProperty(pbpko:RO_0002304))
+Declaration(ObjectProperty(pbpko:RO_0002305))
+Declaration(ObjectProperty(pbpko:RO_0002314))
+Declaration(ObjectProperty(pbpko:RO_0002323))
+Declaration(ObjectProperty(pbpko:RO_0002327))
+Declaration(ObjectProperty(pbpko:RO_0002328))
+Declaration(ObjectProperty(pbpko:RO_0002329))
+Declaration(ObjectProperty(pbpko:RO_0002331))
+Declaration(ObjectProperty(pbpko:RO_0002333))
+Declaration(ObjectProperty(pbpko:RO_0002334))
+Declaration(ObjectProperty(pbpko:RO_0002335))
+Declaration(ObjectProperty(pbpko:RO_0002336))
+Declaration(ObjectProperty(pbpko:RO_0002352))
+Declaration(ObjectProperty(pbpko:RO_0002404))
+Declaration(ObjectProperty(pbpko:RO_0002405))
+Declaration(ObjectProperty(pbpko:RO_0002407))
+Declaration(ObjectProperty(pbpko:RO_0002409))
+Declaration(ObjectProperty(pbpko:RO_0002410))
+Declaration(ObjectProperty(pbpko:RO_0002411))
+Declaration(ObjectProperty(pbpko:RO_0002412))
+Declaration(ObjectProperty(pbpko:RO_0002418))
+Declaration(ObjectProperty(pbpko:RO_0002427))
+Declaration(ObjectProperty(pbpko:RO_0002428))
+Declaration(ObjectProperty(pbpko:RO_0002429))
+Declaration(ObjectProperty(pbpko:RO_0002430))
+Declaration(ObjectProperty(pbpko:RO_0002431))
+Declaration(ObjectProperty(pbpko:RO_0002434))
+Declaration(ObjectProperty(pbpko:RO_0002436))
+Declaration(ObjectProperty(pbpko:RO_0002447))
+Declaration(ObjectProperty(pbpko:RO_0002448))
+Declaration(ObjectProperty(pbpko:RO_0002449))
+Declaration(ObjectProperty(pbpko:RO_0002450))
+Declaration(ObjectProperty(pbpko:RO_0002464))
+Declaration(ObjectProperty(pbpko:RO_0002481))
+Declaration(ObjectProperty(pbpko:RO_0002500))
+Declaration(ObjectProperty(pbpko:RO_0002501))
+Declaration(ObjectProperty(pbpko:RO_0002502))
+Declaration(ObjectProperty(pbpko:RO_0002506))
+Declaration(ObjectProperty(pbpko:RO_0002559))
+Declaration(ObjectProperty(pbpko:RO_0002563))
+Declaration(ObjectProperty(pbpko:RO_0002564))
+Declaration(ObjectProperty(pbpko:RO_0002566))
+Declaration(ObjectProperty(pbpko:RO_0002578))
+Declaration(ObjectProperty(pbpko:RO_0002584))
+Declaration(ObjectProperty(pbpko:RO_0002595))
+Declaration(ObjectProperty(pbpko:RO_0002596))
+Declaration(ObjectProperty(pbpko:RO_0002597))
+Declaration(ObjectProperty(pbpko:RO_0002598))
+Declaration(ObjectProperty(pbpko:RO_0002608))
+Declaration(ObjectProperty(pbpko:RO_0002629))
+Declaration(ObjectProperty(pbpko:RO_0002630))
+Declaration(ObjectProperty(pbpko:RO_0004031))
+Declaration(ObjectProperty(pbpko:RO_0004032))
+Declaration(ObjectProperty(pbpko:RO_0004033))
+Declaration(ObjectProperty(pbpko:RO_0004034))
+Declaration(ObjectProperty(pbpko:RO_0004035))
+Declaration(ObjectProperty(pbpko:RO_0004046))
+Declaration(ObjectProperty(pbpko:RO_0004047))
+Declaration(ObjectProperty(pbpko:RO_0011002))
+Declaration(ObjectProperty(pbpko:RO_0012011))
+Declaration(ObjectProperty(pbpko:RO_0012012))
+Declaration(ObjectProperty(pbpko:RO_0017001))
+Declaration(ObjectProperty(pbpko:RO_0019000))
+Declaration(ObjectProperty(pbpko:RO_0019001))
+Declaration(ObjectProperty(pbpko:RO_0019002))
+Declaration(NamedIndividual(pbpko:ENVO_01001569))
+Declaration(NamedIndividual(pbpko:ENVO_01001571))
+Declaration(NamedIndividual(pbpko:ENVO_01001572))
+Declaration(NamedIndividual(pbpko:ENVO_01001573))
+Declaration(NamedIndividual(pbpko:ENVO_01001574))
+Declaration(NamedIndividual(pbpko:ENVO_01001575))
+Declaration(NamedIndividual(pbpko:ENVO_01001576))
+Declaration(NamedIndividual(pbpko:ENVO_01001577))
+Declaration(NamedIndividual(pbpko:ENVO_01001578))
+Declaration(NamedIndividual(pbpko:ENVO_01001579))
+Declaration(NamedIndividual(pbpko:ENVO_01001580))
+Declaration(NamedIndividual(pbpko:ENVO_01001583))
+Declaration(NamedIndividual(pbpko:ENVO_01001584))
+Declaration(NamedIndividual(pbpko:ENVO_01001585))
+Declaration(NamedIndividual(pbpko:ENVO_01001586))
+Declaration(NamedIndividual(pbpko:ENVO_01001587))
+Declaration(NamedIndividual(pbpko:ENVO_01001588))
+Declaration(NamedIndividual(pbpko:ENVO_01001589))
+Declaration(NamedIndividual(pbpko:ENVO_01001590))
+Declaration(NamedIndividual(pbpko:ENVO_01001591))
+Declaration(NamedIndividual(pbpko:ENVO_01001592))
+Declaration(NamedIndividual(pbpko:ENVO_01001593))
+Declaration(NamedIndividual(pbpko:ENVO_01001594))
+Declaration(NamedIndividual(pbpko:ENVO_01001595))
+Declaration(NamedIndividual(pbpko:ENVO_01001596))
+Declaration(NamedIndividual(pbpko:ENVO_01001597))
+Declaration(NamedIndividual(pbpko:ENVO_01001598))
+Declaration(NamedIndividual(pbpko:ENVO_01001599))
+Declaration(NamedIndividual(pbpko:ENVO_01001600))
+Declaration(NamedIndividual(pbpko:ENVO_01001601))
+Declaration(NamedIndividual(pbpko:ENVO_01001602))
+Declaration(NamedIndividual(pbpko:ENVO_01001603))
+Declaration(NamedIndividual(pbpko:ENVO_01001604))
+Declaration(NamedIndividual(pbpko:ENVO_01001605))
+Declaration(NamedIndividual(pbpko:ENVO_01001626))
+Declaration(NamedIndividual(pbpko:ENVO_01001627))
+Declaration(NamedIndividual(pbpko:ENVO_01001628))
+Declaration(NamedIndividual(pbpko:ENVO_01001862))
+Declaration(NamedIndividual(pbpko:IAO_0000002))
+Declaration(NamedIndividual(pbpko:IAO_0000120))
+Declaration(NamedIndividual(pbpko:IAO_0000121))
+Declaration(NamedIndividual(pbpko:IAO_0000122))
+Declaration(NamedIndividual(pbpko:IAO_0000123))
+Declaration(NamedIndividual(pbpko:IAO_0000124))
+Declaration(NamedIndividual(pbpko:IAO_0000125))
+Declaration(NamedIndividual(pbpko:IAO_0000423))
+Declaration(NamedIndividual(pbpko:IAO_0000428))
+Declaration(NamedIndividual(<https://www.wikidata.org/wiki/Q525>))
+Declaration(AnnotationProperty(pbpko:IAO_0000115))
+Declaration(AnnotationProperty(pbpko:IAO_0000117))
+Declaration(AnnotationProperty(pbpko:OMO_0002000))
+Declaration(AnnotationProperty(pbpko:RO_0002161))
+Declaration(AnnotationProperty(pbpko:RO_0002171))
+Declaration(AnnotationProperty(pbpko:RO_0002175))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/created>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/creator>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(rdfs:label))
+Declaration(AnnotationProperty(skos:closeMatch))
+Declaration(AnnotationProperty(skos:exactMatch))
+Declaration(AnnotationProperty(<http://xmlns.com/foaf/0.1/homepage>))
+Declaration(Datatype(xsd:date))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: pbpko:IAO_0000115 (definition)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000115 "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000115 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000115 "definition")
+AnnotationAssertion(rdfs:label pbpko:IAO_0000115 "definition"@en)
+
+# Annotation Property: pbpko:IAO_0000117 (term editor)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000117 "Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people"@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000117 "PERSON:Daniel Schober"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000117 "term editor"@en)
+
+# Annotation Property: pbpko:RO_0002161 (never in taxon)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002161 "x never in taxon T if and only if T is a class, and x does not instantiate the class expression \"in taxon some T\". Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002161 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(pbpko:OMO_0002000 pbpko:RO_0002161 "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
+PREFIX never_in_taxon: <http://purl.obolibrary.org/obo/RO_0002161>
+CONSTRUCT {
+  in_taxon: a owl:ObjectProperty .
+  ?x owl:disjointWith [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ] .
+  ?x rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom [
+      a owl:Class ;
+      owl:complementOf ?taxon
+    ]
+  ] .
+}
+WHERE {
+  ?x never_in_taxon: ?taxon .
+}")
+AnnotationAssertion(rdfs:label pbpko:RO_0002161 "never in taxon")
+
+# Annotation Property: pbpko:RO_0002171 (mutually spatially disjoint with)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002171 "A is mutually_spatially_disjoint_with B if both A and B are classes, and there exists no p such that p is part_of some A and p is part_of some B.")
+AnnotationAssertion(pbpko:OMO_0002000 pbpko:RO_0002171 "PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX part_of: <http://purl.obolibrary.org/obo/BFO_0000050>
+PREFIX mutually_spatially_disjoint_with: <http://purl.obolibrary.org/obo/RO_0002171>
+CONSTRUCT {
+  part_of: a owl:ObjectProperty .
+  [
+    a owl:Restriction ;
+    owl:onProperty part_of: ;
+    owl:someValuesFrom ?x ;
+    owl:disjointWith [
+      a owl:Restriction ;
+      owl:onProperty part_of: ;
+      owl:someValuesFrom ?y
+    ]
+  ]
+}
+WHERE {
+  ?x mutually_spatially_disjoint_with: ?y .
+}")
+AnnotationAssertion(rdfs:label pbpko:RO_0002171 "mutually spatially disjoint with"@en)
+
+# Annotation Property: pbpko:RO_0002175 (present in taxon)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002175 "S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002175 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(pbpko:OMO_0002000 pbpko:RO_0002175 "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
+PREFIX present_in_taxon: <http://purl.obolibrary.org/obo/RO_0002175>
+CONSTRUCT {
+  in_taxon: a owl:ObjectProperty .
+  ?witness rdfs:label ?label .
+  ?witness rdfs:subClassOf ?x .
+  ?witness rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ] .
+}
+WHERE {
+  ?x present_in_taxon: ?taxon .
+  BIND(IRI(CONCAT(
+    \"http://purl.obolibrary.org/obo/RO_0002175#\",
+    MD5(STR(?x)),
+    \"-\",
+    MD5(STR(?taxon))
+  )) as ?witness)
+  BIND(CONCAT(STR(?x), \" in taxon \", STR(?taxon)) AS ?label)
+}")
+AnnotationAssertion(rdfs:label pbpko:RO_0002175 "present in taxon"@en)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: pbpko:BFO_0000050 (part of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000050 "a core relation that holds between a part and its whole"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000050 "part of"@en)
+SubObjectPropertyOf(pbpko:BFO_0000050 pbpko:RO_0002131)
+InverseObjectProperties(pbpko:BFO_0000050 pbpko:BFO_0000051)
+TransitiveObjectProperty(pbpko:BFO_0000050)
+
+# Object Property: pbpko:BFO_0000051 (has part)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000051 "a core relation that holds between a whole and its part"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000051 "has part"@en)
+SubObjectPropertyOf(pbpko:BFO_0000051 pbpko:RO_0002131)
+TransitiveObjectProperty(pbpko:BFO_0000051)
+
+# Object Property: pbpko:BFO_0000062 (preceded by)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000062 "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000062 "preceded by"@en)
+SubObjectPropertyOf(pbpko:BFO_0000062 pbpko:RO_0002086)
+InverseObjectProperties(pbpko:BFO_0000062 pbpko:BFO_0000063)
+TransitiveObjectProperty(pbpko:BFO_0000062)
+ObjectPropertyDomain(pbpko:BFO_0000062 pbpko:BFO_0000003)
+ObjectPropertyRange(pbpko:BFO_0000062 pbpko:BFO_0000003)
+
+# Object Property: pbpko:BFO_0000063 (precedes)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000063 "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000063 "precedes"@en)
+SubObjectPropertyOf(pbpko:BFO_0000063 pbpko:RO_0002222)
+TransitiveObjectProperty(pbpko:BFO_0000063)
+ObjectPropertyDomain(pbpko:BFO_0000063 pbpko:BFO_0000003)
+ObjectPropertyRange(pbpko:BFO_0000063 pbpko:BFO_0000003)
+
+# Object Property: pbpko:RO_0000052 (characteristic of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000052 "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence."@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000052 "characteristic of"@en)
+SubObjectPropertyOf(pbpko:RO_0000052 pbpko:RO_0002314)
+InverseObjectProperties(pbpko:RO_0000052 pbpko:RO_0000053)
+FunctionalObjectProperty(pbpko:RO_0000052)
+
+# Object Property: pbpko:RO_0000053 (has characteristic)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000053 "Inverse of characteristic_of"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000053 "has characteristic"@en)
+InverseFunctionalObjectProperty(pbpko:RO_0000053)
+ObjectPropertyRange(pbpko:RO_0000053 pbpko:BFO_0000020)
+
+# Object Property: pbpko:RO_0000056 (participates in)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000056 "a relation between a continuant and a process, in which the continuant is somehow involved in the process"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000056 "participates in"@en)
+InverseObjectProperties(pbpko:RO_0000056 pbpko:RO_0000057)
+ObjectPropertyDomain(pbpko:RO_0000056 pbpko:BFO_0000002)
+ObjectPropertyRange(pbpko:RO_0000056 pbpko:BFO_0000003)
+
+# Object Property: pbpko:RO_0000057 (has participant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000057 "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000057 "has participant"@en)
+ObjectPropertyDomain(pbpko:RO_0000057 pbpko:BFO_0000003)
+ObjectPropertyRange(pbpko:RO_0000057 pbpko:BFO_0000002)
+
+# Object Property: pbpko:RO_0000079 (function of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000079 "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000079 "function of"@en)
+SubObjectPropertyOf(pbpko:RO_0000079 pbpko:RO_0000052)
+InverseObjectProperties(pbpko:RO_0000079 pbpko:RO_0000085)
+ObjectPropertyDomain(pbpko:RO_0000079 pbpko:BFO_0000034)
+
+# Object Property: pbpko:RO_0000080 (quality of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000080 "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000080 "quality of"@en)
+SubObjectPropertyOf(pbpko:RO_0000080 pbpko:RO_0000052)
+InverseObjectProperties(pbpko:RO_0000080 pbpko:RO_0000086)
+
+# Object Property: pbpko:RO_0000081 (role of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000081 "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000081 "role of"@en)
+SubObjectPropertyOf(pbpko:RO_0000081 pbpko:RO_0000052)
+InverseObjectProperties(pbpko:RO_0000081 pbpko:RO_0000087)
+
+# Object Property: pbpko:RO_0000085 (has function)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000085 "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000085 "has function"@en)
+SubObjectPropertyOf(pbpko:RO_0000085 pbpko:RO_0000053)
+ObjectPropertyDomain(pbpko:RO_0000085 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0000085 pbpko:BFO_0000034)
+
+# Object Property: pbpko:RO_0000086 (has quality)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000086 "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000086 "has quality"@en)
+SubObjectPropertyOf(pbpko:RO_0000086 pbpko:RO_0000053)
+ObjectPropertyRange(pbpko:RO_0000086 pbpko:BFO_0000019)
+
+# Object Property: pbpko:RO_0000087 (has role)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000087 "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000087 "has role"@en)
+SubObjectPropertyOf(pbpko:RO_0000087 pbpko:RO_0000053)
+ObjectPropertyDomain(pbpko:RO_0000087 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0000087 pbpko:BFO_0000023)
+
+# Object Property: pbpko:RO_0000091 (has disposition)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000091 "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence"@en)
+AnnotationAssertion(rdfs:label pbpko:RO_0000091 "has disposition"@en)
+SubObjectPropertyOf(pbpko:RO_0000091 pbpko:RO_0000053)
+InverseObjectProperties(pbpko:RO_0000091 pbpko:RO_0000092)
+ObjectPropertyDomain(pbpko:RO_0000091 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0000091 pbpko:BFO_0000016)
+
+# Object Property: pbpko:RO_0000092 (disposition of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0000092 "inverse of has disposition")
+AnnotationAssertion(rdfs:label pbpko:RO_0000092 "disposition of"@en)
+SubObjectPropertyOf(pbpko:RO_0000092 pbpko:RO_0000052)
+
+# Object Property: pbpko:RO_0002013 (has regulatory component activity)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002013 "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002013 "has regulatory component activity")
+SubObjectPropertyOf(pbpko:RO_0002013 pbpko:RO_0002017)
+SubObjectPropertyOf(pbpko:RO_0002013 pbpko:RO_0002334)
+
+# Object Property: pbpko:RO_0002014 (has negative regulatory component activity)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002014 "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002014 "has negative regulatory component activity")
+SubObjectPropertyOf(pbpko:RO_0002014 pbpko:RO_0002013)
+SubObjectPropertyOf(pbpko:RO_0002014 pbpko:RO_0002335)
+
+# Object Property: pbpko:RO_0002015 (has positive regulatory component activity)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002015 "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002015 "has positive regulatory component activity")
+SubObjectPropertyOf(pbpko:RO_0002015 pbpko:RO_0002013)
+SubObjectPropertyOf(pbpko:RO_0002015 pbpko:RO_0002336)
+
+# Object Property: pbpko:RO_0002017 (has component activity)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0002017 "has component activity")
+SubObjectPropertyOf(pbpko:RO_0002017 pbpko:RO_0002018)
+
+# Object Property: pbpko:RO_0002018 (has component process)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002018 "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002018 "has component process")
+SubObjectPropertyOf(pbpko:RO_0002018 pbpko:RO_0002180)
+ObjectPropertyDomain(pbpko:RO_0002018 pbpko:BFO_0000015)
+ObjectPropertyRange(pbpko:RO_0002018 pbpko:BFO_0000015)
+
+# Object Property: pbpko:RO_0002022 (directly regulated by)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0002022 "directly regulated by")
+SubObjectPropertyOf(pbpko:RO_0002022 pbpko:RO_0002334)
+InverseObjectProperties(pbpko:RO_0002022 pbpko:RO_0002578)
+
+# Object Property: pbpko:RO_0002023 (directly negatively regulated by)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0002023 "directly negatively regulated by")
+SubObjectPropertyOf(pbpko:RO_0002023 pbpko:RO_0002022)
+InverseObjectProperties(pbpko:RO_0002023 pbpko:RO_0002630)
+
+# Object Property: pbpko:RO_0002024 (directly positively regulated by)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0002024 "directly positively regulated by")
+SubObjectPropertyOf(pbpko:RO_0002024 pbpko:RO_0002022)
+InverseObjectProperties(pbpko:RO_0002024 pbpko:RO_0002629)
+
+# Object Property: pbpko:RO_0002025 (has effector activity)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0002025 "has effector activity")
+SubObjectPropertyOf(pbpko:RO_0002025 pbpko:RO_0002017)
+FunctionalObjectProperty(pbpko:RO_0002025)
+
+# Object Property: pbpko:RO_0002086 (ends after)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002086 <https://orcid.org/0000-0002-7073-9172>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002086 "ends after"@en)
+SubObjectPropertyOf(pbpko:RO_0002086 pbpko:RO_0002222)
+TransitiveObjectProperty(pbpko:RO_0002086)
+
+# Object Property: pbpko:RO_0002087 (immediately preceded by)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002087 <https://orcid.org/0000-0002-7073-9172>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002087 "immediately preceded by"@en)
+SubObjectPropertyOf(pbpko:RO_0002087 pbpko:BFO_0000062)
+InverseObjectProperties(pbpko:RO_0002087 pbpko:RO_0002090)
+
+# Object Property: pbpko:RO_0002090 (immediately precedes)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002090 <https://orcid.org/0000-0002-7073-9172>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002090 "immediately precedes"@en)
+SubObjectPropertyOf(pbpko:RO_0002090 pbpko:BFO_0000063)
+
+# Object Property: pbpko:RO_0002131 (overlaps)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002131 "x overlaps y if and only if there exists some z such that x has part z and z part of y")
+AnnotationAssertion(rdfs:label pbpko:RO_0002131 "overlaps"@en)
+SubObjectPropertyOf(pbpko:RO_0002131 pbpko:RO_0002323)
+SymmetricObjectProperty(pbpko:RO_0002131)
+
+# Object Property: pbpko:RO_0002180 (has component)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002180 "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002180 "has component"@en)
+SubObjectPropertyOf(pbpko:RO_0002180 pbpko:BFO_0000051)
+
+# Object Property: pbpko:RO_0002211 (regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002211 "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002211 <https://orcid.org/0000-0001-7476-6306>)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002211 <https://orcid.org/0000-0002-3837-8864>)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002211 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002211 "regulates"@en)
+SubObjectPropertyOf(pbpko:RO_0002211 pbpko:RO_0002411)
+InverseObjectProperties(pbpko:RO_0002211 pbpko:RO_0002334)
+TransitiveObjectProperty(pbpko:RO_0002211)
+ObjectPropertyDomain(pbpko:RO_0002211 pbpko:BFO_0000015)
+ObjectPropertyRange(pbpko:RO_0002211 pbpko:BFO_0000015)
+
+# Object Property: pbpko:RO_0002212 (negatively regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002212 "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002212 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002212 "negatively regulates"@en)
+SubObjectPropertyOf(pbpko:RO_0002212 pbpko:RO_0002211)
+SubObjectPropertyOf(pbpko:RO_0002212 pbpko:RO_0002305)
+InverseObjectProperties(pbpko:RO_0002212 pbpko:RO_0002335)
+
+# Object Property: pbpko:RO_0002213 (positively regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002213 "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002213 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002213 "positively regulates"@en)
+SubObjectPropertyOf(pbpko:RO_0002213 pbpko:RO_0002211)
+SubObjectPropertyOf(pbpko:RO_0002213 pbpko:RO_0002304)
+InverseObjectProperties(pbpko:RO_0002213 pbpko:RO_0002336)
+TransitiveObjectProperty(pbpko:RO_0002213)
+
+# Object Property: pbpko:RO_0002215 (capable of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002215 "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. ")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002215 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002215 "capable of"@en)
+SubObjectPropertyOf(pbpko:RO_0002215 pbpko:RO_0002216)
+ObjectPropertyDomain(pbpko:RO_0002215 pbpko:BFO_0000004)
+ObjectPropertyRange(pbpko:RO_0002215 pbpko:BFO_0000015)
+
+# Object Property: pbpko:RO_0002216 (capable of part of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002216 "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002216 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002216 "capable of part of"@en)
+SubObjectPropertyOf(pbpko:RO_0002216 pbpko:RO_0002328)
+SubObjectPropertyOf(pbpko:RO_0002216 pbpko:RO_0002500)
+
+# Object Property: pbpko:RO_0002222 (temporally related to)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002222 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002222 "temporally related to"@en)
+ObjectPropertyDomain(pbpko:RO_0002222 pbpko:BFO_0000003)
+ObjectPropertyRange(pbpko:RO_0002222 pbpko:BFO_0000003)
+
+# Object Property: pbpko:RO_0002233 (has input)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002233 "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002233 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002233 "has input"@en)
+SubObjectPropertyOf(pbpko:RO_0002233 pbpko:RO_0000057)
+InverseObjectProperties(pbpko:RO_0002233 pbpko:RO_0002352)
+ObjectPropertyDomain(pbpko:RO_0002233 pbpko:BFO_0000015)
+
+# Object Property: pbpko:RO_0002263 (acts upstream of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002263 "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002263 "acts upstream of")
+SubObjectPropertyOf(pbpko:RO_0002263 pbpko:RO_0002264)
+
+# Object Property: pbpko:RO_0002264 (acts upstream of or within)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002264 "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002264 "acts upstream of or within")
+SubObjectPropertyOf(pbpko:RO_0002264 pbpko:RO_0002500)
+
+# Object Property: pbpko:RO_0002304 (causally upstream of, positive effect)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002304 "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q.")
+AnnotationAssertion(<http://purl.org/dc/terms/creator> pbpko:RO_0002304 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002304 "causally upstream of, positive effect")
+SubObjectPropertyOf(pbpko:RO_0002304 pbpko:RO_0002411)
+SubObjectPropertyOf(pbpko:RO_0002304 pbpko:RO_0004047)
+
+# Object Property: pbpko:RO_0002305 (causally upstream of, negative effect)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002305 "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q.")
+AnnotationAssertion(<http://purl.org/dc/terms/creator> pbpko:RO_0002305 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002305 "causally upstream of, negative effect")
+SubObjectPropertyOf(pbpko:RO_0002305 pbpko:RO_0002411)
+SubObjectPropertyOf(pbpko:RO_0002305 pbpko:RO_0004046)
+
+# Object Property: pbpko:RO_0002314 (characteristic of part of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002314 "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002314 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002314 "characteristic of part of"@en)
+SubObjectPropertyOf(pbpko:RO_0002314 pbpko:RO_0002502)
+
+# Object Property: pbpko:RO_0002323 (mereotopologically related to)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002323 "A mereological relationship or a topological relationship")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002323 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002323 "mereotopologically related to"@en)
+
+# Object Property: pbpko:RO_0002327 (enables)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002327 "c enables p iff c is capable of p and c acts to execute p.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002327 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002327 "enables"@en)
+SubObjectPropertyOf(pbpko:RO_0002327 pbpko:RO_0002215)
+InverseObjectProperties(pbpko:RO_0002327 pbpko:RO_0002333)
+
+# Object Property: pbpko:RO_0002328 (functionally related to)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002328 "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002328 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002328 "functionally related to"@en)
+
+# Object Property: pbpko:RO_0002329 (part of structure that is capable of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002329 "this relation holds between c and p when c is part of some c', and c' is capable of p.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002329 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002329 "part of structure that is capable of"@en)
+SubObjectPropertyOf(pbpko:RO_0002329 pbpko:RO_0002328)
+
+# Object Property: pbpko:RO_0002331 (involved in)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002331 "c involved_in p if and only if c enables some process p', and p' is part of p")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002331 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002331 "involved in"@en)
+SubObjectPropertyOf(pbpko:RO_0002331 pbpko:RO_0000056)
+SubObjectPropertyOf(pbpko:RO_0002331 pbpko:RO_0002431)
+
+# Object Property: pbpko:RO_0002333 (enabled by)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002333 "inverse of enables")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002333 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002333 "enabled by"@en)
+SubObjectPropertyOf(pbpko:RO_0002333 pbpko:RO_0000057)
+SubObjectPropertyOf(pbpko:RO_0002333 pbpko:RO_0002328)
+
+# Object Property: pbpko:RO_0002334 (regulated by)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002334 "inverse of regulates")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002334 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002334 "regulated by"@en)
+SubObjectPropertyOf(pbpko:RO_0002334 pbpko:RO_0002427)
+TransitiveObjectProperty(pbpko:RO_0002334)
+ObjectPropertyDomain(pbpko:RO_0002334 pbpko:BFO_0000015)
+ObjectPropertyRange(pbpko:RO_0002334 pbpko:BFO_0000015)
+
+# Object Property: pbpko:RO_0002335 (negatively regulated by)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002335 "inverse of negatively regulates")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002335 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002335 "negatively regulated by"@en)
+SubObjectPropertyOf(pbpko:RO_0002335 pbpko:RO_0002334)
+
+# Object Property: pbpko:RO_0002336 (positively regulated by)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002336 "inverse of positively regulates")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002336 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002336 "positively regulated by"@en)
+SubObjectPropertyOf(pbpko:RO_0002336 pbpko:RO_0002334)
+
+# Object Property: pbpko:RO_0002352 (input of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002352 "inverse of has input")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002352 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002352 "input of"@en)
+SubObjectPropertyOf(pbpko:RO_0002352 pbpko:RO_0000056)
+SubObjectPropertyOf(pbpko:RO_0002352 pbpko:RO_0002328)
+
+# Object Property: pbpko:RO_0002404 (causally downstream of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002404 "inverse of upstream of")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002404 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002404 "causally downstream of"@en)
+SubObjectPropertyOf(pbpko:RO_0002404 pbpko:BFO_0000062)
+SubObjectPropertyOf(pbpko:RO_0002404 pbpko:RO_0002427)
+InverseObjectProperties(pbpko:RO_0002404 pbpko:RO_0002411)
+
+# Object Property: pbpko:RO_0002405 (immediately causally downstream of)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002405 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002405 "immediately causally downstream of"@en)
+SubObjectPropertyOf(pbpko:RO_0002405 pbpko:RO_0002087)
+SubObjectPropertyOf(pbpko:RO_0002405 pbpko:RO_0002404)
+InverseObjectProperties(pbpko:RO_0002405 pbpko:RO_0002412)
+
+# Object Property: pbpko:RO_0002407 (indirectly positively regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002407 "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002407 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002407 "indirectly positively regulates"@en)
+SubObjectPropertyOf(pbpko:RO_0002407 pbpko:RO_0002213)
+SubObjectPropertyOf(pbpko:RO_0002407 pbpko:RO_0012012)
+TransitiveObjectProperty(pbpko:RO_0002407)
+
+# Object Property: pbpko:RO_0002409 (indirectly negatively regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002409 "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002409 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002409 "indirectly negatively regulates"@en)
+SubObjectPropertyOf(pbpko:RO_0002409 pbpko:RO_0002212)
+SubObjectPropertyOf(pbpko:RO_0002409 pbpko:RO_0012012)
+TransitiveObjectProperty(pbpko:RO_0002409)
+
+# Object Property: pbpko:RO_0002410 (causally related to)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002410 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002410 "causally related to"@en)
+
+# Object Property: pbpko:RO_0002411 (causally upstream of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002411 "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002411 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002411 "causally upstream of"@en)
+SubObjectPropertyOf(pbpko:RO_0002411 pbpko:BFO_0000063)
+SubObjectPropertyOf(pbpko:RO_0002411 pbpko:RO_0002418)
+TransitiveObjectProperty(pbpko:RO_0002411)
+
+# Object Property: pbpko:RO_0002412 (immediately causally upstream of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002412 "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002412 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002412 "immediately causally upstream of"@en)
+SubObjectPropertyOf(pbpko:RO_0002412 pbpko:RO_0002090)
+SubObjectPropertyOf(pbpko:RO_0002412 pbpko:RO_0002411)
+
+# Object Property: pbpko:RO_0002418 (causally upstream of or within)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002418 "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002418 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002418 "causally upstream of or within")
+SubObjectPropertyOf(pbpko:RO_0002418 pbpko:RO_0002501)
+InverseObjectProperties(pbpko:RO_0002418 pbpko:RO_0002427)
+TransitiveObjectProperty(pbpko:RO_0002418)
+
+# Object Property: pbpko:RO_0002427 (causally downstream of or within)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002427 "inverse of causally upstream of or within")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002427 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002427 "causally downstream of or within")
+SubObjectPropertyOf(pbpko:RO_0002427 pbpko:RO_0002501)
+TransitiveObjectProperty(pbpko:RO_0002427)
+
+# Object Property: pbpko:RO_0002428 (involved in regulation of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002428 "c involved in regulation of p if c is involved in some p' and p' regulates some p")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002428 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002428 "involved in regulation of")
+SubObjectPropertyOf(pbpko:RO_0002428 pbpko:RO_0002263)
+SubObjectPropertyOf(pbpko:RO_0002428 pbpko:RO_0002431)
+
+# Object Property: pbpko:RO_0002429 (involved in positive regulation of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002429 "c involved in regulation of p if c is involved in some p' and p' positively regulates some p")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002429 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002429 "involved in positive regulation of")
+SubObjectPropertyOf(pbpko:RO_0002429 pbpko:RO_0002428)
+
+# Object Property: pbpko:RO_0002430 (involved in negative regulation of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002430 "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002430 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002430 "involved in negative regulation of")
+SubObjectPropertyOf(pbpko:RO_0002430 pbpko:RO_0002428)
+
+# Object Property: pbpko:RO_0002431 (involved in or involved in regulation of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002431 "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002431 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002431 "involved in or involved in regulation of")
+SubObjectPropertyOf(pbpko:RO_0002431 pbpko:RO_0002264)
+SubObjectPropertyOf(pbpko:RO_0002431 pbpko:RO_0002328)
+SubObjectPropertyOf(pbpko:RO_0002431 pbpko:RO_0002500)
+
+# Object Property: pbpko:RO_0002434 (interacts with)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002434 "A relationship that holds between two entities in which the processes executed by the two entities are causally connected.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002434 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002434 "interacts with")
+AnnotationAssertion(skos:closeMatch pbpko:RO_0002434 "http://purl.obolibrary.org/obo/MI_0914"^^xsd:anyURI)
+SymmetricObjectProperty(pbpko:RO_0002434)
+ObjectPropertyDomain(pbpko:RO_0002434 pbpko:BFO_0000040)
+ObjectPropertyRange(pbpko:RO_0002434 pbpko:BFO_0000040)
+
+# Object Property: pbpko:RO_0002436 (molecularly interacts with)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002436 "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002436 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002436 "molecularly interacts with")
+AnnotationAssertion(skos:closeMatch pbpko:RO_0002436 "http://purl.obolibrary.org/obo/MI_0915"^^xsd:anyURI)
+SubObjectPropertyOf(pbpko:RO_0002436 pbpko:RO_0002434)
+SymmetricObjectProperty(pbpko:RO_0002436)
+
+# Object Property: pbpko:RO_0002447 (phosphorylates)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002447 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002447 "phosphorylates")
+SubObjectPropertyOf(pbpko:RO_0002447 pbpko:RO_0002436)
+
+# Object Property: pbpko:RO_0002448 (directly regulates activity of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002448 "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.
+
+A and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002448 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002448 <https://orcid.org/0000-0003-4639-4431>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002448 "directly regulates activity of")
+SubObjectPropertyOf(pbpko:RO_0002448 pbpko:RO_0002436)
+SubObjectPropertyOf(pbpko:RO_0002448 pbpko:RO_0011002)
+ObjectPropertyDomain(pbpko:RO_0002448 pbpko:BFO_0000040)
+ObjectPropertyRange(pbpko:RO_0002448 pbpko:BFO_0000040)
+
+# Object Property: pbpko:RO_0002449 (directly negatively regulates activity of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002449 "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. 
+For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002449 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002449 <https://orcid.org/0000-0003-4639-4431>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002449 "directly negatively regulates activity of")
+SubObjectPropertyOf(pbpko:RO_0002449 pbpko:RO_0002448)
+ObjectPropertyDomain(pbpko:RO_0002449 pbpko:BFO_0000040)
+ObjectPropertyRange(pbpko:RO_0002449 pbpko:BFO_0000040)
+
+# Object Property: pbpko:RO_0002450 (directly positively regulates activity of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002450 "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. 
+For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002450 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002450 <https://orcid.org/0000-0003-4639-4431>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002450 "directly positively regulates activity of")
+SubObjectPropertyOf(pbpko:RO_0002450 pbpko:RO_0002448)
+ObjectPropertyDomain(pbpko:RO_0002450 pbpko:BFO_0000040)
+ObjectPropertyRange(pbpko:RO_0002450 pbpko:BFO_0000040)
+
+# Object Property: pbpko:RO_0002464 (helper property (not for use in curation))
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002464 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002464 "helper property (not for use in curation)")
+
+# Object Property: pbpko:RO_0002481 (is kinase activity)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002481 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002481 "is kinase activity")
+SubObjectPropertyOf(pbpko:RO_0002481 pbpko:RO_0002564)
+
+# Object Property: pbpko:RO_0002500 (causal agent in process)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002500 "A relationship between a material entity and a process where the material entity has some causal role that influences the process")
+AnnotationAssertion(rdfs:label pbpko:RO_0002500 "causal agent in process")
+SubObjectPropertyOf(pbpko:RO_0002500 pbpko:RO_0002595)
+InverseObjectProperties(pbpko:RO_0002500 pbpko:RO_0002608)
+
+# Object Property: pbpko:RO_0002501 (causal relation between processes)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002501 "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002501 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002501 "causal relation between processes")
+SubObjectPropertyOf(pbpko:RO_0002501 pbpko:RO_0002410)
+ObjectPropertyDomain(pbpko:RO_0002501 pbpko:BFO_0000003)
+ObjectPropertyRange(pbpko:RO_0002501 pbpko:BFO_0000003)
+
+# Object Property: pbpko:RO_0002502 (depends on)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002502 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002502 "depends on")
+
+# Object Property: pbpko:RO_0002506 (causal relation between entities)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002506 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002506 "causal relation between entities")
+SubObjectPropertyOf(pbpko:RO_0002506 pbpko:RO_0002410)
+ObjectPropertyDomain(pbpko:RO_0002506 pbpko:BFO_0000002)
+ObjectPropertyRange(pbpko:RO_0002506 pbpko:BFO_0000002)
+
+# Object Property: pbpko:RO_0002559 (causally influenced by)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002559 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002559 "causally influenced by")
+SubObjectPropertyOf(pbpko:RO_0002559 pbpko:RO_0002506)
+InverseObjectProperties(pbpko:RO_0002559 pbpko:RO_0002566)
+
+# Object Property: pbpko:RO_0002563 (interaction relation helper property)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002563 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002563 "interaction relation helper property")
+SubObjectPropertyOf(pbpko:RO_0002563 pbpko:RO_0002464)
+
+# Object Property: pbpko:RO_0002564 (molecular interaction relation helper property)
+
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002564 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002564 "molecular interaction relation helper property")
+SubObjectPropertyOf(pbpko:RO_0002564 pbpko:RO_0002563)
+
+# Object Property: pbpko:RO_0002566 (causally influences)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002566 "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size).")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002566 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002566 <https://orcid.org/0000-0003-4639-4431>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002566 "causally influences")
+SubObjectPropertyOf(pbpko:RO_0002566 pbpko:RO_0002506)
+ObjectPropertyDomain(pbpko:RO_0002566 pbpko:BFO_0000002)
+ObjectPropertyRange(pbpko:RO_0002566 pbpko:BFO_0000002)
+
+# Object Property: pbpko:RO_0002578 (directly regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002578 "p directly regulates q iff p is immediately causally upstream of q and p regulates q.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002578 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002578 "directly regulates")
+SubObjectPropertyOf(pbpko:RO_0002578 pbpko:RO_0002211)
+SubObjectPropertyOf(pbpko:RO_0002578 pbpko:RO_0002412)
+
+# Object Property: pbpko:RO_0002584 (has part structure that is capable of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002584 "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002584 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002584 "has part structure that is capable of")
+SubObjectPropertyOf(pbpko:RO_0002584 pbpko:RO_0002328)
+SubObjectPropertyOf(pbpko:RO_0002584 pbpko:RO_0002595)
+
+# Object Property: pbpko:RO_0002595 (causal relation between material entity and a process)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002595 "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0002595 <https://orcid.org/0000-0002-6601-2165>)
+AnnotationAssertion(rdfs:label pbpko:RO_0002595 "causal relation between material entity and a process")
+SubObjectPropertyOf(pbpko:RO_0002595 pbpko:RO_0002410)
+ObjectPropertyDomain(pbpko:RO_0002595 pbpko:BFO_0000040)
+ObjectPropertyRange(pbpko:RO_0002595 pbpko:BFO_0000015)
+
+# Object Property: pbpko:RO_0002596 (capable of regulating)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002596 "Holds between c and p if and only if c is capable of some activity a, and a regulates p.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002596 "capable of regulating")
+SubObjectPropertyOf(pbpko:RO_0002596 pbpko:RO_0002500)
+
+# Object Property: pbpko:RO_0002597 (capable of negatively regulating)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002597 "Holds between c and p if and only if c is capable of some activity a, and a negatively regulates p.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002597 "capable of negatively regulating")
+SubObjectPropertyOf(pbpko:RO_0002597 pbpko:RO_0002596)
+
+# Object Property: pbpko:RO_0002598 (capable of positively regulating)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002598 "Holds between c and p if and only if c is capable of some activity a, and a positively regulates p.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002598 "capable of positively regulating")
+SubObjectPropertyOf(pbpko:RO_0002598 pbpko:RO_0002596)
+
+# Object Property: pbpko:RO_0002608 (process has causal agent)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002608 "Inverse of 'causal agent in process'")
+AnnotationAssertion(rdfs:label pbpko:RO_0002608 "process has causal agent")
+SubObjectPropertyOf(pbpko:RO_0002608 pbpko:RO_0002410)
+
+# Object Property: pbpko:RO_0002629 (directly positively regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002629 "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002629 "directly positively regulates")
+SubObjectPropertyOf(pbpko:RO_0002629 pbpko:RO_0002213)
+SubObjectPropertyOf(pbpko:RO_0002629 pbpko:RO_0002578)
+
+# Object Property: pbpko:RO_0002630 (directly negatively regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0002630 "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q.")
+AnnotationAssertion(rdfs:label pbpko:RO_0002630 "directly negatively regulates")
+SubObjectPropertyOf(pbpko:RO_0002630 pbpko:RO_0002212)
+SubObjectPropertyOf(pbpko:RO_0002630 pbpko:RO_0002578)
+
+# Object Property: pbpko:RO_0004031 (enables subfunction)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0004031 "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P.")
+AnnotationAssertion(rdfs:label pbpko:RO_0004031 "enables subfunction")
+SubObjectPropertyOf(pbpko:RO_0004031 pbpko:RO_0002328)
+
+# Object Property: pbpko:RO_0004032 (acts upstream of or within, positive effect)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0004032 "acts upstream of or within, positive effect")
+SubObjectPropertyOf(pbpko:RO_0004032 pbpko:RO_0002264)
+
+# Object Property: pbpko:RO_0004033 (acts upstream of or within, negative effect)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0004033 "acts upstream of or within, negative effect")
+SubObjectPropertyOf(pbpko:RO_0004033 pbpko:RO_0002264)
+
+# Object Property: pbpko:RO_0004034 (acts upstream of, positive effect)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0004034 "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive")
+AnnotationAssertion(rdfs:label pbpko:RO_0004034 "acts upstream of, positive effect")
+SubObjectPropertyOf(pbpko:RO_0004034 pbpko:RO_0002263)
+SubObjectPropertyOf(pbpko:RO_0004034 pbpko:RO_0004032)
+
+# Object Property: pbpko:RO_0004035 (acts upstream of, negative effect)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0004035 "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative")
+AnnotationAssertion(rdfs:label pbpko:RO_0004035 "acts upstream of, negative effect")
+SubObjectPropertyOf(pbpko:RO_0004035 pbpko:RO_0002263)
+SubObjectPropertyOf(pbpko:RO_0004035 pbpko:RO_0004033)
+
+# Object Property: pbpko:RO_0004046 (causally upstream of or within, negative effect)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0004046 "causally upstream of or within, negative effect")
+SubObjectPropertyOf(pbpko:RO_0004046 pbpko:RO_0002418)
+
+# Object Property: pbpko:RO_0004047 (causally upstream of or within, positive effect)
+
+AnnotationAssertion(rdfs:label pbpko:RO_0004047 "causally upstream of or within, positive effect")
+SubObjectPropertyOf(pbpko:RO_0004047 pbpko:RO_0002418)
+
+# Object Property: pbpko:RO_0011002 (regulates activity of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0011002 "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B.")
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:RO_0011002 <https://orcid.org/0000-0003-4639-4431>)
+AnnotationAssertion(rdfs:label pbpko:RO_0011002 "regulates activity of")
+SubObjectPropertyOf(pbpko:RO_0011002 pbpko:RO_0002566)
+ObjectPropertyDomain(pbpko:RO_0011002 pbpko:BFO_0000040)
+ObjectPropertyRange(pbpko:RO_0011002 pbpko:BFO_0000040)
+
+# Object Property: pbpko:RO_0012011 (indirectly causally upstream of)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0012011 "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q.")
+AnnotationAssertion(rdfs:label pbpko:RO_0012011 "indirectly causally upstream of"@en)
+SubObjectPropertyOf(pbpko:RO_0012011 pbpko:RO_0002411)
+
+# Object Property: pbpko:RO_0012012 (indirectly regulates)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0012012 "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q.")
+AnnotationAssertion(rdfs:label pbpko:RO_0012012 "indirectly regulates"@en)
+SubObjectPropertyOf(pbpko:RO_0012012 pbpko:RO_0002211)
+SubObjectPropertyOf(pbpko:RO_0012012 pbpko:RO_0012011)
+
+# Object Property: pbpko:RO_0017001 (device utilizes material)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0017001 "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y.")
+AnnotationAssertion(rdfs:label pbpko:RO_0017001 "device utilizes material"@en)
+
+# Object Property: pbpko:RO_0019000 (regulates characteristic)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0019000 "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C.")
+AnnotationAssertion(rdfs:label pbpko:RO_0019000 "regulates characteristic")
+SubObjectPropertyOf(pbpko:RO_0019000 pbpko:RO_0002410)
+ObjectPropertyDomain(pbpko:RO_0019000 pbpko:BFO_0000015)
+ObjectPropertyRange(pbpko:RO_0019000 pbpko:PATO_0000001)
+
+# Object Property: pbpko:RO_0019001 (positively regulates characteristic)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0019001 "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C.")
+AnnotationAssertion(rdfs:label pbpko:RO_0019001 "positively regulates characteristic")
+SubObjectPropertyOf(pbpko:RO_0019001 pbpko:RO_0019000)
+
+# Object Property: pbpko:RO_0019002 (negatively regulates characteristic)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:RO_0019002 "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C.")
+AnnotationAssertion(rdfs:label pbpko:RO_0019002 "negatively regulates characteristic")
+SubObjectPropertyOf(pbpko:RO_0019002 pbpko:RO_0019000)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: pbpko:BFO_0000002 (continuant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000002 "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000002 "continuant"@en)
+SubClassOf(pbpko:BFO_0000002 ObjectAllValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000002))
+DisjointClasses(pbpko:BFO_0000002 pbpko:BFO_0000003)
+DisjointClasses(pbpko:BFO_0000002 ObjectSomeValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000003))
+
+# Class: pbpko:BFO_0000003 (occurrent)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000003 "An entity that has temporal parts and that happens, unfolds or develops through time."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000003 "occurrent"@en)
+SubClassOf(pbpko:BFO_0000003 ObjectAllValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000003))
+DisjointClasses(pbpko:BFO_0000003 ObjectSomeValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000002))
+
+# Class: pbpko:BFO_0000004 (independent continuant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000004 "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000004 "independent continuant"@en)
+SubClassOf(pbpko:BFO_0000004 pbpko:BFO_0000002)
+SubClassOf(pbpko:BFO_0000004 ObjectAllValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000004))
+DisjointClasses(pbpko:BFO_0000004 pbpko:BFO_0000020)
+
+# Class: pbpko:BFO_0000015 (process)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000015 "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000015 "process"@en)
+SubClassOf(pbpko:BFO_0000015 pbpko:BFO_0000003)
+
+# Class: pbpko:BFO_0000016 (disposition)
+
+AnnotationAssertion(rdfs:label pbpko:BFO_0000016 "disposition"@en)
+SubClassOf(pbpko:BFO_0000016 pbpko:BFO_0000017)
+DisjointClasses(pbpko:BFO_0000016 pbpko:BFO_0000023)
+
+# Class: pbpko:BFO_0000017 (realizable entity)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000017 "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000017 "realizable entity"@en)
+SubClassOf(pbpko:BFO_0000017 pbpko:BFO_0000020)
+SubClassOf(pbpko:BFO_0000017 ObjectAllValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000017))
+DisjointClasses(pbpko:BFO_0000017 pbpko:BFO_0000019)
+
+# Class: pbpko:BFO_0000019 (quality)
+
+AnnotationAssertion(rdfs:label pbpko:BFO_0000019 "quality"@en)
+SubClassOf(pbpko:BFO_0000019 pbpko:BFO_0000020)
+SubClassOf(pbpko:BFO_0000019 ObjectAllValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000019))
+
+# Class: pbpko:BFO_0000020 (specifically dependent continuant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000020 "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000020 "specifically dependent continuant"@en)
+SubClassOf(pbpko:BFO_0000020 pbpko:BFO_0000002)
+SubClassOf(pbpko:BFO_0000020 ObjectAllValuesFrom(pbpko:BFO_0000050 pbpko:BFO_0000020))
+
+# Class: pbpko:BFO_0000023 (role)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000023 "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000023 "role"@en)
+SubClassOf(pbpko:BFO_0000023 pbpko:BFO_0000017)
+
+# Class: pbpko:BFO_0000034 (function)
+
+AnnotationAssertion(rdfs:label pbpko:BFO_0000034 "function"@en)
+SubClassOf(pbpko:BFO_0000034 pbpko:BFO_0000016)
+
+# Class: pbpko:BFO_0000040 (material entity)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:BFO_0000040 "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(rdfs:label pbpko:BFO_0000040 "material entity"@en)
+SubClassOf(pbpko:BFO_0000040 pbpko:BFO_0000004)
+
+# Class: pbpko:GO_0003674 (molecular_function)
+
+AnnotationAssertion(rdfs:label pbpko:GO_0003674 "gene product or complex activity"@en)
+AnnotationAssertion(rdfs:label pbpko:GO_0003674 "molecular_function")
+SubClassOf(pbpko:GO_0003674 pbpko:BFO_0000015)
+
+# Class: pbpko:GO_0008150 (biological_process)
+
+AnnotationAssertion(rdfs:label pbpko:GO_0008150 "biological process"@en)
+AnnotationAssertion(rdfs:label pbpko:GO_0008150 "biological_process")
+SubClassOf(pbpko:GO_0008150 pbpko:BFO_0000015)
+
+# Class: pbpko:GO_0016301 (kinase activity)
+
+AnnotationAssertion(rdfs:label pbpko:GO_0016301 "kinase activity")
+SubClassOf(pbpko:GO_0016301 pbpko:GO_0003674)
+SubClassOf(pbpko:GO_0016301 ObjectHasSelf(pbpko:RO_0002481))
+
+# Class: pbpko:IAO_0000078 (curation status specification)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000078 "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000078 "PERSON:Bill Bug"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000078 "curation status specification"@en)
+EquivalentClasses(pbpko:IAO_0000078 ObjectOneOf(pbpko:IAO_0000002 pbpko:IAO_0000120 pbpko:IAO_0000121 pbpko:IAO_0000122 pbpko:IAO_0000123 pbpko:IAO_0000124 pbpko:IAO_0000125 pbpko:IAO_0000423 pbpko:IAO_0000428))
+
+# Class: pbpko:PATO_0000001 (quality)
+
+AnnotationAssertion(rdfs:label pbpko:PATO_0000001 "quality")
+SubClassOf(pbpko:PATO_0000001 pbpko:BFO_0000020)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: pbpko:ENVO_01001569 (Western Australian Mulga Shrublands Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001569 "Western Australian Mulga Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001569 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001571 (Australasia Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001571 "Australasia Ecoregion"@en)
+
+# Individual: pbpko:ENVO_01001572 (Tirari-Sturt Stony Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001572 "Tirari-Sturt Stony Desert Ecoregion")
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001572 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001573 (Simpson Desert Region)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001573 "Simpson Desert Region"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001573 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001574 (Pilbara Shrublands Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001574 "Pilbara Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001574 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001575 (Carnarvon Xeric Shrublands Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001575 "Carnarvon Xeric Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001575 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001576 (Central Ranges Xeric Shrub Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001576 "Central Ranges Xeric Shrub Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001576 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001577 (Gibson Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001577 "Gibson Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001577 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001578 (The Great Sandy-Tanami Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001578 "The Great Sandy-Tanami Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001578 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001579 (Great Victoria Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001579 "Great Victoria Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001579 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001580 (Nullarbor Plains Xeric Shrubland Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001580 "Nullarbor Plains Xeric Shrubland Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001580 pbpko:ENVO_01001571)
+
+# Individual: pbpko:ENVO_01001583 (Afrotropical Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001583 "Afrotropical Ecoregion"@en)
+
+# Individual: pbpko:ENVO_01001584 (Succulent Karoo Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001584 "Succulent Karoo Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001584 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001585 (Yemen and Saudi Arabia Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001585 "Yemen and Saudi Arabia Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001585 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001586 (Yemen, Saudi Arabia, and Oman Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001586 "Yemen, Saudi Arabia, and Oman Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001586 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001587 (Somali Montane Xeric Woodland Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001587 "Somali Montane Xeric Woodland Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001587 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001588 (Socotran Archipelago Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001588 "Socotran Archipelago Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001588 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001589 (Red Sea Coastal Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001589 "Red Sea Coastal Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001589 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001590 (Namibian Savanna Woodland Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001590 "Namibian Savanna Woodland Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001590 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001591 (Namib Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001591 "Namib Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001591 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001592 (Nama Karoo Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001592 "Nama Karoo Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001592 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001593 (Masai Xeric Grasslands and Shrublands Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001593 "Masai Xeric Grasslands and Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001593 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001594 (Madagascar Succulent Woodlands Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001594 "Madagascar Succulent Woodlands Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001594 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001595 (Madagascar Spiny Thickets Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001595 "Madagascar Spiny Thickets Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001595 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001596 (Kaokoveld Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001596 "Kaokoveld Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001596 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001597 (Kalahari Xeric Savanna Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001597 "Kalahari Xeric Savanna Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001597 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001598 (Ile Europa and Bassas da India Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001598 "Ile Europa and Bassas da India Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001598 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001599 (Hobyo Grassland and Shrubland Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001599 "Hobyo Grassland and Shrubland Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001599 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001600 (Oman and United Arab Emirates Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001600 "Oman and United Arab Emirates Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001600 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001601 (Ethiopian Xeric Grasslands and Shrublands Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001601 "Ethiopian Xeric Grasslands and Shrublands Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001601 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001602 (Eritrean Coastal Desert Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001602 "Eritrean Coastal Desert Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001602 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001603 (East Saharan Montane Xeric Woodland Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001603 "East Saharan Montane Xeric Woodland Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001603 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001604 (Oman, Yemen, and Saudi Arabia Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001604 "Oman, Yemen, and Saudi Arabia Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001604 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001605 (Aldabra Island Xeric Scrub Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001605 "Aldabra Island Xeric Scrub Ecoregion"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001605 pbpko:ENVO_01001583)
+
+# Individual: pbpko:ENVO_01001626 (Indo-Malay Ecoregion)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001626 "Indo-Malay Ecoregion"@en)
+
+# Individual: pbpko:ENVO_01001627 (Thar Desert)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001627 "Thar Desert"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001627 pbpko:ENVO_01001626)
+
+# Individual: pbpko:ENVO_01001628 (Northwestern Thorn Scrub Forests)
+
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001628 "Northwestern Thorn Scrub Forests"@en)
+ObjectPropertyAssertion(pbpko:BFO_0000050 pbpko:ENVO_01001628 pbpko:ENVO_01001626)
+
+# Individual: pbpko:ENVO_01001862 (Solar radiation)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:ENVO_01001862 "Stellar radiation emitted from Sol.")
+AnnotationAssertion(rdfs:label pbpko:ENVO_01001862 "Solar radiation"@en)
+ObjectPropertyAssertion(pbpko:RO_0002608 pbpko:ENVO_01001862 <https://www.wikidata.org/wiki/Q525>)
+
+# Individual: pbpko:IAO_0000002 (example to be eventually removed)
+
+AnnotationAssertion(rdfs:label pbpko:IAO_0000002 "example to be eventually removed"@en)
+
+# Individual: pbpko:IAO_0000120 (metadata complete)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000120 "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000120 "metadata complete"@en)
+
+# Individual: pbpko:IAO_0000121 (organizational term)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000121 "The term was created to ease viewing/sorting terms for development purposes, but will not be included in a release."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000121 "organizational term"@en)
+
+# Individual: pbpko:IAO_0000122 (ready for release)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000122 "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\""@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000122 "ready for release"@en)
+
+# Individual: pbpko:IAO_0000123 (metadata incomplete)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000123 "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000123 "metadata incomplete"@en)
+
+# Individual: pbpko:IAO_0000124 (uncurated)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000124 "Nothing done yet beyond assigning a unique class ID and proposing a preferred term."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000124 "uncurated"@en)
+
+# Individual: pbpko:IAO_0000125 (pending final vetting)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000125 "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor."@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000125 "pending final vetting"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000125)
+
+# Individual: pbpko:IAO_0000423 (to be replaced with external ontology term)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000423 "Terms with this status should eventually replaced with a term from another ontology."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000423 "Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000423 "to be replaced with external ontology term"@en)
+
+# Individual: pbpko:IAO_0000428 (requires discussion)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:IAO_0000428 "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues."@en)
+AnnotationAssertion(pbpko:IAO_0000117 pbpko:IAO_0000428 "Alan Ruttenberg"@en)
+AnnotationAssertion(rdfs:label pbpko:IAO_0000428 "requires discussion"@en)
+ClassAssertion(pbpko:IAO_0000078 pbpko:IAO_0000428)
+
+
+SubClassOf(ObjectSomeValuesFrom(pbpko:RO_0002566 pbpko:BFO_0000040) ObjectUnionOf(ObjectSomeValuesFrom(pbpko:RO_0000056 ObjectSomeValuesFrom(pbpko:RO_0002418 pbpko:BFO_0000015)) ObjectSomeValuesFrom(pbpko:RO_0002215 ObjectSomeValuesFrom(pbpko:RO_0000056 ObjectSomeValuesFrom(pbpko:RO_0002418 pbpko:BFO_0000015)))))
+DifferentIndividuals(pbpko:IAO_0000120 pbpko:IAO_0000121 pbpko:IAO_0000122 pbpko:IAO_0000123 pbpko:IAO_0000124 pbpko:IAO_0000125 pbpko:IAO_0000423 pbpko:IAO_0000428)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:BFO_0000050 pbpko:BFO_0000050) pbpko:RO_0002131)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:BFO_0000050 pbpko:BFO_0000062) pbpko:BFO_0000062)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:BFO_0000050 pbpko:BFO_0000063) pbpko:BFO_0000063)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:BFO_0000051 pbpko:RO_0000057) pbpko:RO_0000057)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:BFO_0000051 pbpko:RO_0002131) pbpko:RO_0002131)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:BFO_0000051 pbpko:RO_0002215) pbpko:RO_0002584)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002131 pbpko:BFO_0000050) pbpko:RO_0002131)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002211 pbpko:RO_0002025) pbpko:RO_0002211)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002211 pbpko:RO_0019000) pbpko:RO_0019000)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002212 pbpko:RO_0002212) pbpko:RO_0002213)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002212 pbpko:RO_0019001) pbpko:RO_0019002)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002213 pbpko:RO_0019001) pbpko:RO_0019001)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002213 pbpko:RO_0019002) pbpko:RO_0019002)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002215 pbpko:RO_0002211) pbpko:RO_0002596)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002215 pbpko:RO_0002212) pbpko:RO_0002597)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002215 pbpko:RO_0002213) pbpko:RO_0002598)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002215 pbpko:RO_0002233) pbpko:RO_0017001)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002314 pbpko:BFO_0000050) pbpko:RO_0002314)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:BFO_0000050) pbpko:RO_0002331)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:BFO_0000051) pbpko:RO_0002327)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:BFO_0000051) pbpko:RO_0004031)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002017) pbpko:RO_0002327)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002211) pbpko:RO_0002428)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002211 pbpko:RO_0002333) pbpko:RO_0002448)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002212) pbpko:RO_0002430)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002213) pbpko:RO_0002429)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002304) pbpko:RO_0004034)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002305) pbpko:RO_0004035)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002411) pbpko:RO_0002263)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002411 pbpko:RO_0002233) pbpko:RO_0002566)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002411 pbpko:RO_0002333) pbpko:RO_0002566)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002418) pbpko:RO_0002264)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002629 pbpko:RO_0002333) pbpko:RO_0002450)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0002630 pbpko:RO_0002333) pbpko:RO_0002449)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0004046) pbpko:RO_0004033)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002327 pbpko:RO_0004047) pbpko:RO_0004032)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002331 pbpko:BFO_0000050) pbpko:RO_0002331)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002331 pbpko:RO_0002211) pbpko:RO_0002428)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002331 pbpko:RO_0002212) pbpko:RO_0002430)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002331 pbpko:RO_0002213) pbpko:RO_0002429)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002407 pbpko:RO_0002629) pbpko:RO_0002407)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002409 pbpko:RO_0002409) pbpko:RO_0002407)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002409 pbpko:RO_0002630) pbpko:RO_0002409)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002418 pbpko:BFO_0000050) pbpko:RO_0002418)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002578 pbpko:RO_0002578) pbpko:RO_0002211)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002629 pbpko:RO_0002407) pbpko:RO_0002407)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002629 pbpko:RO_0002629) pbpko:RO_0002407)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002630 pbpko:RO_0002409) pbpko:RO_0002409)
+SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002630 pbpko:RO_0002630) pbpko:RO_0002409)
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000015 Variable(<urn:swrl:var#w>)) ObjectPropertyAtom(pbpko:RO_0002180 Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#p>)) ClassAtom(pbpko:BFO_0000015 Variable(<urn:swrl:var#p>)))Head(ObjectPropertyAtom(pbpko:RO_0002018 Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#p>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000016 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000091 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000019 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000086 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000023 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000087 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000034 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000085 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002578 Variable(<urn:swrl:var#a1>) Variable(<urn:swrl:var#a2>)) ClassAtom(pbpko:GO_0016301 Variable(<urn:swrl:var#a1>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#a1>) Variable(<urn:swrl:var#g1>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#a2>) Variable(<urn:swrl:var#g2>)))Head(ObjectPropertyAtom(pbpko:RO_0002447 Variable(<urn:swrl:var#g1>) Variable(<urn:swrl:var#g2>))))
+DLSafeRule(Annotation(rdfs:label "inferring direct neg reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(pbpko:RO_0002352 Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(pbpko:RO_0002014 Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
+DLSafeRule(Annotation(rdfs:label "inferring direct positive reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(pbpko:RO_0002352 Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(pbpko:RO_0002015 Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(pbpko:RO_0002629 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
+DLSafeRule(Annotation(rdfs:label "effector input is compound function input") Body(ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>)))Head(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>))))
+DLSafeRule(Annotation(rdfs:label "Input of effector is input of its parent MF") Body(ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>)))Head(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>))))
+DLSafeRule(Annotation(rdfs:label "if effector directly negatively regulates X,  its parent MF directly negatively regulates X") Body(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)) ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
+DLSafeRule(Annotation(rdfs:label "'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(pbpko:RO_0002131 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002404 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>))))
+DLSafeRule(Annotation(rdfs:label "'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(pbpko:RO_0002131 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002211 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(pbpko:RO_0012011 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(pbpko:RO_0012012 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002213 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0019002 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(pbpko:RO_0019001 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(pbpko:RO_0002213 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(pbpko:RO_0002264 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(pbpko:RO_0002263 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#q>) Variable(<urn:swrl:var#u>)))Head(ObjectPropertyAtom(pbpko:RO_0012011 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#u>))))
+)

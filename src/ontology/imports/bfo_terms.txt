@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/BFO_0000029 # site
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/BFO_0000051 # has part
