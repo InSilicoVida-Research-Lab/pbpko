@@ -13,13 +13,28 @@ the concept DOI [10.5281/zenodo.18660038](https://doi.org/10.5281/zenodo.1866003
 
 | Release | Zenodo DOI | Date |
 |---------|------------|------|
-| v1.4.0 (latest semver) | [10.5281/zenodo.21274522](https://doi.org/10.5281/zenodo.21274522) | 2026-07-09 |
+| v2026-07-13 (latest ODK) | [10.5281/zenodo.21340607](https://doi.org/10.5281/zenodo.21340607) | 2026-07-13 |
+| v1.4.0 (legacy semver) | [10.5281/zenodo.21274522](https://doi.org/10.5281/zenodo.21274522) | 2026-07-09 |
 | Concept (all versions) | [10.5281/zenodo.18660038](https://doi.org/10.5281/zenodo.18660038) | — |
 
-After ODK dated releases (`vYYYY-MM-DD`), add new rows from the
+After future ODK dated releases (`vYYYY-MM-DD`), add new rows from the
 [Zenodo record](https://doi.org/10.5281/zenodo.18660038) page.
 
-### Example BibTeX (v1.4.0)
+### Example BibTeX (v2026-07-13 — latest)
+
+```bibtex
+@software{kumar2026pbpko_odk,
+  author       = {Kumar, Saurav and Sharma, Shubh and Deepika, Deepika and Kumar, Vikas},
+  title        = {PBPK Ontology (PBPKO)},
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {v2026-07-13},
+  doi          = {10.5281/zenodo.21340607},
+  url          = {https://doi.org/10.5281/zenodo.21340607}
+}
+```
+
+### Example BibTeX (v1.4.0 — legacy semver)
 
 ```bibtex
 @software{kumar2026pbpko,
