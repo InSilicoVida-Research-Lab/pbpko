@@ -69,6 +69,10 @@ src/patterns/all_pattern_terms.txt
 # End of ODK-managed rules
 node_modules/
 
+# Release artefacts committed by CI (root mappings copy; overrides /mappings/ above)
+!/mappings/
+!/mappings/pbpko-sssom.sssom.tsv
+
 # View-only TSV exports from pbpko-edit.owl (make export-term-views)
 src/templates/pbpko-vocab-view.tsv
 src/templates/pbpko-properties-view.tsv

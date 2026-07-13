@@ -98,8 +98,8 @@ jobs:
             pbpko-base.owl pbpko-base.obo \
             pbpko-full.owl pbpko-full.obo \
             imports/*.owl \
-            mappings/pbpko-sssom.sssom.tsv \
             src/ontology/reports/release-diff.md
+          git add -f mappings/pbpko-sssom.sssom.tsv
           if git diff --staged --quiet; then
             echo "No release changes to commit."
           else
