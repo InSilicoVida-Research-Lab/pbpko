@@ -6,7 +6,7 @@ After merging the `obo-versioning` branch, complete these steps outside this rep
 
 Open a pull request to [OBOFoundry/purl.obolibrary.org](https://github.com/OBOFoundry/purl.obolibrary.org).
 
-Use [config/pbpko-purl.yml](../config/pbpko-purl.yml) as the source for `config/pbpko.yml` in that repository.
+Use [`src/metadata/pbpko.yml`](https://github.com/InSilicoVida-Research-Lab/pbpko/blob/main/src/metadata/pbpko.yml) as the source for `config/pbpko.yml` in that repository.
 
 **Remove** any old semver-based entries such as:
 

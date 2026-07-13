@@ -1,32 +1,39 @@
 site_name: PBPK Ontology
+site_description: Documentation for the Physiologically Based Pharmacokinetic Ontology (PBPKO)
+site_url: https://insilicovida-research-lab.github.io/pbpko/
+repo_url: https://github.com/InSilicoVida-Research-Lab/pbpko/
+repo_name: InSilicoVida-Research-Lab/pbpko
+
 theme:
   name: material
   features:
     - content.tabs.link
+    - navigation.sections
+
 plugins:
   - search
-  #- table-reader (see https://github.com/INCATools/ontology-development-kit/issues/1028)
+
 markdown_extensions:
-  - pymdownx.highlight:
+  - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tabbed:
+  - pymdownx.tabbed
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
-site_url: https://InSilicoVida-Research-Lab.github.io/pbpko/
-repo_url: https://github.com/InSilicoVida-Research-Lab/pbpko/
+  - admonition
+  - tables
 
 nav:
-  - Getting started: index.md
+  - Home: index.md
   - Cite: cite.md
   - Import policy: import-policy.md
   - Import inventory: import-inventory.md
   - How-to guides:
+      - Contributing: contributing.md
       - Standard ODK workflows:
           - Overview: odk-workflows/index.md
           - Editors Workflow: odk-workflows/EditorsWorkflow.md
@@ -38,6 +45,9 @@ nav:
           - Managing the documentation: odk-workflows/ManageDocumentation.md
           - Managing your automated testing: odk-workflows/ManageAutomatedTest.md
           - Continuous Integration: odk-workflows/ContinuousIntegration.md
-          - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md 
-      - Contributing: contributing.md
+          - Your ODK Repository Overview: odk-workflows/RepositoryFileStructure.md
 
+# Maintainer drafts kept in docs/ but not published in the nav
+not_in_nav: |
+  obo-versioning-checklist.md
+  release-annotations-plan.md
