@@ -1,0 +1,65 @@
+{
+  "upload_type": "software",
+  "title": "PBPK Ontology (PBPKO)",
+  "description": "The PBPK (Physiologically Based Pharmacokinetic) Ontology (PBPKO) is a dedicated ontology for describing PBPK models, parameters, compartments, and related pharmacokinetic processes. PBPKO supports consistent vocabulary for PBPK modelling in pharmaceutical and environmental life-science applications. It is developed with the ROBOT ontology toolkit, aligned with Basic Formal Ontology (BFO) and the Relation Ontology (RO), and integrates terms from OBO Foundry ontologies including GO, OBI, and SBO. Documentation is available at https://insilicovida-research-lab.github.io/pbpko/",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Kumar, Saurav",
+      "orcid": "0000-0003-0593-2598",
+      "affiliation": "TecnATox, Universitat Rovira i Virgili, Spain"
+    },
+    {
+      "name": "Sharma, Shubh",
+      "orcid": "0009-0004-2207-3937",
+      "affiliation": "TecnATox, Universitat Rovira i Virgili, Spain"
+    },
+    {
+      "name": "Deepika, Deepika",
+      "orcid": "0000-0001-8345-1349",
+      "affiliation": "TecnATox, Universitat Rovira i Virgili, Spain"
+    },
+    {
+      "name": "Kumar, Vikas",
+      "orcid": "0000-0002-9795-5967",
+      "affiliation": "Universitat Rovira i Virgili, Spain"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Kruisselbrink, Johannes",
+      "affiliation": "Wageningen University & Research, Netherlands",
+      "type": "Researcher"
+    },
+    {
+      "name": "Panov, Panče",
+      "affiliation": "Jožef Stefan Institute, Slovenia",
+      "type": "Researcher"
+    }
+  ],
+  "keywords": [
+    "ontology",
+    "PBPK",
+    "pharmacokinetics",
+    "physiologically based pharmacokinetic model",
+    "OBO",
+    "life sciences",
+    "ROBOT"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://insilicovida-research-lab.github.io/pbpko/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/InSilicoVida-Research-Lab/pbpko",
+      "relation": "isSourceOf",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 # Automated OBO release workflow
 # Triggered by: chore(release): YYYY-MM-DD
+#
+# Zenodo: enable GitHub archival for this repo on zenodo.org (Account → GitHub).
+# Metadata for each release is taken from .zenodo.json at the tagged commit.
 
 name: Release
 
@@ -154,3 +157,4 @@ jobs:
               imports/obi_import.owl imports/ro_import.owl \
               mappings/pbpko-sssom.sssom.tsv
           fi
+          echo "GitHub Release ${TAG} published. Zenodo will archive it if GitHub integration is enabled."

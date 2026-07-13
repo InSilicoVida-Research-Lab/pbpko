@@ -201,5 +201,15 @@ Release managers follow the [Release Workflow](docs/odk-workflows/ReleaseWorkflo
 
 3. GitHub Actions builds `pbpko.owl` / `pbpko.obo`, updates [`CHANGELOG.md`](CHANGELOG.md),
    tags `v2026-07-10`, and publishes a GitHub Release with OBO assets.
+4. Zenodo archives each GitHub Release automatically (metadata from [`.zenodo.json`](.zenodo.json)).
+   The versioned DOI appears on the Zenodo record within a few minutes.
+
+### Zenodo (one-time setup)
+
+1. Sign in at [zenodo.org](https://zenodo.org) with your GitHub account.
+2. Open **Account settings → GitHub** and enable archival for
+   `InSilicoVida-Research-Lab/pbpko`.
+3. Keep [`.zenodo.json`](.zenodo.json) on the default branch — Zenodo reads it for every
+   new GitHub Release.
 
 Legacy semver tags (`v1.0.0`–`v1.4.0`) remain on GitHub; new releases use `vYYYY-MM-DD`.
