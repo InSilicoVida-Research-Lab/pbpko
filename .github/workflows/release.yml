@@ -70,6 +70,15 @@ jobs:
             obolibrary/odkfull:v1.6 \
             make "VERSION=${{ steps.version.outputs.version }}" prepare_release_fast
 
+      - name: Validate release metadata
+        run: |
+          docker run --rm \
+            -v "${{ github.workspace }}:/work" \
+            -w /work/src/ontology \
+            -e ROBOT_JAVA_ARGS=-Xmx6G \
+            obolibrary/odkfull:v1.6 \
+            make "VERSION=${{ steps.version.outputs.version }}" metadata_release_test
+
       - name: Generate release diff
         run: |
           cp pbpko.owl src/ontology/pbpko.owl
@@ -94,6 +103,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             CHANGELOG.md \
+            src/ontology/pbpko-edit.owl \
             pbpko.owl pbpko.obo \
             pbpko-base.owl pbpko-base.obo \
             pbpko-full.owl pbpko-full.obo \

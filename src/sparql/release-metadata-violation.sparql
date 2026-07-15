@@ -1,0 +1,29 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?issue WHERE {
+  VALUES ?ont { <http://purl.obolibrary.org/obo/pbpko.owl> }
+  {
+    FILTER NOT EXISTS { ?ont a owl:Ontology ; owl:versionIRI [] }
+    BIND("Release ontology missing owl:versionIRI" AS ?issue)
+  }
+  UNION
+  {
+    ?ont a owl:Ontology ; owl:versionIRI ?viri ; owl:versionInfo ?vinfo .
+    FILTER (!STRENDS(STR(?viri), CONCAT("/releases/", STR(?vinfo), "/pbpko.owl")))
+    BIND(CONCAT("versionIRI ", STR(?viri), " does not match versionInfo ", STR(?vinfo)) AS ?issue)
+  }
+  UNION
+  {
+    ?ont a owl:Ontology ; owl:versionInfo ?vinfo ; dcterms:modified ?modified .
+    FILTER (STR(?vinfo) != STR(?modified))
+    BIND(CONCAT("dcterms:modified ", STR(?modified), " must equal owl:versionInfo ", STR(?vinfo)) AS ?issue)
+  }
+  UNION
+  {
+    FILTER NOT EXISTS {
+      ?ont a owl:Ontology ; dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+    }
+    BIND("Release ontology must declare dcterms:license CC BY 4.0" AS ?issue)
+  }
+}

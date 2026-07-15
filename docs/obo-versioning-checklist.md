@@ -37,9 +37,10 @@ Confirm principle 4 (Versioning) passes:
 
 1. Merge releasable commits (`fix:` / `feat:` / `term:`) to `main`.
 2. Trigger release: `git commit --allow-empty -m "chore(release): YYYY-MM-DD"` and push to `main`.
-3. The Release workflow builds artefacts with ODK, updates `CHANGELOG.md`, creates tag `vYYYY-MM-DD`, and publishes a GitHub Release.
+3. The Release workflow builds artefacts with ODK (setting `owl:versionIRI`, `owl:versionInfo`, and `dcterms:modified`), updates `CHANGELOG.md`, creates tag `vYYYY-MM-DD`, validates release metadata, and publishes a GitHub Release.
 4. Confirm the new dated PURL resolves (tag-based rule in `src/metadata/pbpko.yml`).
-5. Zenodo archives the GitHub Release if integration is enabled.
+5. Submit updated [`src/metadata/pbpko.md`](../src/metadata/pbpko.md) to [OBOFoundry/OBOFoundry.github.io](https://github.com/OBOFoundry/OBOFoundry.github.io) when registry fields change (license, products, contact, CI).
+6. Zenodo archives the GitHub Release if integration is enabled.
 
 ## 5. Optional cleanup
 

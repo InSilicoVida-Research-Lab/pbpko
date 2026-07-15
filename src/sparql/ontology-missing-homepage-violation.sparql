@@ -1,0 +1,8 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?issue WHERE {
+  FILTER NOT EXISTS {
+    <http://purl.obolibrary.org/obo/pbpko.owl> rdfs:seeAlso <https://github.com/InSilicoVida-Research-Lab/pbpko> .
+  }
+  BIND("Ontology must include rdfs:seeAlso link to the GitHub repository" AS ?issue)
+}

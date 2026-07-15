@@ -1,0 +1,8 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?issue WHERE {
+  FILTER NOT EXISTS {
+    <http://purl.obolibrary.org/obo/pbpko.owl> dcterms:license <https://creativecommons.org/licenses/by/4.0/> .
+  }
+  BIND("Ontology must declare dcterms:license CC BY 4.0" AS ?issue)
+}

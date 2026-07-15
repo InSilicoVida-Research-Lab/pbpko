@@ -1,0 +1,11 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?issue WHERE {
+  {
+    SELECT (COUNT(?title) AS ?count) WHERE {
+      <http://purl.obolibrary.org/obo/pbpko.owl> dcterms:title ?title .
+    }
+    HAVING (?count > 1)
+  }
+  BIND("Ontology must have exactly one dcterms:title" AS ?issue)
+}

@@ -58,3 +58,6 @@ robot_report:
     - label-with-iri
     - multiple-replaced_by
     - pbpko-id-format
+    - ontology-duplicate-title
+    - ontology-license
+    - ontology-missing-homepage

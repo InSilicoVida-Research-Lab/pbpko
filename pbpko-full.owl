@@ -60,13 +60,13 @@
                 <foaf:name>Shubh Sharma</foaf:name>
             </rdf:Description>
         </dcterms:creator>
-        <dcterms:description>Physiologically Based Pharmacokinetic Models (PBPK) are widely used in both pharmaceutical and environmental domain by experts to assess the kinetics of xenobiotics. Thousands of papers have been published over years but the major drawback being utilization of inconsistent vocabulary which reduce the potential for automation. Machine-readable semantic technology like ontology can be used to improve the reporting of PBPK models. Currently there are multiple ontologies related to life science domain on portals like Bioportal, still there is no dedicated ontology for describing PBPK. The objective of this work is to develop a dedicated ontology for PBPK named PBPKO which can be used in future by wider kinetic community. PBPKO has covered possible mechanisms, existing kinetic terms in multiple databases and commonly utilized terminology by experts. This is freely available ontology with first version (V1.0) being published following FAIR guidelines using ROBOT tool and published at OBO foundry (crispae.github.io/pbpko/ (github.com)). It will be further enriched by including multiple species and much more kinetic terms with the help of experts. PBPKO annotates both physiological and biochemical parameters related to PBPK modeling. This ontology can be further used for text mining of PBPK parameters and model output.</dcterms:description>
-        <dcterms:description>Physiologically Based Pharmacokinetic Models ontology for describing PBPK models, parameters, and processes.</dcterms:description>
+        <dcterms:description>The PBPK (Physiologically Based Pharmacokinetic) Ontology (PBPKO) describes PBPK models, parameters, compartments, and pharmacokinetic processes for pharmaceutical and environmental life-science applications. It is aligned with Basic Formal Ontology (BFO) and the Relation Ontology (RO), and integrates terms from OBO Foundry ontologies including GO, OBI, and IAO.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-02-16</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-07-13</dcterms:modified>
         <dcterms:title>PBPK Ontology</dcterms:title>
-        <dcterms:title>PBPK ontology</dcterms:title>
         <rdfs:label>PBPK Ontology</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/InSilicoVida-Research-Lab/pbpko"/>
+        <rdfs:seeAlso rdf:resource="https://insilicovida-research-lab.github.io/pbpko/"/>
         <owl:versionInfo>2026-07-13</owl:versionInfo>
     </owl:Ontology>
     
