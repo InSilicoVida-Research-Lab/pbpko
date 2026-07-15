@@ -14,6 +14,21 @@ and this project adheres to [Conventional Commits](https://www.conventionalcommi
 ### Changed
 
 - Migrated from legacy monolithic release to ODK-based build pipeline.
+## [2026-07-15] - 2026-07-15
+
+### Changed
+
+- add Zenodo DOI for v2026-07-13 ODK release
+
+### Fixed
+
+- **ci**: use working-directory for metadata validation step
+- **metadata**: align ontology metadata with repository and release QC
+
+### Ontology diff
+
+See [release-diff.md](src/ontology/reports/release-diff.md) for the ROBOT diff against the previous release.
+
 ## [2026-07-13] - 2026-07-13
 
 ### Added
@@ -51,6 +66,8 @@ See [GitHub releases](https://github.com/InSilicoVida-Research-Lab/pbpko/release
 historical semver releases (v1.0.0 through v1.4.0). Date-based releases (`vYYYY-MM-DD`)
 begin with the first ODK automated release.
 
-[Unreleased]: https://github.com/InSilicoVida-Research-Lab/pbpko/compare/v2026-07-13...HEAD
 [2026-07-13]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/tag/v2026-07-13
+
+[Unreleased]: https://github.com/InSilicoVida-Research-Lab/pbpko/compare/v2026-07-15...HEAD
+[2026-07-15]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/tag/v2026-07-15
 [1.4.0]: https://github.com/InSilicoVida-Research-Lab/pbpko/releases/tag/v1.4.0
