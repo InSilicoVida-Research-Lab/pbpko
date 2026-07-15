@@ -47,9 +47,10 @@ jobs:
           cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release_fast
 
       - name: Validate ontology metadata
+        working-directory: src/ontology
         run: |
-          cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' IMP=false PAT=false MIR=false test
-          cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' metadata_release_test
+          make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' IMP=false PAT=false MIR=false test
+          make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' metadata_release_test
 
       - name: Commit release artefacts to repository
         if: github.event_name == 'push'
