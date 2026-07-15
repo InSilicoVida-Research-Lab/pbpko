@@ -18,12 +18,12 @@ and this project adheres to [Conventional Commits](https://www.conventionalcommi
 
 ### Changed
 
-- add Zenodo DOI for v2026-07-13 ODK release
+- Align ontology metadata (`dcterms:modified`, titles, description, repository links) with the repository and OBO release workflow
+- Add SPARQL metadata validation and release metadata QC in CI
 
 ### Fixed
 
 - **ci**: use working-directory for metadata validation step
-- **metadata**: align ontology metadata with repository and release QC
 
 ### Ontology diff
 

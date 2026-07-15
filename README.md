@@ -15,6 +15,9 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/pbpko.owl
 
+The latest dated ODK release is [`v2026-07-15`](https://github.com/InSilicoVida-Research-Lab/pbpko/releases/tag/v2026-07-15)
+([Zenodo DOI](https://doi.org/10.5281/zenodo.21372240)).
+
 (note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version

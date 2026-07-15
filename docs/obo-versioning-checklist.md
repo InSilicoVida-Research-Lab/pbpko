@@ -23,7 +23,7 @@ Use [`src/metadata/pbpko.yml`](https://github.com/InSilicoVida-Research-Lab/pbpk
 After the PURL PR is merged and deployed, verify these URLs return HTTP 200:
 
 - http://purl.obolibrary.org/obo/pbpko.owl
-- http://purl.obolibrary.org/obo/pbpko/releases/2026-07-13/pbpko.owl (after first ODK dated tag exists)
+- http://purl.obolibrary.org/obo/pbpko/releases/2026-07-15/pbpko.owl
 
 ## 3. Re-run the OBO Foundry dashboard check
 

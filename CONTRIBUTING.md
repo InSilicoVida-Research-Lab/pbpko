@@ -167,7 +167,7 @@ term: add PBPKO_01501 gastric emptying subclass
 fix(term): correct definition for PBPKO_00554
 feat(imports): refresh OBI slim import
 docs: update import policy
-chore(release): 2026-07-10
+chore(release): 2026-07-15
 ```
 
 The last example triggers an [automated GitHub Release](docs/odk-workflows/ReleaseWorkflow.md)
@@ -195,12 +195,12 @@ Release managers follow the [Release Workflow](docs/odk-workflows/ReleaseWorkflo
 2. Trigger a date-based release (OBO Foundry convention):
 
    ```bash
-   git commit --allow-empty -m "chore(release): 2026-07-10"
+   git commit --allow-empty -m "chore(release): 2026-07-15"
    git push origin main
    ```
 
 3. GitHub Actions builds `pbpko.owl` / `pbpko.obo`, updates [`CHANGELOG.md`](CHANGELOG.md),
-   tags `v2026-07-10`, and publishes a GitHub Release with OBO assets.
+   tags `v2026-07-15`, and publishes a GitHub Release with OBO assets.
 4. Zenodo archives each GitHub Release automatically (metadata from [`.zenodo.json`](.zenodo.json)).
    The versioned DOI appears on the Zenodo record within a few minutes.
 

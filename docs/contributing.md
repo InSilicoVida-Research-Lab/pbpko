@@ -43,7 +43,7 @@ Examples:
 term: add menstrual plasma compartment
 fix(import): add GO excretion term to go_terms.txt
 docs: update import policy for edit-file workflow
-chore(release): 2026-07-13
+chore(release): 2026-07-15
 ```
 
 ## Requesting terms

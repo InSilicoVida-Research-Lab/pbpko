@@ -37,14 +37,14 @@ entries:
 - prefix: /releases/
   replacement: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/v
   tests:
-  - from: /releases/2026-07-10/pbpko.owl
-    to: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/v2026-07-10/pbpko.owl
+  - from: /releases/2026-07-15/pbpko.owl
+    to: https://raw.githubusercontent.com/InSilicoVida-Research-Lab/pbpko/v2026-07-15/pbpko.owl
 
 - prefix: /tracker/
   replacement: https://github.com/InSilicoVida-Research-Lab/pbpko/issues
 
 - prefix: /about/
-  replacement: http://www.ontobee.org/ontology/PBPKO?iri=http://purl.obolibrary.org/obo/
+  replacement: https://insilicovida-research-lab.github.io/pbpko/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /

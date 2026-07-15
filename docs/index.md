@@ -11,7 +11,7 @@ and environmental life-science applications.
 |----------|-----|
 | Documentation (this site) | <https://insilicovida-research-lab.github.io/pbpko/> |
 | GitHub repository | <https://github.com/InSilicoVida-Research-Lab/pbpko> |
-| Latest Zenodo release (v2026-07-13) | <https://doi.org/10.5281/zenodo.21340607> |
+| Latest Zenodo release (v2026-07-15) | <https://doi.org/10.5281/zenodo.21372240> |
 | How to cite | [cite.md](cite.md) |
 | OBO Foundry PURL | <http://purl.obolibrary.org/obo/pbpko.owl> |
 | OLS browser | <https://www.ebi.ac.uk/ols4/ontologies/pbpko> |
