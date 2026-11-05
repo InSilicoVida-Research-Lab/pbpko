@@ -17,12 +17,12 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 Ontology(<http://purl.obolibrary.org/obo/pbpko.owl>
 Annotation(dcterms:created "2024-08-11"^^xsd:date)
-Annotation(dcterms:creator _:genid2147487988)
-Annotation(dcterms:creator _:genid2147487989)
-Annotation(dcterms:creator _:genid2147487990)
-Annotation(dcterms:creator _:genid2147487991)
-Annotation(dcterms:creator _:genid2147487992)
-Annotation(dcterms:creator _:genid2147487993)
+Annotation(dcterms:creator _:genid2147483666)
+Annotation(dcterms:creator _:genid2147483667)
+Annotation(dcterms:creator _:genid2147483668)
+Annotation(dcterms:creator _:genid2147483669)
+Annotation(dcterms:creator _:genid2147483670)
+Annotation(dcterms:creator _:genid2147483671)
 Annotation(dcterms:description "The PBPK (Physiologically Based Pharmacokinetic) Ontology (PBPKO) describes PBPK models, parameters, compartments, and pharmacokinetic processes for pharmaceutical and environmental life-science applications. It is aligned with Basic Formal Ontology (BFO) and the Relation Ontology (RO), and integrates terms from OBO Foundry ontologies including GO, OBI, and IAO.")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:modified "2026-07-15"^^xsd:date)
@@ -782,6 +782,7 @@ Declaration(Class(pbpko:PBPKO_02010))
 Declaration(Class(pbpko:PBPKO_02011))
 Declaration(Class(pbpko:PBPKO_02012))
 Declaration(Class(pbpko:PBPKO_02013))
+Declaration(Class(pbpko:PBPKO_02014))
 Declaration(Class(pbpko:PBPKO_03001))
 Declaration(Class(pbpko:PBPKO_03002))
 Declaration(Class(pbpko:PBPKO_03003))
@@ -856,6 +857,47 @@ Declaration(Class(pbpko:PBPKO_03073))
 Declaration(Class(pbpko:PBPKO_03074))
 Declaration(Class(pbpko:PBPKO_03075))
 Declaration(Class(pbpko:PBPKO_03076))
+Declaration(Class(pbpko:PBPKO_03079))
+Declaration(Class(pbpko:PBPKO_03080))
+Declaration(Class(pbpko:PBPKO_03081))
+Declaration(Class(pbpko:PBPKO_03082))
+Declaration(Class(pbpko:PBPKO_03083))
+Declaration(Class(pbpko:PBPKO_03084))
+Declaration(Class(pbpko:PBPKO_03085))
+Declaration(Class(pbpko:PBPKO_03086))
+Declaration(Class(pbpko:PBPKO_03087))
+Declaration(Class(pbpko:PBPKO_03088))
+Declaration(Class(pbpko:PBPKO_03089))
+Declaration(Class(pbpko:PBPKO_03090))
+Declaration(Class(pbpko:PBPKO_03091))
+Declaration(Class(pbpko:PBPKO_03092))
+Declaration(Class(pbpko:PBPKO_03093))
+Declaration(Class(pbpko:PBPKO_03094))
+Declaration(Class(pbpko:PBPKO_03095))
+Declaration(Class(pbpko:PBPKO_03096))
+Declaration(Class(pbpko:PBPKO_03097))
+Declaration(Class(pbpko:PBPKO_03098))
+Declaration(Class(pbpko:PBPKO_03099))
+Declaration(Class(pbpko:PBPKO_03100))
+Declaration(Class(pbpko:PBPKO_03101))
+Declaration(Class(pbpko:PBPKO_03102))
+Declaration(Class(pbpko:PBPKO_03103))
+Declaration(Class(pbpko:PBPKO_03104))
+Declaration(Class(pbpko:PBPKO_03105))
+Declaration(Class(pbpko:PBPKO_03106))
+Declaration(Class(pbpko:PBPKO_03107))
+Declaration(Class(pbpko:PBPKO_03108))
+Declaration(Class(pbpko:PBPKO_03109))
+Declaration(Class(pbpko:PBPKO_03110))
+Declaration(Class(pbpko:PBPKO_03111))
+Declaration(Class(pbpko:PBPKO_03112))
+Declaration(Class(pbpko:PBPKO_03113))
+Declaration(Class(pbpko:PBPKO_03114))
+Declaration(Class(pbpko:PBPKO_03115))
+Declaration(Class(pbpko:PBPKO_03116))
+Declaration(Class(pbpko:PBPKO_03117))
+Declaration(Class(pbpko:PBPKO_03118))
+Declaration(Class(pbpko:PBPKO_03119))
 Declaration(Class(pbpko:PBPKO_04001))
 Declaration(Class(pbpko:PBPKO_04002))
 Declaration(Class(pbpko:PBPKO_04003))
@@ -967,6 +1009,32 @@ Declaration(Class(pbpko:PBPKO_04108))
 Declaration(Class(pbpko:PBPKO_04109))
 Declaration(Class(pbpko:PBPKO_04110))
 Declaration(Class(pbpko:PBPKO_04111))
+Declaration(Class(pbpko:PBPKO_04112))
+Declaration(Class(pbpko:PBPKO_04113))
+Declaration(Class(pbpko:PBPKO_04114))
+Declaration(Class(pbpko:PBPKO_04115))
+Declaration(Class(pbpko:PBPKO_04116))
+Declaration(Class(pbpko:PBPKO_04117))
+Declaration(Class(pbpko:PBPKO_04118))
+Declaration(Class(pbpko:PBPKO_04119))
+Declaration(Class(pbpko:PBPKO_04120))
+Declaration(Class(pbpko:PBPKO_04121))
+Declaration(Class(pbpko:PBPKO_04122))
+Declaration(Class(pbpko:PBPKO_04123))
+Declaration(Class(pbpko:PBPKO_04124))
+Declaration(Class(pbpko:PBPKO_04125))
+Declaration(Class(pbpko:PBPKO_04126))
+Declaration(Class(pbpko:PBPKO_04127))
+Declaration(Class(pbpko:PBPKO_04128))
+Declaration(Class(pbpko:PBPKO_04129))
+Declaration(Class(pbpko:PBPKO_04130))
+Declaration(Class(pbpko:PBPKO_04131))
+Declaration(Class(pbpko:PBPKO_04132))
+Declaration(Class(pbpko:PBPKO_04133))
+Declaration(Class(pbpko:PBPKO_04134))
+Declaration(Class(pbpko:PBPKO_04135))
+Declaration(Class(pbpko:PBPKO_04136))
+Declaration(Class(pbpko:PBPKO_04137))
 Declaration(Class(pbpko:PBPKO_05001))
 Declaration(Class(pbpko:PBPKO_05002))
 Declaration(Class(pbpko:PBPKO_05003))
@@ -1037,7 +1105,65 @@ Declaration(Class(pbpko:PBPKO_06065))
 Declaration(Class(pbpko:PBPKO_06066))
 Declaration(Class(pbpko:PBPKO_06067))
 Declaration(Class(pbpko:PBPKO_06068))
+Declaration(Class(pbpko:PBPKO_06069))
+Declaration(Class(pbpko:PBPKO_06070))
+Declaration(Class(pbpko:PBPKO_06071))
+Declaration(Class(pbpko:PBPKO_06072))
+Declaration(Class(pbpko:PBPKO_06073))
+Declaration(Class(pbpko:PBPKO_06074))
+Declaration(Class(pbpko:PBPKO_06075))
+Declaration(Class(pbpko:PBPKO_06076))
+Declaration(Class(pbpko:PBPKO_06077))
 Declaration(Class(pbpko:PBPKO_07001))
+Declaration(Class(pbpko:PBPKO_07002))
+Declaration(Class(pbpko:PBPKO_07003))
+Declaration(Class(pbpko:PBPKO_07004))
+Declaration(Class(pbpko:PBPKO_07005))
+Declaration(Class(pbpko:PBPKO_08001))
+Declaration(Class(pbpko:PBPKO_08002))
+Declaration(Class(pbpko:PBPKO_08003))
+Declaration(Class(pbpko:PBPKO_08004))
+Declaration(Class(pbpko:PBPKO_08005))
+Declaration(Class(pbpko:PBPKO_08006))
+Declaration(Class(pbpko:PBPKO_08007))
+Declaration(Class(pbpko:PBPKO_08008))
+Declaration(Class(pbpko:PBPKO_08009))
+Declaration(Class(pbpko:PBPKO_08010))
+Declaration(Class(pbpko:PBPKO_08011))
+Declaration(Class(pbpko:PBPKO_08012))
+Declaration(Class(pbpko:PBPKO_08013))
+Declaration(Class(pbpko:PBPKO_08014))
+Declaration(Class(pbpko:PBPKO_08015))
+Declaration(Class(pbpko:PBPKO_08016))
+Declaration(Class(pbpko:PBPKO_08017))
+Declaration(Class(pbpko:PBPKO_08018))
+Declaration(Class(pbpko:PBPKO_08019))
+Declaration(Class(pbpko:PBPKO_08020))
+Declaration(Class(pbpko:PBPKO_08021))
+Declaration(Class(pbpko:PBPKO_08022))
+Declaration(Class(pbpko:PBPKO_08023))
+Declaration(Class(pbpko:PBPKO_08024))
+Declaration(Class(pbpko:PBPKO_08025))
+Declaration(Class(pbpko:PBPKO_08026))
+Declaration(Class(pbpko:PBPKO_08027))
+Declaration(Class(pbpko:PBPKO_08028))
+Declaration(Class(pbpko:PBPKO_08029))
+Declaration(Class(pbpko:PBPKO_08030))
+Declaration(Class(pbpko:PBPKO_08031))
+Declaration(Class(pbpko:PBPKO_08032))
+Declaration(Class(pbpko:PBPKO_08033))
+Declaration(Class(pbpko:PBPKO_08034))
+Declaration(Class(pbpko:PBPKO_08035))
+Declaration(Class(pbpko:PBPKO_08036))
+Declaration(Class(pbpko:PBPKO_08037))
+Declaration(Class(pbpko:PBPKO_08038))
+Declaration(Class(pbpko:PBPKO_08039))
+Declaration(Class(pbpko:PBPKO_08040))
+Declaration(Class(pbpko:PBPKO_08041))
+Declaration(Class(pbpko:PBPKO_08042))
+Declaration(Class(pbpko:PBPKO_08043))
+Declaration(Class(pbpko:PBPKO_08044))
+Declaration(Class(pbpko:PBPKO_08045))
 Declaration(Class(pbpko:PR_000000001))
 Declaration(Class(pbpko:PR_000018263))
 Declaration(Class(pbpko:UBERON_0000465))
@@ -1073,6 +1199,8 @@ Declaration(ObjectProperty(pbpko:PBPKO_10006))
 Declaration(ObjectProperty(pbpko:PBPKO_10007))
 Declaration(ObjectProperty(pbpko:PBPKO_10008))
 Declaration(ObjectProperty(pbpko:PBPKO_10009))
+Declaration(ObjectProperty(pbpko:PBPKO_10010))
+Declaration(ObjectProperty(pbpko:PBPKO_10011))
 Declaration(ObjectProperty(pbpko:RO_0000052))
 Declaration(ObjectProperty(pbpko:RO_0000053))
 Declaration(ObjectProperty(pbpko:RO_0000056))
@@ -1895,6 +2023,49 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:OBI_0000833 "OBI")
 AnnotationAssertion(rdfs:label pbpko:OBI_0000833 "objective_achieved_by")
 ObjectPropertyDomain(pbpko:OBI_0000833 pbpko:IAO_0000005)
 ObjectPropertyRange(pbpko:OBI_0000833 pbpko:COB_0000035)
+
+# Object Property: pbpko:PBPKO_10001 (involves process)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10001 "involves process"@en)
+
+# Object Property: pbpko:PBPKO_10002 (has compartment)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10002 "has compartment"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10002 pbpko:BFO_0000051)
+
+# Object Property: pbpko:PBPKO_10004 (has transporter)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10004 "has transporter"@en)
+
+# Object Property: pbpko:PBPKO_10006 (has biochemical parameter)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10006 "has biochemical parameter"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10006 pbpko:BFO_0000051)
+
+# Object Property: pbpko:PBPKO_10007 (has physicochemical parameter)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10007 "has physicochemical parameter"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10007 pbpko:BFO_0000051)
+
+# Object Property: pbpko:PBPKO_10008 (has physiological parameter)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10008 "has physiological parameter"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10008 pbpko:BFO_0000051)
+
+# Object Property: pbpko:PBPKO_10009 (has route of exposure)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10009 "has route of exposure"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10009 pbpko:BFO_0000051)
+
+# Object Property: pbpko:PBPKO_10010 (has parameter)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10010 "has parameter"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10010 pbpko:BFO_0000051)
+
+# Object Property: pbpko:PBPKO_10011 (has output parameter)
+
+AnnotationAssertion(rdfs:label pbpko:PBPKO_10011 "has output parameter"@en)
+SubObjectPropertyOf(pbpko:PBPKO_10011 pbpko:BFO_0000051)
 
 # Object Property: pbpko:RO_0000052 (characteristic of)
 
@@ -3895,6 +4066,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00004 "0000-0002-9795-5967")
 AnnotationAssertion(oboInOwl:hasSynonymType pbpko:PBPKO_00004 "All organs PBPK")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00004 "whole body pbpk")
 SubClassOf(pbpko:PBPKO_00004 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -4051,7 +4223,6 @@ SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -4097,7 +4268,6 @@ SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -4159,7 +4329,6 @@ SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00333))
@@ -4255,6 +4424,8 @@ SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00004 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00005 (perfusion limited model)
 
@@ -4263,6 +4434,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00005 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00005 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00005 "perfusion limited model")
 SubClassOf(pbpko:PBPKO_00005 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -4419,7 +4591,6 @@ SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -4465,7 +4636,6 @@ SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -4527,7 +4697,6 @@ SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00333))
@@ -4623,6 +4792,8 @@ SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00005 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00006 (physiological parameter)
 
@@ -6981,6 +7152,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00303 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00303 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00303 "permeability limited pbpk")
 SubClassOf(pbpko:PBPKO_00303 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -7137,7 +7309,6 @@ SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -7183,7 +7354,6 @@ SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -7245,7 +7415,6 @@ SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00333))
@@ -7341,6 +7510,8 @@ SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00303 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00304 (maximum rate of basolateral transporter in vitro)
 
@@ -7436,6 +7607,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00316 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00316 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00316 "population pbpk")
 SubClassOf(pbpko:PBPKO_00316 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -7592,7 +7764,6 @@ SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -7638,7 +7809,6 @@ SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -7700,7 +7870,6 @@ SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -7786,6 +7955,8 @@ SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00316 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00317 (top-down pbpk)
 
@@ -7794,6 +7965,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00317 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00317 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00317 "top-down pbpk")
 SubClassOf(pbpko:PBPKO_00317 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -7950,7 +8122,6 @@ SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -7996,7 +8167,6 @@ SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -8058,7 +8228,6 @@ SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00333))
@@ -8154,6 +8323,8 @@ SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00317 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00318 (bottom-up pbpk)
 
@@ -8162,6 +8333,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00318 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00318 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00318 "bottom-up pbpk")
 SubClassOf(pbpko:PBPKO_00318 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -8318,7 +8490,6 @@ SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -8364,7 +8535,6 @@ SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -8426,7 +8596,6 @@ SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00333))
@@ -8522,6 +8691,8 @@ SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00318 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00319 (one-compartment pbpk)
 
@@ -8700,6 +8871,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00347 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00347 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00347 "brain pbpk")
 SubClassOf(pbpko:PBPKO_00347 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -8845,7 +9017,6 @@ SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -8891,7 +9062,6 @@ SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -8953,7 +9123,6 @@ SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -9001,6 +9170,8 @@ SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00347 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00348 (cerebrospinal fluid volume)
 
@@ -9215,6 +9386,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00371 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00371 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00371 "pregnant pbpk")
 SubClassOf(pbpko:PBPKO_00371 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -9359,7 +9531,6 @@ SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -9401,7 +9572,6 @@ SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -9459,7 +9629,6 @@ SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -9506,6 +9675,8 @@ SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00371 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00372 (fetoplacental volume)
 
@@ -9711,6 +9882,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00395 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00395 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00395 "kidney pbpk")
 SubClassOf(pbpko:PBPKO_00395 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -9848,7 +10020,6 @@ SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -9890,7 +10061,6 @@ SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -9948,7 +10118,6 @@ SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -9980,6 +10149,8 @@ SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00395 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00396 (Bowman's capsule compartment)
 
@@ -10048,6 +10219,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00403 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00403 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00403 "lung pbpk")
 SubClassOf(pbpko:PBPKO_00403 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -10185,7 +10357,6 @@ SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -10227,7 +10398,6 @@ SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -10285,7 +10455,6 @@ SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -10318,6 +10487,8 @@ SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00403 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00404 (extrathoracic compartment)
 
@@ -10358,6 +10529,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00408 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00408 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00408 "gut pbpk")
 SubClassOf(pbpko:PBPKO_00408 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -10495,7 +10667,6 @@ SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -10541,7 +10712,6 @@ SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -10603,7 +10773,6 @@ SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -10655,6 +10824,8 @@ SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00408 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00409 (fraction of blood flow to duodenum)
 
@@ -10894,6 +11065,7 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00435 "0000-0001-8345-1349")
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_00435 "0000-0002-9795-5967")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_00435 "lactational pbpk")
 SubClassOf(pbpko:PBPKO_00435 pbpko:PBPKO_00003)
+SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:IAO_0000136 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:GO_0007588))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00140))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10001 pbpko:PBPKO_00144))
@@ -11036,7 +11208,6 @@ SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00008))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00009))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00010))
-SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00011))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00013))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00014))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00015))
@@ -11078,7 +11249,6 @@ SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00055))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00056))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00057))
-SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00058))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00060))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00061))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00062))
@@ -11136,7 +11306,6 @@ SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00120))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00121))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00122))
-SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00296))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00312))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00314))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10008 pbpko:PBPKO_00332))
@@ -11173,6 +11342,8 @@ SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00249))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00250))
 SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10009 pbpko:PBPKO_00251))
+SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10010 pbpko:PBPKO_00011))
+SubClassOf(pbpko:PBPKO_00435 ObjectSomeValuesFrom(pbpko:PBPKO_10011 pbpko:PBPKO_00058))
 
 # Class: pbpko:PBPKO_00436 (milk plasma ratio)
 
@@ -12984,6 +13155,12 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_02013 "0000-0002-7534-0937")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_02013 "gonad compartment")
 SubClassOf(pbpko:PBPKO_02013 pbpko:PBPKO_00446)
 
+# Class: pbpko:PBPKO_02014 (metallothionein compartment)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_02014 "A compartment that represents the pool of a chemical bound to metallothionein.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_02014 "metallothionein compartment")
+SubClassOf(pbpko:PBPKO_02014 pbpko:PBPKO_00446)
+
 # Class: pbpko:PBPKO_03001 (intrinsic gastric emptying rate)
 
 AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03001 "The absorption rate constant parameter representing the intrinsic rate of the chemical release from stomach to lumen or the jejunum segment")
@@ -13396,6 +13573,256 @@ AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03076 "An unbound fraction par
 AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_03076 "0009-0001-7071-8646")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_03076 "fraction unbound kidney proximal tubule")
 SubClassOf(pbpko:PBPKO_03076 pbpko:PBPKO_00149)
+
+# Class: pbpko:PBPKO_03079 (kinetic emptying rate to the colon)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03079 "A biochemical parameter that is the first-order rate constant governing release of the chemical into the colon.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03079 "kinetic emptying rate to the colon")
+SubClassOf(pbpko:PBPKO_03079 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03080 (transfer rate to hair)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03080 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from blood into the hair compartment.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03080 "transfer rate to hair")
+SubClassOf(pbpko:PBPKO_03080 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03081 (whole body elimination rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03081 "A biochemical parameter that is the rate constant representing total elimination of the chemical from the body, computed as the sum of all elimination transfers.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03081 "whole body elimination rate")
+SubClassOf(pbpko:PBPKO_03081 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03082 (whole body elimination rate excluding hair)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03082 "A biochemical parameter that is the rate constant representing total elimination of the chemical from the body, computed as the sum of all elimination transfers other than transfer to hair.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03082 "whole body elimination rate excluding hair")
+SubClassOf(pbpko:PBPKO_03082 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03083 (whole body burden blood constant ratio)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03083 "A biochemical parameter that is the constant ratio of whole-body chemical burden to the concentration of the chemical in blood.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03083 "whole body burden blood constant ratio")
+SubClassOf(pbpko:PBPKO_03083 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03084 (fraction of GI tract cadmium retained in epithelium)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03084 "A biochemical parameter that is the proportion of cadmium entering the gastrointestinal tract that is retained in the gastrointestinal epithelium.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03084 "fraction of GI tract cadmium retained in epithelium")
+SubClassOf(pbpko:PBPKO_03084 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03085 (fraction of uptake pool transferred to blood pool B4)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03085 "A biochemical parameter that is the proportion of the chemical in the uptake pool that is transferred to blood pool B4.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03085 "fraction of uptake pool transferred to blood pool B4")
+SubClassOf(pbpko:PBPKO_03085 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03086 (rate of transfer of Cd in B1 to blood B2)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03086 "A biochemical parameter that is the rate constant governing transfer of cadmium from blood pool B1 to blood pool B2.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03086 "rate of transfer of Cd in B1 to blood B2")
+SubClassOf(pbpko:PBPKO_03086 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03087 (transfer rate from blood pool B2 to blood pool B3)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03087 "A biochemical parameter that is the rate constant governing transfer of the chemical from blood pool B2 to blood pool B3.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03087 "transfer rate from blood pool B2 to blood pool B3")
+SubClassOf(pbpko:PBPKO_03087 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03088 (transfer rate of cadmium in the GI tract to uptake pool)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03088 "A biochemical parameter that is the rate constant governing transfer of cadmium from the gastrointestinal tract to the uptake pool.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03088 "transfer rate of cadmium in the GI tract to uptake pool")
+SubClassOf(pbpko:PBPKO_03088 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03089 (transfer rate from blood to other tissues)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03089 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from blood to other tissues.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03089 "transfer rate from blood to other tissues")
+SubClassOf(pbpko:PBPKO_03089 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03090 (transfer rate from other tissues to blood)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03090 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from other tissues to blood.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03090 "transfer rate from other tissues to blood")
+SubClassOf(pbpko:PBPKO_03090 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03091 (transfer rate from blood to kidney)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03091 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from blood to the kidney.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03091 "transfer rate from blood to kidney")
+SubClassOf(pbpko:PBPKO_03091 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03092 (red blood cell plasma diffusion rate constant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03092 "A biochemical parameter that is the rate constant governing diffusive exchange of the chemical between red blood cells and plasma.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03092 "red blood cell plasma diffusion rate constant")
+SubClassOf(pbpko:PBPKO_03092 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03093 (transfer rate constant from lung to total systemic circulation)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03093 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the lung to the total systemic circulation.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03093 "transfer rate constant from lung to total systemic circulation")
+SubClassOf(pbpko:PBPKO_03093 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03094 (transfer rate constant from lung to GI)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03094 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the lung to the gastrointestinal tract.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03094 "transfer rate constant from lung to GI")
+SubClassOf(pbpko:PBPKO_03094 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03095 (absorbed fraction in gut lumen transfered to intestine tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03095 "A biochemical parameter that is the proportion of the chemical absorbed in the gut lumen that is transferred to intestine tissue.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03095 "absorbed fraction in gut lumen transfered to intestine tissue")
+SubClassOf(pbpko:PBPKO_03095 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03096 (transfer rate constant from intestine to total systemic uptake)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03096 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the intestine to total systemic uptake.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03096 "transfer rate constant from intestine to total systemic uptake")
+SubClassOf(pbpko:PBPKO_03096 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03097 (fraction of total systemic chemical uptake to the metallothionein)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03097 "A biochemical parameter that is the proportion of total systemic chemical uptake that becomes bound to metallothionein.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03097 "fraction of total systemic chemical uptake to the metallothionein")
+SubClassOf(pbpko:PBPKO_03097 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03098 (maximum chemical flux into the metallothionein)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03098 "A biochemical parameter that is the maximum rate of chemical flux into the metallothionein pool.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03098 "maximum chemical flux into the metallothionein")
+SubClassOf(pbpko:PBPKO_03098 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03099 (turnover rate constant for MT bound chemical)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03099 "A biochemical parameter that is the first-order rate constant governing turnover of metallothionein-bound chemical.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03099 "turnover rate constant for MT bound chemical")
+SubClassOf(pbpko:PBPKO_03099 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03100 (first order kinetic constant rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03100 "A biochemical parameter that is the first-order rate constant governing a kinetic process in the model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03100 "first order kinetic constant rate")
+SubClassOf(pbpko:PBPKO_03100 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03101 (first order turnover kinetic constant rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03101 "A biochemical parameter that is the first-order rate constant governing a turnover process in the model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03101 "first order turnover kinetic constant rate")
+SubClassOf(pbpko:PBPKO_03101 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03102 (first order transfer kinetic constant rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03102 "A biochemical parameter that is the first-order rate constant governing a transfer process between two compartments of the model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03102 "first order transfer kinetic constant rate")
+SubClassOf(pbpko:PBPKO_03102 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03103 (first order kinetic constant rate from plasma to rest of body)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03103 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from plasma to the rest of the body.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03103 "first order kinetic constant rate from plasma to rest of body")
+SubClassOf(pbpko:PBPKO_03103 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03104 (first order kinetic constant rate from rest of body to plasma)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03104 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the rest of the body to plasma.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03104 "first order kinetic constant rate from rest of body to plasma")
+SubClassOf(pbpko:PBPKO_03104 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03105 (first order kinetic constant rate from plasma to feces)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03105 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from plasma to feces.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03105 "first order kinetic constant rate from plasma to feces")
+SubClassOf(pbpko:PBPKO_03105 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03106 (first order kinetic constant rate from plasma to liver)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03106 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from plasma to the liver.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03106 "first order kinetic constant rate from plasma to liver")
+SubClassOf(pbpko:PBPKO_03106 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03107 (first order kinetic constant rate from plasma to red blood cells)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03107 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from plasma to red blood cells.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03107 "first order kinetic constant rate from plasma to red blood cells")
+SubClassOf(pbpko:PBPKO_03107 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03108 (first order kinetic constant rate from liver to plasma)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03108 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the liver to plasma.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03108 "first order kinetic constant rate from liver to plasma")
+SubClassOf(pbpko:PBPKO_03108 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03109 (first order kinetic constant rate from liver to metallothionein pool)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03109 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the liver to the metallothionein pool.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03109 "first order kinetic constant rate from liver to metallothionein pool")
+SubClassOf(pbpko:PBPKO_03109 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03110 (first order kinetic constant rate from liver to feces)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03110 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the liver to feces.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03110 "first order kinetic constant rate from liver to feces")
+SubClassOf(pbpko:PBPKO_03110 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03111 (first order kinetic constant rate from plasma to metallothionein pool)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03111 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from plasma to the metallothionein pool.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03111 "first order kinetic constant rate from plasma to metallothionein pool")
+SubClassOf(pbpko:PBPKO_03111 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03112 (first order kinetic constant rate from red blood cells to metallothionein pool)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03112 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from red blood cells to the metallothionein pool.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03112 "first order kinetic constant rate from red blood cells to metallothionein pool")
+SubClassOf(pbpko:PBPKO_03112 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03113 (first order kinetic constant rate from kidney to plasma)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03113 "A biochemical parameter that is the first-order rate constant governing transfer of the chemical from the kidney to plasma.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03113 "first order kinetic constant rate from kidney to plasma")
+SubClassOf(pbpko:PBPKO_03113 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03114 (diffusive medium cell exchange flux)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03114 "A biochemical parameter that is the diffusive flux of the chemical between the culture medium and the cells.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03114 "diffusive medium cell exchange flux")
+SubClassOf(pbpko:PBPKO_03114 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03115 (diffusive medium polystyrene exchange flux)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03115 "A biochemical parameter that is the diffusive flux of the chemical between the culture medium and the polystyrene of the culture vessel.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03115 "diffusive medium polystyrene exchange flux")
+SubClassOf(pbpko:PBPKO_03115 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03116 (diffusive medium air exchange flux)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03116 "A biochemical parameter that is the diffusive flux of the chemical between the culture medium and the overlying air.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03116 "diffusive medium air exchange flux")
+SubClassOf(pbpko:PBPKO_03116 pbpko:PBPKO_00139)
+
+# Class: pbpko:PBPKO_03117 (diffusion distance in the polystyrene)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03117 "A physicochemical parameter that is the distance over which the chemical diffuses within the polystyrene of the culture vessel.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03117 "diffusion distance in the polystyrene")
+SubClassOf(pbpko:PBPKO_03117 pbpko:PBPKO_00126)
+
+# Class: pbpko:PBPKO_03118 (temperature degC)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03118 "A parameter that is the temperature of the in vitro system, expressed in degrees Celsius.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_03118 "temperature (°C)")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_03118 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03118 "temperature degC")
+SubClassOf(pbpko:PBPKO_03118 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_03119 (transfer rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_03119 "A biochemical parameter representing the amount of compound transferred from one compartment to another per unit time.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_03119 "rate of transfer")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_03119 "rate of transfer between compartments")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_03119 "transfer rate")
+SubClassOf(pbpko:PBPKO_03119 pbpko:PBPKO_00139)
 
 # Class: pbpko:PBPKO_04001 (plasma flow rate)
 
@@ -14071,6 +14498,184 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_04111 "0009-0001-7071-8646")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_04111 "volume of intestine tissue")
 SubClassOf(pbpko:PBPKO_04111 pbpko:PBPKO_00066)
 
+# Class: pbpko:PBPKO_04112 (neonate lifestage)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04112 "A lifestage that extends from birth to one month of age.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04112 "neonate lifestage")
+SubClassOf(pbpko:PBPKO_04112 pbpko:PBPKO_00332)
+
+# Class: pbpko:PBPKO_04113 (fraction of bodyweight modelled)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04113 "A physiological parameter that is the proportion of total body weight accounted for by the sum of the compartments represented in a model.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04113 "fraction of BW modelled")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04113 "fraction of bodyweight modelled")
+SubClassOf(pbpko:PBPKO_04113 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04114 (hepatic arterial blood flow rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04114 "A blood flow rate to compartment that is the rate at which blood reaches the liver through the hepatic artery.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04114 "hepatic arterial blood flow")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04114 "hepatic arterial blood flow rate")
+SubClassOf(pbpko:PBPKO_04114 pbpko:PBPKO_00012)
+
+# Class: pbpko:PBPKO_04115 (length of jejunum)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04115 "A physiological parameter that is the longitudinal extent of the jejunum.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04115 "jejunum length")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04115 "length of jejunum")
+SubClassOf(pbpko:PBPKO_04115 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04116 (length of ileum)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04116 "A physiological parameter that is the longitudinal extent of the ileum.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04116 "ileum length")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04116 "length of ileum")
+SubClassOf(pbpko:PBPKO_04116 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04117 (length of large intestine)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04117 "A physiological parameter that is the longitudinal extent of the large intestine.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04117 "large intestine length")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04117 "length of large intestine")
+SubClassOf(pbpko:PBPKO_04117 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04118 (glomerular filtration rate constant)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04118 "A bodily fluid flow rate parameter that is the first-order constant governing the flow of filtered fluid through the kidney compartment.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04118 "glomerular filtration constant")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04118 "glomerular filtration rate constant")
+SubClassOf(pbpko:PBPKO_04118 pbpko:PBPKO_00636)
+
+# Class: pbpko:PBPKO_04119 (urine production rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04119 "A physiological parameter that is the volume of urine produced per unit time.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04119 "urine production")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04119 "urine production rate")
+SubClassOf(pbpko:PBPKO_04119 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04120 (allometrically scaled cardiac output rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04120 "A cardiac output rate that is expressed per unit body weight raised to the power 0.75.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04120 "allometrically scaled cardiac output")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04120 "allometrically scaled cardiac output rate")
+SubClassOf(pbpko:PBPKO_04120 pbpko:PBPKO_00013)
+
+# Class: pbpko:PBPKO_04121 (fraction of total body volume modelled)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04121 "A physiological parameter that is the proportion of total body volume accounted for by the sum of the compartments represented in a model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04121 "fraction of total body volume modelled")
+SubClassOf(pbpko:PBPKO_04121 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04122 (total body volume modelled)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04122 "A volume of compartment that is the sum of the volumes of all compartments represented in a model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04122 "total body volume modelled")
+SubClassOf(pbpko:PBPKO_04122 pbpko:PBPKO_00066)
+
+# Class: pbpko:PBPKO_04123 (fraction of total body mass modelled)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04123 "A physiological parameter that is the proportion of total body mass accounted for by the sum of the compartments represented in a model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04123 "fraction of total body mass modelled")
+SubClassOf(pbpko:PBPKO_04123 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04124 (total body mass modelled)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04124 "A physiological parameter that is the sum of the masses of all compartments represented in a model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04124 "total body mass modelled")
+SubClassOf(pbpko:PBPKO_04124 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04125 (reference age)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04125 "An age in PBPK model that serves as the basis for scaling nominal body weight to reference body weight.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04125 "reference age")
+SubClassOf(pbpko:PBPKO_04125 pbpko:PBPKO_00521)
+
+# Class: pbpko:PBPKO_04126 (sex)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04126 "A physiological parameter that is the sex of the modelled individual, used to select sex-specific parameter values.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04126 "sex discrimination")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04126 "sex")
+SubClassOf(pbpko:PBPKO_04126 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04127 (reference bodyweight)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04127 "A bodyweight that is the body weight of the modelled individual at the reference age.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04127 "reference bodyweight")
+SubClassOf(pbpko:PBPKO_04127 pbpko:PBPKO_00008)
+
+# Class: pbpko:PBPKO_04128 (density of tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04128 "A physiological parameter that is the mass per unit volume of a tissue or organ.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04128 "density of tissue/organs")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04128 "density of tissue")
+SubClassOf(pbpko:PBPKO_04128 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04129 (sex specific nominal bodyweight)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04129 "A bodyweight that is the nominal body weight assigned to the modelled individual for a given sex.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04129 "sex specific nominal bodyweight")
+SubClassOf(pbpko:PBPKO_04129 pbpko:PBPKO_00008)
+
+# Class: pbpko:PBPKO_04130 (reference urinary creatinine concentration)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04130 "A physiological parameter that is the baseline urinary creatinine concentration used to normalise urinary analyte concentrations.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04130 "reference creatinine")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04130 "reference urinary creatinine concentration")
+SubClassOf(pbpko:PBPKO_04130 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04131 (bodyweight multiplier)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04131 "A physiological parameter that is the dimensionless factor applied to a reference body weight to obtain an individual body weight.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04131 "bodyweight multiplier")
+SubClassOf(pbpko:PBPKO_04131 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04132 (albumin ratio kidney proximal tubule lumen)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04132 "A physiological parameter representing the ratio of albumin concentration in plasma to that in the kidney proximal tubule lumen.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04132 "albumin ratio proximal tubule lumen")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04132 "albumin ratio kidney proximal tubule lumen")
+SubClassOf(pbpko:PBPKO_04132 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04133 (albumin ratio liver extracellular)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04133 "A physiological parameter representing the ratio of albumin concentration in plasma to that in the extracellular space of the liver.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04133 "albumin ratio liver extracellular space")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04133 "albumin ratio liver extracellular")
+SubClassOf(pbpko:PBPKO_04133 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04134 (serum albumin concentration)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04134 "A physiological parameter representing the concentration of albumin in serum.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04134 "albumin concentration in serum")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04134 "serum albumin concentration")
+SubClassOf(pbpko:PBPKO_04134 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_04135 (tubular fluid flow rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04135 "A bodily fluid flow rate parameter representing the flow rate of tubular fluid through the proximal tubule of the kidney compartment.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04135 "filtrate fluid flow rate")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04135 "proximal tubule fluid flow rate")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04135 "tubular fluid flow rate")
+SubClassOf(pbpko:PBPKO_04135 pbpko:PBPKO_00636)
+
+# Class: pbpko:PBPKO_04136 (urine flow rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04136 "A bodily fluid flow rate parameter representing the rate at which urine is produced and excreted from the kidney compartment.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04136 "urine excretion rate")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04136 "urine secretion rate")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04136 "urine flow rate")
+SubClassOf(pbpko:PBPKO_04136 pbpko:PBPKO_00636)
+
+# Class: pbpko:PBPKO_04137 (menstrual plasma flow rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_04137 "A bodily fluid flow rate parameter representing the rate at which plasma is lost from the body through menstruation.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04137 "menses flow rate")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04137 "menstrual fluid clearance")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04137 "menstrual fluid flow rate")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_04137 "menstrual plasma clearance rate")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_04137 "menstrual plasma flow rate")
+SubClassOf(pbpko:PBPKO_04137 pbpko:PBPKO_00636)
+
 # Class: pbpko:PBPKO_05001 (molar volume)
 
 AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_05001 "A physicochemical parameter representing the volume of one mole of a molecule.")
@@ -14591,10 +15196,369 @@ AnnotationAssertion(pbpko:IAO_0000117 pbpko:PBPKO_06068 "0009-0001-7071-8646")
 AnnotationAssertion(rdfs:label pbpko:PBPKO_06068 "amount in liver extracellular")
 SubClassOf(pbpko:PBPKO_06068 pbpko:PBPKO_00615)
 
+# Class: pbpko:PBPKO_06069 (amount of daily uptake)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06069 "An output parameter that is the total amount of the chemical taken up by the body per day.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06069 "amount of daily uptake")
+SubClassOf(pbpko:PBPKO_06069 pbpko:PBPKO_00252)
+
+# Class: pbpko:PBPKO_06070 (concentration in colon)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06070 "A concentration of compound in compartment that is the concentration measured in the colon compartment.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06070 "concentration in colon")
+SubClassOf(pbpko:PBPKO_06070 pbpko:PBPKO_00616)
+
+# Class: pbpko:PBPKO_06071 (amount in hair)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06071 "An amount of compound in compartment that is the amount measured in the hair compartment.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06071 "amount in hair")
+SubClassOf(pbpko:PBPKO_06071 pbpko:PBPKO_00615)
+
+# Class: pbpko:PBPKO_06072 (amount in red blood cells)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06072 "An amount of compound in compartment that is the amount measured in the red blood cell compartment.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06072 "amount in red blood cells")
+SubClassOf(pbpko:PBPKO_06072 pbpko:PBPKO_00615)
+
+# Class: pbpko:PBPKO_06073 (amount in metallothionein)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06073 "An amount of compound in compartment that is the amount measured in the metallothionein compartment.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06073 "amount in metallothionein")
+SubClassOf(pbpko:PBPKO_06073 pbpko:PBPKO_00615)
+
+# Class: pbpko:PBPKO_06074 (total amount excreted)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06074 "An output parameter that is the total amount of the chemical excreted from the body by all routes.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06074 "total amount excreted")
+SubClassOf(pbpko:PBPKO_06074 pbpko:PBPKO_00252)
+
+# Class: pbpko:PBPKO_06075 (total body burden)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06075 "An output parameter that is the total amount of the chemical present in the body.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06075 "total body burden")
+SubClassOf(pbpko:PBPKO_06075 pbpko:PBPKO_00252)
+
+# Class: pbpko:PBPKO_06076 (amount in cord blood)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06076 "An amount of compound in compartment that is the amount measured in the cord blood compartment at the start of the simulation.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06076 "amount in cord blood")
+SubClassOf(pbpko:PBPKO_06076 pbpko:PBPKO_00615)
+
+# Class: pbpko:PBPKO_06077 (concentration in cord blood)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_06077 "A concentration of compound in compartment that is the concentration measured in the cord blood compartment at the start of the simulation.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_06077 "concentration in cord blood")
+SubClassOf(pbpko:PBPKO_06077 pbpko:PBPKO_00616)
+
 # Class: pbpko:PBPKO_07001 (invitro pbpk)
 
 AnnotationAssertion(rdfs:label pbpko:PBPKO_07001 "invitro pbpk")
 SubClassOf(pbpko:PBPKO_07001 pbpko:PBPKO_00003)
+
+# Class: pbpko:PBPKO_07002 (generic fish pbpk)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_07002 "A physiologically based pharmacokinetic model that represents a generic fish rather than a single named fish species.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_07002 "fish pbpk (generic)")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_07002 "generic fish pbpk")
+SubClassOf(pbpko:PBPKO_07002 pbpko:PBPKO_00003)
+
+# Class: pbpko:PBPKO_07003 (generic crustacean pbpk)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_07003 "A physiologically based pharmacokinetic model that represents a generic crustacean rather than a single named crustacean species.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_07003 "crustacean pbpk (generic)")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_07003 "generic crustacean pbpk")
+SubClassOf(pbpko:PBPKO_07003 pbpko:PBPKO_00003)
+
+# Class: pbpko:PBPKO_07004 (generic algae pbpk)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_07004 "A physiologically based pharmacokinetic model that represents a generic alga rather than a single named algal species.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_07004 "algae pbpk (generic)")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_07004 "generic algae pbpk")
+SubClassOf(pbpko:PBPKO_07004 pbpko:PBPKO_00003)
+
+# Class: pbpko:PBPKO_07005 (lemna pbpk)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_07005 "A physiologically based pharmacokinetic model that represents a plant of the genus Lemna.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_07005 "lemna pbpk")
+SubClassOf(pbpko:PBPKO_07005 pbpko:PBPKO_00003)
+
+# Class: pbpko:PBPKO_08001 (fraction of poorly perfused tissue blood flow going to venous blood)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08001 "A physiological parameter that is the dimensionless fraction of blood leaving the poorly perfused tissue compartment that returns directly to mixed venous blood rather than being routed through the kidney.")
+AnnotationAssertion(pbpko:IAO_0000118 pbpko:PBPKO_08001 "fraction of PPT blood flow going to venous blood")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08001 "fraction of poorly perfused tissue blood flow going to venous blood")
+SubClassOf(pbpko:PBPKO_08001 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08002 (fraction of skin blood flow going to venous blood)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08002 "A physiological parameter that is the dimensionless fraction of blood leaving the skin compartment that returns directly to mixed venous blood rather than being routed through the kidney.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08002 "fraction of skin blood flow going to venous blood")
+SubClassOf(pbpko:PBPKO_08002 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08003 (reference mass specific cardiac output)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08003 "A cardiac output rate that is the cardiac output per unit body weight specified at a reference body weight and reference temperature.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08003 "reference mass specific cardiac output")
+SubClassOf(pbpko:PBPKO_08003 pbpko:PBPKO_00013)
+
+# Class: pbpko:PBPKO_08004 (reference body weight for cardiac output)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08004 "A bodyweight that is the body weight at which the reference mass-specific cardiac output is specified.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08004 "reference body weight for cardiac output")
+SubClassOf(pbpko:PBPKO_08004 pbpko:PBPKO_00008)
+
+# Class: pbpko:PBPKO_08005 (reference temperature for cardiac output)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08005 "A parameter that is the absolute temperature at which the reference mass-specific cardiac output is specified.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08005 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08005 "reference temperature for cardiac output")
+SubClassOf(pbpko:PBPKO_08005 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08006 (reference mass specific oxygen consumption rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08006 "A physiological parameter that is the oxygen consumption rate per unit body weight specified at a reference body weight and reference temperature.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08006 "reference mass specific oxygen consumption rate")
+SubClassOf(pbpko:PBPKO_08006 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08007 (reference body weight for oxygen consumption)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08007 "A bodyweight that is the body weight at which the reference mass-specific oxygen consumption rate is specified.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08007 "reference body weight for oxygen consumption")
+SubClassOf(pbpko:PBPKO_08007 pbpko:PBPKO_00008)
+
+# Class: pbpko:PBPKO_08008 (reference temperature for oxygen consumption)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08008 "A parameter that is the absolute temperature at which the reference mass-specific oxygen consumption rate is specified.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08008 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08008 "reference temperature for oxygen consumption")
+SubClassOf(pbpko:PBPKO_08008 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08009 (oxygen extraction efficiency)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08009 "A physiological parameter that is the fraction of the oxygen in inspired water that is extracted across the respiratory exchange surface.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08009 "oxygen extraction efficiency")
+SubClassOf(pbpko:PBPKO_08009 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08010 (dissolved oxygen saturation fraction)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08010 "A parameter that is the fraction of the oxygen saturation concentration that is present in the exposure water.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08010 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08010 "dissolved oxygen saturation fraction")
+SubClassOf(pbpko:PBPKO_08010 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08011 (energy conductance)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08011 "A physiological parameter that is the rate at which reserve is mobilised relative to structural length in the Dynamic Energy Budget model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08011 "energy conductance")
+SubClassOf(pbpko:PBPKO_08011 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08012 (energy investment ratio)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08012 "A physiological parameter that is the dimensionless ratio describing the relative energy investment in growth compared with somatic maintenance in the Dynamic Energy Budget model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08012 "energy investment ratio")
+SubClassOf(pbpko:PBPKO_08012 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08013 (somatic maintenance rate coefficient)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08013 "A physiological parameter that is the Dynamic Energy Budget rate coefficient describing somatic maintenance costs per unit structural biomass.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08013 "somatic maintenance rate coefficient")
+SubClassOf(pbpko:PBPKO_08013 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08014 (energy at state of maturity at metamorphosis)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08014 "A physiological parameter that is the cumulative energy invested in maturity at metamorphosis in the growth submodel.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08014 "energy at state of maturity at metamorphosis")
+SubClassOf(pbpko:PBPKO_08014 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08015 (energy at state of maturity at birth)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08015 "A physiological parameter that is the cumulative energy invested in maturity at birth in the growth submodel.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08015 "energy at state of maturity at birth")
+SubClassOf(pbpko:PBPKO_08015 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08016 (shape coefficient)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08016 "A physiological parameter that is the dimensionless coefficient relating structural length to measured physical length in the Dynamic Energy Budget growth model.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08016 "shape coefficient")
+SubClassOf(pbpko:PBPKO_08016 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08017 (body weight length coefficient)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08017 "A physiological parameter that is the coefficient a in the body weight-length relationship used to calculate body weight from length.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08017 "body weight length coefficient")
+SubClassOf(pbpko:PBPKO_08017 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08018 (body weight length exponent)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08018 "A physiological parameter that is the dimensionless exponent b in the body weight-length relationship used to calculate body weight from length.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08018 "body weight length exponent")
+SubClassOf(pbpko:PBPKO_08018 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08019 (arrhenius temperature)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08019 "A parameter that is the temperature used in the Arrhenius correction of growth, cardiac output and oxygen consumption.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08019 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08019 "arrhenius temperature")
+SubClassOf(pbpko:PBPKO_08019 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08020 (reference temperature for DEB growth)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08020 "A parameter that is the absolute reference temperature used for the temperature correction of the Dynamic Energy Budget growth process.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08020 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08020 "reference temperature for DEB growth")
+SubClassOf(pbpko:PBPKO_08020 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08021 (constant food level)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08021 "A parameter that is the dimensionless constant describing relative food availability, where 1 represents ad libitum feeding and 0 represents starvation.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08021 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08021 "constant food level")
+SubClassOf(pbpko:PBPKO_08021 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08022 (relative water content of liver)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08022 "A physiological parameter that is the dimensionless fraction of the wet mass of the liver compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08022 "relative water content of liver")
+SubClassOf(pbpko:PBPKO_08022 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08023 (relative water content of brain)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08023 "A physiological parameter that is the dimensionless fraction of the wet mass of the brain compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08023 "relative water content of brain")
+SubClassOf(pbpko:PBPKO_08023 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08024 (relative water content of gonads)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08024 "A physiological parameter that is the dimensionless fraction of the wet mass of the gonads compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08024 "relative water content of gonads")
+SubClassOf(pbpko:PBPKO_08024 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08025 (relative water content of adipose tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08025 "A physiological parameter that is the dimensionless fraction of the wet mass of the adipose tissue compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08025 "relative water content of adipose tissue")
+SubClassOf(pbpko:PBPKO_08025 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08026 (relative water content of skin)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08026 "A physiological parameter that is the dimensionless fraction of the wet mass of the skin compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08026 "relative water content of skin")
+SubClassOf(pbpko:PBPKO_08026 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08027 (relative water content of gastrointestinal tract)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08027 "A physiological parameter that is the dimensionless fraction of the wet mass of the gastrointestinal tract compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08027 "relative water content of gastrointestinal tract")
+SubClassOf(pbpko:PBPKO_08027 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08028 (relative water content of kidney)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08028 "A physiological parameter that is the dimensionless fraction of the wet mass of the kidney compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08028 "relative water content of kidney")
+SubClassOf(pbpko:PBPKO_08028 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08029 (relative water content of richly perfused tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08029 "A physiological parameter that is the dimensionless fraction of the wet mass of the richly perfused tissue compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08029 "relative water content of richly perfused tissue")
+SubClassOf(pbpko:PBPKO_08029 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08030 (relative water content of poorly perfused tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08030 "A physiological parameter that is the dimensionless fraction of the wet mass of the poorly perfused tissue compartment that is water, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08030 "relative water content of poorly perfused tissue")
+SubClassOf(pbpko:PBPKO_08030 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08031 (relative lipid content of liver)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08031 "A physiological parameter that is the dimensionless fraction of the wet mass of the liver compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08031 "relative lipid content of liver")
+SubClassOf(pbpko:PBPKO_08031 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08032 (relative lipid content of brain)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08032 "A physiological parameter that is the dimensionless fraction of the wet mass of the brain compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08032 "relative lipid content of brain")
+SubClassOf(pbpko:PBPKO_08032 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08033 (relative lipid content of gonads)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08033 "A physiological parameter that is the dimensionless fraction of the wet mass of the gonads compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08033 "relative lipid content of gonads")
+SubClassOf(pbpko:PBPKO_08033 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08034 (relative lipid content of adipose tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08034 "A physiological parameter that is the dimensionless fraction of the wet mass of the adipose tissue compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08034 "relative lipid content of adipose tissue")
+SubClassOf(pbpko:PBPKO_08034 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08035 (relative lipid content of skin)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08035 "A physiological parameter that is the dimensionless fraction of the wet mass of the skin compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08035 "relative lipid content of skin")
+SubClassOf(pbpko:PBPKO_08035 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08036 (relative lipid content of gastrointestinal tract)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08036 "A physiological parameter that is the dimensionless fraction of the wet mass of the gastrointestinal tract compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08036 "relative lipid content of gastrointestinal tract")
+SubClassOf(pbpko:PBPKO_08036 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08037 (relative lipid content of kidney)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08037 "A physiological parameter that is the dimensionless fraction of the wet mass of the kidney compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08037 "relative lipid content of kidney")
+SubClassOf(pbpko:PBPKO_08037 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08038 (relative lipid content of richly perfused tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08038 "A physiological parameter that is the dimensionless fraction of the wet mass of the richly perfused tissue compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08038 "relative lipid content of richly perfused tissue")
+SubClassOf(pbpko:PBPKO_08038 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08039 (relative lipid content of poorly perfused tissue)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08039 "A physiological parameter that is the dimensionless fraction of the wet mass of the poorly perfused tissue compartment that is lipid, used in the tissue:blood partition-coefficient QSAR.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08039 "relative lipid content of poorly perfused tissue")
+SubClassOf(pbpko:PBPKO_08039 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08040 (mass specific cardiac output)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08040 "A cardiac output rate that is the cardiac output per unit body weight after adjustment for water temperature and body weight.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08040 "mass specific cardiac output")
+SubClassOf(pbpko:PBPKO_08040 pbpko:PBPKO_00013)
+
+# Class: pbpko:PBPKO_08041 (mass specific oxygen consumption rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08041 "A physiological parameter that is the oxygen consumption rate per unit body weight after adjustment for water temperature and body weight.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08041 "mass specific oxygen consumption rate")
+SubClassOf(pbpko:PBPKO_08041 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08042 (oxygen consumption rate)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08042 "A physiological parameter that is the total mass of oxygen consumed by the organism per unit time.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08042 "oxygen consumption rate")
+SubClassOf(pbpko:PBPKO_08042 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08043 (afferent dissolved oxygen concentration)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08043 "A parameter that is the dissolved oxygen concentration in the water entering the respiratory exchange surface.")
+AnnotationAssertion(pbpko:IAO_0000232 pbpko:PBPKO_08043 "Asserted under the parameter root; the ontology has no class for an environmental or experimental condition parameter. Re-parent when one exists.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08043 "afferent dissolved oxygen concentration")
+SubClassOf(pbpko:PBPKO_08043 pbpko:PBPKO_00649)
+
+# Class: pbpko:PBPKO_08044 (effective respiratory volume)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08044 "A physiological parameter that is the effective volume of water passing the perfused respiratory exchange surface per unit time.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08044 "effective respiratory volume")
+SubClassOf(pbpko:PBPKO_08044 pbpko:PBPKO_00006)
+
+# Class: pbpko:PBPKO_08045 (blood water exchange coefficient)
+
+AnnotationAssertion(pbpko:IAO_0000115 pbpko:PBPKO_08045 "A biochemical parameter that is the effective clearance governing exchange of the chemical between water and blood across the gills.")
+AnnotationAssertion(rdfs:label pbpko:PBPKO_08045 "blood water exchange coefficient")
+SubClassOf(pbpko:PBPKO_08045 pbpko:PBPKO_00139)
 
 # Class: pbpko:PR_000000001 (protein)
 
@@ -16871,40 +17835,40 @@ SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002629 pbpko:RO_0002629) pbpko
 SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002630 pbpko:RO_0002409) pbpko:RO_0002409)
 SubObjectPropertyOf(ObjectPropertyChain(pbpko:RO_0002630 pbpko:RO_0002630) pbpko:RO_0002409)
 DLSafeRule(Body(ClassAtom(pbpko:BFO_0000015 Variable(<urn:swrl:var#w>)) ObjectPropertyAtom(pbpko:RO_0002180 Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#p>)) ClassAtom(pbpko:BFO_0000015 Variable(<urn:swrl:var#p>)))Head(ObjectPropertyAtom(pbpko:RO_0002018 Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#p>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)) ClassAtom(pbpko:BFO_0000016 Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000091 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)) ClassAtom(pbpko:BFO_0000019 Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000086 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)) ClassAtom(pbpko:BFO_0000023 Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000087 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)) ClassAtom(pbpko:BFO_0000034 Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000085 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000016 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000091 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000019 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000086 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000023 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000087 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
+DLSafeRule(Body(ClassAtom(pbpko:BFO_0000034 Variable(<urn:swrl:var#d>)) ObjectPropertyAtom(pbpko:RO_0000053 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>)))Head(ObjectPropertyAtom(pbpko:RO_0000085 Variable(<urn:swrl:var#e>) Variable(<urn:swrl:var#d>))))
 DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002578 Variable(<urn:swrl:var#a1>) Variable(<urn:swrl:var#a2>)) ClassAtom(pbpko:GO_0016301 Variable(<urn:swrl:var#a1>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#a1>) Variable(<urn:swrl:var#g1>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#a2>) Variable(<urn:swrl:var#g2>)))Head(ObjectPropertyAtom(pbpko:RO_0002447 Variable(<urn:swrl:var#g1>) Variable(<urn:swrl:var#g2>))))
 DLSafeRule(Annotation(rdfs:label "inferring direct neg reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(pbpko:RO_0002352 Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(pbpko:RO_0002014 Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
 DLSafeRule(Annotation(rdfs:label "inferring direct positive reg edge from input to regulatory subfunction") Body(ObjectPropertyAtom(pbpko:RO_0002352 Variable(<urn:swrl:var#B>) Variable(<urn:swrl:var#C>)) ObjectPropertyAtom(pbpko:RO_0002333 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#B>)) ObjectPropertyAtom(pbpko:RO_0002015 Variable(<urn:swrl:var#D>) Variable(<urn:swrl:var#C>)))Head(ObjectPropertyAtom(pbpko:RO_0002629 Variable(<urn:swrl:var#A>) Variable(<urn:swrl:var#D>))))
-DLSafeRule(Annotation(rdfs:label "effector input is compound function input") Body(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>)) ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>))))
-DLSafeRule(Annotation(rdfs:label "Input of effector is input of its parent MF") Body(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>)) ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>))))
-DLSafeRule(Annotation(rdfs:label "if effector directly negatively regulates X,  its parent MF directly negatively regulates X") Body(ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)))Head(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
-DLSafeRule(Annotation(rdfs:label "'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(pbpko:RO_0002404 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002131 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>))))
-DLSafeRule(Annotation(rdfs:label "'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002131 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0012011 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(pbpko:RO_0002211 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(pbpko:RO_0012012 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002213 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0019002 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(pbpko:RO_0019001 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002213 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002264 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(pbpko:RO_0002263 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
-DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#q>) Variable(<urn:swrl:var#u>)) ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(pbpko:RO_0012011 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#u>))))
-AnnotationAssertion(foaf:homepage _:genid2147487988 <https://orcid.org/0000-0003-1673-5725>)
-AnnotationAssertion(foaf:mbox _:genid2147487988 <mailto:johannes.kruisselbrink@wur.nl>)
-AnnotationAssertion(foaf:name _:genid2147487988 "Johannes Kruisselbrink")
-AnnotationAssertion(foaf:homepage _:genid2147487989 <https://orcid.org/0000-0002-7685-9140>)
-AnnotationAssertion(foaf:mbox _:genid2147487989 <mailto:pance.panov@jsi.si>)
-AnnotationAssertion(foaf:name _:genid2147487989 "Panče Panov")
-AnnotationAssertion(foaf:homepage _:genid2147487990 <https://orcid.org/0000-0001-8345-1349>)
-AnnotationAssertion(foaf:mbox _:genid2147487990 <mailto:deepika@iispv.cat>)
-AnnotationAssertion(foaf:name _:genid2147487990 "Deepika Deepika")
-AnnotationAssertion(foaf:homepage _:genid2147487991 <https://orcid.org/0000-0002-9795-5967>)
-AnnotationAssertion(foaf:mbox _:genid2147487991 <mailto:vikas.kumar@iispv.cat>)
-AnnotationAssertion(foaf:name _:genid2147487991 "Vikas Kumar")
-AnnotationAssertion(foaf:homepage _:genid2147487992 <https://orcid.org/0000-0003-0593-2598>)
-AnnotationAssertion(foaf:mbox _:genid2147487992 <mailto:saurav.kumar@iispv.cat>)
-AnnotationAssertion(foaf:name _:genid2147487992 "Saurav Kumar")
-AnnotationAssertion(foaf:homepage _:genid2147487993 <https://orcid.org/0009-0004-2207-3937>)
-AnnotationAssertion(foaf:mbox _:genid2147487993 <mailto:shubh.sharma@estudiants.urv.cat>)
-AnnotationAssertion(foaf:name _:genid2147487993 "Shubh Sharma")
+DLSafeRule(Annotation(rdfs:label "effector input is compound function input") Body(ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>)))Head(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>))))
+DLSafeRule(Annotation(rdfs:label "Input of effector is input of its parent MF") Body(ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)) ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#in>)))Head(ObjectPropertyAtom(pbpko:RO_0002233 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#in>))))
+DLSafeRule(Annotation(rdfs:label "if effector directly negatively regulates X,  its parent MF directly negatively regulates X") Body(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#mf2>)) ObjectPropertyAtom(pbpko:RO_0002025 Variable(<urn:swrl:var#mf>) Variable(<urn:swrl:var#eff>)))Head(ObjectPropertyAtom(pbpko:RO_0002630 Variable(<urn:swrl:var#eff>) Variable(<urn:swrl:var#mf2>))))
+DLSafeRule(Annotation(rdfs:label "'causally downstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(pbpko:RO_0002131 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002404 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>))))
+DLSafeRule(Annotation(rdfs:label "'causally upstream of' and 'overlaps' should be disjoint properties (a SWRL rule is required because these are non-simple properties).") Body(ObjectPropertyAtom(pbpko:RO_0002131 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ClassAtom(owl:Nothing Variable(<urn:swrl:var#y>)) ClassAtom(owl:Nothing Variable(<urn:swrl:var#x>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002211 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(pbpko:RO_0012011 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)))Head(ObjectPropertyAtom(pbpko:RO_0012012 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0002213 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)) ObjectPropertyAtom(pbpko:RO_0019002 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)))Head(ObjectPropertyAtom(pbpko:RO_0019001 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(pbpko:RO_0002213 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(pbpko:RO_0002212 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#y>) Variable(<urn:swrl:var#z>)) ObjectPropertyAtom(pbpko:RO_0002264 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#y>)))Head(ObjectPropertyAtom(pbpko:RO_0002263 Variable(<urn:swrl:var#x>) Variable(<urn:swrl:var#z>))))
+DLSafeRule(Body(ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#q>)) ObjectPropertyAtom(pbpko:RO_0002411 Variable(<urn:swrl:var#q>) Variable(<urn:swrl:var#u>)))Head(ObjectPropertyAtom(pbpko:RO_0012011 Variable(<urn:swrl:var#p>) Variable(<urn:swrl:var#u>))))
+AnnotationAssertion(foaf:homepage _:genid2147483666 <https://orcid.org/0000-0003-1673-5725>)
+AnnotationAssertion(foaf:mbox _:genid2147483666 <mailto:johannes.kruisselbrink@wur.nl>)
+AnnotationAssertion(foaf:name _:genid2147483666 "Johannes Kruisselbrink")
+AnnotationAssertion(foaf:homepage _:genid2147483667 <https://orcid.org/0000-0002-7685-9140>)
+AnnotationAssertion(foaf:mbox _:genid2147483667 <mailto:pance.panov@jsi.si>)
+AnnotationAssertion(foaf:name _:genid2147483667 "Panče Panov")
+AnnotationAssertion(foaf:homepage _:genid2147483668 <https://orcid.org/0000-0001-8345-1349>)
+AnnotationAssertion(foaf:mbox _:genid2147483668 <mailto:deepika@iispv.cat>)
+AnnotationAssertion(foaf:name _:genid2147483668 "Deepika Deepika")
+AnnotationAssertion(foaf:homepage _:genid2147483669 <https://orcid.org/0000-0002-9795-5967>)
+AnnotationAssertion(foaf:mbox _:genid2147483669 <mailto:vikas.kumar@iispv.cat>)
+AnnotationAssertion(foaf:name _:genid2147483669 "Vikas Kumar")
+AnnotationAssertion(foaf:homepage _:genid2147483670 <https://orcid.org/0000-0003-0593-2598>)
+AnnotationAssertion(foaf:mbox _:genid2147483670 <mailto:saurav.kumar@iispv.cat>)
+AnnotationAssertion(foaf:name _:genid2147483670 "Saurav Kumar")
+AnnotationAssertion(foaf:homepage _:genid2147483671 <https://orcid.org/0009-0004-2207-3937>)
+AnnotationAssertion(foaf:mbox _:genid2147483671 <mailto:shubh.sharma@estudiants.urv.cat>)
+AnnotationAssertion(foaf:name _:genid2147483671 "Shubh Sharma")
 )
